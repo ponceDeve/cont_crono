@@ -1,0 +1,223 @@
+{
+  "curso": "Química",
+  "tema": "Ácidos",
+  "theory": [
+    {
+      "titulo": "Definición",
+      "puntos": [
+        {
+          "texto": "Compuestos de carácter covalente",
+          "pregunta": {
+            "q": "¿Qué tipo de compuesto es un ácido?",
+            "opts": ["Iónico", "Covalente", "Metálico", "Ninguno"],
+            "correct": 1,
+            "explicacion": "A diferencia de los hidróxidos (iónicos), los ácidos comparten electrones entre un no metal e hidrógeno, formando enlaces covalentes."
+          }
+        },
+        {
+          "texto": "Grupo funcional: el ión H⁺¹, llamado ión hidrógeno o protón",
+          "pregunta": {
+            "q": "¿Cuál es el grupo funcional de los ácidos?",
+            "opts": ["OH⁻¹", "H⁺¹", "O⁻²", "NH₄⁺¹"],
+            "correct": 1,
+            "explicacion": "Lo que hace ácida a una sustancia es su capacidad de liberar un ión H⁺ (protón) en solución; ese H⁺ es el que reacciona con las bases y define el comportamiento ácido."
+          }
+        },
+        {
+          "texto": "Se dividen en dos tipos: Hidrácidos y Ácidos oxácidos",
+          "pregunta": {
+            "q": "¿En qué dos tipos se dividen los ácidos?",
+            "opts": [
+              "Orgánicos e inorgánicos",
+              "Hidrácidos y oxácidos",
+              "Fuertes y débiles",
+              "Simples y compuestos"
+            ],
+            "correct": 1,
+            "explicacion": "Se distinguen según si contienen oxígeno o no: los hidrácidos (sin oxígeno, solo H y un no metal) y los oxácidos (con oxígeno, formados a partir de un anhídrido)."
+          }
+        }
+      ]
+    },
+    {
+      "titulo": "Hidrácidos",
+      "puntos": [
+        {
+          "texto": "Compuestos binarios cuyas unidades ácidas solo se disuelven en H₂O",
+          "pregunta": {
+            "q": "¿Qué son los hidrácidos?",
+            "opts": [
+              "Compuestos ternarios con oxígeno",
+              "Compuestos binarios que se disuelven en H₂O",
+              "Óxidos metálicos",
+              "Hidróxidos disueltos"
+            ],
+            "correct": 1,
+            "explicacion": "Solo tienen dos elementos (H y un no metal), y su carácter ácido solo se manifiesta cuando están disueltos en agua; en estado gaseoso no se comportan como ácidos."
+          }
+        },
+        {
+          "texto": "Obtención: H⁺¹ + E⁻ˣ → HₓE",
+          "pregunta": {
+            "q": "¿Cuál es la fórmula general de obtención de un hidrácido?",
+            "opts": ["HₓE", "HₓEOᵧ", "EOₓ", "HₓOᵧ"],
+            "correct": 0,
+            "explicacion": "El ión hidrógeno (H⁺) se combina directamente con el anión del no metal (con su estado de oxidación negativo) para formar el hidrácido."
+          }
+        },
+        {
+          "texto": "No metales que los forman:",
+          "sub": [
+            "Grupo VI A: S, Se, Te (E.O. = -2)",
+            "Grupo VII A: F, Cl, Br, I (E.O. = -1)"
+          ],
+          "pregunta": {
+            "q": "¿Qué elementos forman hidrácidos en el grupo VII A?",
+            "opts": ["S, Se, Te", "F, Cl, Br, I", "N, P, As", "Na, K, Li"],
+            "correct": 1,
+            "explicacion": "Los halógenos (F, Cl, Br, I) tienen estado de oxidación -1 y al combinarse con hidrógeno forman los hidrácidos más comunes, como el ácido clorhídrico (HCl)."
+          }
+        },
+        {
+          "texto": "N. clásica: ácido + raíz del no metal + hídrico (en disolución acuosa)",
+          "pregunta": {
+            "q": "¿Cómo se nombra un hidrácido en nomenclatura clásica?",
+            "opts": [
+              "Raíz + uro de hidrógeno",
+              "Ácido + raíz + hídrico",
+              "Óxido + raíz",
+              "Raíz + ico"
+            ],
+            "correct": 1,
+            "explicacion": "El sufijo '-hídrico' siempre indica que el compuesto está disuelto en agua y se comporta como ácido, a diferencia de su forma gaseosa."
+          }
+        },
+        {
+          "texto": "N. IUPAC: raíz del no metal + uro + de hidrógeno (fase gas, sin carácter ácido)",
+          "pregunta": {
+            "q": "¿Cómo se nombra un hidrácido en IUPAC?",
+            "opts": [
+              "Ácido + raíz + hídrico",
+              "Raíz + uro + de hidrógeno",
+              "Raíz + ico",
+              "Óxido + raíz"
+            ],
+            "correct": 1,
+            "explicacion": "En estado gaseoso (sin disolver en agua), el compuesto no tiene carácter ácido, por lo que se nombra como una sal binaria común: raíz + uro + de hidrógeno."
+          }
+        },
+        {
+          "texto": "Ejemplos:",
+          "sub": [
+            "H⁺¹ + Cl⁻¹ → HCl(ac) — clásica: ácido clorhídrico / IUPAC: cloruro de hidrógeno",
+            "H⁺¹ + S⁻² → H₂S(ac) — clásica: ácido sulfhídrico / IUPAC: sulfuro de hidrógeno"
+          ],
+          "pregunta": {
+            "q": "¿Cuál es el nombre clásico de HCl(ac)?",
+            "opts": [
+              "Ácido clórico",
+              "Ácido clorhídrico",
+              "Cloruro de hidrógeno",
+              "Ácido hipocloroso"
+            ],
+            "correct": 1,
+            "explicacion": "Cuando el cloruro de hidrógeno gaseoso se disuelve en agua, adquiere carácter ácido y pasa a llamarse ácido clorhídrico, el mismo ácido presente en el jugo gástrico humano."
+          }
+        }
+      ]
+    },
+    {
+      "titulo": "Ácidos oxácidos",
+      "puntos": [
+        {
+          "texto": "Compuestos ternarios: contienen oxígeno",
+          "pregunta": {
+            "q": "¿Qué son los ácidos oxácidos?",
+            "opts": [
+              "Compuestos binarios",
+              "Compuestos ternarios con oxígeno",
+              "Hidróxidos",
+              "Sales"
+            ],
+            "correct": 1,
+            "explicacion": "A diferencia de los hidrácidos, estos sí contienen oxígeno además de hidrógeno y el no metal, formando compuestos de tres elementos."
+          }
+        },
+        {
+          "texto": "Obtención: anhídrido (óxido no metálico) + H₂O → ácido oxácido",
+          "pregunta": {
+            "q": "¿Cómo se obtiene un ácido oxácido?",
+            "opts": [
+              "Metal + H₂O",
+              "Anhídrido + H₂O",
+              "Ácido + base",
+              "No metal + H₂"
+            ],
+            "correct": 1,
+            "explicacion": "Un anhídrido es un óxido no metálico; al reaccionar con agua, se transforma en el ácido oxácido correspondiente."
+          }
+        },
+        {
+          "texto": "Formulación general: HₓEᵧO_z (si los subíndices son número par, se simplifican)",
+          "pregunta": {
+            "q": "¿Cuál es la fórmula general de un ácido oxácido?",
+            "opts": ["HₓEᵧOz", "HₓE", "EOₓ", "MOH"],
+            "correct": 0,
+            "explicacion": "La fórmula general HₓEᵧOz representa hidrógeno, el elemento no metálico central y oxígeno, en las proporciones que resulten del anhídrido de origen."
+          }
+        },
+        {
+          "texto": "Nomenclatura clásica — ácido + prefijo + raíz + sufijo, según el estado de oxidación del no metal:",
+          "sub": [
+            "Estado de oxidación menor: prefijo hipo- + sufijo -oso (ej: ácido hipocloroso)",
+            "Estado de oxidación intermedio-bajo: sufijo -oso (ej: ácido sulfuroso)",
+            "Estado de oxidación intermedio-alto: sufijo -ico (ej: ácido sulfúrico)",
+            "Estado de oxidación mayor: prefijo per- + sufijo -ico (ej: ácido perclórico)"
+          ],
+          "pregunta": {
+            "q": "¿Qué prefijo corresponde al estado de oxidación mayor en un oxácido?",
+            "opts": ["Hipo-", "Per-", "Mono-", "Di-"],
+            "correct": 1,
+            "explicacion": "El sistema de prefijos y sufijos (hipo-oso, oso, ico, per-ico) ordena los ácidos según el estado de oxidación del no metal; el prefijo 'per-' siempre marca el estado más alto disponible."
+          }
+        },
+        {
+          "texto": "N. IUPAC: prefijo numérico + oxo + raíz + ato + (estado de oxidación) + de hidrógeno",
+          "pregunta": {
+            "q": "¿Qué ácido resulta de SO₃ + H₂O?",
+            "opts": ["H₂SO₃", "H₂SO₄", "H₂S", "HSO₄"],
+            "correct": 1,
+            "explicacion": "El azufre en SO₃ tiene su estado de oxidación más alto (+6), por lo que al reaccionar con agua forma el ácido sulfúrico, uno de los ácidos industriales más importantes."
+          }
+        },
+        {
+          "texto": "Ejemplos:",
+          "sub": [
+            "N₂O₃ + H₂O → HNO₂ — ácido nitroso / trioxonitrato (III) de hidrógeno",
+            "N₂O₅ + H₂O → HNO₃ — ácido nítrico / trioxonitrato (V) de hidrógeno",
+            "SO₂ + H₂O → H₂SO₃ — ácido sulfuroso / trioxosulfato (IV) de hidrógeno",
+            "SO₃ + H₂O → H₂SO₄ — ácido sulfúrico / tetraoxosulfato (VI) de hidrógeno",
+            "Cl₂O + H₂O → HClO — ácido hipocloroso",
+            "Cl₂O₇ + H₂O → HClO₄ — ácido perclórico"
+          ],
+          "pregunta": {
+            "q": "¿Cuál es el nombre clásico de HCl(ac)?",
+            "opts": [
+              "Ácido clórico",
+              "Ácido clorhídrico",
+              "Cloruro de hidrógeno",
+              "Ácido hipocloroso"
+            ],
+            "correct": 1,
+            "explicacion": "Cuando el cloruro de hidrógeno gaseoso se disuelve en agua, adquiere carácter ácido y pasa a llamarse ácido clorhídrico, el mismo ácido presente en el jugo gástrico humano."
+          }
+        }
+      ]
+    }
+  ],
+  "glosario": {
+    "anhídrido": "Óxido no metálico; con agua forma un ácido oxácido.",
+    "covalente": "Enlace donde los átomos comparten electrones.",
+    "protón": "Partícula con carga positiva; es el ión H⁺¹."
+  }
+}

@@ -1,0 +1,109 @@
+{
+  "cursos": [
+    {
+      "nombre": "Razonamiento Verbal",
+      "codigo": "RVE",
+      "temas": [
+        { "tema": "Jerarquía Textual", "archivo": "temas/rve/rve-01.json" }
+      ]
+    },
+    { "nombre": "Educación Cívica", "codigo": "CIV", "temas": [
+      {"tema":"Democracia y Organizaciones Políticas","archivo":"temasZzzz/civ/civ-01.json"}
+    ] },
+    {
+      "nombre": "Literatura",
+      "codigo": "LIT",
+      "temas": [
+        { "tema": "Teatro Español", "archivo": "temas/lit/lit-01.json" },
+        { "tema": "Generacion del 27", "archivo": "temas/lit/lit-02.json" }
+      ]
+    },
+    {
+      "nombre": "Filosofía",
+      "codigo": "FIL",
+      "temas": [
+        {  "tema":"Filosofía Moderna","archivo": "temas/fil/fil-01.json"},
+        {  "tema":"Criticismo","archivo": "temas/fil/fil-02.json"},
+        {  "tema":"Idealismo","archivo": "temas/fil/fil-03.json"}
+      ]
+    },
+    {
+      "nombre": "Psicología",
+      "codigo": "PSI",
+      "temas": [{ "tema": "Inteligencia", "archivo": "temas/psi/psi-01.json" }]
+    },
+    {
+      "nombre": "Lenguaje",
+      "codigo": "LEN",
+      "temas": [{ "tema": "Semántica", "archivo": "temas/len/len-01.json" }]
+    },
+    {
+      "nombre": "Economía",
+      "codigo": "ECO",
+      "temas": [
+        { "tema": "Demanda", "archivo": "temas/eco/eco-01.json" },
+        {
+          "tema": "Elasticidad de la Demanda",
+          "archivo": "temas/eco/eco-02.json"
+        }
+      ]
+    },
+    { "nombre": "Geografía", "codigo": "GEO", "temas": [
+      {"tema": "geodinamica externa", "archivo": "temas/geo/geo-01.json"}
+    ] },
+    {
+      "nombre": "Historia",
+      "codigo": "HIS",
+      "temas": [
+        { "tema": "Expansión Europea", "archivo": "temas/his/his-01.json" },
+        {"tema": "Invasión al Tahuantisuyo","archivo": "temas/his/his-02.json"},
+        {"tema":"Reforma Protestante","archivo":"temas/his/his-03.json"},
+        {"tema":"contrareforma","archivo":"temas/his/his-04.json"},
+        {"tema":"Resistencia andina","archivo":"temas/his/his-05.json"},
+        {"tema":"Guerras civiles","archivo":"temas/his/his-06.json"}
+
+      ]
+    },
+
+    {
+      "nombre": "Química",
+      "codigo": "QUI",
+      "temas": [
+        { "tema": "Hidróxidos", "archivo": "temas/qui/qui-01.json" },
+        { "tema": "Ácidos", "archivo": "temas/qui/qui-02.json" },
+        { "tema": "Calculos en quimica", "archivo": "temas/qui/qui-03.json" }
+      ]
+    },
+    {
+      "nombre": "Biología",
+      "codigo": "BIO",
+      "temas": [
+        {
+          "tema": "Genética: Grupos Sanguíneos y Herencia del Sexo",
+          "archivo": "temas/bio/bio-01.json"
+        }
+      ]
+    },
+    {
+      "nombre": "Física",
+      "codigo": "FIS",
+      "temas": [
+        { "tema": "Dinámica Circular", "archivo": "temas/fis/fis-01.json" }
+      ]
+    },
+
+    { "nombre": "Razonamiento Matemático", "codigo": "RMA", "temas": [] },
+    {
+      "nombre": "Aritmética",
+      "codigo": "ARI",
+      "temas": [
+        { "tema": "Teoría de Conjuntos", "archivo": "temas/ari/ari-01.json" }
+      ]
+    },
+    { "nombre": "Álgebra", "codigo": "ALG", "temas": [] },
+    { "nombre": "Geometría", "codigo": "GEM", "temas": [] },
+    { "nombre": "Trigonometría", "codigo": "TRI", "temas": [
+      {"tema":"resolucion al primer cuadrante", "archivo":"temas/tri/tri-01.json"}
+    ] }
+  ]
+}

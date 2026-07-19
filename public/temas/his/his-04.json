@@ -1,0 +1,221 @@
+{
+  "curso": "Historia",
+  "tema": "Contrarreforma",
+  "glosario": {
+    "Contrarreforma": "Movimiento católico contra la Reforma protestante.",
+    "Jesuitas": "Orden religiosa católica fundada en 1540.",
+    "Celibato": "Compromiso religioso de vivir sin matrimonio.",
+    "Transubstanciación": "Cambio del pan y vino en cuerpo y sangre.",
+    "Seminario": "Centro donde se forman sacerdotes.",
+    "Índice": "Lista oficial de libros prohibidos.",
+    "Inquisición": "Tribunal religioso contra la herejía."
+  },
+  "theory": [
+    {
+      "titulo": "Compañía de Jesús (Jesuitas, 1540)",
+      "puntos": [
+        {
+          "texto": "Los jesuitas fueron fundados en 1540.",
+          "pregunta": {
+            "q": "¿En qué año se fundó la Compañía de Jesús?",
+            "opts": ["1520", "1540", "1563", "1600"],
+            "correct": 1,
+            "explicacion": "La Compañía de Jesús fue creada en 1540 durante la Contrarreforma. Esta orden religiosa tuvo como objetivo defender y expandir la doctrina católica frente al avance protestante."
+          }
+        },
+        {
+          "texto": "Fundador: Íñigo López de Recalde.",
+          "pregunta": {
+            "q": "¿Quién fue el fundador mencionado de la Compañía de Jesús?",
+            "opts": [
+              "Martín Lutero",
+              "Pablo III",
+              "Íñigo López de Recalde",
+              "Juan Calvino"
+            ],
+            "correct": 2,
+            "explicacion": "Íñigo López de Recalde, conocido como San Ignacio de Loyola, organizó la Compañía de Jesús. Su liderazgo convirtió a los jesuitas en una de las órdenes más importantes del catolicismo."
+          }
+        },
+        {
+          "texto": "San Ignacio de Loyola dirigió a los jesuitas.",
+          "pregunta": {
+            "q": "¿Con qué nombre religioso fue conocido Íñigo López de Recalde?",
+            "opts": [
+              "San Ignacio de Loyola",
+              "San Pedro Claver",
+              "Santo Tomás de Aquino",
+              "San Francisco de Asís"
+            ],
+            "correct": 0,
+            "explicacion": "Íñigo López de Recalde adoptó el nombre de San Ignacio de Loyola. Fue el fundador y primer superior general de la Compañía de Jesús."
+          }
+        },
+        {
+          "texto": "Objetivo: difundir la fe católica.",
+          "pregunta": {
+            "q": "¿Cuál era el principal objetivo de los jesuitas?",
+            "opts": [
+              "Eliminar todos los sacramentos",
+              "Difundir la fe católica",
+              "Apoyar la Reforma protestante",
+              "Prohibir la educación religiosa"
+            ],
+            "correct": 1,
+            "explicacion": "Los jesuitas buscaron fortalecer el catolicismo mediante la enseñanza, las misiones y la defensa de la Iglesia. Fueron una respuesta organizada frente a la expansión protestante."
+          }
+        }
+      ]
+    },
+    {
+      "titulo": "Concilio de Trento (1545-1563)",
+      "puntos": [
+        {
+          "texto": "El Concilio de Trento ocurrió entre 1545-1563.",
+          "pregunta": {
+            "q": "¿Entre qué años se desarrolló el Concilio de Trento?",
+            "opts": ["1517-1520", "1545-1563", "1600-1620", "1492-1500"],
+            "correct": 1,
+            "explicacion": "El Concilio de Trento fue una reunión de autoridades católicas realizada entre 1545 y 1563. Buscó responder a las críticas protestantes y reformar aspectos internos de la Iglesia."
+          }
+        },
+        {
+          "texto": "Fue convocado por el papa Pablo III.",
+          "pregunta": {
+            "q": "¿Qué papa convocó el Concilio de Trento?",
+            "opts": [
+              "Papa León X",
+              "Papa Pablo III",
+              "Papa Urbano II",
+              "Papa Gregorio I"
+            ],
+            "correct": 1,
+            "explicacion": "El papa Pablo III convocó el Concilio de Trento como parte de la respuesta católica a la Reforma protestante. La reunión estableció medidas doctrinales y disciplinarias."
+          }
+        }
+      ]
+    },
+    {
+      "titulo": "Reafirmaciones de la Iglesia Católica",
+      "puntos": [
+        {
+          "texto": "Se reafirmaron los 7 sacramentos.",
+          "pregunta": {
+            "q": "¿Qué elementos religiosos fueron reafirmados en el Concilio de Trento?",
+            "opts": [
+              "Los 7 sacramentos",
+              "Los 5 mandamientos",
+              "Los 3 votos monásticos",
+              "Las nuevas iglesias protestantes"
+            ],
+            "correct": 0,
+            "explicacion": "El Concilio de Trento confirmó la importancia de los siete sacramentos tradicionales del catolicismo. Esta decisión marcó una diferencia frente a varias iglesias protestantes."
+          }
+        },
+        {
+          "texto": "Se reafirmó la existencia del purgatorio.",
+          "pregunta": {
+            "q": "¿Qué doctrina sobre la vida después de la muerte fue reafirmada?",
+            "opts": [
+              "La reencarnación",
+              "El purgatorio",
+              "La inexistencia del alma",
+              "El fin del juicio religioso"
+            ],
+            "correct": 1,
+            "explicacion": "La Iglesia Católica mantuvo la enseñanza del purgatorio como un estado de purificación espiritual. Esta doctrina fue defendida durante la Contrarreforma."
+          }
+        },
+        {
+          "texto": "Se confirmó el celibato sacerdotal.",
+          "pregunta": {
+            "q": "¿Qué práctica religiosa fue reafirmada para los sacerdotes?",
+            "opts": [
+              "El matrimonio obligatorio",
+              "El celibato",
+              "La eliminación del sacerdocio",
+              "La elección política"
+            ],
+            "correct": 1,
+            "explicacion": "El celibato sacerdotal fue mantenido como una norma dentro de la Iglesia Católica. Consiste en que los sacerdotes no contraigan matrimonio para dedicarse completamente a su función religiosa."
+          }
+        },
+        {
+          "texto": "Se mantuvo el culto a las imágenes.",
+          "pregunta": {
+            "q": "¿Qué práctica relacionada con imágenes fue defendida por la Iglesia?",
+            "opts": [
+              "La destrucción de imágenes",
+              "El culto a las imágenes",
+              "La prohibición de templos",
+              "La eliminación de santos"
+            ],
+            "correct": 1,
+            "explicacion": "La Iglesia Católica defendió el uso de imágenes religiosas como una forma de enseñanza y veneración. Esto contrastaba con algunas posturas protestantes que rechazaban su uso."
+          }
+        },
+        {
+          "texto": "Se reafirmó la transubstanciación.",
+          "pregunta": {
+            "q": "¿Qué doctrina explica el cambio del pan y vino durante la misa?",
+            "opts": [
+              "La predestinación",
+              "La transubstanciación",
+              "La iconoclasia",
+              "La reforma"
+            ],
+            "correct": 1,
+            "explicacion": "La transubstanciación sostiene que durante la Eucaristía el pan y el vino se convierten en el cuerpo y sangre de Cristo. Fue una doctrina defendida por la Iglesia Católica."
+          }
+        }
+      ]
+    },
+    {
+      "titulo": "Nuevas instituciones y medidas",
+      "puntos": [
+        {
+          "texto": "Surgieron los seminarios religiosos.",
+          "pregunta": {
+            "q": "¿Qué instituciones surgieron para formar sacerdotes?",
+            "opts": [
+              "Universidades militares",
+              "Seminarios",
+              "Gremios comerciales",
+              "Academias protestantes"
+            ],
+            "correct": 1,
+            "explicacion": "Los seminarios fueron creados para mejorar la preparación intelectual y religiosa del clero. Esta medida buscaba elevar la formación de los sacerdotes."
+          }
+        },
+        {
+          "texto": "El Index era una lista de libros prohibidos.",
+          "pregunta": {
+            "q": "¿Qué era el Index durante la Contrarreforma?",
+            "opts": [
+              "Una lista de libros prohibidos",
+              "Un libro de oraciones",
+              "Una escuela religiosa",
+              "Un tratado político"
+            ],
+            "correct": 0,
+            "explicacion": "El Index o Índice de libros prohibidos reunía obras consideradas peligrosas para la doctrina católica. Fue utilizado por la Iglesia para controlar la difusión de ciertas ideas."
+          }
+        },
+        {
+          "texto": "Se reorganizó la Santa Inquisición.",
+          "pregunta": {
+            "q": "¿Qué institución religiosa fue reorganizada durante la Contrarreforma?",
+            "opts": [
+              "La Santa Inquisición",
+              "La Compañía de Jesús",
+              "El Parlamento europeo",
+              "El Imperio romano"
+            ],
+            "correct": 0,
+            "explicacion": "La Santa Inquisición fue fortalecida para combatir la herejía y defender la doctrina católica. Su reorganización fue una de las medidas de control religioso del periodo."
+          }
+        }
+      ]
+    }
+  ]
+}

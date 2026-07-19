@@ -1,0 +1,269 @@
+{
+  "curso": "Geografía",
+  "tema": "Geodinámica Externa",
+  "glosario": {
+    "Geodinámica externa": "Procesos externos que modifican la superficie terrestre.",
+    "Meteorización": "Desintegración y alteración de rocas in situ.",
+    "Erosión": "Desgaste y transporte de materiales terrestres.",
+    "Sedimentación": "Acumulación de sedimentos transportados.",
+    "Agradación": "Acumulación de materiales que elevan el relieve.",
+    "Degradación": "Desgaste y reducción del relieve.",
+    "Crioclastia": "Fragmentación de rocas por congelamiento del agua.",
+    "Haloclastia": "Fragmentación de rocas por cristalización de sales.",
+    "Bioclastia": "Alteración de rocas por acción orgánica.",
+    "Karstificación": "Formación de relieves por disolución de calizas."
+  },
+  "theory": [
+    {
+      "titulo": "Geodinámica externa",
+      "puntos": [
+        {
+          "texto": "Procesos externos modifican la superficie terrestre.",
+          "pregunta": {
+            "q": "¿Qué modifican los procesos de geodinámica externa?",
+            "opts": [
+              "El núcleo terrestre",
+              "La superficie terrestre",
+              "El manto terrestre",
+              "La composición del Sol"
+            ],
+            "correct": 1,
+            "explicacion": "La geodinámica externa reúne procesos causados por agentes como agua, viento, hielo y gravedad. Estos actúan sobre la superficie terrestre cambiando el relieve mediante desgaste y acumulación."
+          }
+        },
+        {
+          "texto": "Incluye fases destructoras y modeladoras.",
+          "pregunta": {
+            "q": "¿Qué fases incluye la geodinámica externa?",
+            "opts": [
+              "Destructoras y modeladoras",
+              "Volcánicas y sísmicas",
+              "Térmicas y magnéticas",
+              "Internas y nucleares"
+            ],
+            "correct": 0,
+            "explicacion": "Los procesos destructores reducen o desgastan el relieve, mientras que los modeladores generan nuevas formas superficiales. Ambos dependen de agentes externos."
+          }
+        },
+        {
+          "texto": "Tiene factores geográficos y radiación solar.",
+          "pregunta": {
+            "q": "¿Qué factores aparecen relacionados con la geodinámica externa?",
+            "opts": [
+              "Radiación solar y factores geográficos",
+              "Presión nuclear y magnetismo",
+              "Corrientes del núcleo",
+              "Movimiento de galaxias"
+            ],
+            "correct": 0,
+            "explicacion": "El clima, la ubicación geográfica y la energía solar influyen en la intensidad de los procesos externos. La radiación solar impulsa ciclos como el del agua."
+          }
+        }
+      ]
+    },
+    {
+      "titulo": "Meteorización",
+      "puntos": [
+        {
+          "texto": "La meteorización ocurre in situ.",
+          "pregunta": {
+            "q": "¿Dónde ocurre la meteorización según el apunte?",
+            "opts": [
+              "En el océano profundo",
+              "In situ sobre la roca",
+              "En el interior del núcleo",
+              "En la atmósfera superior"
+            ],
+            "correct": 1,
+            "explicacion": "La meteorización altera las rocas en el mismo lugar donde se encuentran. A diferencia de la erosión, no implica transporte del material."
+          }
+        },
+        {
+          "texto": "Meteorización química descompone rocas.",
+          "pregunta": {
+            "q": "¿Qué tipo de meteorización descompone químicamente las rocas?",
+            "opts": ["Mecánica", "Química", "Eólica", "Glaciar"],
+            "correct": 1,
+            "explicacion": "La meteorización química modifica los minerales mediante reacciones con agua, oxígeno o dióxido de carbono. Es común en ambientes cálidos y húmedos."
+          }
+        },
+        {
+          "texto": "Carbonatación transforma caliza en bicarbonato.",
+          "pregunta": {
+            "q": "¿Qué proceso químico afecta principalmente a la caliza?",
+            "opts": [
+              "Oxidación",
+              "Carbonatación",
+              "Hidratación",
+              "Haloclastia"
+            ],
+            "correct": 1,
+            "explicacion": "La carbonatación ocurre cuando el dióxido de carbono y el agua forman ácido carbónico débil. Este puede disolver minerales de carbonato como la caliza."
+          }
+        },
+        {
+          "texto": "Oxidación combina minerales con oxígeno.",
+          "pregunta": {
+            "q": "¿Qué elemento participa en la oxidación de minerales?",
+            "opts": ["Oxígeno", "Nitrógeno", "Helio", "Cloro"],
+            "correct": 0,
+            "explicacion": "La oxidación ocurre cuando minerales como los que contienen hierro reaccionan con oxígeno. Puede producir cambios de coloración como tonos rojizos."
+          }
+        },
+        {
+          "texto": "Hidrólisis convierte feldespato en arcilla.",
+          "pregunta": {
+            "q": "¿Qué mineral puede transformarse en arcilla por hidrólisis?",
+            "opts": ["Feldespato", "Cuarzo", "Diamante", "Oro"],
+            "correct": 0,
+            "explicacion": "La hidrólisis altera minerales silicatados mediante la acción del agua. Un ejemplo común es la transformación del feldespato en minerales arcillosos."
+          }
+        },
+        {
+          "texto": "Incluye hidratación y disolución por agua.",
+          "sub": [
+            "Hidratación: incorporación de agua en minerales.",
+            "Disolución: separación de minerales mediante agua."
+          ],
+          "pregunta": {
+            "q": "¿Qué agente participa en hidratación y disolución?",
+            "opts": ["Agua", "Viento", "Hielo", "Lava"],
+            "correct": 0,
+            "explicacion": "El agua es fundamental en ambos procesos químicos. Puede incorporarse a minerales o separar componentes solubles."
+          }
+        }
+      ]
+    },
+    {
+      "titulo": "Meteorización mecánica o física",
+      "puntos": [
+        {
+          "texto": "Fragmenta rocas sin cambiar composición.",
+          "pregunta": {
+            "q": "¿Qué característica tiene la meteorización mecánica?",
+            "opts": [
+              "Cambia minerales",
+              "Fragmenta sin cambiar composición",
+              "Produce magma",
+              "Forma volcanes"
+            ],
+            "correct": 1,
+            "explicacion": "La meteorización física rompe las rocas en fragmentos más pequeños manteniendo sus minerales originales. Actúa por cambios de temperatura, hielo o sales."
+          }
+        },
+        {
+          "texto": "Termoclastia ocurre por cambios de temperatura.",
+          "pregunta": {
+            "q": "¿Qué causa la termoclastia?",
+            "opts": [
+              "Cambios de temperatura",
+              "Acción de raíces",
+              "Disolución química",
+              "Movimiento tectónico"
+            ],
+            "correct": 0,
+            "explicacion": "La termoclastia ocurre cuando las variaciones térmicas generan expansión y contracción en las rocas. Esto provoca fracturas con el tiempo."
+          }
+        },
+        {
+          "texto": "Crioclastia ocurre por congelamiento del hielo.",
+          "pregunta": {
+            "q": "¿Qué proceso rompe rocas mediante hielo?",
+            "opts": ["Carbonatación", "Crioclastia", "Oxidación", "Hidrólisis"],
+            "correct": 1,
+            "explicacion": "El agua que penetra grietas puede congelarse y expandirse. Esa presión rompe progresivamente la roca en zonas frías."
+          }
+        },
+        {
+          "texto": "Haloclastia ocurre por acción de sales.",
+          "pregunta": {
+            "q": "¿Qué produce la haloclastia?",
+            "opts": [
+              "Sales cristalizadas",
+              "Raíces vegetales",
+              "Cambios térmicos",
+              "Ácidos volcánicos"
+            ],
+            "correct": 0,
+            "explicacion": "La cristalización de sales dentro de poros y grietas genera presión. Es común en ambientes áridos con evaporación intensa."
+          }
+        },
+        {
+          "texto": "Bioclastia ocurre por acción orgánica.",
+          "pregunta": {
+            "q": "¿Qué agente produce bioclastia?",
+            "opts": ["Seres vivos", "Glaciares", "Mareas", "Viento solar"],
+            "correct": 0,
+            "explicacion": "Las raíces de plantas y otros organismos pueden ejercer presión sobre las rocas. Este proceso contribuye a su fragmentación física."
+          }
+        }
+      ]
+    },
+    {
+      "titulo": "Erosión: proceso ex situ",
+      "puntos": [
+        {
+          "texto": "La erosión desgasta y transporta materiales.",
+          "pregunta": {
+            "q": "¿Qué acciones realiza la erosión?",
+            "opts": [
+              "Desgaste y transporte",
+              "Formación del núcleo",
+              "Producción de minerales",
+              "Creación de magma"
+            ],
+            "correct": 0,
+            "explicacion": "La erosión incluye el arranque de materiales y su traslado mediante agentes como agua, viento, hielo o gravedad."
+          }
+        },
+        {
+          "texto": "La erosión tiene tres etapas principales.",
+          "sub": [
+            "Arranque o abrasión",
+            "Transporte o acarreo",
+            "Depósito, acumulación o sedimentación"
+          ],
+          "pregunta": {
+            "q": "¿Cuál es la última etapa de la erosión?",
+            "opts": [
+              "Arranque",
+              "Transporte",
+              "Depósito o sedimentación",
+              "Abrasión"
+            ],
+            "correct": 2,
+            "explicacion": "Después del transporte, los materiales pierden energía y se acumulan. Ese proceso forma depósitos sedimentarios."
+          }
+        }
+      ]
+    },
+    {
+      "titulo": "Erosión pluvial",
+      "puntos": [
+        {
+          "texto": "Las lluvias generan erosión pluvial.",
+          "pregunta": {
+            "q": "¿Qué agente provoca la erosión pluvial?",
+            "opts": ["Lluvia", "Hielo", "Viento", "Olas"],
+            "correct": 0,
+            "explicacion": "La erosión pluvial es causada por el impacto y escurrimiento del agua de lluvia. Puede formar surcos y cárcavas."
+          }
+        },
+        {
+          "texto": "Forma surcos, cárcavas y quebradas.",
+          "pregunta": {
+            "q": "¿Qué formas puede originar la erosión pluvial?",
+            "opts": [
+              "Dunas y médanos",
+              "Surcos y cárcavas",
+              "Fiordos y glaciares",
+              "Deltas marinos"
+            ],
+            "correct": 1,
+            "explicacion": "El agua de lluvia concentrada erosiona el suelo creando canales progresivos. Cuando aumentan de tamaño pueden convertirse en quebradas."
+          }
+        }
+      ]
+    }
+  ]
+}

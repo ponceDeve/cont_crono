@@ -1,0 +1,340 @@
+{
+  "curso": "Filosofía",
+  "tema": "Idealismo Absoluto de Hegel",
+  "glosario": {
+    "Idealismo absoluto": "Corriente filosófica que fundamenta la realidad en la razón.",
+    "Panlogismo": "Doctrina que identifica la razón absoluta con la idea absoluta.",
+    "Método dialéctico": "Proceso de desarrollo de la idea a través de negaciones.",
+    "Tesis": "Momento de afirmación, la idea en sí.",
+    "Antítesis": "Momento de negación o enajenación, la idea fuera de sí.",
+    "Síntesis": "Momento de superación, la idea para sí.",
+    "Espíritu Subjetivo": "Nivel del espíritu ligado a la conciencia y la psicología individual.",
+    "Espíritu Objetivo": "Nivel del espíritu plasmado en la sociedad, la moral y el Estado.",
+    "Espíritu Absoluto": "Máxima expresión de la conciencia alcanzada a través del arte, religión y filosofía.",
+    "=": "Definición / es",
+    "→": "Produce / conduce a / resultado / ejemplo",
+    "+": "Combinación / junto con",
+    "⊃": "Contiene / abarca"
+  },
+  "theory": [
+    {
+      "titulo": "El Idealismo Absoluto y Panlogismo",
+      "puntos": [
+        {
+          "texto": "Idealismo absoluto = corriente filosófica → fundamenta realidad en razón.",
+          "pregunta": {
+            "q": "¿Cuál es el fundamento de la realidad según el idealismo absoluto?",
+            "opts": [
+              "La experiencia sensible",
+              "La razón o idea absoluta",
+              "La materia física"
+            ],
+            "correct": 1,
+            "explicacion": "Hegel propone que el principio de todo lo que existe y el fundamento último de la realidad es la razón absoluta."
+          }
+        },
+        {
+          "texto": "Panlogismo = razón absoluta = idea absoluta.",
+          "pregunta": {
+            "q": "¿Qué concepto iguala la razón con la idea absoluta en la filosofía hegeliana?",
+            "opts": [
+              "Empirismo",
+              "Panlogismo",
+              "Materialismo"
+            ],
+            "correct": 1,
+            "explicacion": "El panlogismo es la postura de Hegel que establece que toda la realidad está estructurada de forma lógica y racional."
+          }
+        },
+        {
+          "texto": "Panlogismo → todo lo real es racional + todo lo racional es real.",
+          "pregunta": {
+            "q": "¿Cuál es la premisa principal del Panlogismo de Hegel?",
+            "opts": [
+              "La realidad es caótica e impredecible",
+              "Solo las ideas abstractas son reales",
+              "Todo lo real es racional y lo racional es real"
+            ],
+            "correct": 2,
+            "explicacion": "Esta frase resume que el orden del universo es idéntico al orden del pensamiento; no hay separación entre razón y realidad."
+          }
+        },
+        {
+          "texto": "Irracional → irreal → no ser.",
+          "pregunta": {
+            "q": "¿Qué categoría ontológica le asigna Hegel a lo 'irracional'?",
+            "opts": [
+              "Es la máxima verdad",
+              "Es irreal, equivale al no ser",
+              "Es la base de la naturaleza"
+            ],
+            "correct": 1,
+            "explicacion": "Dentro del panlogismo, aquello que carece de estructura racional lógicamente no tiene existencia real (no ser)."
+          }
+        },
+        {
+          "texto": "Racional → real → ser.",
+          "pregunta": {
+            "q": "¿Qué relación establece el esquema de la pizarra entre la racionalidad y el ser?",
+            "opts": [
+              "Lo racional equivale a lo real y al ser",
+              "Lo racional es una ilusión de la mente",
+              "Lo racional carece de existencia ontológica"
+            ],
+            "correct": 0,
+            "explicacion": "Lo que posee lógica y obedece a la razón absoluta adquiere el estatus de real, identificándose con el 'ser'."
+          }
+        }
+      ]
+    },
+    {
+      "titulo": "La Dialéctica: Desenvolvimiento de la Idea",
+      "puntos": [
+        {
+          "texto": "Método dialéctico = desenvolvimiento de la idea → mediante negaciones.",
+          "pregunta": {
+            "q": "¿Cómo avanza o se desenvuelve la idea en el método dialéctico?",
+            "opts": [
+              "A través de axiomas estáticos",
+              "A través de procesos matemáticos puros",
+              "Mediante un proceso de negaciones"
+            ],
+            "correct": 2,
+            "explicacion": "Hegel entiende el progreso del pensamiento como un movimiento donde la idea se niega a sí misma para alcanzar una etapa superior."
+          }
+        },
+        {
+          "texto": "Tesis = idea en sí = afirmación.",
+          "pregunta": {
+            "q": "¿Qué representa la Tesis en la dialéctica hegeliana?",
+            "opts": [
+              "La negación de un concepto",
+              "La idea en sí misma o afirmación",
+              "El final del proceso histórico"
+            ],
+            "correct": 1,
+            "explicacion": "La tesis es el momento originario del proceso dialéctico, donde la idea se postula de manera afirmativa e inmediata."
+          }
+        },
+        {
+          "texto": "Tesis → Dios → estudiado por ciencia de la lógica.",
+          "pregunta": {
+            "q": "¿Cuál es el ejemplo clásico de Tesis en la pizarra y qué ciencia lo estudia?",
+            "opts": [
+              "La Naturaleza y la física",
+              "Dios y la ciencia de la lógica",
+              "El Estado y la sociología"
+            ],
+            "correct": 1,
+            "explicacion": "Antes de manifestarse materialmente, la pura idea lógica (asimilable a Dios antes de la creación) es la afirmación inicial."
+          }
+        },
+        {
+          "texto": "Antítesis = idea fuera de sí = negación + enajenación.",
+          "pregunta": {
+            "q": "¿Qué características definen a la Antítesis?",
+            "opts": [
+              "Es la idea fuera de sí, producto de la negación y enajenación",
+              "Es la idea en su estado más puro y afirmativo",
+              "Es la superación definitiva de todas las contradicciones"
+            ],
+            "correct": 0,
+            "explicacion": "La antítesis ocurre cuando la idea sale de su estado puramente lógico y se exterioriza o aliena, oponiéndose a sí misma."
+          }
+        },
+        {
+          "texto": "Antítesis → Naturaleza → estudiada por fenomenología de la naturaleza.",
+          "pregunta": {
+            "q": "¿Qué elemento material ilustra el concepto de Antítesis?",
+            "opts": [
+              "El Espíritu",
+              "La Naturaleza",
+              "El Pensamiento Puro"
+            ],
+            "correct": 1,
+            "explicacion": "La naturaleza es la idea materializada, alienada en el espacio y el tiempo, perdiendo su autoconciencia temporalmente."
+          }
+        },
+        {
+          "texto": "Síntesis = idea para sí = superación + negación de la negación.",
+          "pregunta": {
+            "q": "¿Cómo se define la Síntesis en el método dialéctico?",
+            "opts": [
+              "La idea inalterada e inmóvil",
+              "La enajenación total del espíritu",
+              "La idea para sí, mediante superación y negación de la negación"
+            ],
+            "correct": 2,
+            "explicacion": "La síntesis reconcilia la tesis y la antítesis en un nivel superior, conservando lo esencial de ambas en un nuevo estado de autoconciencia."
+          }
+        },
+        {
+          "texto": "Síntesis → Espíritu → estudiado por fenomenología del Espíritu.",
+          "pregunta": {
+            "q": "¿Qué concepto ejemplifica la Síntesis dialéctica?",
+            "opts": [
+              "El Espíritu",
+              "La Naturaleza",
+              "El Estado Absoluto"
+            ],
+            "correct": 0,
+            "explicacion": "El Espíritu es el retorno de la idea hacia sí misma desde la naturaleza, ahora consciente de su propia libertad y racionalidad."
+          }
+        }
+      ]
+    },
+    {
+      "titulo": "Despliegue del Espíritu",
+      "puntos": [
+        {
+          "texto": "Espíritu Subjetivo = conciencia + yo → Psicología.",
+          "pregunta": {
+            "q": "¿En qué ámbito se desarrolla el Espíritu Subjetivo?",
+            "opts": [
+              "En la economía de los pueblos",
+              "En la estructura de los imperios",
+              "En la conciencia, el yo y la psicología"
+            ],
+            "correct": 2,
+            "explicacion": "El primer nivel del despliegue del Espíritu ocurre en la mente individual, donde surge la autoconciencia psicológica."
+          }
+        },
+        {
+          "texto": "Espíritu Objetivo = sociedad + moral → Estado.",
+          "pregunta": {
+            "q": "¿Qué instituciones son la manifestación del Espíritu Objetivo?",
+            "opts": [
+              "El arte y la estética",
+              "La sociedad, la moral y el Estado",
+              "La religión y las iglesias"
+            ],
+            "correct": 1,
+            "explicacion": "El Espíritu sale del individuo para crear leyes y normas éticas compartidas, culminando en la figura del Estado."
+          }
+        },
+        {
+          "texto": "Espíritu Absoluto = máxima expresión de la conciencia.",
+          "pregunta": {
+            "q": "¿Qué representa el Espíritu Absoluto?",
+            "opts": [
+              "La máxima expresión de la conciencia",
+              "El estadio pre-lógico de la humanidad",
+              "La dependencia del hombre hacia la naturaleza"
+            ],
+            "correct": 0,
+            "explicacion": "Es la culminación de todo el proceso dialéctico, donde el espíritu comprende cabalmente la totalidad de la realidad."
+          }
+        },
+        {
+          "texto": "Espíritu Absoluto ⊃ Arte + Religión + Filosofía.",
+          "pregunta": {
+            "q": "¿Qué tres disciplinas conforman el Espíritu Absoluto?",
+            "opts": [
+              "Psicología, Sociología y Derecho",
+              "Matemáticas, Física y Química",
+              "Arte, Religión y Filosofía"
+            ],
+            "correct": 2,
+            "explicacion": "A través de las formas estéticas (Arte), representativas (Religión) y conceptuales puras (Filosofía), el Espíritu logra su autocomprensión."
+          }
+        },
+        {
+          "texto": "Arte = bello + estético.",
+          "pregunta": {
+            "q": "¿A través de qué conceptos se manifiesta el Arte en el Espíritu Absoluto?",
+            "opts": [
+              "Lo práctico y lo utilitario",
+              "Lo lógico y deductivo",
+              "Lo bello y lo estético"
+            ],
+            "correct": 2,
+            "explicacion": "En el Arte, la verdad del espíritu absoluto toma una forma sensible ligada a la belleza y la estética."
+          }
+        },
+        {
+          "texto": "Religión = Santidad + Dios.",
+          "pregunta": {
+            "q": "¿Cómo se expresa la Religión dentro de la máxima expresión de la conciencia?",
+            "opts": [
+              "A través de la Santidad y la noción de Dios",
+              "A través de ritos puramente mecánicos",
+              "Mediante la formulación de leyes estatales"
+            ],
+            "correct": 0,
+            "explicacion": "La Religión concibe lo absoluto a través de la representación espiritual e imágenes sagradas vinculadas a la idea de Dios."
+          }
+        },
+        {
+          "texto": "Filosofía = saber en sí + saber mismo.",
+          "pregunta": {
+            "q": "¿Qué papel juega la Filosofía como estadio final del Espíritu Absoluto?",
+            "opts": [
+              "Es la especulación sin base real",
+              "Es el saber en sí y por sí mismo",
+              "Es una intuición ciega sobre el mundo"
+            ],
+            "correct": 1,
+            "explicacion": "La filosofía capta lo absoluto ya no por imágenes ni sensaciones, sino en su pura forma de concepto lógico y consciente."
+          }
+        }
+      ]
+    },
+    {
+      "titulo": "La Historia y la Libertad",
+      "puntos": [
+        {
+          "texto": "Historia → finalidad = libertad.",
+          "pregunta": {
+            "q": "¿Cuál es la finalidad u objetivo central de la Historia Universal para Hegel?",
+            "opts": [
+              "La conquista de territorios geográficos",
+              "La acumulación de bienes materiales",
+              "La realización de la libertad"
+            ],
+            "correct": 2,
+            "explicacion": "Hegel interpreta todo evento histórico como un paso en el proceso hacia la plena conciencia y ejercicio de la libertad humana."
+          }
+        },
+        {
+          "texto": "Oriente → solo un hombre es libre.",
+          "pregunta": {
+            "q": "¿Cómo se manifestaba la libertad en el mundo de Oriente (antigüedad)?",
+            "opts": [
+              "Todos los hombres eran libres",
+              "Solo un hombre era considerado libre",
+              "No existía ningún hombre libre"
+            ],
+            "correct": 1,
+            "explicacion": "En las antiguas civilizaciones orientales (imperios despóticos), la libertad era privilegio único del soberano o emperador."
+          }
+        },
+        {
+          "texto": "Grecia + Roma → algunos hombres son libres.",
+          "pregunta": {
+            "q": "¿Qué avance en la libertad se dio en las culturas de Grecia y Roma?",
+            "opts": [
+              "Todos sin excepción alcanzaron la libertad",
+              "Solo un individuo concentró toda la libertad",
+              "Algunos hombres fueron considerados libres"
+            ],
+            "correct": 2,
+            "explicacion": "En la antigüedad grecorromana se reconoce la libertad de los ciudadanos, pero la esclavitud de una gran parte de la población evidenciaba que solo 'algunos' eran libres."
+          }
+        },
+        {
+          "texto": "Cristianismo → todos los hombres son libres.",
+          "pregunta": {
+            "q": "¿Qué idea respecto a la libertad introdujo el Cristianismo en la filosofía hegeliana de la historia?",
+            "opts": [
+              "Que solo el clero posee libertad verdadera",
+              "Que todos los hombres son intrínsecamente libres",
+              "Que la libertad es una ilusión terrenal"
+            ],
+            "correct": 1,
+            "explicacion": "Con la irrupción del cristianismo germánico, surge la noción universal de que el ser humano es libre por naturaleza, culminando el objetivo de la historia."
+          }
+        }
+      ]
+    }
+  ]
+}

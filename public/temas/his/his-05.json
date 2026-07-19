@@ -1,0 +1,341 @@
+{
+  "curso": "Historia",
+  "tema": "Resistencia Andina e Incas de Vilcabamba",
+  "glosario": {
+    "Toparpa": "Inca títere nombrado por los españoles, cuyo nombre real era Túpac Huallpa.",
+    "Huancas": "Pueblo indígena que se alió con los españoles en contra del dominio incaico.",
+    "Vilcabamba": "Región montañosa y selvática que sirvió de último refugio a la nobleza inca rebelde.",
+    "Huaca": "Deidad, lugar sagrado o ídolo en la religión andina tradicional.",
+    "Taulichusco": "Curaca del valle del río Rímac al momento de la fundación de Lima."
+  },
+  "theory": [
+    {
+      "titulo": "La Marcha al Cusco",
+      "puntos": [
+        {
+          "texto": "Líderes de la resistencia quiteña: Rumi Ñahui, Quis Quis y Calcuchimac.",
+          "pregunta": {
+            "q": "¿Qué generales atahualpistas conformaron la resistencia quiteña?",
+            "opts": [
+              "Manco Inca y Sayri Túpac",
+              "Rumi Ñahui, Quis Quis y Calcuchimac",
+              "Juan Chocne y Taulichusco",
+              "Titu Cusi Yupanqui y Túpac Amaru"
+            ],
+            "correct": 1,
+            "explicacion": "Tras la captura de Atahualpa, sus principales generales organizaron la resistencia militar en diferentes frentes: Rumi Ñahui en Quito, Quis Quis en Cusco y Calcuchimac en el centro, aunque carecieron de unidad estratégica."
+          }
+        },
+        {
+          "texto": "Inca nombrado por españoles: Túpac Huallpa (Toparpa).",
+          "pregunta": {
+            "q": "¿A quién nombraron los españoles como nuevo Inca para marchar al Cusco?",
+            "opts": [
+              "Túpac Huallpa (Toparpa)",
+              "Calcuchimac",
+              "Sayri Túpac",
+              "Manco Inca"
+            ],
+            "correct": 0,
+            "explicacion": "Francisco Pizarro coronó a Túpac Huallpa como 'Inca títere' para dar una apariencia de legitimidad a su avance hacia la capital imperial, buscando el apoyo de los partidarios de Huáscar."
+          }
+        },
+        {
+          "texto": "Alianza estratégica: Los Huancas apoyan a los españoles.",
+          "pregunta": {
+            "q": "¿Qué importante etnia se alió con las huestes de Pizarro?",
+            "opts": [
+              "Los Chancas",
+              "Los Chachapoyas",
+              "Los Huancas",
+              "Los Cañaris"
+            ],
+            "correct": 2,
+            "explicacion": "Los huancas, históricamente sometidos y enemistados con el Imperio Inca, vieron en los europeos a libertadores. Proveerían tropas, alimento y logística vital para la caída del Tahuantinsuyo."
+          }
+        },
+        {
+          "texto": "Acción de Quis Quis: Ataca a los españoles en Jauja.",
+          "pregunta": {
+            "q": "¿Qué general atahualpista atacó a la expedición española en la zona de Jauja?",
+            "opts": [
+              "Rumi Ñahui",
+              "Quis Quis",
+              "Taulichusco",
+              "Titu Cusi Yupanqui"
+            ],
+            "correct": 1,
+            "explicacion": "Quis Quis, que dominaba el Cusco tras vencer a Huáscar, intentó frenar el avance español en los Andes centrales (Jauja), pero fue derrotado debido a la alianza de los europeos con etnias locales."
+          }
+        },
+        {
+          "texto": "Consecuencia de la muerte de Toparpa: Calcuchimac es culpado y ejecutado.",
+          "pregunta": {
+            "q": "¿Qué sucedió con Calcuchimac tras el asesinato de Toparpa?",
+            "opts": [
+              "Huyó a Vilcabamba",
+              "Fue coronado como nuevo Inca",
+              "Fue culpado de envenenarlo y ejecutado",
+              "Firmó una tregua con Pizarro"
+            ],
+            "correct": 2,
+            "explicacion": "Toparpa murió envenenado en Jauja. Pizarro, aprovechando la situación para eliminar amenazas, acusó al general cautivo Calcuchimac de haber orquestado el asesinato y lo mandó quemar vivo."
+          }
+        },
+        {
+          "texto": "Ingreso a la capital: Manco Inca (Manco II) recibe a los españoles en el Cusco.",
+          "pregunta": {
+            "q": "¿Qué miembro de la nobleza inca recibió pacíficamente a los españoles en el Cusco?",
+            "opts": [
+              "Túpac Amaru I",
+              "Quis Quis",
+              "Atahualpa",
+              "Manco Inca (Manco II)"
+            ],
+            "correct": 3,
+            "explicacion": "Manco Inca, hermano de Huáscar, vio a los españoles como aliados divinos o protectores que venían a librar al Cusco de las tropas quiteñas de Atahualpa. Pizarro lo coronó rápidamente para mantener el control."
+          }
+        }
+      ]
+    },
+    {
+      "titulo": "Fundación de Ciudades",
+      "puntos": [
+        {
+          "texto": "Primera capital española en Perú: Jauja.",
+          "pregunta": {
+            "q": "¿Cuál fue la primera ciudad designada como capital por los españoles?",
+            "opts": [
+              "Lima",
+              "Cusco",
+              "Piura",
+              "Jauja"
+            ],
+            "correct": 3,
+            "explicacion": "Fundada en 1534, Jauja fue elegida inicialmente como capital por su ubicación céntrica en los Andes y amplia disponibilidad de recursos, aunque luego fue descartada por su lejanía al mar."
+          }
+        },
+        {
+          "texto": "Capital definitiva: Lima (terreno entregado por el curaca Taulichusco).",
+          "pregunta": {
+            "q": "¿Por qué se estableció Lima como la capital definitiva?",
+            "opts": [
+              "Por ser el centro religioso de los incas",
+              "Por la donación del curaca Taulichusco y su cercanía al mar",
+              "Por tener la mayor mina de plata",
+              "Por orden directa del Rey de España"
+            ],
+            "correct": 1,
+            "explicacion": "Pizarro trasladó la capital a la costa para facilitar la comunicación marítima con Panamá y España. El curaca local, Taulichusco, tuvo que ceder los terrenos del fértil valle del Rímac."
+          }
+        }
+      ]
+    },
+    {
+      "titulo": "Incas de Vilcabamba",
+      "puntos": [
+        {
+          "texto": "Rebelión de Manco Inca (1536-1537) → Cerco del Cusco.",
+          "pregunta": {
+            "q": "¿Qué ciudad fue sitiada por Manco Inca en 1536?",
+            "opts": [
+              "Arequipa",
+              "Jauja",
+              "Cusco",
+              "Trujillo"
+            ],
+            "correct": 2,
+            "explicacion": "Tras darse cuenta de las verdaderas intenciones conquistadoras, Manco Inca escapó y armó un masivo ejército que sitió a los hermanos Pizarro en el Cusco durante meses."
+          }
+        },
+        {
+          "texto": "Rebelión de Manco Inca (1536-1537) → Cerco de Lima liderado por Quizu Yupanqui.",
+          "pregunta": {
+            "q": "¿Qué general de Manco Inca dirigió el ataque contra la ciudad de Lima?",
+            "opts": [
+              "Cusi Huallpa",
+              "Quizu Yupanqui",
+              "Rumi Ñahui",
+              "Sayri Túpac"
+            ],
+            "correct": 1,
+            "explicacion": "Mientras Manco Inca asediaba Cusco, envió a su valiente general Quizu Yupanqui a destruir Lima. Yupanqui logró cercar la ciudad, pero murió en combate en las faldas del cerro San Cristóbal."
+          }
+        },
+        {
+          "texto": "Campañas de Manco Inca (1537-1538) → Ataques a Quito, Jauja y el Altiplano.",
+          "pregunta": {
+            "q": "¿Hacia qué zonas expandió sus ataques Manco Inca entre 1537 y 1538?",
+            "opts": [
+              "Quito, Jauja y el Altiplano",
+              "Lima, Trujillo y Piura",
+              "Arequipa, Tacna y Chile",
+              "Chachapoyas y León de Huánuco"
+            ],
+            "correct": 0,
+            "explicacion": "Para evitar la reagrupación española y cortar sus líneas de suministro, las fuerzas de Manco Inca extendieron el conflicto bélico por casi todo el territorio andino."
+          }
+        },
+        {
+          "texto": "Acción de Sayri Túpac → Negocia con el virrey Andrés Hurtado de Mendoza.",
+          "pregunta": {
+            "q": "¿Con qué virrey negoció su rendición el inca Sayri Túpac?",
+            "opts": [
+              "Francisco de Toledo",
+              "Blasco Núñez Vela",
+              "Andrés Hurtado de Mendoza",
+              "Agustín de Jáuregui"
+            ],
+            "correct": 2,
+            "explicacion": "Andrés Hurtado de Mendoza, el Marqués de Cañete, logró convencer a Sayri Túpac de abandonar la resistencia armada en Vilcabamba a cambio de privilegios nobiliarios e impunidad."
+          }
+        },
+        {
+          "texto": "Beneficio de Sayri Túpac → Recibe la encomienda de Yucay.",
+          "pregunta": {
+            "q": "¿Qué recompensa material recibió Sayri Túpac al someterse a la corona?",
+            "opts": [
+              "El título de Rey del Perú",
+              "La encomienda de Yucay",
+              "El control de Potosí",
+              "Una flota comercial"
+            ],
+            "correct": 1,
+            "explicacion": "Como parte del pacto de rendición, se le entregó la rica encomienda del valle de Yucay (Urubamba), proporcionándole grandes ingresos y estatus dentro de la sociedad virreinal."
+          }
+        },
+        {
+          "texto": "Diplomacia de Titu Cusi Yupanqui → Firma la Paz de Acobamba (permite evangelización).",
+          "pregunta": {
+            "q": "¿Qué permitió el tratado conocido como la Paz de Acobamba?",
+            "opts": [
+              "La expulsión total de los españoles",
+              "La rendición incondicional de los incas",
+              "El ingreso de misioneros para evangelizar Vilcabamba",
+              "El matrimonio entre el virrey y una princesa inca"
+            ],
+            "correct": 2,
+            "explicacion": "Mediante la capitulación de Acobamba en 1566, Titu Cusi Yupanqui autorizó el ingreso de frailes agustinos a su territorio para predicar, en un intento diplomático de ganar tiempo y apaciguar a la corona."
+          }
+        },
+        {
+          "texto": "Aporte histórico de Titu Cusi Yupanqui → Escribe una crónica sobre su padre Manco Inca.",
+          "pregunta": {
+            "q": "¿Qué documento redactó o dictó el inca Titu Cusi Yupanqui?",
+            "opts": [
+              "Los Comentarios Reales de los Incas",
+              "Una crónica detallando la vida y lucha de su padre Manco Inca",
+              "El manuscrito de Huarochirí",
+              "Las Leyes de Indias"
+            ],
+            "correct": 1,
+            "explicacion": "Es el único Inca que dictó una 'Instrucción' (crónica) relatando los agravios cometidos por los conquistadores contra su padre Manco Inca, siendo una fuente histórica primaria de gran valor."
+          }
+        },
+        {
+          "texto": "Fin militar: Túpac Amaru I es derrotado y decapitado (1572) por orden del virrey Toledo.",
+          "pregunta": {
+            "q": "¿Qué virrey ordenó la ejecución del último inca de Vilcabamba, Túpac Amaru I?",
+            "opts": [
+              "Virrey Toledo",
+              "Virrey Amat y Junyent",
+              "Virrey Abascal",
+              "Virrey Hurtado de Mendoza"
+            ],
+            "correct": 0,
+            "explicacion": "El virrey Francisco de Toledo decidió acabar definitivamente con el reducto de Vilcabamba. Capturó a Túpac Amaru I y lo ejecutó públicamente en el Cusco, extinguiendo la dinastía real incaica."
+          }
+        },
+        {
+          "texto": "Impacto cultural: La muerte de Túpac Amaru I origina el Mito de Inkarri.",
+          "pregunta": {
+            "q": "¿Qué mito andino nace simbólicamente tras la decapitación de Túpac Amaru I?",
+            "opts": [
+              "Mito de Naylamp",
+              "Mito de los Hermanos Ayar",
+              "Mito de Inkarri",
+              "Mito de Cuniraya Huiracocha"
+            ],
+            "correct": 2,
+            "explicacion": "El Mito de Inkarri (Inca Rey) es una esperanza mesiánica andina que sostiene que la cabeza decapitada del Inca, enterrada en secreto, se está uniendo a su cuerpo y, cuando esté completa, el mundo andino resurgirá."
+          }
+        }
+      ]
+    },
+    {
+      "titulo": "El Movimiento Taki Onqoy",
+      "puntos": [
+        {
+          "texto": "Significado del término → 'Canto de la enfermedad'.",
+          "pregunta": {
+            "q": "¿Qué significa literalmente la expresión quechua 'Taki Onqoy'?",
+            "opts": [
+              "Danza de la victoria",
+              "Canto de la enfermedad",
+              "Guerreros del sol",
+              "Enfermedad de los dioses"
+            ],
+            "correct": 1,
+            "explicacion": "El nombre aludía a los temblores, bailes y convulsiones que sufrían los indígenas que se consideraban 'poseídos' por las huacas que regresaban para reclamar su territorio."
+          }
+        },
+        {
+          "texto": "Naturaleza del movimiento → Resistencia ideológica religiosa.",
+          "pregunta": {
+            "q": "¿Qué tipo de resistencia representó principalmente el Taki Onqoy?",
+            "opts": [
+              "Una alianza militar con corsarios",
+              "Una rebelión armada de esclavos",
+              "Un levantamiento económico",
+              "Una resistencia ideológica y religiosa"
+            ],
+            "correct": 3,
+            "explicacion": "A diferencia de la rebelión armada de Vilcabamba, el Taki Onqoy fue un movimiento milenarista y pacífico que buscaba la victoria sobre el invasor mediante la purificación espiritual y el abandono de las costumbres cristianas."
+          }
+        },
+        {
+          "texto": "Origen y liderazgo → Creado por Juan Chocne en Ayacucho.",
+          "pregunta": {
+            "q": "¿Quién fue el líder y dónde se originó el movimiento Taki Onqoy?",
+            "opts": [
+              "Manco Inca en Cusco",
+              "Taulichusco en Lima",
+              "Juan Chocne en Ayacucho",
+              "Túpac Amaru en Puno"
+            ],
+            "correct": 2,
+            "explicacion": "Surgió en la década de 1560 en Huamanga (actual Ayacucho). Juan Chocne, junto con unas mujeres que se hacían llamar Santa María y Santa Magdalena, lideró la prédica de este rechazo al cristianismo."
+          }
+        },
+        {
+          "texto": "Propuesta principal → Unión de las huacas y expulsión de los españoles.",
+          "pregunta": {
+            "q": "¿Cuál era la principal profecía y propuesta del Taki Onqoy?",
+            "opts": [
+              "La unión de las huacas y la expulsión de los españoles",
+              "El perdón de los pecados por medio del bautismo",
+              "El mestizaje pacífico entre deidades andinas y europeas",
+              "El regreso del Imperio Wari"
+            ],
+            "correct": 0,
+            "explicacion": "El movimiento predicaba que las huacas andinas (especialmente Titicaca y Pachacámac) se habían aliado para derrotar al dios cristiano, causando enfermedades a los españoles hasta expulsarlos de los Andes."
+          }
+        },
+        {
+          "texto": "Represión oficial → Combatido por las campañas de Extirpación de Idolatrías.",
+          "pregunta": {
+            "q": "¿Qué mecanismo eclesiástico se utilizó para combatir y eliminar al Taki Onqoy?",
+            "opts": [
+              "Las Misiones Jesuitas",
+              "El Tribunal del Consulado",
+              "La Santa Inquisición de Lima",
+              "Las Campañas de Extirpación de Idolatrías"
+            ],
+            "correct": 3,
+            "explicacion": "El clérigo Cristóbal de Albornoz fue el principal encargado de organizar la persecución de este movimiento (Extirpación de Idolatrías), castigando a los líderes y destruyendo sus santuarios sagrados."
+          }
+        }
+      ]
+    }
+  ]
+}

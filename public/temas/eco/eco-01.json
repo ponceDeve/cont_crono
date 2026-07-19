@@ -1,0 +1,293 @@
+{
+  "curso": "Economía",
+  "tema": "Demanda",
+  "glosario": {
+    "demanda": "Deseo y capacidad de adquirir bienes y servicios a distintos precios.",
+    "ceteris paribus": "Expresión latina: 'todo lo demás constante'.",
+    "sustitutos": "Bienes que compiten entre sí (uno reemplaza al otro).",
+    "complementarios": "Bienes que se usan juntos (uno depende del otro).",
+    "demanda autónoma": "Cantidad demandada cuando el precio es cero."
+  },
+  "theory": [
+    {
+      "titulo": "Demanda (Dx): Definición",
+      "puntos": [
+        {
+          "texto": "Expresa la conducta del consumidor",
+          "pregunta": {
+            "q": "¿Qué expresa la demanda?",
+            "opts": [
+              "La conducta del productor",
+              "La conducta del consumidor",
+              "El costo de producción",
+              "La oferta del mercado"
+            ],
+            "correct": 1,
+            "explicacion": "La demanda es un concepto centrado en quien compra: describe cómo actúan los consumidores frente a distintos precios, a diferencia de la oferta, que describe la conducta de los productores."
+          }
+        },
+        {
+          "texto": "Es el deseo y la capacidad de adquirir bienes y servicios (Bs y Ss) a diferentes precios",
+          "pregunta": {
+            "q": "¿Qué es la demanda?",
+            "opts": [
+              "Solo el deseo de comprar",
+              "El deseo y capacidad de adquirir bienes a distintos precios",
+              "La cantidad producida",
+              "El precio fijo de un bien"
+            ],
+            "correct": 1,
+            "explicacion": "No basta con querer algo (deseo); la demanda exige también tener el dinero para comprarlo (capacidad), y varía según el precio: a menor precio, se desea/puede comprar más."
+          }
+        }
+      ]
+    },
+    {
+      "titulo": "Cantidad Demandada",
+      "puntos": [
+        {
+          "texto": "Es la cantidad que un consumidor único adquiere a un precio ($P_x$) determinado",
+          "pregunta": {
+            "q": "¿Qué es la cantidad demandada?",
+            "opts": [
+              "Lo que produce una empresa",
+              "Lo que un consumidor adquiere a un precio determinado",
+              "El precio de mercado",
+              "El total de bienes disponibles"
+            ],
+            "correct": 1,
+            "explicacion": "Es un punto específico: cuánto compra un solo consumidor a un precio exacto, no la relación completa entre precio y cantidad (eso sería la demanda en general)."
+          }
+        },
+        {
+          "texto": "Tabla de demanda: cuando $P_x = 0.80$, $Q^d_x = 10$",
+          "pregunta": {
+            "q": "Según la tabla, si Px = 0.80, ¿cuánto es Qdx?",
+            "opts": ["8", "10", "5", "3"],
+            "correct": 1,
+            "explicacion": "Al precio más bajo de la tabla (0.80), la cantidad demandada es la más alta (10), reflejando la ley de la demanda: menor precio, mayor cantidad demandada."
+          }
+        },
+        {
+          "texto": "Cuando $P_x = 2.0$, $Q^d_x = 3$",
+          "pregunta": {
+            "q": "Según la tabla, si Px = 2.0, ¿cuánto es Qdx?",
+            "opts": ["10", "8", "5", "3"],
+            "correct": 3,
+            "explicacion": "Al precio más alto de la tabla (2.0), la cantidad demandada cae a su valor más bajo (3), consistente con la relación inversa entre precio y cantidad."
+          }
+        }
+      ]
+    },
+    {
+      "titulo": "Precio de bienes relacionados",
+      "puntos": [
+        {
+          "texto": "Sustitutos (ej: pollo/pescado): $\\uparrow P_x \\text{ pollo} \\rightarrow \\downarrow Q^d \\text{ pollo} \\rightarrow \\uparrow D_x \\text{ pescado}$. Relación directa",
+          "pregunta": {
+            "q": "¿Qué tipo de relación hay entre bienes sustitutos como pollo y pescado?",
+            "opts": ["Inversa", "Directa", "Nula", "Ambigua"],
+            "correct": 1,
+            "explicacion": "Si sube el precio del pollo, la gente compra menos pollo y más pescado en su lugar; por eso el precio de un sustituto y la demanda del otro bien se mueven en la misma dirección (relación directa)."
+          }
+        },
+        {
+          "texto": "Complementarios (ej: auto/combustible): $\\uparrow P_{\\text{autos}} \\rightarrow \\downarrow Q^d \\text{ autos} \\rightarrow \\downarrow D_x \\text{ combustible}$. Relación inversa",
+          "pregunta": {
+            "q": "¿Qué tipo de relación hay entre bienes complementarios como auto y combustible?",
+            "opts": ["Directa", "Inversa", "Nula", "Constante"],
+            "correct": 1,
+            "explicacion": "Auto y combustible se usan juntos; si sube el precio de los autos, se compran menos autos, y por lo tanto también baja la demanda de combustible — se mueven en direcciones opuestas (relación inversa)."
+          }
+        }
+      ]
+    },
+    {
+      "titulo": "Función de demanda",
+      "puntos": [
+        {
+          "texto": "Fórmula general: $D_x = f(P_x, I_c, g, y, P_s, M_d, P_b, \\dots)$ ceteris paribus",
+          "pregunta": {
+            "q": "¿Qué expresa la función de demanda?",
+            "opts": [
+              "Solo el precio del bien",
+              "La relación entre Dx y todos sus factores",
+              "El costo de producción",
+              "La oferta total"
+            ],
+            "correct": 1,
+            "explicacion": "A diferencia de mirar solo el precio, la función de demanda reconoce que la cantidad comprada depende de varios factores a la vez (precio, ingreso, gustos, moda, precios de otros bienes, etc.)."
+          }
+        }
+      ]
+    },
+    {
+      "titulo": "Factores que determinan Dx",
+      "puntos": [
+        {
+          "texto": "Precio del bien ($P_x$): $\\uparrow P_x \\rightarrow \\downarrow Q^d_x$. Relación inversa",
+          "pregunta": {
+            "q": "¿Qué relación tiene el precio del bien con la cantidad demandada?",
+            "opts": ["Directa", "Inversa", "Nula", "Exponencial"],
+            "correct": 1,
+            "explicacion": "Este es el factor más directo: cuando el precio de un bien sube, los consumidores compran menos de ese mismo bien, manteniendo todo lo demás igual."
+          }
+        },
+        {
+          "texto": "Ingreso del consumidor ($I_c$): $\\uparrow I_c \\rightarrow \\uparrow D_x$. Relación directa",
+          "pregunta": {
+            "q": "¿Qué relación tiene el ingreso del consumidor con la demanda?",
+            "opts": ["Inversa", "Directa", "Nula", "No tiene relación"],
+            "correct": 1,
+            "explicacion": "Para bienes normales, cuando el consumidor gana más dinero, tiende a comprar más de ese bien, aumentando la demanda."
+          }
+        },
+        {
+          "texto": "Gustos y preferencias (g y p): relación directa",
+          "pregunta": {
+            "q": "¿Qué relación tienen los gustos y preferencias con la demanda?",
+            "opts": ["Inversa", "Directa", "Nula", "Negativa"],
+            "correct": 1,
+            "explicacion": "Si un bien se pone más de moda o gusta más a los consumidores, la demanda por ese bien aumenta, independientemente de su precio."
+          }
+        },
+        {
+          "texto": "Moda ($M_d$): relación directa",
+          "pregunta": {
+            "q": "¿Qué relación tiene la moda con la demanda?",
+            "opts": ["Inversa", "Directa", "Nula", "Aleatoria"],
+            "correct": 1,
+            "explicacion": "Cuando algo está de moda, más personas quieren comprarlo sin importar que el precio no haya cambiado, aumentando la demanda."
+          }
+        }
+      ]
+    },
+    {
+      "titulo": "Función Reducida",
+      "puntos": [
+        {
+          "texto": "Fórmula: $Q^d_x = F_x(P_x)$ ceteris paribus",
+          "pregunta": {
+            "q": "¿Qué representa la función reducida de la demanda?",
+            "opts": [
+              "Qdx en función solo del precio, todo lo demás constante",
+              "Qdx en función del ingreso",
+              "El total de la oferta",
+              "El precio de equilibrio"
+            ],
+            "correct": 0,
+            "explicacion": "Se le llama 'reducida' porque simplifica la función completa (que depende de muchos factores) a solo una variable: el precio, manteniendo todo lo demás constante (ceteris paribus)."
+          }
+        }
+      ]
+    },
+    {
+      "titulo": "Función de la Demanda (lineal)",
+      "puntos": [
+        {
+          "texto": "Fórmula: $Q^d_x = a - b(P_x)$, donde $a$ es la demanda autónoma y $b$ la variación, con pendiente negativa",
+          "pregunta": {
+            "q": "¿Qué representa 'a' en la función Qdx = a - b(Px)?",
+            "opts": [
+              "El precio",
+              "La demanda autónoma",
+              "La variación",
+              "La elasticidad"
+            ],
+            "correct": 1,
+            "explicacion": "'a' es la cantidad que se demandaría si el precio fuera cero; representa el punto de partida de la curva antes de que el precio empiece a restar cantidad."
+          }
+        },
+        {
+          "texto": "Ejemplo anotado: $60 - 3(P_x)$",
+          "pregunta": {
+            "q": "En el ejemplo Qdx = 60 - 3(Px), ¿cuál es la demanda autónoma?",
+            "opts": ["3", "60", "-3", "0"],
+            "correct": 1,
+            "explicacion": "El número que no está multiplicado por el precio (60) es la demanda autónoma; el 3 es la pendiente que indica cuánto baja la cantidad por cada unidad que sube el precio."
+          }
+        }
+      ]
+    },
+    {
+      "titulo": "Ley de la Demanda",
+      "puntos": [
+        {
+          "texto": "La cantidad y el precio varían en relación inversa: $\\uparrow P_x \\rightarrow \\downarrow Q^d_x$ y $\\downarrow P_x \\rightarrow \\uparrow Q^d_x$",
+          "pregunta": {
+            "q": "¿Qué establece la Ley de la Demanda?",
+            "opts": [
+              "Precio y cantidad varían igual",
+              "Precio y cantidad varían en relación inversa",
+              "El precio siempre sube",
+              "La cantidad nunca cambia"
+            ],
+            "correct": 1,
+            "explicacion": "Esta ley es la base de todo el tema: a medida que el precio de un bien sube, los consumidores compran menos de él, y viceversa, manteniendo todo lo demás constante."
+          }
+        }
+      ]
+    },
+    {
+      "titulo": "Variación de cantidad vs. Desplazamiento de la curva",
+      "puntos": [
+        {
+          "texto": "Variación de cantidad: el $P_x$ cambia (ceteris paribus se mantiene), hay deslizamiento en la misma curva",
+          "pregunta": {
+            "q": "¿Qué causa un deslizamiento sobre la misma curva de demanda?",
+            "opts": [
+              "Un cambio en el ingreso",
+              "Un cambio en el precio del bien mismo",
+              "Un cambio en la moda",
+              "Un cambio en los gustos"
+            ],
+            "correct": 1,
+            "explicacion": "Cuando solo cambia el precio del bien (y todo lo demás se mantiene constante), el consumidor simplemente se mueve a otro punto de la misma curva ya existente, no se crea una curva nueva."
+          }
+        },
+        {
+          "texto": "Desplazamiento de la curva: el $P_x$ no cambia, se rompe el ceteris paribus (influyen otros factores como ingreso, gustos, moda)",
+          "pregunta": {
+            "q": "¿Qué causa que toda la curva de demanda se desplace?",
+            "opts": [
+              "Un cambio en el precio del bien mismo",
+              "Un cambio en factores como ingreso, gustos o moda",
+              "Nada la desplaza",
+              "Solo el paso del tiempo"
+            ],
+            "correct": 1,
+            "explicacion": "Cuando cambia algo distinto al precio del bien mismo (como el ingreso, los gustos o la moda), la relación completa entre precio y cantidad cambia, y por eso toda la curva se mueve a una posición nueva."
+          }
+        },
+        {
+          "texto": "Expansión de la demanda: aumentan ingreso, gustos, moda, bienes relacionados",
+          "pregunta": {
+            "q": "¿Qué es una expansión de la demanda?",
+            "opts": [
+              "La curva se desplaza a la derecha por factores favorables",
+              "La curva se desplaza a la izquierda",
+              "El precio baja",
+              "La cantidad no cambia"
+            ],
+            "correct": 0,
+            "explicacion": "Cuando factores como el ingreso o los gustos mejoran a favor del bien, los consumidores están dispuestos a comprar más a cualquier precio, desplazando toda la curva hacia la derecha."
+          }
+        },
+        {
+          "texto": "Contracción de la demanda: disminuyen ingreso, gustos, moda, bienes relacionados",
+          "pregunta": {
+            "q": "¿Qué es una contracción de la demanda?",
+            "opts": [
+              "La curva se desplaza a la derecha",
+              "La curva se desplaza a la izquierda por factores desfavorables",
+              "El precio sube",
+              "La cantidad aumenta"
+            ],
+            "correct": 1,
+            "explicacion": "Cuando factores como el ingreso o los gustos empeoran para el bien, los consumidores compran menos a cualquier precio, desplazando toda la curva hacia la izquierda."
+          }
+        }
+      ]
+    }
+  ]
+}

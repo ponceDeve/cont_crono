@@ -1,0 +1,175 @@
+{
+  "curso": "Aritmética",
+  "tema": "Lógica proposicional y conectivos lógicos",
+  "glosario": {
+    "Proposición": "Enunciado con valor de verdad único (verdadero o falso).",
+    "Enunciado abierto": "Expresión con variables que no posee valor de verdad definido hasta asignarle constantes.",
+    "Tautología": "Esquema lógico cuya matriz principal resulta verdadera para todas sus combinaciones.",
+    "Contradicción": "Esquema lógico cuya matriz principal resulta falsa para todas sus combinaciones.",
+    "Contingencia": "Esquema lógico con al menos un valor verdadero y uno falso en su matriz principal.",
+    "Contraposición": "Equivalencia que invierte el sentido de la condicional negando sus componentes (p → q ≡ ~q → ~p).",
+    "Absorción": "Leyes lógicas que simplifican expresiones reduciendo variables repetidas de forma distributiva."
+  },
+  "theory": [
+    {
+      "titulo": "Definición y Clasificación de Enunciados",
+      "puntos": [
+        {
+          "texto": "Proposición lógica: Enunciado que obligatoriamente posee un único valor de verdad (V o F).",
+          "pregunta": {
+            "q": "¿Cuál de los siguientes enunciados se clasifica formalmente como una proposición lógica?",
+            "opts": [
+              "¡Qué excelente oportunidad para aprender!",
+              "El número 137 es un número primo.",
+              "x² - 5x + 6 = 0",
+              "Por favor, resuelve este ejercicio de lógica."
+            ],
+            "correct": 1,
+            "explicacion": "Los enunciados imperativos e impero-exclamativos carecen de valor de verdad determinado. El enunciado 'x² - 5x + 6 = 0' es un enunciado abierto porque su verdad depende del valor que tome la variable x. 'El número 137 es un número primo' es una aseveración matemática con valor de verdad bien definido (verdadero), lo que la define rigurosamente como proposición."
+          }
+        },
+        {
+          "texto": "Enunciado abierto: Expresión que contiene variables y carece de valor de verdad hasta ser evaluada o cuantificada.",
+          "pregunta": {
+            "q": "Dada la expresión P(x): 'x/2 es un número entero'. ¿Bajo qué condición precisa P(x) se convierte en una proposición lógica?",
+            "opts": [
+              "Cuando se especifica que x pertenece a un conjunto genérico sin definir elementos.",
+              "Cuando se asigna a x un valor constante del universo de discurso.",
+              "Cuando se elimina la variable para simplificar la expresión matemática.",
+              "Nunca puede convertirse en proposición lógica por su naturaleza indeterminada."
+            ],
+            "correct": 1,
+            "explicacion": "Una función proposicional o enunciado abierto P(x) adquiere la propiedad de ser proposición (con un valor de verdad definido como verdadero o falso) solo cuando su variable es reemplazada por una constante específica del universo de discurso o cuando se ve afectada por un cuantificador lógico."
+          }
+        }
+      ]
+    },
+    {
+      "titulo": "Operaciones Lógicas y Conectivos",
+      "puntos": [
+        {
+          "texto": "Condicional directo vs. inverso: Sentido de implicación determinado por la sintaxis verbal (causa → efecto).",
+          "pregunta": {
+            "q": "Identifique la estructura lógica de la proposición compuesta: 'Lloverá mañana si la presión atmosférica desciende drásticamente'.",
+            "opts": [
+              "Presión desciende → Lloverá",
+              "Lloverá → Presión desciende",
+              "Presión desciende ∧ Lloverá",
+              "Lloverá ↔ Presión desciende"
+            ],
+            "correct": 0,
+            "explicacion": "La partícula 'si' actúa como un conector de condicional inversa (p si q), donde q (la presión desciende) es el antecedente o causa, y p (lloverá mañana) es el consecuente o efecto. Formalmente, esto se representa como q → p."
+          }
+        },
+        {
+          "texto": "Condición necesaria y suficiente: En p → q, 'p' es condición suficiente para 'q', y 'q' es condición necesaria para 'p'.",
+          "pregunta": {
+            "q": "Si es verdadera la proposición: 'Para ingresar a la universidad es necesario aprobar el examen de admisión'. ¿Cuál es su representación formal si p: 'Ingresar a la universidad' y q: 'Aprobar el examen de admisión'?",
+            "opts": [
+              "q → p",
+              "p → q",
+              "p ↔ q",
+              "p ∧ q"
+            ],
+            "correct": 1,
+            "explicacion": "La frase 'es necesario q para p' establece que q es la condición obligatoria o necesaria para que ocurra p, colocándola sintácticamente como consecuente de la implicación. Así, p → q expresa formalmente que si se ingresa, se debió aprobar el examen."
+          }
+        },
+        {
+          "texto": "Disyunción fuerte (Δ) vs. inclusiva (∨): La fuerte excluye la verdad simultánea; la inclusiva la permite.",
+          "pregunta": {
+            "q": "Sean las proposiciones p: 'El paciente está vivo' y q: 'El paciente está muerto'. ¿Qué conectivo lógico modela con total precisión esta situación real?",
+            "opts": [
+              "Disyunción inclusiva (p ∨ q)",
+              "Disyunción exclusiva (p Δ q)",
+              "Conjunción (p ∧ q)",
+              "Bicondicional (p ↔ q)"
+            ],
+            "correct": 1,
+            "explicacion": "Dado que es físicamente imposible que un ser humano esté vivo y muerto al mismo tiempo (exclusión mutua), pero obligatoriamente debe estar en uno de los dos estados, se requiere una disyunción exclusiva o fuerte (p Δ q), la cual es verdadera únicamente cuando sus términos difieren en valor de verdad."
+          }
+        }
+      ]
+    },
+    {
+      "titulo": "Leyes de Equivalencia Proposicional",
+      "puntos": [
+        {
+          "texto": "Definición de la condicional: Equivalencia fundamental p → q ≡ ~p ∨ q.",
+          "pregunta": {
+            "q": "¿Cuál es el equivalente lógico de la proposición: 'Si no guardas silencio, te retirarás de la sala de lectura'?",
+            "opts": [
+              "Guardas silencio o te retirarás de la sala de lectura.",
+              "No guardas silencio y te retirarás de la sala de lectura.",
+              "Guardas silencio y te retirarás de la sala de lectura.",
+              "No guardas silencio o te retirarás de la sala de lectura."
+            ],
+            "correct": 0,
+            "explicacion": "Definiendo p: 'Guardas silencio' y q: 'Te retirarás...', la expresión se formaliza como ~p → q. Por definición del condicional (A → B ≡ ~A ∨ B), esto equivale a ~(~p) ∨ q, lo cual por doble negación resulta en p ∨ q ('Guardas silencio o te retirarás')."
+          }
+        },
+        {
+          "texto": "Contraposición: Equivalencia formal del condicional dada por p → q ≡ ~q → ~p.",
+          "pregunta": {
+            "q": "Determine la contrapositiva recíproca de la proposición: 'Si un triángulo es equilátero, entonces es acutángulo'.",
+            "opts": [
+              "Si un triángulo es acutángulo, entonces es equilátero.",
+              "Si un triángulo no es acutángulo, entonces no es equilátero.",
+              "Si un triángulo no es equilátero, entonces no es acutángulo.",
+              "Un triángulo es acutángulo o no es equilátero."
+            ],
+            "correct": 1,
+            "explicacion": "La ley de contraposición demuestra que toda condicional p → q equivale lógicamente a ~q → ~p. Negando el consecuente ('no es acutángulo') para usarlo de antecedente, y negando el antecedente original ('no es equilátero') como nuevo consecuente, obtenemos una proposición con idéntico valor de verdad."
+          }
+        },
+        {
+          "texto": "Leyes de absorción: Fórmulas de simplificación directa p ∧ (p ∨ q) ≡ p y p ∧ (~p ∨ q) ≡ p ∧ q.",
+          "pregunta": {
+            "q": "Al simplificar la proposición compleja: ~p ∧ (~p ∨ q), ¿cuál es el resultado simplificado por leyes de absorción?",
+            "opts": [
+              "~p",
+              "q",
+              "~p ∧ q",
+              "~p ∨ q"
+            ],
+            "correct": 0,
+            "explicacion": "De acuerdo con la primera ley de absorción en su forma general A ∧ (A ∨ B) ≡ A, al tener la variable externa ~p igual al primer término de la disyunción interna, todo el esquema se absorbe y reduce sencillamente al valor de la variable externa, es decir, ~p."
+          }
+        }
+      ]
+    },
+    {
+      "titulo": "Análisis de Matrices de Verdad",
+      "puntos": [
+        {
+          "texto": "Matriz principal y tablas de verdad: El tamaño total de la tabla de verdad es 2^n filas para n proposiciones atómicas.",
+          "pregunta": {
+            "q": "Si un esquema proposicional compuesto por las variables p, q y r presenta una matriz principal donde todos sus valores de verdad resultan falsos, ¿cómo se le clasifica formalmente?",
+            "opts": [
+              "Tautología",
+              "Contingencia",
+              "Contradicción",
+              "Enunciado abierto consistente"
+            ],
+            "correct": 2,
+            "explicacion": "Cualquier fórmula proposicional compuesta cuya evaluación final en la tabla de verdad resulte en un valor falso (F) para cada una de las 2^n combinaciones lógicas de sus variables recibe la clasificación estricta de Contradicción."
+          }
+        },
+        {
+          "texto": "Bicondicional (↔): Verdadera únicamente si ambas proposiciones tienen idéntico valor de verdad.",
+          "pregunta": {
+            "q": "Si se sabe que la proposición compuesta p ↔ q es falsa, ¿qué conclusión se puede inferir con total certeza matemática?",
+            "opts": [
+              "p y q son ambas tautologías.",
+              "p y q tienen valores de verdad opuestos.",
+              "p y q son ambas falsas.",
+              "p implica lógicamente a q."
+            ],
+            "correct": 1,
+            "explicacion": "El operador bicondicional (↔) actúa como un igualador de verdad. Si el resultado es falso (F), significa que las proposiciones componentes difieren necesariamente en su valor de verdad; es decir, una de ellas es verdadera y la otra falsa."
+          }
+        }
+      ]
+    }
+  ]
+}

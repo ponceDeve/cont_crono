@@ -6,7 +6,7 @@ import SelectionTooltip from "./components/SelectionTooltip";
 
 export default function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/cont_crono">
       <SelectionTooltip />
       <Routes>
         <Route path="/" element={<MiEstudioPage />} />

@@ -1,0 +1,422 @@
+{
+  "curso": "Filosofía",
+  "tema": "Filosofía Moderna: el Empirismo",
+  "glosario": {
+    "empirismo": "El conocimiento viene de la experiencia.",
+    "tabula rasa": "Nacemos con la mente en blanco.",
+    "solipsismo": "Solo la propia mente existe con certeza.",
+    "a priori": "Verdad que no depende de la experiencia.",
+    "agnóstico": "No cree en lo que no viene de la experiencia.",
+    "causalidad": "Relación de causa y efecto.",
+    "método inductivo": "De casos particulares a una regla general.",
+    "liberalismo político": "Defiende las libertades individuales.",
+    "metafísico": "Va más allá de lo observable."
+  },
+  "theory": [
+    {
+      "titulo": "Empirismo",
+      "puntos": [
+        {
+          "texto": "Corriente filosófica sobre el origen del conocimiento",
+          "pregunta": {
+            "q": "¿Sobre qué trata el empirismo como corriente?",
+            "opts": [
+              "El origen del conocimiento",
+              "El origen del universo",
+              "La política",
+              "El arte"
+            ],
+            "correct": 0,
+            "explicacion": "El empirismo es una corriente epistemológica (sobre el origen del conocimiento), que se opone al racionalismo al afirmar que no nacemos sabiendo nada, sino que aprendemos todo mediante los sentidos."
+          }
+        },
+        {
+          "texto": "Fuente del conocimiento: la experiencia, a través de los sentidos",
+          "pregunta": {
+            "q": "¿Qué sostiene el empirismo sobre el origen del conocimiento?",
+            "opts": [
+              "Que es innato",
+              "Que viene de la experiencia",
+              "Que viene solo de la razón",
+              "Que es divino"
+            ],
+            "correct": 1,
+            "explicacion": "Frente a filósofos como Descartes que defendían ideas innatas, los empiristas sostenían que la mente solo conoce lo que ha experimentado directamente a través de la vista, el oído, el tacto, etc."
+          }
+        }
+      ]
+    },
+    {
+      "titulo": "Tabula rasa",
+      "puntos": [
+        {
+          "texto": "Nacemos con la mente en blanco, sin ideas innatas",
+          "pregunta": {
+            "q": "¿Qué significa 'tabula rasa'?",
+            "opts": [
+              "Mente llena de ideas innatas",
+              "Mente en blanco al nacer",
+              "Memoria perfecta",
+              "Conocimiento divino"
+            ],
+            "correct": 1,
+            "explicacion": "Locke usó esta metáfora (literalmente 'tabla rasa' o pizarra en blanco) para explicar que ningún conocimiento viene con nosotros al nacer; todo se va 'escribiendo' con la experiencia a lo largo de la vida."
+          }
+        },
+        {
+          "texto": "Todo conocimiento proviene de la experiencia",
+          "pregunta": {
+            "q": "Según la tabula rasa, ¿de dónde proviene todo conocimiento?",
+            "opts": [
+              "De ideas innatas",
+              "De la experiencia",
+              "De Dios",
+              "De la intuición"
+            ],
+            "correct": 1,
+            "explicacion": "Si la mente nace vacía, entonces cada idea, concepto o creencia que tenemos tuvo que entrar en algún momento a través de una experiencia sensorial o reflexiva."
+          }
+        }
+      ]
+    },
+    {
+      "titulo": "Representantes del Empirismo",
+      "puntos": [
+        {
+          "texto": "Principales representantes:",
+          "sub": [
+            "Locke — la experiencia",
+            "Hume — impresiones e ideas",
+            "Bacon — el método inductivo",
+            "Berkeley — el solipsismo"
+          ],
+          "pregunta": {
+            "q": "¿Quién representa 'la experiencia' entre los empiristas?",
+            "opts": ["Hume", "Bacon", "Locke", "Berkeley"],
+            "correct": 2,
+            "explicacion": "Locke es considerado el padre del empirismo moderno porque fue quien sistematizó la idea de que todo conocimiento proviene de la experiencia, sentando las bases que luego desarrollarían Berkeley y Hume."
+          }
+        }
+      ]
+    },
+    {
+      "titulo": "John Locke",
+      "puntos": [
+        {
+          "texto": "1632 - 1704",
+          "pregunta": {
+            "q": "¿En qué años vivió John Locke?",
+            "opts": ["1632-1704", "1711-1776", "1596-1650", "1724-1804"],
+            "correct": 0,
+            "explicacion": "Locke vivió en el siglo XVII inglés, una época de grandes cambios políticos (la Revolución Gloriosa) que influyeron directamente en sus ideas sobre los derechos y límites del poder."
+          }
+        },
+        {
+          "texto": "Filósofo político, médico, inglés",
+          "pregunta": {
+            "q": "¿Cuál era la profesión de Locke además de filósofo?",
+            "opts": ["Médico", "Abogado", "Sacerdote", "Militar"],
+            "correct": 0,
+            "explicacion": "Locke se formó y ejerció como médico antes de dedicarse de lleno a la filosofía, lo cual influyó en su interés por observar y describir cómo funciona la mente humana de forma empírica."
+          }
+        },
+        {
+          "texto": "Considerado el padre del liberalismo político",
+          "pregunta": {
+            "q": "¿Qué derechos defiende Locke para el individuo?",
+            "opts": [
+              "Solo la propiedad",
+              "Vida, libertad, igualdad y propiedad privada",
+              "Solo la libertad religiosa",
+              "El voto universal"
+            ],
+            "correct": 1,
+            "explicacion": "Locke argumentaba que estos derechos son naturales (previos a cualquier gobierno) y que el Estado existe justamente para protegerlos, no para otorgarlos; esta idea es la base del liberalismo político moderno."
+          }
+        },
+        {
+          "texto": "Defiende las libertades del individuo: derecho a la vida, libertad, igualdad y propiedad privada",
+          "pregunta": {
+            "q": "Menciona una obra de John Locke",
+            "opts": [
+              "El Capital",
+              "Segundo tratado sobre el gobierno civil",
+              "La República",
+              "El Príncipe"
+            ],
+            "correct": 1,
+            "explicacion": "En esta obra, Locke justifica un gobierno basado en el consentimiento de los gobernados y el derecho a la rebelión si el poder abusa de su autoridad."
+          }
+        },
+        {
+          "texto": "Obras:",
+          "sub": [
+            "Segundo tratado sobre el gobierno civil",
+            "Cartas sobre la tolerancia",
+            "Ensayo sobre el entendimiento humano"
+          ],
+          "pregunta": {
+            "q": "Menciona una obra de David Hume",
+            "opts": [
+              "Ensayo sobre el entendimiento humano",
+              "Investigación sobre los principios de la moral",
+              "Segundo tratado del gobierno civil",
+              "Cartas sobre la tolerancia"
+            ],
+            "correct": 1,
+            "explicacion": "En esta obra, Hume desarrolla su teoría sobre las impresiones y las ideas, y presenta su famosa crítica a la causalidad y al método inductivo."
+          }
+        }
+      ]
+    },
+    {
+      "titulo": "Teoría del conocimiento de Locke",
+      "puntos": [
+        {
+          "texto": "Tipos de experiencia:",
+          "sub": [
+            "Externa (sensación): capta color, sabor, aroma, textura",
+            "Interna (reflexión): procesos como miedo, placer, asco"
+          ],
+          "pregunta": {
+            "q": "¿Qué es la experiencia externa según Locke?",
+            "opts": [
+              "La reflexión",
+              "La sensación",
+              "La memoria",
+              "La imaginación"
+            ],
+            "correct": 1,
+            "explicacion": "La sensación es la vía por la que percibimos el mundo físico exterior: colores, sonidos, texturas, todo lo que captamos a través de los cinco sentidos."
+          }
+        },
+        {
+          "texto": "Cualidades del objeto:",
+          "sub": [
+            "Primarias: objetivas — forma, extensión, resistencia",
+            "Secundarias: subjetivas — color, temperatura, sabor, aroma"
+          ],
+          "pregunta": {
+            "q": "¿Cuáles son las cualidades primarias de un objeto según Locke?",
+            "opts": [
+              "Color y sabor",
+              "Forma, extensión, resistencia",
+              "Temperatura y aroma",
+              "Placer y miedo"
+            ],
+            "correct": 1,
+            "explicacion": "Las cualidades primarias existen en el objeto mismo, independientemente de quién lo observe (la forma de una piedra es la misma la mire quien la mire), a diferencia de las secundarias que dependen de nuestra percepción."
+          }
+        },
+        {
+          "texto": "Tipos de ideas:",
+          "sub": [
+            "Simples: básicas, no se descomponen",
+            "Complejas: suma de varias ideas simples"
+          ],
+          "pregunta": {
+            "q": "¿Qué son las ideas simples para Locke?",
+            "opts": [
+              "Ideas que se pueden descomponer",
+              "Ideas básicas que no se descomponen",
+              "La suma de ideas complejas",
+              "Ideas innatas"
+            ],
+            "correct": 1,
+            "explicacion": "Son la unidad más básica de conocimiento: percepciones puras como 'blanco' o 'frío' que la mente recibe directamente y no puede dividir en partes más pequeñas."
+          }
+        }
+      ]
+    },
+    {
+      "titulo": "David Hume",
+      "puntos": [
+        {
+          "texto": "1711 - 1776",
+          "pregunta": {
+            "q": "¿En qué años vivió David Hume?",
+            "opts": ["1632-1704", "1711-1776", "1650-1720", "1780-1850"],
+            "correct": 1,
+            "explicacion": "Hume vivió durante la Ilustración escocesa, un periodo de gran efervescencia intelectual en Edimburgo que también dio grandes economistas como Adam Smith."
+          }
+        },
+        {
+          "texto": "Filósofo, historiador y economista escocés",
+          "pregunta": {
+            "q": "¿De qué nacionalidad era David Hume?",
+            "opts": ["Inglés", "Escocés", "Francés", "Alemán"],
+            "correct": 1,
+            "explicacion": "A diferencia de Locke (inglés), Hume era escocés, y su obra representa la culminación más radical del empirismo británico."
+          }
+        },
+        {
+          "texto": "Representante del empirismo radical",
+          "pregunta": {
+            "q": "¿Qué representa David Hume dentro del empirismo?",
+            "opts": [
+              "El empirismo moderado",
+              "El empirismo radical",
+              "El racionalismo",
+              "El idealismo"
+            ],
+            "correct": 1,
+            "explicacion": "Hume llevó las ideas de Locke y Berkeley a su conclusión más extrema, cuestionando incluso conceptos que parecían evidentes, como la causalidad y la existencia del 'yo' como algo permanente."
+          }
+        },
+        {
+          "texto": "Obras:",
+          "sub": [
+            "Tratado de la naturaleza humana",
+            "Investigación sobre los principios de la moral"
+          ],
+          "pregunta": {
+            "q": "Menciona una obra de David Hume",
+            "opts": [
+              "Segundo tratado sobre el gobierno civil",
+              "Tratado de la naturaleza humana",
+              "El contrato social",
+              "Crítica de la razón pura"
+            ],
+            "correct": 1,
+            "explicacion": "En esta obra, Hume desarrolla su teoría sobre las impresiones y las ideas, y presenta su famosa crítica a la causalidad y al método inductivo."
+          }
+        }
+      ]
+    },
+    {
+      "titulo": "Percepciones (Hume)",
+      "puntos": [
+        {
+          "texto": "Tipos de percepciones:",
+          "sub": [
+            "Impresiones: directas, vívidas, fuertes",
+            "Ideas: indirectas, recordadas, débiles"
+          ],
+          "pregunta": {
+            "q": "¿Cuál es la diferencia entre impresiones e ideas para Hume?",
+            "opts": [
+              "Las ideas son más fuertes",
+              "Las impresiones son directas y fuertes, las ideas indirectas y débiles",
+              "Son lo mismo",
+              "Las impresiones vienen de la razón"
+            ],
+            "correct": 1,
+            "explicacion": "Cuando ves un color directamente, es una impresión (vívida, presente); cuando lo recuerdas después con los ojos cerrados, es una idea (una copia más débil de esa impresión original)."
+          }
+        },
+        {
+          "texto": "Ideas sin impresión (metafísicas):",
+          "sub": [
+            "Son ideas sin sentido, sin contenido real",
+            "Ejemplos: Dios, el yo, el mundo, la sustancia"
+          ],
+          "pregunta": {
+            "q": "Según Hume, ¿qué son conceptos como Dios o la sustancia?",
+            "opts": [
+              "Impresiones fuertes",
+              "Ideas sin impresión, sin contenido real",
+              "Verdades a priori",
+              "Ideas simples"
+            ],
+            "correct": 1,
+            "explicacion": "Como nunca hemos tenido una impresión sensorial directa de estos conceptos, Hume argumenta que son ideas vacías, construcciones mentales sin un referente real en la experiencia."
+          }
+        },
+        {
+          "texto": "Postura agnóstica: rechaza el conocimiento de ideas sin una impresión que las respalde",
+          "pregunta": {
+            "q": "¿Qué postura toma Hume frente al conocimiento sin impresión?",
+            "opts": [
+              "Lo acepta totalmente",
+              "Una postura agnóstica: lo rechaza",
+              "Lo considera innato",
+              "Lo confirma con la razón"
+            ],
+            "correct": 1,
+            "explicacion": "Si algo no puede rastrearse hasta una impresión sensorial original, Hume sostiene que no podemos afirmar tener un conocimiento verdadero sobre ello, de ahí su postura agnóstica frente a temas metafísicos."
+          }
+        }
+      ]
+    },
+    {
+      "titulo": "Pensamiento de Hume",
+      "puntos": [
+        {
+          "texto": "Existe mayor fuerza y vivacidad en las impresiones que en las ideas",
+          "pregunta": {
+            "q": "Según Hume, ¿qué tienen más fuerza: impresiones o ideas?",
+            "opts": [
+              "Las ideas",
+              "Las impresiones",
+              "Ambas por igual",
+              "Ninguna"
+            ],
+            "correct": 1,
+            "explicacion": "Las impresiones (percibir algo en el momento) siempre son más vívidas e intensas que las ideas (recordar o imaginar ese mismo algo después), según la distinción central de Hume."
+          }
+        },
+        {
+          "texto": "Crítica al método inductivo por ser solo probable, nunca cierto",
+          "pregunta": {
+            "q": "¿Qué crítica hace Hume al método inductivo?",
+            "opts": [
+              "Que es siempre cierto",
+              "Que es solo probable, nunca cierto",
+              "Que no existe",
+              "Que es matemático"
+            ],
+            "correct": 1,
+            "explicacion": "El método inductivo generaliza a partir de casos observados (ej: 'el sol siempre ha salido, por lo tanto saldrá mañana'), pero Hume señala que esto es solo una expectativa basada en la costumbre, no una certeza lógica garantizada."
+          }
+        },
+        {
+          "texto": "Cuestiona la causalidad: no existe conexión necesaria entre dos fenómenos, es producto de la costumbre / hábito",
+          "pregunta": {
+            "q": "¿Qué crítica hace Hume a la causalidad?",
+            "opts": [
+              "Que es siempre necesaria",
+              "Que no existe conexión necesaria entre fenómenos, es costumbre",
+              "Que es innata",
+              "Que es matemática"
+            ],
+            "correct": 1,
+            "explicacion": "Nunca observamos directamente la conexión entre causa y efecto, solo que un evento sigue a otro repetidamente; por eso Hume concluye que la causalidad es un hábito mental, no una ley necesaria del universo."
+          }
+        }
+      ]
+    },
+    {
+      "titulo": "Tipos de verdades (Hume)",
+      "puntos": [
+        {
+          "texto": "Verdades de hecho: sobre la realidad empírica, son probables",
+          "pregunta": {
+            "q": "¿Qué son las verdades de hecho para Hume?",
+            "opts": [
+              "Verdades a priori universales",
+              "Verdades sobre la realidad empírica, probables",
+              "Verdades matemáticas",
+              "Verdades innatas"
+            ],
+            "correct": 1,
+            "explicacion": "Estas verdades dependen de la observación del mundo y siempre podrían ser de otra manera (podría no haber llovido hoy), por lo que solo alcanzan probabilidad, nunca certeza absoluta."
+          }
+        },
+        {
+          "texto": "Relaciones de ideas: verdades a priori, universales y necesarias — como en la geometría y la matemática",
+          "pregunta": {
+            "q": "¿Qué tipo de verdad son las matemáticas para Hume?",
+            "opts": [
+              "Verdades de hecho",
+              "Relaciones de ideas (a priori)",
+              "Impresiones",
+              "Verdades empíricas"
+            ],
+            "correct": 1,
+            "explicacion": "A diferencia de las verdades de hecho, las relaciones de ideas (como las matemáticas) son necesariamente verdaderas por definición y no dependen de la experiencia: 2+2=4 sin importar el mundo físico."
+          }
+        }
+      ]
+    }
+  ]
+}

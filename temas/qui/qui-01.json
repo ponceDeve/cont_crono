@@ -1,0 +1,165 @@
+{
+  "curso": "Química",
+  "tema": "Hidróxidos",
+  "theory": [
+    {
+      "titulo": "Definición",
+      "puntos": [
+        {
+          "texto": "Compuestos ternarios de carácter iónico",
+          "pregunta": {
+            "q": "¿Qué tipo de compuesto es un hidróxido?",
+            "opts": [
+              "Binario covalente",
+              "Ternario iónico",
+              "Ternario covalente",
+              "Binario iónico"
+            ],
+            "correct": 1,
+            "explicacion": "Los hidróxidos están formados por un metal (que dona electrones) unido a grupos OH⁻ mediante enlace iónico, y contienen tres elementos distintos (metal, oxígeno e hidrógeno), por eso son ternarios iónicos."
+          }
+        },
+        {
+          "texto": "Grupo funcional: el ión OH⁻¹, llamado ión hidróxido",
+          "pregunta": {
+            "q": "¿Cuál es el grupo funcional de los hidróxidos?",
+            "opts": ["H⁺¹", "O⁻²", "OH⁻¹", "NH₄⁺¹"],
+            "correct": 2,
+            "explicacion": "Lo que define químicamente a un hidróxido, sin importar el metal que lleve, es la presencia del grupo OH⁻ unido a él; por eso se le llama 'grupo funcional'."
+          }
+        },
+        {
+          "texto": "Ejemplo: Al(OH)₃ se usa para combatir la acidez estomacal crónica",
+          "pregunta": {
+            "q": "¿Para qué se usa el Al(OH)₃?",
+            "opts": [
+              "Como fertilizante",
+              "Contra la acidez estomacal",
+              "Como blanqueador",
+              "Como conservante"
+            ],
+            "correct": 1,
+            "explicacion": "El hidróxido de aluminio neutraliza el exceso de ácido clorhídrico del estómago al reaccionar con él, por lo que se usa como antiácido para tratar la acidez estomacal."
+          }
+        }
+      ]
+    },
+    {
+      "titulo": "Obtención",
+      "puntos": [
+        {
+          "texto": "Óxido metálico + H₂O → Hidróxido",
+          "pregunta": {
+            "q": "¿Cómo se obtiene un hidróxido?",
+            "opts": [
+              "Óxido no metálico + H₂O",
+              "Óxido metálico + H₂O",
+              "Ácido + base",
+              "Metal + H₂O"
+            ],
+            "correct": 1,
+            "explicacion": "Cuando un óxido metálico (como el óxido de magnesio) se disuelve en agua, reacciona formando el hidróxido correspondiente; esta es la vía típica de obtención en el laboratorio."
+          }
+        },
+        {
+          "texto": "Formulación general: M⁺ˣ + OH⁻¹ → M(OH)ₓ",
+          "pregunta": {
+            "q": "¿Cuál es la fórmula general de un hidróxido?",
+            "opts": ["M(OH)ₓ", "MO", "MOH₂", "M₂O"],
+            "correct": 0,
+            "explicacion": "El subíndice 'x' representa el estado de oxidación del metal, indicando cuántos grupos OH⁻ se necesitan para neutralizar su carga positiva."
+          }
+        }
+      ]
+    },
+    {
+      "titulo": "Ejemplos formulados",
+      "puntos": [
+        {
+          "texto": "Mg⁺² + OH⁻¹ → Mg(OH)₂ (de MgO + H₂O):",
+          "sub": [
+            "N. clásica: hidróxido magnésico",
+            "N. stock: hidróxido de magnesio (II)",
+            "N. IUPAC: dihidróxido de magnesio"
+          ],
+          "pregunta": {
+            "q": "¿Cómo se nombra Mg(OH)₂ en IUPAC?",
+            "opts": [
+              "Hidróxido magnésico",
+              "Hidróxido de magnesio (II)",
+              "Dihidróxido de magnesio",
+              "Óxido de magnesio"
+            ],
+            "correct": 2,
+            "explicacion": "La IUPAC usa prefijos numéricos griegos (di-, tri-, tetra-) para indicar cuántos grupos OH hay en la fórmula; como el magnesio lleva dos, se dice 'dihidróxido'."
+          }
+        },
+        {
+          "texto": "Pb⁺⁴ + OH⁻¹ → Pb(OH)₄ (de PbO₂ + H₂O):",
+          "sub": [
+            "N. clásica: hidróxido plúmbico",
+            "N. stock: hidróxido de plomo (IV)",
+            "N. IUPAC: tetrahidróxido de plomo"
+          ],
+          "pregunta": {
+            "q": "¿Cuál es la fórmula del hidróxido plúmbico?",
+            "opts": ["Pb(OH)₂", "Pb(OH)₃", "Pb(OH)₄", "PbOH"],
+            "correct": 2,
+            "explicacion": "El plomo puede tener estado de oxidación +2 (plumboso) o +4 (plúmbico); en este caso, al ser +4, necesita cuatro grupos OH⁻ para neutralizar su carga."
+          }
+        },
+        {
+          "texto": "Cu⁺² + OH⁻¹ → Cu(OH)₂:",
+          "sub": [
+            "N. clásica: hidróxido cúprico",
+            "N. stock: hidróxido de cobre (II)",
+            "N. IUPAC: dihidróxido de cobre"
+          ],
+          "pregunta": {
+            "q": "¿Cuál es la fórmula del hidróxido cúprico?",
+            "opts": ["Cu(OH)₃", "Cu(OH)₂", "CuOH", "Cu₂OH"],
+            "correct": 1,
+            "explicacion": "El cobre tiene dos posibles estados de oxidación, +1 (cuproso) y +2 (cúprico); el sufijo '-ico' siempre corresponde al mayor de los dos."
+          }
+        }
+      ]
+    },
+    {
+      "titulo": "Indicadores",
+      "puntos": [
+        {
+          "texto": "Los hidróxidos se identifican por el color que toman frente a indicadores",
+          "pregunta": {
+            "q": "¿Cómo se identifican los hidróxidos en laboratorio?",
+            "opts": [
+              "Por su olor",
+              "Por el color frente a indicadores",
+              "Por su peso",
+              "Por su temperatura"
+            ],
+            "correct": 1,
+            "explicacion": "Los indicadores son sustancias que cambian de color según si el medio es ácido o básico; como los hidróxidos son bases, provocan un color característico al entrar en contacto con ellos."
+          }
+        },
+        {
+          "texto": "Fenolftaleína: se tiñe de rojo (grosella)",
+          "pregunta": {
+            "q": "¿Qué color toma la fenolftaleína frente a un hidróxido?",
+            "opts": ["Azul", "Rojo", "Incoloro", "Verde"],
+            "correct": 1,
+            "explicacion": "La fenolftaleína es incolora en medio ácido o neutro, pero se torna rosa-rojiza (grosella) en presencia de una base como un hidróxido, por eso es uno de los indicadores más usados en laboratorio."
+          }
+        },
+        {
+          "texto": "Tornasol: se tiñe de azul",
+          "pregunta": {
+            "q": "¿Qué color toma el tornasol frente a un hidróxido?",
+            "opts": ["Rojo", "Azul", "Amarillo", "Incoloro"],
+            "correct": 1,
+            "explicacion": "El papel tornasol es rojo en medio ácido, pero cambia a azul en medio básico; como los hidróxidos son bases, siempre lo tiñen de azul."
+          }
+        }
+      ]
+    }
+  ]
+}

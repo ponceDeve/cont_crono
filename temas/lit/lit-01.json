@@ -1,0 +1,413 @@
+{
+  "curso": "Literatura",
+  "tema": "Teatro Español",
+  "theory": [
+    {
+      "titulo": "Origen",
+      "puntos": [
+        {
+          "texto": "Medievalismo",
+          "pregunta": {
+            "q": "¿Qué corriente da origen al teatro español?",
+            "opts": [
+              "El Renacimiento",
+              "El medievalismo",
+              "El Barroco",
+              "El clasicismo"
+            ],
+            "correct": 1,
+            "explicacion": "El teatro español hunde sus raíces en representaciones religiosas medievales realizadas en las iglesias y plazas, mucho antes de convertirse en el gran espectáculo popular del Siglo de Oro."
+          }
+        },
+        {
+          "texto": "Autosacramentales, ej: 'El auto de los Reyes Magos'",
+          "pregunta": {
+            "q": "¿Cuál es un ejemplo de autosacramental medieval mencionado?",
+            "opts": [
+              "Fuenteovejuna",
+              "El auto de los Reyes Magos",
+              "La vida es sueño",
+              "El Quijote"
+            ],
+            "correct": 1,
+            "explicacion": "'El auto de los Reyes Magos' es de los textos teatrales más antiguos conservados en español, una breve pieza religiosa sobre la adoración de los Magos al niño Jesús."
+          }
+        }
+      ]
+    },
+    {
+      "titulo": "Edad de Oro",
+      "puntos": [
+        {
+          "texto": "Renacimiento: lenguaje moderado",
+          "pregunta": {
+            "q": "¿Qué caracteriza el lenguaje del teatro renacentista?",
+            "opts": [
+              "Es recargado",
+              "Es moderado",
+              "No existe",
+              "Es solo en latín"
+            ],
+            "correct": 1,
+            "explicacion": "El Renacimiento buscaba claridad y equilibrio inspirados en los clásicos grecolatinos, por eso su lenguaje teatral era más sobrio y comprensible, antes de la complejidad barroca posterior."
+          }
+        },
+        {
+          "texto": "Barroco: lenguaje recargado",
+          "pregunta": {
+            "q": "¿Qué caracteriza el lenguaje del teatro barroco?",
+            "opts": [
+              "Es un lenguaje sencillo",
+              "Es un lenguaje recargado",
+              "No usa lenguaje",
+              "Es solo en verso"
+            ],
+            "correct": 1,
+            "explicacion": "El Barroco (siglo XVII) llevó el lenguaje a un extremo ornamentado, con metáforas complejas, hipérbatos y juegos de palabras, buscando impresionar más que comunicar con sencillez."
+          }
+        }
+      ]
+    },
+    {
+      "titulo": "Tipos de teatro",
+      "puntos": [
+        {
+          "texto": "Popular:",
+          "sub": ["Nacional", "Lenguaje depurado", "Lugar: los corrales"],
+          "pregunta": {
+            "q": "¿Dónde se representaba el teatro popular?",
+            "opts": [
+              "En los palacios",
+              "En los corrales",
+              "En las catedrales",
+              "En las universidades"
+            ],
+            "correct": 1,
+            "explicacion": "Los corrales de comedias eran patios de vecindad adaptados como teatros al aire libre, accesibles a todo tipo de público, desde nobles hasta el pueblo llano."
+          }
+        },
+        {
+          "texto": "Cortesano:",
+          "sub": ["Universal", "Lenguaje culterano", "Lugar: palacios"],
+          "pregunta": {
+            "q": "¿Qué lenguaje caracteriza al teatro cortesano?",
+            "opts": [
+              "Lenguaje depurado",
+              "Lenguaje culterano",
+              "Lenguaje coloquial",
+              "Lenguaje llano"
+            ],
+            "correct": 1,
+            "explicacion": "El teatro cortesano se representaba en palacios para un público noble y culto, por lo que usaba un lenguaje culterano (rebuscado, con cultismos y estructuras complejas) que exigía formación para entenderlo."
+          }
+        }
+      ]
+    },
+    {
+      "titulo": "Características del teatro español",
+      "puntos": [
+        {
+          "texto": "Creación de una nueva especie: el Drama (mezcla tragedia y comedia)",
+          "pregunta": {
+            "q": "¿Qué nueva especie teatral mezcla tragedia y comedia?",
+            "opts": [
+              "La tragicomedia clásica",
+              "El auto sacramental",
+              "El Drama",
+              "El entremés"
+            ],
+            "correct": 2,
+            "explicacion": "Lope de Vega rompió con la tradición clásica que separaba tragedia (temas nobles) y comedia (temas cómicos), creando el 'drama' o 'tragicomedia', que mezclaba ambos registros en una sola obra, como ocurre en la vida real."
+          }
+        },
+        {
+          "texto": "Personaje tipo:",
+          "sub": [
+            "Bufón: el gracioso",
+            "Dama: mujer indefensa",
+            "Caballero: varón protector",
+            "Villano: hombre malvado",
+            "Barbas: el progenitor"
+          ],
+          "pregunta": {
+            "q": "¿Qué personaje tipo representa a 'el gracioso'?",
+            "opts": ["El Caballero", "El Bufón", "El Villano", "El Barbas"],
+            "correct": 1,
+            "explicacion": "El Bufón (o gracioso) era el personaje cómico que acompañaba al protagonista, aportando humor y a veces comentando la acción con sentido común frente a las decisiones idealistas de los nobles."
+          }
+        },
+        {
+          "texto": "Uso de la polimetría (variedad de sílabas métricas)",
+          "pregunta": {
+            "q": "¿Qué es la polimetría?",
+            "opts": [
+              "Uso de un solo tipo de verso",
+              "Variedad de sílabas métricas",
+              "Ausencia de rima",
+              "Uso exclusivo de prosa"
+            ],
+            "correct": 1,
+            "explicacion": "En vez de usar un solo tipo de verso para toda la obra, los dramaturgos del Siglo de Oro combinaban distintas formas métricas (romances, sonetos, redondillas) según la emoción o situación de cada escena."
+          }
+        },
+        {
+          "texto": "No se respetan las unidades clásicas → doble trama",
+          "pregunta": {
+            "q": "¿Qué provoca que no se respeten las unidades clásicas?",
+            "opts": [
+              "La censura real",
+              "La aparición de la doble trama",
+              "La falta de actores",
+              "La prohibición del rey"
+            ],
+            "correct": 1,
+            "explicacion": "Las 'unidades clásicas' exigían una sola acción, lugar y tiempo (un día); al incluir dos tramas paralelas (como en Fuenteovejuna o La vida es sueño), los dramaturgos rompieron esa regla para enriquecer la historia."
+          }
+        },
+        {
+          "texto": "Variedad temática: el honor y la religión",
+          "pregunta": {
+            "q": "¿Cuáles son los dos grandes temas del teatro español de esta época?",
+            "opts": [
+              "El amor y la guerra",
+              "El honor y la religión",
+              "La muerte y el destino",
+              "La riqueza y la pobreza"
+            ],
+            "correct": 1,
+            "explicacion": "El honor (la reputación social y familiar) y la religión (los dilemas morales y de fe) eran las preocupaciones centrales de la sociedad española del Siglo de Oro, y por eso dominaban también su teatro."
+          }
+        }
+      ]
+    },
+    {
+      "titulo": "Félix Lope de Vega",
+      "puntos": [
+        {
+          "texto": "Calificativos:",
+          "sub": [
+            "El monstruo de la naturaleza",
+            "El fénix de los ingenios",
+            "El padre del teatro español",
+            "El padre del drama"
+          ],
+          "pregunta": {
+            "q": "¿Cómo se le conoce a Lope de Vega?",
+            "opts": [
+              "El monstruo del ingenio",
+              "El fénix de los ingenios",
+              "El padre del soneto",
+              "El príncipe de los ingenios"
+            ],
+            "correct": 1,
+            "explicacion": "Por escribir cientos de obras con una facilidad asombrosa, sus contemporáneos lo apodaron 'fénix de los ingenios' (renace siempre con nuevas obras) y 'monstruo de la naturaleza' (por su desbordante talento)."
+          }
+        },
+        {
+          "texto": "Obras:",
+          "sub": ["Temas nacionales e históricos"],
+          "pregunta": {
+            "q": "¿De qué temas trataban las obras de Lope de Vega?",
+            "opts": [
+              "Religiosos y astrológicos",
+              "Nacionales e históricos",
+              "Solo de amor",
+              "Mitológicos"
+            ],
+            "correct": 1,
+            "explicacion": "A diferencia de Calderón (más filosófico y religioso), Lope prefería historias basadas en la historia y la identidad española, como los conflictos entre nobles y campesinos."
+          }
+        }
+      ]
+    },
+    {
+      "titulo": "Fuenteovejuna (Lope de Vega)",
+      "puntos": [
+        {
+          "texto": "Género dramático — drama",
+          "pregunta": {
+            "q": "¿A qué género pertenece Fuenteovejuna?",
+            "opts": [
+              "Comedia pura",
+              "Drama",
+              "Tragedia clásica",
+              "Auto sacramental"
+            ],
+            "correct": 1,
+            "explicacion": "Al mezclar elementos trágicos (el abuso y la violencia) con un final de justicia y perdón real, la obra es un ejemplo del 'drama' que Lope de Vega ayudó a consolidar."
+          }
+        },
+        {
+          "texto": "Tema: el honor villano de un pueblo",
+          "pregunta": {
+            "q": "¿Cuál es el tema central de Fuenteovejuna?",
+            "opts": [
+              "El amor cortés",
+              "El honor villano de un pueblo",
+              "La predestinación",
+              "La conquista de América"
+            ],
+            "correct": 1,
+            "explicacion": "La obra narra cómo un pueblo entero se rebela y da muerte a un comendador abusivo, defendiendo colectivamente su honor y dignidad frente al poder feudal."
+          }
+        },
+        {
+          "texto": "Personajes:",
+          "sub": [
+            "Esteban (alcalde)",
+            "Laurencia (labradora)",
+            "Hernán Gómez (comendador)",
+            "Frondoso (labrador, enamorado de Laurencia)",
+            "Mengo (bufón)"
+          ],
+          "pregunta": {
+            "q": "¿Quién es el comendador en Fuenteovejuna?",
+            "opts": ["Esteban", "Hernán Gómez", "Frondoso", "Mengo"],
+            "correct": 1,
+            "explicacion": "Hernán Gómez de Guzmán abusa de su poder sobre el pueblo, especialmente sobre las mujeres, lo que provoca finalmente el levantamiento colectivo de los habitantes de Fuenteovejuna."
+          }
+        },
+        {
+          "texto": "Se hace alusión al pecado original",
+          "pregunta": {
+            "q": "¿A qué episodio bíblico alude Fuenteovejuna?",
+            "opts": [
+              "El diluvio",
+              "El pecado original",
+              "El éxodo",
+              "La resurrección"
+            ],
+            "correct": 1,
+            "explicacion": "Al negarse todos los habitantes a delatar quién mató al comendador, respondiendo 'Fuenteovejuna lo hizo', la obra evoca la idea de una culpa colectiva, similar a la del pecado original que recae sobre toda la humanidad."
+          }
+        }
+      ]
+    },
+    {
+      "titulo": "Pedro Calderón de la Barca",
+      "puntos": [
+        {
+          "texto": "Calificativos:",
+          "sub": [
+            "El monstruo del ingenio",
+            "Figura de la Contrarreforma",
+            "Máximo representante de los autosacramentales"
+          ],
+          "pregunta": {
+            "q": "¿Cómo se le conoce a Calderón de la Barca?",
+            "opts": [
+              "El fénix de los ingenios",
+              "El monstruo del ingenio",
+              "El padre del teatro español",
+              "El monstruo de la naturaleza"
+            ],
+            "correct": 1,
+            "explicacion": "Calderón fue considerado el escritor más brillante e intelectual del Barroco español, por eso se le llamó 'el monstruo del ingenio', enfatizando su capacidad reflexiva más que su producción masiva."
+          }
+        },
+        {
+          "texto": "Obras:",
+          "sub": ["Temas religiosos y astrológicos"],
+          "pregunta": {
+            "q": "¿De qué temas trataban las obras de Calderón de la Barca?",
+            "opts": [
+              "Nacionales e históricos",
+              "Religiosos y astrológicos",
+              "Solo cómicos",
+              "Políticos"
+            ],
+            "correct": 1,
+            "explicacion": "Más filosófico que Lope, Calderón exploraba dilemas morales, teológicos y sobre el destino humano, siendo además el gran maestro de los autos sacramentales (piezas religiosas alegóricas)."
+          }
+        }
+      ]
+    },
+    {
+      "titulo": "La vida es sueño (Calderón de la Barca)",
+      "puntos": [
+        {
+          "texto": "Género: dramático · Especie: drama filosófico y reflexivo → autosacramental",
+          "pregunta": {
+            "q": "¿Cuál es la especie literaria de La vida es sueño?",
+            "opts": [
+              "Comedia costumbrista",
+              "Drama filosófico y reflexivo",
+              "Tragedia griega",
+              "Auto religioso puro"
+            ],
+            "correct": 1,
+            "explicacion": "La obra combina la reflexión filosófica profunda sobre la existencia humana con elementos de auto sacramental, ya que discute temas como el libre albedrío que también preocupaban a la Iglesia."
+          }
+        },
+        {
+          "texto": "Tema: la predestinación vs. el libre albedrío",
+          "pregunta": {
+            "q": "¿Cuál es el tema central de La vida es sueño?",
+            "opts": [
+              "El honor villano",
+              "La predestinación vs. el libre albedrío",
+              "El amor imposible",
+              "La guerra de Granada"
+            ],
+            "correct": 1,
+            "explicacion": "La obra plantea si el destino de una persona está determinado desde su nacimiento (predestinación) o si puede cambiarlo con sus propias decisiones (libre albedrío), a través de la historia de Segismundo."
+          }
+        },
+        {
+          "texto": "Doble trama:",
+          "sub": ["La libertad (Segismundo)", "La honra (Rosaura)"],
+          "pregunta": {
+            "q": "En la doble trama de La vida es sueño, ¿qué representa Segismundo?",
+            "opts": ["La honra", "La libertad", "La religión", "La venganza"],
+            "correct": 1,
+            "explicacion": "Segismundo fue encerrado desde niño por una profecía que decía que sería un tirano; su historia explora si puede liberarse de ese destino impuesto y actuar con virtud."
+          }
+        },
+        {
+          "texto": "Personajes:",
+          "sub": [
+            "Segismundo: príncipe de Polonia, hijo de Basilio, encarna el tema de la libertad",
+            "Basilio: rey de Polonia, padre de Segismundo",
+            "Astolfo: príncipe de Moscovia, vinculado a Basilio como posible heredero",
+            "Rosaura: dama burlada por Astolfo, encarna el tema de la honra",
+            "Clotaldo: ayo (tutor/carcelero) de Segismundo, y padre de Rosaura",
+            "Clarín: criado de Rosaura, el gracioso de la obra",
+            "Estrella: prima de Segismundo, otra pretendiente al trono, prometida de Astolfo"
+          ],
+          "pregunta": {
+            "q": "¿Quién es Basilio en La vida es sueño?",
+            "opts": [
+              "El príncipe de Moscovia",
+              "El rey de Polonia",
+              "El bufón de la corte",
+              "El alcalde"
+            ],
+            "correct": 1,
+            "explicacion": "Basilio, temeroso de una profecía sobre su hijo, decide encerrar a Segismundo desde bebé, decisión que desencadena todo el conflicto filosófico y familiar de la obra."
+          }
+        },
+        {
+          "texto": "Características:",
+          "sub": [
+            "Uso de la polimetría",
+            "Dicotomía de contrastes: libertad vs. encierro",
+            "Luz vs. oscuridad",
+            "Destino vs. libre albedrío",
+            "Realidad vs. ficción"
+          ],
+          "pregunta": {
+            "q": "¿Qué figura literaria usa La vida es sueño para sus contrastes?",
+            "opts": [
+              "La metáfora simple",
+              "La dicotomía (libertad vs encierro, luz vs oscuridad)",
+              "La aliteración",
+              "El hipérbaton"
+            ],
+            "correct": 1,
+            "explicacion": "Calderón construye la obra a través de opuestos (libertad/encierro, sueño/realidad, luz/oscuridad) para representar visualmente la lucha interna del protagonista entre su naturaleza y su destino."
+          }
+        }
+      ]
+    }
+  ]
+}

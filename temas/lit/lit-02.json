@@ -1,0 +1,639 @@
+{
+  "curso": "Literatura",
+  "tema": "Generación del 27 y Federico García Lorca",
+  "glosario": {
+    "Vanguardismo": "Movimiento literario y artístico de innovación y ruptura con las normas clásicas.",
+    "Surrealismo": "Corriente de vanguardia que busca expresar el subconsciente y el mundo onírico.",
+    "Elegíaco": "Perteneciente a la elegía, composición que lamenta una pérdida o desgracia.",
+    "Juglar": "Artista medieval que recitaba o cantaba obras literarias ante un público.",
+    "Metáfora": "Figura retórica que identifica un término real con uno imaginario por su semejanza.",
+    "Tragedia": "Obra dramática con un desenlace fatal, donde los personajes enfrentan destinos inevitables."
+  },
+  "theory": [
+    {
+      "titulo": "Generación del 27: Contexto y Nombres",
+      "puntos": [
+        {
+          "texto": "Generación del 27 → se contextualiza históricamente en el siglo XX.",
+          "pregunta": {
+            "q": "¿En qué siglo se ubica históricamente la Generación del 27?",
+            "opts": [
+              "Siglo XIX",
+              "Siglo XX",
+              "Siglo XXI"
+            ],
+            "correct": 1,
+            "explicacion": "Este grupo literario español se formó y desarrolló su obra más importante durante las primeras décadas del siglo XX, coincidiendo con las vanguardias europeas."
+          }
+        },
+        {
+          "texto": "Generación del 27 → surge en 1927 al conmemorar el tricentenario de la muerte de Luis de Góngora.",
+          "pregunta": {
+            "q": "¿Qué evento motivó el surgimiento y nombre de la Generación del 27?",
+            "opts": [
+              "La publicación del Romancero Gitano",
+              "El tricentenario de la muerte de Luis de Góngora",
+              "El fin de la Primera Guerra Mundial"
+            ],
+            "correct": 1,
+            "explicacion": "Los miembros del grupo se reunieron en el Ateneo de Sevilla en 1927 para reivindicar la figura de Góngora, considerado un maestro del lenguaje poético culto."
+          }
+        },
+        {
+          "texto": "Generación del 27 → recibe también el nombre de 'Generación Guillén - Lorca'.",
+          "pregunta": {
+            "q": "¿Qué otro nombre recibe la Generación del 27 destacando a dos de sus miembros?",
+            "opts": [
+              "Generación Bécquer - Rosalía",
+              "Generación Alberti - Salinas",
+              "Generación Guillén - Lorca"
+            ],
+            "correct": 2,
+            "explicacion": "Jorge Guillén y Federico García Lorca son dos de sus máximos exponentes, por lo que a veces se denomina al grupo con sus apellidos para ilustrar sus extremos estéticos."
+          }
+        },
+        {
+          "texto": "Generación del 27 → recibe también el nombre de 'Generación de la Amistad'.",
+          "pregunta": {
+            "q": "¿Bajo qué apelativo se conoce a este grupo debido a los lazos personales entre sus miembros?",
+            "opts": [
+              "Generación de los Hermanos",
+              "Generación de la Amistad",
+              "Generación de la Residencia"
+            ],
+            "correct": 1,
+            "explicacion": "Muchos de ellos convivieron en la Residencia de Estudiantes de Madrid, formando fuertes lazos afectivos e intercambios intelectuales intensos."
+          }
+        },
+        {
+          "texto": "Generación del 27 → recibe también el nombre de 'Generación de la Dictadura'.",
+          "pregunta": {
+            "q": "¿Qué nombre histórico se le asigna a este grupo en relación a la política de su época?",
+            "opts": [
+              "Generación de la República",
+              "Generación de la Dictadura",
+              "Generación del Imperio"
+            ],
+            "correct": 1,
+            "explicacion": "Se desarrollaron durante la dictadura de Primo de Rivera en España, antes de la llegada de la Segunda República y la posterior Guerra Civil."
+          }
+        }
+      ]
+    },
+    {
+      "titulo": "Generación del 27: Influencias y Características",
+      "puntos": [
+        {
+          "texto": "Padre espiritual de la Generación del 27 → Juan Ramón Jiménez (Premio Nobel en 1956).",
+          "pregunta": {
+            "q": "¿A quién se considera el padre espiritual de la Generación del 27?",
+            "opts": [
+              "Miguel de Unamuno",
+              "Juan Ramón Jiménez",
+              "Rubén Darío"
+            ],
+            "correct": 1,
+            "explicacion": "Su búsqueda de la 'poesía pura' y su magisterio literario fueron fundamentales para guiar estéticamente a los jóvenes del 27."
+          }
+        },
+        {
+          "texto": "Obra cumbre de J.R. Jiménez → Platero y yo (poema prosado y elegíaco).",
+          "pregunta": {
+            "q": "¿Qué obra poética en prosa es representativa de Juan Ramón Jiménez?",
+            "opts": [
+              "Niebla",
+              "Platero y yo",
+              "Campos de Castilla"
+            ],
+            "correct": 1,
+            "explicacion": "Publicada en 1914, es una obra clave de la literatura en español que utiliza un lenguaje altamente lírico para describir la vida y muerte de un burro."
+          }
+        },
+        {
+          "texto": "Generación del 27 (Característica) → mezcla la poesía tradicional con la poesía moderna.",
+          "pregunta": {
+            "q": "¿Qué contraste estético caracteriza la obra poética de esta generación?",
+            "opts": [
+              "Exclusión total de lo clásico",
+              "Mezcla de la poesía tradicional con la moderna",
+              "Aislamiento de la cultura popular"
+            ],
+            "correct": 1,
+            "explicacion": "Buscaban innovar a través del vanguardismo sin perder de vista las raíces líricas tradicionales españolas (como el Romancero)."
+          }
+        },
+        {
+          "texto": "Generación del 27 (Característica) → muestra una gran preferencia por el género lírico (poesía).",
+          "pregunta": {
+            "q": "¿Qué género literario fue el preferido por la Generación del 27?",
+            "opts": [
+              "Narrativa",
+              "Lírico (Poesía)",
+              "Ensayo filosófico"
+            ],
+            "correct": 1,
+            "explicacion": "Aunque algunos cultivaron el teatro (como Lorca) o el ensayo, el género que definió la identidad de la generación fue la poesía."
+          }
+        },
+        {
+          "texto": "Generación del 27 (Característica) → tiene una fuerte influencia del vanguardismo, específicamente del surrealismo.",
+          "pregunta": {
+            "q": "¿Qué movimiento de vanguardia influyó notablemente en la Generación del 27?",
+            "opts": [
+              "Futurismo",
+              "Surrealismo",
+              "Creacionismo"
+            ],
+            "correct": 1,
+            "explicacion": "El surrealismo, con su énfasis en los sueños y la escritura libre, impactó fuertemente a autores como Lorca y Aleixandre en sus etapas de madurez."
+          }
+        },
+        {
+          "texto": "Generación del 27 (Característica) → se destaca por la preferencia constante por la metáfora.",
+          "pregunta": {
+            "q": "¿Qué figura retórica fue predilecta en la poética de este grupo?",
+            "opts": [
+              "Hipérbaton",
+              "Metáfora",
+              "Símil"
+            ],
+            "correct": 1,
+            "explicacion": "Siguiendo el ejemplo de Góngora, emplearon la metáfora audaz y visionaria como núcleo de su expresión poética."
+          }
+        }
+      ]
+    },
+    {
+      "titulo": "Generación del 27: Representantes",
+      "puntos": [
+        {
+          "texto": "Generación del 27 (Representante 1) → Vicente Aleixandre (Premio Nobel en 1977).",
+          "pregunta": {
+            "q": "¿Qué representante del 27 obtuvo el Premio Nobel de Literatura en 1977?",
+            "opts": [
+              "Rafael Alberti",
+              "Pedro Salinas",
+              "Vicente Aleixandre"
+            ],
+            "correct": 2,
+            "explicacion": "La Academia Sueca lo galardonó por su obra poética, que ilumina la condición del hombre en el cosmos."
+          }
+        },
+        {
+          "texto": "Obra de Vicente Aleixandre → La Destrucción o el Amor.",
+          "pregunta": {
+            "q": "¿Cuál es una de las obras más destacadas de Vicente Aleixandre?",
+            "opts": [
+              "Marinero en Tierra",
+              "La Destrucción o el Amor",
+              "Poeta en Nueva York"
+            ],
+            "correct": 1,
+            "explicacion": "Este libro, publicado en 1935, es una de las cumbres del surrealismo poético español, donde el amor se asocia a las fuerzas telúricas y destructivas."
+          }
+        },
+        {
+          "texto": "Generación del 27 (Representante 2) → Rafael Alberti.",
+          "pregunta": {
+            "q": "¿A qué representante pertenece la obra 'Marinero en Tierra'?",
+            "opts": [
+              "Pedro Salinas",
+              "Rafael Alberti",
+              "Jorge Guillén"
+            ],
+            "correct": 1,
+            "explicacion": "Alberti, de origen andaluz, es una de las figuras más versátiles de la generación, oscilando entre la poesía neopopular y el compromiso sociopolítico."
+          }
+        },
+        {
+          "texto": "Obra de Rafael Alberti → Marinero en Tierra (hace referencia a su lugar de nacimiento).",
+          "pregunta": {
+            "q": "¿Sobre qué temática personal trata principalmente 'Marinero en Tierra'?",
+            "opts": [
+              "Su experiencia en la guerra",
+              "La nostalgia por su tierra natal y el mar",
+              "La crítica a la monarquía"
+            ],
+            "correct": 1,
+            "explicacion": "El poemario refleja la nostalgia por el mar del Puerto de Santa María (Cádiz) al trasladarse a Madrid, alejándose de su entorno marítimo."
+          }
+        },
+        {
+          "texto": "Generación del 27 (Representante 3) → Pedro Salinas, llamado 'El tercer poeta amoroso de España'.",
+          "pregunta": {
+            "q": "¿Qué título o calificación crítica recibe a menudo Pedro Salinas?",
+            "opts": [
+              "El primer romántico español",
+              "El tercer poeta amoroso de España",
+              "El juglar moderno"
+            ],
+            "correct": 1,
+            "explicacion": "Se le suele situar en la gran tradición de la lírica amorosa castellana junto a Garcilaso de la Vega y Gustavo Adolfo Bécquer."
+          }
+        },
+        {
+          "texto": "Obra de Pedro Salinas → La Voz a ti Debida.",
+          "pregunta": {
+            "q": "¿Cuál es la obra central de temática amorosa de Pedro Salinas?",
+            "opts": [
+              "Bodas de sangre",
+              "El romancero gitano",
+              "La Voz a ti Debida"
+            ],
+            "correct": 2,
+            "explicacion": "Considerado uno de los grandes poemarios de amor del siglo XX, presenta una fenomenología poética del enamoramiento."
+          }
+        },
+        {
+          "texto": "Pedro Salinas (La Voz a ti Debida) → el título de la obra proviene de la II Égloga de Garcilaso de la Vega.",
+          "pregunta": {
+            "q": "¿De qué autor clásico tomó Pedro Salinas el título 'La Voz a ti Debida'?",
+            "opts": [
+              "Lope de Vega",
+              "Francisco de Quevedo",
+              "Garcilaso de la Vega"
+            ],
+            "correct": 2,
+            "explicacion": "El verso exacto se encuentra en la Égloga Tercera (o a veces citada en la Segunda en algunos análisis) de Garcilaso, mostrando el vínculo del 27 con el Siglo de Oro."
+          }
+        },
+        {
+          "texto": "Pedro Salinas (La Voz a ti Debida) → se caracteriza por tener poemas de amor idealizado, neoplatónico.",
+          "pregunta": {
+            "q": "¿Qué tipo de visión del amor prima en la obra 'La Voz a ti Debida'?",
+            "opts": [
+              "Amor trágico y mortal",
+              "Amor erótico y explícito",
+              "Amor idealizado, neoplatónico"
+            ],
+            "correct": 2,
+            "explicacion": "Salinas intelectualiza el sentimiento, buscando la esencia de la persona amada más allá de la fisicidad, un rasgo típico del neoplatonismo."
+          }
+        }
+      ]
+    },
+    {
+      "titulo": "Federico García Lorca: Perfil y Obras Poéticas",
+      "puntos": [
+        {
+          "texto": "Federico García Lorca → recibe el calificativo de 'El juglar moderno'.",
+          "pregunta": {
+            "q": "¿Con qué calificativo se hace referencia a Federico García Lorca?",
+            "opts": [
+              "El poeta filósofo",
+              "El juglar moderno",
+              "El cisne andaluz"
+            ],
+            "correct": 1,
+            "explicacion": "Su capacidad de conectar la tradición popular oral con las técnicas vanguardistas le otorgó este apelativo que remite a la Edad Media."
+          }
+        },
+        {
+          "texto": "Federico García Lorca (Obra) → Un poeta en Nueva York.",
+          "pregunta": {
+            "q": "¿Qué libro de poemas de Lorca surgió de su viaje a Estados Unidos?",
+            "opts": [
+              "Sonetos del amor oscuro",
+              "Un poeta en Nueva York",
+              "Llanto por Ignacio Sánchez Mejías"
+            ],
+            "correct": 1,
+            "explicacion": "Escrito entre 1929 y 1930, este poemario emplea un lenguaje de influencia surrealista para denunciar la deshumanización capitalista."
+          }
+        },
+        {
+          "texto": "Federico García Lorca (Obra) → El Romancero Gitano (poema representativo: 'La casada infiel').",
+          "pregunta": {
+            "q": "¿Qué famoso poema se encuentra incluido dentro del 'Romancero Gitano'?",
+            "opts": [
+              "La casada infiel",
+              "A un olmo seco",
+              "Romance de la luna, luna"
+            ],
+            "correct": 0,
+            "explicacion": "Es uno de los romances más populares de la obra, relatando una historia de engaño con un uso magistral de símbolos andaluces."
+          }
+        },
+        {
+          "texto": "El Romancero Gitano (Características) → presenta descripción del paisaje y profunda influencia de la tradición de España.",
+          "pregunta": {
+            "q": "¿Qué rasgo caracteriza estructuralmente a 'El Romancero Gitano'?",
+            "opts": [
+              "El uso exclusivo del verso libre",
+              "Descripción del paisaje e influencia de la tradición española",
+              "La imitación de la lírica anglosajona"
+            ],
+            "correct": 1,
+            "explicacion": "Lorca rescata la estrofa del romance tradicional español, revitalizándola con imágenes vanguardistas ambientadas en la mítica Andalucía."
+          }
+        },
+        {
+          "texto": "El Romancero Gitano (Características) → destaca por la abundancia de la metáfora.",
+          "pregunta": {
+            "q": "¿Qué recurso estilístico abunda en los versos del 'Romancero Gitano'?",
+            "opts": [
+              "La metáfora",
+              "El hipérbaton exclusivo",
+              "La alegoría moral"
+            ],
+            "correct": 0,
+            "explicacion": "El autor enlaza conceptos distantes mediante metáforas irracionales e impactantes, un puente entre el mito gitano y el surrealismo."
+          }
+        }
+      ]
+    },
+    {
+      "titulo": "Federico García Lorca: Obras Dramáticas",
+      "puntos": [
+        {
+          "texto": "Federico García Lorca (Tragedias) → su obra dramática se estructuró trabajando trilogías.",
+          "pregunta": {
+            "q": "¿Cómo planeó García Lorca agrupar sus grandes obras teatrales trágicas?",
+            "opts": [
+              "En autos sacramentales",
+              "En comedias de enredo",
+              "En trilogías"
+            ],
+            "correct": 2,
+            "explicacion": "Lorca concibió la idea de una 'trilogía dramática de la tierra española', aunque el tercer título planificado nunca se terminó oficialmente como se previó."
+          }
+        },
+        {
+          "texto": "Tragedia lorquiana 1 → Yerma (centrada en el tema de la maternidad).",
+          "pregunta": {
+            "q": "¿Cuál es el tema central en torno al cual gira la obra 'Yerma'?",
+            "opts": [
+              "La avaricia",
+              "El exilio",
+              "La maternidad"
+            ],
+            "correct": 2,
+            "explicacion": "La obra narra la obsesión y frustración de una mujer campesina por no poder engendrar hijos, llevándola a un desenlace trágico."
+          }
+        },
+        {
+          "texto": "Tragedia lorquiana 2 → La Casa de Bernarda Alba (calificada como 'drama de mujeres').",
+          "pregunta": {
+            "q": "¿Qué subtítulo o calificación describe con exactitud a 'La Casa de Bernarda Alba'?",
+            "opts": [
+              "Tragedia de hombres",
+              "Drama de mujeres",
+              "Comedia rural"
+            ],
+            "correct": 1,
+            "explicacion": "La obra cuenta con un reparto exclusivamente femenino, exponiendo la represión sexual y social en el luto estricto de la España profunda."
+          }
+        }
+      ]
+    },
+    {
+      "titulo": "Bodas de Sangre: Análisis y Temas",
+      "puntos": [
+        {
+          "texto": "Bodas de Sangre → pertenece al género literario dramático.",
+          "pregunta": {
+            "q": "¿A qué género literario principal pertenece la obra 'Bodas de Sangre'?",
+            "opts": [
+              "Narrativo",
+              "Dramático",
+              "Épico"
+            ],
+            "correct": 1,
+            "explicacion": "Al ser concebida para su representación escénica mediante diálogos, forma parte fundamental del teatro español contemporáneo."
+          }
+        },
+        {
+          "texto": "Bodas de Sangre → se clasifica específicamente dentro de la especie 'tragedia'.",
+          "pregunta": {
+            "q": "¿Cuál es la especie o subgénero teatral al que corresponde 'Bodas de Sangre'?",
+            "opts": [
+              "Comedia",
+              "Drama burgués",
+              "Tragedia"
+            ],
+            "correct": 2,
+            "explicacion": "Posee todas las características trágicas: un destino inevitable, pasiones funestas y un desenlace marcado por la muerte."
+          }
+        },
+        {
+          "texto": "Bodas de Sangre (Tema principal) → es la pasión desbordante.",
+          "pregunta": {
+            "q": "¿Cuál es el tema principal que mueve la trama de 'Bodas de Sangre'?",
+            "opts": [
+              "La pasión desbordante",
+              "El deseo de riqueza",
+              "La fe religiosa"
+            ],
+            "correct": 0,
+            "explicacion": "La fuerza incontrolable del instinto y el amor (representado en la huida de la Novia con Leonardo) rompe las normas sociales."
+          }
+        },
+        {
+          "texto": "Bodas de Sangre (Tema secundario) → desarrolla la temática del adulterio.",
+          "pregunta": {
+            "q": "¿Qué tema secundario vinculado a la ruptura de los lazos matrimoniales aparece en la obra?",
+            "opts": [
+              "La poligamia",
+              "El celibato",
+              "El adulterio"
+            ],
+            "correct": 2,
+            "explicacion": "La novia abandona a su prometido el mismo día de la boda para huir con Leonardo, quien además ya está casado, configurando la traición amorosa."
+          }
+        },
+        {
+          "texto": "Bodas de Sangre (Tema secundario) → desarrolla la temática de la venganza ligada al honor.",
+          "pregunta": {
+            "q": "¿Qué concepto social empuja a las familias a enfrentarse violentamente en la obra?",
+            "opts": [
+              "La venganza ligada al honor",
+              "La envidia económica",
+              "Las diferencias políticas"
+            ],
+            "correct": 0,
+            "explicacion": "En la moral rural de la época, la afrenta de la huida solo podía ser lavada con la sangre, restaurando el honor familiar perdido."
+          }
+        },
+        {
+          "texto": "Bodas de Sangre (Tema secundario) → desarrolla la temática de la rencilla familiar.",
+          "pregunta": {
+            "q": "¿Qué conflicto histórico de fondo subyace entre los linajes de la obra?",
+            "opts": [
+              "Alianzas comerciales fallidas",
+              "La rencilla familiar",
+              "Disputas por títulos nobiliarios"
+            ],
+            "correct": 1,
+            "explicacion": "El odio ancestral entre la familia del Novio y la familia de los Félix (a la que pertenece Leonardo) condiciona trágicamente la historia."
+          }
+        },
+        {
+          "texto": "Bodas de Sangre (Tema secundario) → desarrolla la temática del destino ineludible.",
+          "pregunta": {
+            "q": "¿Qué fuerza sobrenatural o abstracta determina el final de los protagonistas?",
+            "opts": [
+              "La providencia divina",
+              "El destino ineludible",
+              "El azar ciego"
+            ],
+            "correct": 1,
+            "explicacion": "Como en la tragedia griega, los personajes no pueden escapar a las fuerzas atávicas que los arrastran hacia la muerte."
+          }
+        }
+      ]
+    },
+    {
+      "titulo": "Bodas de Sangre: Estructura y Características",
+      "puntos": [
+        {
+          "texto": "Bodas de Sangre (Estructura) → la obra se divide en III Actos (que comprenden siete cuadros).",
+          "pregunta": {
+            "q": "¿Cómo está estructurada teatralmente la obra 'Bodas de Sangre'?",
+            "opts": [
+              "V Actos ininterrumpidos",
+              "III Actos y siete cuadros",
+              "II Actos y prólogo"
+            ],
+            "correct": 1,
+            "explicacion": "Los cuadros funcionan como escenarios o viñetas independientes dentro de los tres actos principales, acentuando el dramatismo rítmico."
+          }
+        },
+        {
+          "texto": "Bodas de Sangre (Estilo) → se caracteriza por el uso intercalado del verso y la prosa.",
+          "pregunta": {
+            "q": "¿Qué formato de escritura alterna García Lorca en los diálogos de la obra?",
+            "opts": [
+              "Verso y prosa",
+              "Solo octosílabos",
+              "Exclusivamente prosa"
+            ],
+            "correct": 0,
+            "explicacion": "La prosa se utiliza mayormente en los diálogos cotidianos y realistas, mientras que el verso irrumpe en los momentos de gran tensión poética y mística."
+          }
+        },
+        {
+          "texto": "Bodas de Sangre (Escenificación) → no se representan las escenas violentas ante el público.",
+          "pregunta": {
+            "q": "¿Qué ocurre con las escenas de violencia explícita durante la representación?",
+            "opts": [
+              "Se exageran visualmente",
+              "Se actúan en primer plano",
+              "No se representan explícitamente"
+            ],
+            "correct": 2,
+            "explicacion": "Siguiendo el modelo del teatro clásico antiguo, la violencia (como el duelo final entre el Novio y Leonardo) ocurre fuera de escena (fuera de campo)."
+          }
+        },
+        {
+          "texto": "Bodas de Sangre (Clasicismo) → no se respetan las unidades clásicas de espacio, tiempo y acción.",
+          "pregunta": {
+            "q": "¿Qué precepto del teatro aristotélico rompe Lorca en esta obra?",
+            "opts": [
+              "La separación de géneros",
+              "Las unidades clásicas de espacio, tiempo y acción",
+              "La catarsis del espectador"
+            ],
+            "correct": 1,
+            "explicacion": "La obra transcurre en varios días y en distintas locaciones (la casa, el bosque), desafiando la regla aristotélica de las tres unidades dramáticas."
+          }
+        }
+      ]
+    },
+    {
+      "titulo": "Bodas de Sangre: Simbología y Elementos",
+      "puntos": [
+        {
+          "texto": "Bodas de Sangre (Personajes) → presentan una función específica, con una representación nominal basada en su rol (Madre, Novio, Novia).",
+          "pregunta": {
+            "q": "¿Cómo suelen ser nombrados los protagonistas de 'Bodas de Sangre' para destacar su función simbólica?",
+            "opts": [
+              "Solo con sus nombres de pila",
+              "Representación nominal según su rol (Novia, Madre)",
+              "Con títulos nobiliarios"
+            ],
+            "correct": 1,
+            "explicacion": "A excepción de 'Leonardo', Lorca nombra a los personajes por su papel en la sociedad o la familia, despojándolos de identidad individual para hacerlos arquetipos."
+          }
+        },
+        {
+          "texto": "Bodas de Sangre (Coro) → conformado por pobladores y ciudadanos que actúan como testigos de la fatalidad.",
+          "pregunta": {
+            "q": "¿Cuál es la función principal de los pobladores y ciudadanos que conforman el Coro?",
+            "opts": [
+              "Detener el conflicto",
+              "Actuar como testigos de la fatalidad",
+              "Burlarse de los protagonistas"
+            ],
+            "correct": 1,
+            "explicacion": "El coro lorquiano, reminiscente de la tragedia griega, observa, comenta y amplifica emocionalmente la tragedia inexorable."
+          }
+        },
+        {
+          "texto": "Simbología Lorquiana → el elemento del agua representa el concepto de la maternidad.",
+          "pregunta": {
+            "q": "¿Qué simboliza el agua dentro del universo poético de la obra?",
+            "opts": [
+              "La maternidad",
+              "La juventud perdida",
+              "La guerra"
+            ],
+            "correct": 0,
+            "explicacion": "El agua que fluye suele relacionarse con la vida y la fecundidad materna, en contraste con el agua estancada que denota enfermedad o muerte en la poesía lorquiana."
+          }
+        },
+        {
+          "texto": "Simbología Lorquiana → los caballos son representación directa de la pasión.",
+          "pregunta": {
+            "q": "¿Qué animal utiliza Lorca recurrentemente para representar la fuerza de la pasión?",
+            "opts": [
+              "El toro",
+              "La paloma",
+              "El caballo"
+            ],
+            "correct": 2,
+            "explicacion": "El caballo simboliza el instinto desbocado, el erotismo y la virilidad irreprimible de los personajes masculinos, como Leonardo."
+          }
+        },
+        {
+          "texto": "Simbología Lorquiana → los cuchillos se utilizan para representar la violencia.",
+          "pregunta": {
+            "q": "¿Qué objeto físico simboliza la violencia inminente y letal en 'Bodas de Sangre'?",
+            "opts": [
+              "El anillo",
+              "La corona de azahar",
+              "El cuchillo"
+            ],
+            "correct": 2,
+            "explicacion": "La navaja o el cuchillo es un elemento fatídico desde la primera escena (el monóstico de la Madre), presagiando la muerte derramadora de sangre."
+          }
+        },
+        {
+          "texto": "Simbología Lorquiana → la figura de la mendiga representa directamente a la muerte.",
+          "pregunta": {
+            "q": "¿Qué personaje aparece de forma alegórica en el bosque simbolizando la muerte?",
+            "opts": [
+              "Una niña llorando",
+              "Una mendiga",
+              "Una viuda rica"
+            ],
+            "correct": 1,
+            "explicacion": "La mendiga, que colabora con la Luna en el Acto III, es la personificación abstracta de la Parca aguardando el desenlace trágico."
+          }
+        },
+        {
+          "texto": "Simbología Lorquiana → la luna actúa en la obra como guía de la muerte.",
+          "pregunta": {
+            "q": "¿Qué función sobrenatural tiene la luna dentro de la tragedia?",
+            "opts": [
+              "Iluminar la reconciliación",
+              "Actuar como guía de la muerte",
+              "Simbolizar el nacimiento"
+            ],
+            "correct": 1,
+            "explicacion": "Personificada en un leñador joven de rostro blanco, la luna exige sangre y arroja luz para que los rivales se encuentren en el bosque y se maten."
+          }
+        }
+      ]
+    }
+  ]
+}

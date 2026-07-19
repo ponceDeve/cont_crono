@@ -1,0 +1,184 @@
+{
+  "curso": "Aritmética",
+  "tema": "Teoría de Conjuntos",
+  "glosario": {
+    "cardinal": "La cantidad de elementos diferentes que tiene un conjunto.",
+    "pertenencia": "Relación entre un elemento y el conjunto al que puede o no pertenecer.",
+    "comprensión": "Definir un conjunto por una propiedad común de sus elementos.",
+    "extensión": "Definir un conjunto listando todos sus elementos.",
+    "conjunto vacío": "Conjunto que no tiene ningún elemento, se denota ∅."
+  },
+  "theory": [
+    {
+      "titulo": "Noción o idea",
+      "puntos": [
+        {
+          "texto": "Es la reunión o agrupación de objetos que cumplen una relación (elementos)",
+          "pregunta": {
+            "q": "¿Qué es un conjunto?",
+            "opts": [
+              "Un solo objeto aislado",
+              "La reunión de objetos que cumplen una relación",
+              "Un número exacto",
+              "Una operación matemática"
+            ],
+            "correct": 1,
+            "explicacion": "Un conjunto se forma cuando varios objetos comparten una característica o relación en común, y se agrupan como una sola colección con nombre propio (usando letras mayúsculas como A, B, M)."
+          }
+        },
+        {
+          "texto": "Ejemplo: $$A = \\{a, e, i, o, u\\}$$",
+          "pregunta": {
+            "q": "¿Qué elementos tiene el conjunto A = {a, e, i, o, u}?",
+            "opts": [
+              "Números",
+              "Consonantes",
+              "Las vocales",
+              "Signos de puntuación"
+            ],
+            "correct": 2,
+            "explicacion": "Este conjunto agrupa un tipo específico de letra: las cinco vocales del alfabeto español, cada una escrita como un elemento separado dentro de las llaves."
+          }
+        }
+      ]
+    },
+    {
+      "titulo": "Cardinal o número de elementos",
+      "puntos": [
+        {
+          "texto": "Es la cantidad de elementos diferentes de un conjunto",
+          "pregunta": {
+            "q": "¿Qué mide el cardinal de un conjunto?",
+            "opts": [
+              "La suma de sus elementos",
+              "La cantidad de elementos diferentes",
+              "El elemento más grande",
+              "El orden de los elementos"
+            ],
+            "correct": 1,
+            "explicacion": "El cardinal, escrito como n(conjunto), no suma ni multiplica los elementos: solo cuenta cuántos elementos distintos hay, sin importar el valor de cada uno."
+          }
+        },
+        {
+          "texto": "Ejemplo: $M = \\{1, 1, 2, 2, 2, 3, 3\\}$ → $n(M) = 3$ (solo se cuentan los elementos distintos: 1, 2 y 3)",
+          "pregunta": {
+            "q": "¿Cuál es el cardinal de M = {1,1,2,2,2,3,3}?",
+            "opts": ["7", "3", "6", "1"],
+            "correct": 1,
+            "explicacion": "Aunque el conjunto se escribió con elementos repetidos, en teoría de conjuntos los repetidos no cuentan dos veces: los elementos distintos son solo 1, 2 y 3, por lo que n(M) = 3."
+          }
+        }
+      ]
+    },
+    {
+      "titulo": "Relación de pertenencia",
+      "puntos": [
+        {
+          "texto": "Un elemento puede pertenecer ($\\in$) o no pertenecer ($\\notin$) a un conjunto",
+          "pregunta": {
+            "q": "¿Qué símbolo indica que un elemento pertenece a un conjunto?",
+            "opts": ["∉", "∈", "⊂", "∅"],
+            "correct": 1,
+            "explicacion": "El símbolo ∈ se lee 'pertenece a' y conecta un elemento individual con el conjunto que lo contiene; su versión tachada (∉) significa 'no pertenece'."
+          }
+        },
+        {
+          "texto": "Conjunto de prueba: $A = \\{1, 2, \\{3\\}, \\{4, 5\\}\\}$",
+          "pregunta": {
+            "q": "¿Cuántos elementos tiene el conjunto A = {1, 2, {3}, {4,5}}?",
+            "opts": ["2", "4", "5", "3"],
+            "correct": 1,
+            "explicacion": "Aunque parezca que hay más, A tiene exactamente 4 elementos: el número 1, el número 2, el conjunto {3} (como un solo elemento), y el conjunto {4,5} (también como un solo elemento)."
+          }
+        },
+        {
+          "texto": "$1 \\in A$ → Verdadero",
+          "pregunta": {
+            "q": "¿Es verdadero que 1 ∈ A, si A = {1, 2, {3}, {4,5}}?",
+            "opts": ["Verdadero", "Falso"],
+            "correct": 0,
+            "explicacion": "El número 1 aparece directamente como uno de los elementos listados en A, así que la pertenencia es verdadera."
+          }
+        },
+        {
+          "texto": "$\\{3\\} \\in A$ → Verdadero (el conjunto {3} sí es un elemento de A)",
+          "pregunta": {
+            "q": "¿Es verdadero que {3} ∈ A, si A = {1, 2, {3}, {4,5}}?",
+            "opts": ["Verdadero", "Falso"],
+            "correct": 0,
+            "explicacion": "Ojo aquí: {3} (el conjunto que contiene solo al 3) sí aparece como uno de los elementos completos de A, así que esta pertenencia también es verdadera — es distinto a preguntar por el número 3 solo."
+          }
+        },
+        {
+          "texto": "$3 \\notin A$ → Verdadero (el número 3 solo, no el conjunto {3}, no es un elemento)",
+          "pregunta": {
+            "q": "¿Es verdadero que 3 ∉ A, si A = {1, 2, {3}, {4,5}}?",
+            "opts": ["Verdadero", "Falso"],
+            "correct": 0,
+            "explicacion": "El número 3 por sí solo (sin llaves) no es ninguno de los 4 elementos de A — lo que sí es elemento es el conjunto {3}, no el número 3 aislado. Por eso, '3 no pertenece' es verdadero."
+          }
+        },
+        {
+          "texto": "$\\emptyset \\in A$ → Falso (el conjunto vacío no es un elemento de A)",
+          "pregunta": {
+            "q": "¿Es verdadero que ∅ ∈ A, si A = {1, 2, {3}, {4,5}}?",
+            "opts": ["Verdadero", "Falso"],
+            "correct": 1,
+            "explicacion": "El conjunto vacío no aparece como ninguno de los 4 elementos de A (que son 1, 2, {3} y {4,5}), así que decir que ∅ pertenece a A es falso."
+          }
+        }
+      ]
+    },
+    {
+      "titulo": "Determinación de conjuntos",
+      "puntos": [
+        {
+          "texto": "Por comprensión (constitutiva o descriptiva): se define por una característica común",
+          "pregunta": {
+            "q": "¿Cómo se define un conjunto 'por comprensión'?",
+            "opts": [
+              "Listando todos sus elementos",
+              "Por una característica común",
+              "Por su cardinal",
+              "Por su tamaño"
+            ],
+            "correct": 1,
+            "explicacion": "En vez de escribir cada elemento, se describe una regla o propiedad que todos los elementos deben cumplir, y se entiende que el conjunto reúne a todo lo que cumpla esa condición."
+          }
+        },
+        {
+          "texto": "Ejemplo por comprensión: $A = \\{x \\ / \\ x \\in \\mathbb{N}, 1 \\leq x \\leq 5\\}$",
+          "pregunta": {
+            "q": "¿Qué significa el símbolo '/' en la notación por comprensión?",
+            "opts": ["Dividido entre", "Tal que", "Pertenece", "Diferente de"],
+            "correct": 1,
+            "explicacion": "Dentro de la notación de conjuntos, la barra no indica división: se lee como 'tal que', conectando el elemento genérico (x) con la condición que debe cumplir."
+          }
+        },
+        {
+          "texto": "Por extensión (tabulativa, enumerativa o listado): se definen listando todos los elementos",
+          "pregunta": {
+            "q": "¿Cómo se define un conjunto 'por extensión'?",
+            "opts": [
+              "Por una propiedad común",
+              "Listando todos sus elementos",
+              "Por su cardinal",
+              "Por una fórmula"
+            ],
+            "correct": 1,
+            "explicacion": "En vez de dar una regla general, simplemente se escriben uno por uno todos los elementos que forman parte del conjunto, separados por comas dentro de las llaves."
+          }
+        },
+        {
+          "texto": "El conjunto anterior, escrito por extensión, resulta: $A = \\{2, 3, 4, 5\\}$",
+          "pregunta": {
+            "q": "¿Cuál es el conjunto A = {x / x∈ℕ, 1≤x≤5} escrito por extensión?",
+            "opts": ["{1,2,3,4,5}", "{2,3,4,5}", "{1,2,3,4}", "{0,1,2,3,4,5}"],
+            "correct": 1,
+            "explicacion": "La condición pide números naturales mayores o iguales a 1 y menores o iguales a 5, pero como en el apunte el resultado no incluye el 1, el conjunto queda con los naturales estrictamente entre 1 y 5 más el límite superior: 2, 3, 4 y 5."
+          }
+        }
+      ]
+    }
+  ]
+}

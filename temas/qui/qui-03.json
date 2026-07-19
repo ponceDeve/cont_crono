@@ -1,0 +1,168 @@
+{
+  "curso": "Química",
+  "tema": "Cálculos en Química: UMA, Peso Atómico y Peso Formular",
+  "glosario": {
+    "UMA": "Unidad de Masa Atómica, equivalente a 1,66 x 10^-24 g.",
+    "Peso Atómico": "Masa promedio de los átomos que componen un elemento, considerando sus isótopos.",
+    "Peso Formular": "Masa expresada en uma de cualquier unidad estructural de la materia (átomos, moléculas, iones).",
+    "Isótopo": "Átomos del mismo elemento con igual número de protones pero diferente número de neutrones.",
+    "Unidad estructural": "La entidad mínima que representa la composición de una sustancia (átomo, molécula o fórmula química)."
+  },
+  "theory": [
+    {
+      "titulo": "Conceptos Básicos: UMA",
+      "puntos": [
+        {
+          "texto": "La UMA (Unidad de Masa Atómica) es la unidad apropiada para expresar la masa a nivel de cuerpos diminutos como átomos, iones y moléculas.",
+          "pregunta": {
+            "q": "¿Qué unidad se utiliza para expresar la masa de partículas como átomos o moléculas?",
+            "opts": [
+              "Kilogramo",
+              "UMA",
+              "Litro",
+              "Pascal"
+            ],
+            "correct": 1,
+            "explicacion": "La Unidad de Masa Atómica (uma) es necesaria porque las masas de los átomos son extremadamente pequeñas, del orden de 10^-24 gramos, haciendo que las unidades convencionales como el gramo o kilogramo sean imprácticas."
+          }
+        },
+        {
+          "texto": "Equivalencia fundamental → 1 UMA = 1,66 x 10^-24 g.",
+          "pregunta": {
+            "q": "¿Cuál es la equivalencia de 1 UMA en gramos?",
+            "opts": [
+              "1,66 x 10^-24 g",
+              "1,66 x 10^-23 g",
+              "6,02 x 10^23 g",
+              "1 x 10^-24 g"
+            ],
+            "correct": 0,
+            "explicacion": "Esta equivalencia deriva de definir la uma como la doceava parte de la masa de un átomo de carbono-12, permitiendo estandarizar las masas atómicas relativas."
+          }
+        }
+      ]
+    },
+    {
+      "titulo": "Peso Atómico (P.A.)",
+      "puntos": [
+        {
+          "texto": "El Peso Atómico (P.A.) es la masa promedio de los átomos que componen un elemento, considerando la presencia de sus isótopos.",
+          "pregunta": {
+            "q": "¿Qué factores se consideran para determinar el Peso Atómico de un elemento?",
+            "opts": [
+              "Solo el número de protones",
+              "La masa de sus isótopos y su abundancia relativa",
+              "El número de electrones de valencia",
+              "La densidad del elemento"
+            ],
+            "correct": 1,
+            "explicacion": "El Peso Atómico no es una masa fija, sino un promedio ponderado basado en la masa de cada isótopo natural del elemento y su abundancia porcentual en la naturaleza."
+          }
+        },
+        {
+          "texto": "Ejemplo Boro (B) → Muestra con 20% de B-10 (5 uma) y 80% de B-11 (5 uma).",
+          "pregunta": {
+            "q": "Si una muestra de Boro tiene 20% de B-10 y 80% de B-11, ¿cómo se calcula su peso atómico promedio?",
+            "opts": [
+              "(10*20 + 11*80) / 100",
+              "(10*80 + 11*20) / 100",
+              "(10+11) / 2",
+              "(10*0.2 + 11*0.8) * 100"
+            ],
+            "correct": 0,
+            "explicacion": "El promedio ponderado se obtiene multiplicando la masa de cada isótopo por su fracción de abundancia (o porcentaje dividido por 100) y sumando los resultados."
+          }
+        },
+        {
+          "texto": "Resultado del cálculo del P.A. del Boro → P.A.(B) = 10,8 uma, redondeado aproximadamente a 11 uma.",
+          "pregunta": {
+            "q": "¿Cuál es el valor aproximado del peso atómico del Boro basado en su abundancia isotópica?",
+            "opts": [
+              "10 uma",
+              "10,5 uma",
+              "11 uma",
+              "12 uma"
+            ],
+            "correct": 2,
+            "explicacion": "Aunque el cálculo exacto es 10,8, en cálculos químicos escolares se suele redondear a 11 para facilitar la operativa, al ser un valor cercano al isótopo más abundante (B-11)."
+          }
+        }
+      ]
+    },
+    {
+      "titulo": "Peso Formular (P.F.)",
+      "puntos": [
+        {
+          "texto": "El Peso Formular (P.F.) expresa la masa en uma de cualquier unidad estructural de la materia (átomos, iones o moléculas).",
+          "pregunta": {
+            "q": "¿Qué permite determinar el Peso Formular?",
+            "opts": [
+              "El número de electrones de un átomo",
+              "La masa de una unidad estructural de la materia",
+              "La velocidad de reacción química",
+              "La carga eléctrica de un ion"
+            ],
+            "correct": 1,
+            "explicacion": "El P.F. es un concepto general que engloba tanto a compuestos moleculares (donde coincide con el Peso Molecular) como a sustancias iónicas (donde se refiere a la fórmula mínima o unidad fórmula)."
+          }
+        },
+        {
+          "texto": "Regla para elementos (átomos) → P.F. = P.A.",
+          "pregunta": {
+            "q": "¿Cómo se calcula el Peso Formular de un elemento compuesto por átomos?",
+            "opts": [
+              "Multiplicando el P.A. por dos",
+              "Es igual a su Peso Atómico (P.A.)",
+              "Sumando protones y neutrones",
+              "Dividiendo el P.A. entre el número atómico"
+            ],
+            "correct": 1,
+            "explicacion": "Para un elemento que existe como átomos individuales (como el Cobalto o el Azufre en ciertos estados), el peso de su unidad estructural es simplemente su peso atómico."
+          }
+        },
+        {
+          "texto": "Regla para compuestos (moléculas/unidad fórmula) → P.F. = suma de (átomos x P.A.).",
+          "pregunta": {
+            "q": "¿Cuál es el procedimiento general para calcular el Peso Formular de un compuesto químico?",
+            "opts": [
+              "Sumar los números atómicos de los elementos",
+              "Multiplicar los pesos atómicos",
+              "Sumar el producto de los subíndices de cada elemento por su peso atómico",
+              "Dividir el peso total entre el número de moléculas"
+            ],
+            "correct": 2,
+            "explicacion": "Se debe multiplicar el número de átomos de cada elemento (indicado por el subíndice en la fórmula) por el peso atómico respectivo de dicho elemento y luego sumar todos estos valores."
+          }
+        },
+        {
+          "texto": "Ejemplo P.F. del agua (H2O) → 2(H) + 1(O) = 2(1) + 1(16) = 18 uma.",
+          "pregunta": {
+            "q": "¿Cuál es el Peso Formular del agua (H2O)? (Considerando P.A.(H)=1, P.A.(O)=16)",
+            "opts": [
+              "17 uma",
+              "18 uma",
+              "32 uma",
+              "34 uma"
+            ],
+            "correct": 1,
+            "explicacion": "El cálculo es (2 átomos de H * 1 uma) + (1 átomo de O * 16 uma) = 2 + 16 = 18 uma."
+          }
+        },
+        {
+          "texto": "Observación importante → las sustancias covalentes poseen tanto peso formular como peso molecular, ya que se conforman de moléculas.",
+          "pregunta": {
+            "q": "¿Por qué las sustancias covalentes tienen tanto peso formular como peso molecular?",
+            "opts": [
+              "Porque contienen enlaces iónicos",
+              "Porque están formadas por moléculas",
+              "Porque son elementos puros",
+              "Porque su peso atómico cambia"
+            ],
+            "correct": 1,
+            "explicacion": "En las sustancias covalentes, la unidad estructural coincide con la molécula. Por tanto, el peso molecular es un tipo específico de peso formular."
+          }
+        }
+      ]
+    }
+  ]
+}

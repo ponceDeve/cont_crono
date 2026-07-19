@@ -1,0 +1,327 @@
+{
+  "curso": "Historia",
+  "tema": "Expansión Europea (XV-XVI)",
+  "theory": [
+    {
+      "titulo": "Factores de la expansión",
+      "puntos": [
+        {
+          "texto": "Renacimiento urbano y comercial",
+          "pregunta": {
+            "q": "¿Qué proceso de crecimiento de ciudades y comercio impulsó la expansión?",
+            "opts": [
+              "El feudalismo",
+              "El Renacimiento urbano y comercial",
+              "La peste negra",
+              "La Ilustración"
+            ],
+            "correct": 1,
+            "explicacion": "Entre los siglos XIV y XV, las ciudades europeas crecieron como centros comerciales y financieros. Esta prosperidad generó capital e interés por invertir en expediciones costosas y riesgosas hacia nuevas rutas comerciales."
+          }
+        },
+        {
+          "texto": "Toma de Constantinopla → búsqueda de nuevas rutas a Oriente",
+          "pregunta": {
+            "q": "¿Qué evento impulsó la búsqueda de nuevas rutas a Oriente?",
+            "opts": [
+              "La caída de Roma",
+              "La Toma de Constantinopla",
+              "El Tratado de Tordesillas",
+              "La Reconquista"
+            ],
+            "correct": 1,
+            "explicacion": "Cuando los turcos otomanos tomaron Constantinopla en 1453, cortaron la ruta terrestre tradicional por la que Europa recibía especias y seda desde Asia. Esto obligó a buscar caminos alternativos por mar."
+          }
+        },
+        {
+          "texto": "Adelantos técnicos y científicos:",
+          "sub": [
+            "Brújula",
+            "Papel",
+            "Imprenta",
+            "Pólvora",
+            "Astrolabio",
+            "Portulanos",
+            "Carabelas"
+          ],
+          "pregunta": {
+            "q": "¿Cuál de estos NO es un adelanto técnico de la expansión?",
+            "opts": ["Brújula", "Imprenta", "Motor a vapor", "Astrolabio"],
+            "correct": 2,
+            "explicacion": "La brújula, el astrolabio, la pólvora y la imprenta ya existían en los siglos XV-XVI y hicieron posible navegar mar abierto con seguridad. El motor a vapor es una invención de la Revolución Industrial, tres siglos después."
+          }
+        }
+      ]
+    },
+    {
+      "titulo": "Proyecto Portugués",
+      "puntos": [
+        {
+          "texto": "Costas occidentales de África → cuenca Atlántica",
+          "pregunta": {
+            "q": "¿Hacia qué costas se dirigió primero el proyecto portugués?",
+            "opts": [
+              "Costas de Asia",
+              "Costas occidentales de África",
+              "Costas de América",
+              "Costas del Mediterráneo"
+            ],
+            "correct": 1,
+            "explicacion": "Portugal, al no tener acceso directo al Mediterráneo oriental, optó por bajar bordeando la costa occidental africana buscando rodear el continente y llegar a Asia por el sur."
+          }
+        },
+        {
+          "texto": "Extremo sur de África: 1487, Bartolomé Díaz llega al Cabo de las Tormentas (Buena Esperanza)",
+          "pregunta": {
+            "q": "¿A qué lugar llegó Bartolomé Díaz en 1487?",
+            "opts": ["Calicut", "Cabo de las Tormentas", "Brasil", "Guanahaní"],
+            "correct": 1,
+            "explicacion": "Díaz fue el primer europeo en llegar al extremo sur de África. Lo llamó 'Cabo de las Tormentas' por las condiciones del mar, pero la corona portuguesa lo rebautizó 'Buena Esperanza' porque abría la ruta hacia la India."
+          }
+        },
+        {
+          "texto": "Océano Índico",
+          "pregunta": {
+            "q": "¿Qué océano bordeó Portugal para llegar a la India?",
+            "opts": ["Atlántico", "Pacífico", "Índico", "Ártico"],
+            "correct": 2,
+            "explicacion": "Tras rodear el Cabo de Buena Esperanza, los barcos portugueses entraron al Océano Índico, que los llevó directamente a las costas de la India."
+          }
+        },
+        {
+          "texto": "1498 — Vasco da Gama llega a Calicut (India): logra concretar la ruta a la India",
+          "pregunta": {
+            "q": "¿Quién llegó primero a la India por mar (1498)?",
+            "opts": ["Bartolomé Díaz", "Colón", "Vasco da Gama", "Magallanes"],
+            "correct": 2,
+            "explicacion": "Vasco da Gama completó la ruta que Díaz había dejado abierta, llegando hasta Calicut en 1498 y logrando así el objetivo que Portugal perseguía desde hacía décadas: una ruta marítima directa a las especias de Asia."
+          }
+        }
+      ]
+    },
+    {
+      "titulo": "Tratado de Tordesillas (1494)",
+      "puntos": [
+        {
+          "texto": "División del mundo entre Castilla y Portugal",
+          "pregunta": {
+            "q": "¿Qué dividió el Tratado de Tordesillas y entre quiénes?",
+            "opts": [
+              "Solo tierras africanas, entre Portugal e Inglaterra",
+              "El mundo, entre Castilla y Portugal",
+              "Solo América, entre Castilla y Francia",
+              "El comercio de especias"
+            ],
+            "correct": 1,
+            "explicacion": "España y Portugal competían por las tierras recién descubiertas. Para evitar conflictos, el Papa medió y ambas coronas firmaron este tratado en 1494, repartiéndose el mundo con una línea imaginaria."
+          }
+        },
+        {
+          "texto": "Línea trazada a 370 leguas al oeste de Cabo Verde",
+          "pregunta": {
+            "q": "¿A cuántas leguas al oeste de Cabo Verde se trazó la línea de Tordesillas?",
+            "opts": ["170", "270", "370", "470"],
+            "correct": 2,
+            "explicacion": "La línea se fijó a 370 leguas al oeste de las islas de Cabo Verde; todo lo que quedara al este sería de Portugal y al oeste de Castilla, lo cual explica por qué Brasil terminó siendo portugués."
+          }
+        }
+      ]
+    },
+    {
+      "titulo": "Proyecto Español",
+      "puntos": [
+        {
+          "texto": "Objetivo: llegar a Oriente a través de Occidente",
+          "pregunta": {
+            "q": "¿Cuál era el objetivo del proyecto español de Colón?",
+            "opts": [
+              "Conquistar África",
+              "Llegar a Oriente a través de Occidente",
+              "Colonizar Europa",
+              "Explorar el Ártico"
+            ],
+            "correct": 1,
+            "explicacion": "A diferencia de Portugal (que bordeaba África), Colón propuso llegar a Asia navegando hacia el oeste, cruzando el Atlántico, una ruta que nadie había probado."
+          }
+        },
+        {
+          "texto": "Apoyo político: Reyes Católicos · Inversión: Luis de Santángel",
+          "pregunta": {
+            "q": "¿Quién financió el viaje de Colón?",
+            "opts": [
+              "Los Reyes Católicos directamente",
+              "Luis de Santángel",
+              "El Papa",
+              "Los portugueses"
+            ],
+            "correct": 1,
+            "explicacion": "Aunque los Reyes Católicos dieron el permiso, fue Luis de Santángel, tesorero real, quien consiguió el dinero para costear la expedición, ya que las arcas reales estaban agotadas por la guerra de Granada."
+          }
+        },
+        {
+          "texto": "Permiso: Capitulación de Santa Fe → títulos de Almirante, Virrey y Gobernador",
+          "pregunta": {
+            "q": "¿Qué documento dio a Colón los títulos de Almirante, Virrey y Gobernador?",
+            "opts": [
+              "Tratado de Tordesillas",
+              "Capitulación de Santa Fe",
+              "Capitulación de Toledo",
+              "Capitulación de Burgos"
+            ],
+            "correct": 1,
+            "explicacion": "En la Capitulación de Santa Fe (1492), los Reyes Católicos acordaron con Colón las condiciones de su viaje: a cambio de sus servicios, recibiría estos títulos hereditarios sobre las tierras que descubriera."
+          }
+        },
+        {
+          "texto": "I viaje: llega a Guanahaní (1492-93)",
+          "pregunta": {
+            "q": "¿A qué isla llegó Colón en su primer viaje?",
+            "opts": ["Cuba", "Guanahaní", "La Española", "Jamaica"],
+            "correct": 1,
+            "explicacion": "El 12 de octubre de 1492, tras más de dos meses de navegación, la expedición de Colón llegó a una isla del Caribe que los nativos llamaban Guanahaní, creyendo haber llegado a Asia."
+          }
+        },
+        {
+          "texto": "II viaje (1493-96): funda La Isabela, primera ciudad",
+          "pregunta": {
+            "q": "¿Qué ciudad fundó Colón en su segundo viaje?",
+            "opts": ["Santo Domingo", "La Isabela", "Cartagena", "La Habana"],
+            "correct": 1,
+            "explicacion": "En su segundo viaje (1493), Colón fundó La Isabela en la isla La Española, la primera ciudad europea permanente en América, aunque terminó siendo abandonada años después."
+          }
+        },
+        {
+          "texto": "III viaje (1498-1500): llega a tierra firme (Venezuela)",
+          "pregunta": {
+            "q": "¿A qué territorio llegó Colón en su tercer viaje?",
+            "opts": [
+              "Centroamérica",
+              "Venezuela (tierra firme)",
+              "Brasil",
+              "Cuba"
+            ],
+            "correct": 1,
+            "explicacion": "En 1498, Colón finalmente pisó tierra continental americana (no solo islas) al llegar a las costas de la actual Venezuela."
+          }
+        },
+        {
+          "texto": "IV viaje (1502-04): Centroamérica",
+          "pregunta": {
+            "q": "¿A qué región llegó Colón en su cuarto viaje?",
+            "opts": ["Venezuela", "Centroamérica", "Brasil", "Las Antillas"],
+            "correct": 1,
+            "explicacion": "En su último viaje (1502-1504), ya enfermo y desprestigiado, Colón exploró las costas de Centroamérica buscando un paso hacia el otro océano, sin encontrarlo."
+          }
+        }
+      ]
+    },
+    {
+      "titulo": "Viajes de circunnavegación",
+      "puntos": [
+        {
+          "texto": "Hernando de Magallanes (1519-21) — Capitulación de Valladolid",
+          "pregunta": {
+            "q": "¿Qué documento autorizó el viaje de Magallanes?",
+            "opts": [
+              "Tratado de Tordesillas",
+              "Capitulación de Valladolid",
+              "Capitulación de Santa Fe",
+              "Capitulación de Burgos"
+            ],
+            "correct": 1,
+            "explicacion": "El rey Carlos I de España firmó la Capitulación de Valladolid con Magallanes en 1518, autorizando su expedición para encontrar una ruta occidental hacia las islas de las especias."
+          }
+        },
+        {
+          "texto": "Sebastián Elcano culmina el viaje",
+          "pregunta": {
+            "q": "¿Quién culminó la primera vuelta al mundo?",
+            "opts": [
+              "Bartolomé Díaz",
+              "Vasco da Gama",
+              "Sebastián Elcano",
+              "Álvares Cabral"
+            ],
+            "correct": 2,
+            "explicacion": "Magallanes murió en Filipinas en 1521 en un enfrentamiento con nativos. Fue Juan Sebastián Elcano quien tomó el mando de los barcos restantes y logró completar la primera vuelta al mundo en 1522."
+          }
+        }
+      ]
+    },
+    {
+      "titulo": "Consecuencias",
+      "puntos": [
+        {
+          "texto": "Formación de imperios ultramarinos",
+          "pregunta": {
+            "q": "¿Cuál de estas es una consecuencia de la expansión europea?",
+            "opts": [
+              "Independencia de las colonias",
+              "Formación de imperios ultramarinos",
+              "Fin del comercio internacional",
+              "Aislamiento de Europa"
+            ],
+            "correct": 1,
+            "explicacion": "Los territorios conquistados se organizaron como colonias dependientes de las metrópolis europeas, formando así los grandes imperios coloniales de España, Portugal, Inglaterra y Francia."
+          }
+        },
+        {
+          "texto": "Monopolio comercial de las potencias",
+          "pregunta": {
+            "q": "¿Qué se generó al controlar las potencias el comercio de las nuevas rutas?",
+            "opts": [
+              "Libre competencia",
+              "Monopolio comercial",
+              "Igualdad económica",
+              "Recesión"
+            ],
+            "correct": 1,
+            "explicacion": "Las coronas europeas restringieron el comercio de sus colonias exclusivamente a barcos de su propia bandera, generando un control cerrado y beneficios solo para la metrópoli."
+          }
+        },
+        {
+          "texto": "Desarrollo del mercantilismo",
+          "pregunta": {
+            "q": "¿Qué sistema económico se desarrolló a partir de la expansión?",
+            "opts": [
+              "El feudalismo",
+              "El mercantilismo",
+              "El comunismo",
+              "El socialismo"
+            ],
+            "correct": 1,
+            "explicacion": "El flujo masivo de oro y plata americano y el comercio colonial dieron origen al mercantilismo, la idea de que la riqueza de un país se mide por la cantidad de metales preciosos que acumula."
+          }
+        },
+        {
+          "texto": "Colapso demográfico por enfermedades",
+          "pregunta": {
+            "q": "¿Qué causó el colapso demográfico americano tras la expansión?",
+            "opts": [
+              "Las guerras civiles",
+              "Las enfermedades traídas por los europeos",
+              "La falta de alimento",
+              "Las sequías"
+            ],
+            "correct": 1,
+            "explicacion": "Los pueblos americanos no tenían defensas inmunológicas contra enfermedades europeas como la viruela o el sarampión, lo que provocó la muerte de la mayoría de la población indígena en pocas décadas."
+          }
+        },
+        {
+          "texto": "Expansión de la cultura occidental",
+          "pregunta": {
+            "q": "¿Qué se expandió junto con los imperios ultramarinos?",
+            "opts": [
+              "Solo el comercio",
+              "La cultura occidental",
+              "Solo la religión",
+              "Nada más"
+            ],
+            "correct": 1,
+            "explicacion": "Junto con el dominio político y económico, se impuso la lengua, la religión católica y las costumbres europeas sobre los territorios conquistados."
+          }
+        }
+      ]
+    }
+  ]
+}

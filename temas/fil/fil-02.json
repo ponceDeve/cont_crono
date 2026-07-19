@@ -1,0 +1,879 @@
+{
+  "curso": "Filosofía",
+  "tema": "Filosofía de Immanuel Kant: Criticismo y Ética",
+  "glosario": {
+    "Criticismo": "Corriente que evalúa los límites del conocimiento.",
+    "Sapere aude": "Locución latina que significa 'atrévete a pensar por ti mismo'.",
+    "Gnoseología": "Estudio del conocimiento.",
+    "Fenómeno": "Lo aparente, la cosa para sí.",
+    "Noúmeno": "La realidad última, la cosa en sí.",
+    "Teleológica": "Orientada a un fin o meta.",
+    "Deontológica": "Basada en el cumplimiento del deber.",
+    "Heterónoma": "Moral condicionada por elementos externos.",
+    "Autónoma": "Moral donde la razón dicta su propia ley."
+  },
+  "theory": [
+    {
+      "titulo": "Criticismo e Ilustración",
+      "puntos": [
+        {
+          "texto": "Criticismo: corriente filosófica que plantea los límites de las facultades cognitivas del hombre.",
+          "pregunta": {
+            "q": "¿Qué plantea principalmente la corriente filosófica del criticismo?",
+            "opts": [
+              "La existencia de Dios",
+              "Los límites de las facultades cognitivas",
+              "La negación de la realidad material",
+              "El valor de la fe sobre la razón"
+            ],
+            "correct": 1,
+            "explicacion": "Kant usó esta postura para superar tanto el escepticismo radical como el dogmatismo ciego, estableciendo qué es legítimo conocer."
+          }
+        },
+        {
+          "texto": "Criticismo: realiza una crítica formal a la razón pura.",
+          "pregunta": {
+            "q": "¿A qué elemento somete a crítica el criticismo kantiano?",
+            "opts": [
+              "A la experiencia empírica",
+              "A la tradición religiosa",
+              "A la razón pura",
+              "A la voluntad divina"
+            ],
+            "correct": 2,
+            "explicacion": "Kant somete la razón a un 'tribunal' para determinar sus capacidades y límites antes de intentar hacer ciencia o filosofía."
+          }
+        },
+        {
+          "texto": "Ilustración alemana: su máximo exponente y representante es Immanuel Kant.",
+          "pregunta": {
+            "q": "¿Quién es considerado el máximo exponente de la Ilustración alemana?",
+            "opts": [
+              "René Descartes",
+              "David Hume",
+              "Immanuel Kant",
+              "Friedrich Nietzsche"
+            ],
+            "correct": 2,
+            "explicacion": "A través de sus ensayos, este filósofo de Königsberg definió la madurez intelectual de su época."
+          }
+        },
+        {
+          "texto": "Ilustración alemana: promueve la autonomía de la razón y la independencia del intelecto.",
+          "pregunta": {
+            "q": "¿Qué promueve fundamentalmente la Ilustración alemana?",
+            "opts": [
+              "La autonomía de la razón",
+              "El sometimiento a la monarquía",
+              "La censura de las ideas",
+              "El conocimiento puramente teológico"
+            ],
+            "correct": 0,
+            "explicacion": "Se buscaba liberar al ser humano de tutelas externas, logrando que cada individuo guíe su propio pensamiento."
+          }
+        },
+        {
+          "texto": "Sapere aude: lema ilustrado que significa 'atrévete a pensar por ti mismo'.",
+          "pregunta": {
+            "q": "¿Qué significa la locución 'Sapere aude'?",
+            "opts": [
+              "Solo sé que nada sé",
+              "Pienso, luego existo",
+              "Atrévete a pensar por ti mismo",
+              "El fin justifica los medios"
+            ],
+            "correct": 2,
+            "explicacion": "Esta frase de origen latino (Horacio) fue popularizada por Kant en su ensayo de 1784 '¿Qué es la Ilustración?'."
+          }
+        }
+      ]
+    },
+    {
+      "titulo": "Las Obras de Kant",
+      "puntos": [
+        {
+          "texto": "Obra: 'Crítica de la razón pura' → estudia el campo de la Gnoseología.",
+          "pregunta": {
+            "q": "¿Qué campo filosófico estudia la 'Crítica de la razón pura'?",
+            "opts": [
+              "Gnoseología",
+              "Estética",
+              "Ética",
+              "Política"
+            ],
+            "correct": 0,
+            "explicacion": "En este texto se exploran los límites y las condiciones que hacen posible el conocimiento humano."
+          }
+        },
+        {
+          "texto": "Obra: 'Crítica de la razón práctica' → estudia el campo de la Ética.",
+          "pregunta": {
+            "q": "¿Qué rama de la filosofía aborda la 'Crítica de la razón práctica'?",
+            "opts": [
+              "Ontología",
+              "Ética",
+              "Gnoseología",
+              "Teología"
+            ],
+            "correct": 1,
+            "explicacion": "Esta segunda crítica se centra en la acción humana, la libertad y las bases del comportamiento moral."
+          }
+        },
+        {
+          "texto": "Obra: 'Metafísica de las costumbres' → también estudia el campo de la Ética.",
+          "pregunta": {
+            "q": "¿Qué temática principal se desarrolla en la 'Metafísica de las costumbres'?",
+            "opts": [
+              "Teoría del arte",
+              "Sistemas de gobierno",
+              "Ética",
+              "Física teórica"
+            ],
+            "correct": 2,
+            "explicacion": "En ella se desglosan los deberes del ser humano en dos grandes ramas: la doctrina del derecho y la doctrina de la virtud."
+          }
+        },
+        {
+          "texto": "Obra: 'Crítica del Juicio' → estudia el campo de la Estética.",
+          "pregunta": {
+            "q": "¿Qué campo de estudio corresponde a la 'Crítica del Juicio'?",
+            "opts": [
+              "Gnoseología",
+              "Estética",
+              "Ética",
+              "Política"
+            ],
+            "correct": 1,
+            "explicacion": "En esta tercera crítica se analizan los juicios de gusto, lo bello y lo sublime, así como la finalidad en la naturaleza."
+          }
+        },
+        {
+          "texto": "Obra: 'La Paz Perpetua' → estudia el campo de la Política.",
+          "pregunta": {
+            "q": "¿En qué área del pensamiento se enmarca 'La Paz Perpetua'?",
+            "opts": [
+              "Metafísica",
+              "Gnoseología",
+              "Política",
+              "Estética"
+            ],
+            "correct": 2,
+            "explicacion": "Es un ensayo donde propone una federación de Estados libres para evitar la guerra a nivel global."
+          }
+        }
+      ]
+    },
+    {
+      "titulo": "Las Interrogantes Kantianas",
+      "puntos": [
+        {
+          "texto": "1° Interrogante: ¿Qué puedo conocer? → es respondida por la Gnoseología (conocimiento).",
+          "pregunta": {
+            "q": "¿Qué disciplina responde a la interrogante '¿Qué puedo conocer?'?",
+            "opts": [
+              "Ética",
+              "Gnoseología",
+              "Antropología",
+              "Estética"
+            ],
+            "correct": 1,
+            "explicacion": "Esta pregunta delimita hasta dónde puede llegar nuestro entendimiento y qué objetos le están vedados."
+          }
+        },
+        {
+          "texto": "2° Interrogante: ¿Qué debo hacer? → es respondida por la Ética.",
+          "pregunta": {
+            "q": "¿Qué rama de la filosofía responde a '¿Qué debo hacer?'?",
+            "opts": [
+              "Política",
+              "Gnoseología",
+              "Ética",
+              "Teología"
+            ],
+            "correct": 2,
+            "explicacion": "Esta pregunta funda los principios universales de la acción correcta y el sentido del deber."
+          }
+        },
+        {
+          "texto": "3° Interrogante: ¿Qué puedo esperar? → es respondida por la Teología (Dios, Religión).",
+          "pregunta": {
+            "q": "¿Qué disciplina responde a la pregunta '¿Qué puedo esperar?'?",
+            "opts": [
+              "Estética",
+              "Teología",
+              "Ética",
+              "Gnoseología"
+            ],
+            "correct": 1,
+            "explicacion": "Aborda las esperanzas últimas del ser humano, como la inmortalidad del alma o la justicia divina, tratadas como postulados racionales."
+          }
+        },
+        {
+          "texto": "4° Interrogante: ¿Qué es el hombre? → es respondida por la Antropología filosófica.",
+          "pregunta": {
+            "q": "¿Qué disciplina engloba la interrogante final '¿Qué es el hombre?'?",
+            "opts": [
+              "Antropología filosófica",
+              "Física pura",
+              "Ontología",
+              "Matemáticas"
+            ],
+            "correct": 0,
+            "explicacion": "Según el filósofo, las primeras tres grandes preguntas se reducen en última instancia a comprender la naturaleza integral del ser humano."
+          }
+        },
+        {
+          "texto": "Concepción del hombre: la antropología kantiana lo define como un 'ser racional y libre'.",
+          "pregunta": {
+            "q": "¿Cómo define Kant al ser humano en su interrogante antropológica?",
+            "opts": [
+              "Un ser condicionado por el instinto",
+              "Una máquina puramente biológica",
+              "Un ser racional y libre",
+              "Una ilusión de los sentidos"
+            ],
+            "correct": 2,
+            "explicacion": "La racionalidad le permite conocer, y la libertad le permite actuar moralmente en el mundo."
+          }
+        }
+      ]
+    },
+    {
+      "titulo": "El Conocimiento (Giro Copernicano)",
+      "puntos": [
+        {
+          "texto": "Giro copernicano: el sujeto activo construye el objeto-conocimiento.",
+          "pregunta": {
+            "q": "¿Qué rol tiene el sujeto según el 'giro copernicano' de Kant?",
+            "opts": [
+              "Sujeto activo que construye el objeto",
+              "Es un espectador pasivo",
+              "No interviene en el conocimiento",
+              "Se adapta puramente a los objetos externos"
+            ],
+            "correct": 0,
+            "explicacion": "Kant invirtió la relación clásica: los objetos deben amoldarse a nuestras estructuras cognitivas, no al revés."
+          }
+        },
+        {
+          "texto": "Conocimiento (origen): es un constructo elaborado a partir de lo dado.",
+          "pregunta": {
+            "q": "¿Cómo describe Kant la naturaleza del conocimiento humano?",
+            "opts": [
+              "Es una copia exacta de la realidad",
+              "Es un constructo a partir de lo dado",
+              "Es una intuición divina",
+              "Es una ilusión sin fundamentos"
+            ],
+            "correct": 1,
+            "explicacion": "Requiere de 'materia' (lo que recibimos de los sentidos) y 'forma' (lo que la mente pone)."
+          }
+        },
+        {
+          "texto": "Conocimiento (mecanismo): utiliza formas y estructuras a priori.",
+          "pregunta": {
+            "q": "¿Qué elementos utiliza el sujeto para construir el conocimiento?",
+            "opts": [
+              "Únicamente impresiones sensibles a posteriori",
+              "Estructuras puramente metafísicas",
+              "Formas y estructuras a priori",
+              "Adivinación y deducción abstracta"
+            ],
+            "correct": 2,
+            "explicacion": "Lo 'a priori' es aquello que es independiente de la experiencia, como el espacio, el tiempo y las categorías lógicas."
+          }
+        },
+        {
+          "texto": "Fenómeno: es la realidad que SÍ se conoce.",
+          "pregunta": {
+            "q": "¿Qué nombre recibe aquello que el sujeto SÍ puede conocer?",
+            "opts": [
+              "Noúmeno",
+              "Metafísica",
+              "Fenómeno",
+              "Intuición pura"
+            ],
+            "correct": 2,
+            "explicacion": "El fenómeno es la experiencia estructurada por nuestra mente."
+          }
+        },
+        {
+          "texto": "Fenómeno (definición): se comprende como la 'cosa para sí' o lo aparente.",
+          "pregunta": {
+            "q": "¿Qué expresión define al concepto de Fenómeno?",
+            "opts": [
+              "La cosa para sí",
+              "La cosa en sí",
+              "La realidad última",
+              "La esencia divina"
+            ],
+            "correct": 0,
+            "explicacion": "Es decir, el mundo tal como se nos presenta (apariencia) después de pasar por nuestros filtros cognitivos."
+          }
+        },
+        {
+          "texto": "Noúmeno: es la realidad que NO se conoce.",
+          "pregunta": {
+            "q": "¿Qué término designa la realidad inalcanzable para el conocimiento humano?",
+            "opts": [
+              "Fenómeno",
+              "Estética",
+              "Noúmeno",
+              "Juicio analítico"
+            ],
+            "correct": 2,
+            "explicacion": "Establece el límite absoluto de lo que la ciencia y la mente humana pueden descifrar."
+          }
+        },
+        {
+          "texto": "Noúmeno (definición): se comprende como la 'cosa en sí'.",
+          "pregunta": {
+            "q": "¿Qué expresión es sinónimo de Noúmeno?",
+            "opts": [
+              "La cosa aparente",
+              "La cosa para sí",
+              "La intuición pura",
+              "La cosa en sí"
+            ],
+            "correct": 3,
+            "explicacion": "Referencia a la verdadera naturaleza de los objetos, independiente de cualquier sujeto que intente observarlos."
+          }
+        }
+      ]
+    },
+    {
+      "titulo": "Crítica de la Razón Pura: Estética y Analítica",
+      "puntos": [
+        {
+          "texto": "Estética Trascendental: es la parte de la crítica que estudia la facultad de la sensibilidad.",
+          "pregunta": {
+            "q": "¿Qué facultad es el objeto de estudio de la Estética Trascendental?",
+            "opts": [
+              "El entendimiento",
+              "La sensibilidad",
+              "La razón",
+              "La voluntad"
+            ],
+            "correct": 1,
+            "explicacion": "Esta sección analiza cómo los seres humanos perciben la información empírica a través de los sentidos."
+          }
+        },
+        {
+          "texto": "Sensibilidad (aporte): produce las intuiciones puras de espacio y tiempo.",
+          "pregunta": {
+            "q": "¿Cuáles son las intuiciones puras aportadas por la sensibilidad?",
+            "opts": [
+              "Sustancia y accidente",
+              "Causa y efecto",
+              "Espacio y tiempo",
+              "Cantidad y cualidad"
+            ],
+            "correct": 2,
+            "explicacion": "Son coordenadas mentales vacías que permiten ordenar cualquier sensación física que recibamos."
+          }
+        },
+        {
+          "texto": "Estética Trascendental (resultado): fundamenta el conocimiento de las Matemáticas.",
+          "pregunta": {
+            "q": "¿Qué ciencia es fundamentada mediante la Estética Trascendental?",
+            "opts": [
+              "Matemáticas",
+              "Química",
+              "Física",
+              "Biología"
+            ],
+            "correct": 0,
+            "explicacion": "La geometría nace de la estructura pura del espacio, y la aritmética surge de la estructura pura del tiempo."
+          }
+        },
+        {
+          "texto": "Analítica Trascendental: es la parte de la crítica que estudia la facultad del entendimiento.",
+          "pregunta": {
+            "q": "¿Qué facultad cognitiva es analizada por la Analítica Trascendental?",
+            "opts": [
+              "La percepción sensible",
+              "El entendimiento",
+              "La memoria",
+              "La intuición"
+            ],
+            "correct": 1,
+            "explicacion": "El entendimiento es la capacidad de pensar los objetos, unificando la diversidad de las impresiones sensibles."
+          }
+        },
+        {
+          "texto": "Entendimiento (categorías): utiliza 12 categorías a priori (cantidad, cualidad, relación, modo).",
+          "pregunta": {
+            "q": "¿Cuántas categorías a priori utiliza la facultad del entendimiento?",
+            "opts": [
+              "4",
+              "10",
+              "12",
+              "3"
+            ],
+            "correct": 2,
+            "explicacion": "Estas categorías son reglas o 'conceptos puros' que la mente aplica obligatoriamente para procesar la realidad, como la causalidad."
+          }
+        },
+        {
+          "texto": "Analítica Trascendental (resultado): fundamenta el conocimiento de la Física.",
+          "pregunta": {
+            "q": "¿Qué rama científica halla su fundamentación en la Analítica Trascendental?",
+            "opts": [
+              "Ética",
+              "Física",
+              "Matemáticas",
+              "Psicología"
+            ],
+            "correct": 1,
+            "explicacion": "Principios físicos (como que todo efecto tiene una causa) se sostienen en estas categorías del entendimiento aplicadas a los fenómenos."
+          }
+        }
+      ]
+    },
+    {
+      "titulo": "Crítica de la Razón Pura: Dialéctica",
+      "puntos": [
+        {
+          "texto": "Dialéctica Trascendental: es la parte de la crítica que estudia la facultad de la razón.",
+          "pregunta": {
+            "q": "¿Qué facultad analiza específicamente la Dialéctica Trascendental?",
+            "opts": [
+              "La sensibilidad",
+              "El entendimiento",
+              "La razón",
+              "La imaginación"
+            ],
+            "correct": 2,
+            "explicacion": "La razón es la facultad suprema de síntesis que intenta ir más allá de la experiencia para buscar lo incondicionado."
+          }
+        },
+        {
+          "texto": "Dialéctica Trascendental: su finalidad es averiguar si la Metafísica es una ciencia posible.",
+          "pregunta": {
+            "q": "¿Cuál es la finalidad principal de la Dialéctica Trascendental?",
+            "opts": [
+              "Establecer las leyes de la física",
+              "Averiguar si la Metafísica es una ciencia",
+              "Definir el método matemático",
+              "Refutar la existencia del tiempo"
+            ],
+            "correct": 1,
+            "explicacion": "Históricamente, la metafísica había fracasado en dar respuestas unánimes; Kant buscó descubrir de una vez por todas si era un conocimiento legítimo."
+          }
+        },
+        {
+          "texto": "Razón (ideas): agrupa la experiencia en tres Ideas Trascendentales: Dios, Yo-alma y Mundo.",
+          "pregunta": {
+            "q": "¿Cuáles son las tres Ideas Trascendentales analizadas en la Dialéctica?",
+            "opts": [
+              "Espacio, tiempo y materia",
+              "Tesis, antítesis y síntesis",
+              "Dios, Yo-alma y Mundo",
+              "Sujeto, verbo y predicado"
+            ],
+            "correct": 2,
+            "explicacion": "Representan la totalidad incondicionada en tres ámbitos: psicológico (alma), cosmológico (mundo) y teológico (Dios)."
+          }
+        },
+        {
+          "texto": "Conclusión sobre la Metafísica: NO es posible como ciencia porque excede los límites del fenómeno.",
+          "pregunta": {
+            "q": "¿Cuál es el veredicto de Kant sobre la Metafísica como ciencia?",
+            "opts": [
+              "Es la ciencia más exacta",
+              "Es una ciencia puramente empírica",
+              "NO es posible como ciencia",
+              "Es idéntica a las matemáticas"
+            ],
+            "correct": 2,
+            "explicacion": "Carece de intuiciones empíricas; sus objetos (Dios, alma) no pueden ser captados por la sensibilidad, por ende no producen conocimiento científico."
+          }
+        }
+      ]
+    },
+    {
+      "titulo": "Los Tipos de Juicios",
+      "puntos": [
+        {
+          "texto": "Juicios (concepto): establecen una relación de dos conceptos (un sujeto y un predicado).",
+          "pregunta": {
+            "q": "¿Qué elementos se relacionan en un juicio lógico según Kant?",
+            "opts": [
+              "Solo dos predicados",
+              "Un sujeto y un predicado",
+              "La razón y la sensibilidad",
+              "El espacio y el tiempo"
+            ],
+            "correct": 1,
+            "explicacion": "Todo conocimiento se articula mediante proposiciones o juicios donde se afirma o niega una cualidad respecto a una entidad."
+          }
+        },
+        {
+          "texto": "Juicio Analítico: se caracteriza porque el predicado ya está contenido en el sujeto.",
+          "pregunta": {
+            "q": "¿Qué característica define al Juicio Analítico?",
+            "opts": [
+              "El predicado NO está en el sujeto",
+              "Depende de la experiencia empírica",
+              "El predicado está contenido en el sujeto",
+              "Añade información completamente nueva"
+            ],
+            "correct": 2,
+            "explicacion": "Solo descomponen o explicitan el concepto que ya se tiene, por eso no extienden nuestro conocimiento sustancialmente."
+          }
+        },
+        {
+          "texto": "Juicio Analítico (temporalidad): es de naturaleza 'a priori' (independiente de la experiencia).",
+          "pregunta": {
+            "q": "¿Qué naturaleza temporal poseen los juicios analíticos?",
+            "opts": [
+              "Son a priori",
+              "Son a posteriori",
+              "Son empíricos",
+              "Son contingentes"
+            ],
+            "correct": 0,
+            "explicacion": "No necesitas observar el mundo para comprobar su verdad, basta con analizar los conceptos mediante la pura lógica."
+          }
+        },
+        {
+          "texto": "Juicio Analítico (ejemplo): 'El triángulo tiene tres lados'.",
+          "pregunta": {
+            "q": "¿Cuál frase ejemplifica un Juicio Analítico?",
+            "opts": [
+              "La mesa es roja",
+              "El triángulo tiene tres lados",
+              "El clima está frío",
+              "El auto se mueve rápido"
+            ],
+            "correct": 1,
+            "explicacion": "En la propia definición mental de 'triángulo' ya se encuentra contenida la cualidad de tener tres lados."
+          }
+        },
+        {
+          "texto": "Juicio Sintético: se caracteriza porque el predicado NO está contenido en el sujeto.",
+          "pregunta": {
+            "q": "¿Qué distingue a un Juicio Sintético de uno Analítico?",
+            "opts": [
+              "El predicado está contenido en el sujeto",
+              "Son juicios puramente formales",
+              "El predicado NO está contenido en el sujeto",
+              "Nunca otorgan nuevo conocimiento"
+            ],
+            "correct": 2,
+            "explicacion": "Son juicios extensivos: agregan un dato que no podíamos deducir solo pensando en el concepto del sujeto."
+          }
+        },
+        {
+          "texto": "Juicio Sintético (temporalidad): es de naturaleza 'a posteriori' (depende de la experiencia).",
+          "pregunta": {
+            "q": "¿De qué dependen los Juicios Sintéticos convencionales?",
+            "opts": [
+              "Del análisis lógico puro",
+              "De la experiencia empírica (a posteriori)",
+              "De las categorías innatas",
+              "De las verdades matemáticas"
+            ],
+            "correct": 1,
+            "explicacion": "Necesitamos recurrir a la percepción para verificar si el predicado realmente corresponde a ese sujeto en el mundo físico."
+          }
+        },
+        {
+          "texto": "Juicio Sintético (ejemplo): 'La manzana es dulce' o 'Todo cuerpo es pesado'.",
+          "pregunta": {
+            "q": "¿Cuál es un ejemplo claro de Juicio Sintético?",
+            "opts": [
+              "El todo es mayor que las partes",
+              "Los solteros no están casados",
+              "Un cuadrado tiene cuatro lados",
+              "La manzana es dulce"
+            ],
+            "correct": 3,
+            "explicacion": "El sabor dulce no pertenece a la definición estricta de manzana; podría haber manzanas ácidas. Se sabe que es dulce probándola."
+          }
+        },
+        {
+          "texto": "Juicio Sintético a priori: fundamentan a las ciencias porque agregan conocimiento con validez universal.",
+          "pregunta": {
+            "q": "¿Qué tipo de juicio es la base de las ciencias verdaderas según Kant?",
+            "opts": [
+              "Juicio Analítico a posteriori",
+              "Juicio Sintético a priori",
+              "Juicio Sintético a posteriori",
+              "Juicio Analítico empírico"
+            ],
+            "correct": 1,
+            "explicacion": "Es el hallazgo cumbre de Kant: proposiciones que amplían nuestro saber (sintéticos) pero que son verdaderas universalmente y sin excepción (a priori)."
+          }
+        },
+        {
+          "texto": "Juicio Sintético a priori (ejemplo matemático): 5 + 7 = 12.",
+          "pregunta": {
+            "q": "¿Qué ecuación usa Kant como ejemplo de Juicio Sintético a priori?",
+            "opts": [
+              "1 + 1 = 2",
+              "3 x 3 = 9",
+              "5 + 7 = 12",
+              "10 - 5 = 5"
+            ],
+            "correct": 2,
+            "explicacion": "El resultado '12' no está lógicamente dentro de los conceptos '5' ni '7' por sí solos; requiere un acto sintético a través de la intuición temporal."
+          }
+        }
+      ]
+    },
+    {
+      "titulo": "Ética Kantiana: Fundamentos",
+      "puntos": [
+        {
+          "texto": "Pilares de la moral: la ética se sostiene sobre la Libertad, la Razón y el Deber.",
+          "pregunta": {
+            "q": "¿Cuáles son los pilares sobre los que se asienta la ética kantiana?",
+            "opts": [
+              "Emociones, Instinto y Supervivencia",
+              "Libertad, Razón y Deber",
+              "Fe, Esperanza y Caridad",
+              "Felicidad, Placer y Utilidad"
+            ],
+            "correct": 1,
+            "explicacion": "Son los cimientos que hacen posible la existencia de obligaciones morales universales."
+          }
+        },
+        {
+          "texto": "Buena voluntad: se define como obrar por el 'bien por el bien mismo'.",
+          "pregunta": {
+            "q": "¿Cómo conceptualiza Kant a la 'Buena voluntad'?",
+            "opts": [
+              "Buscar la aprobación de los demás",
+              "Obrar por el bien por el bien mismo",
+              "Lograr el mayor placer posible",
+              "Evitar el castigo divino"
+            ],
+            "correct": 1,
+            "explicacion": "Es la única cosa que puede considerarse buena sin restricciones o sin importar sus consecuencias."
+          }
+        },
+        {
+          "texto": "Buena voluntad (interés): en ella no existe otro interés más que hacer lo correcto.",
+          "pregunta": {
+            "q": "¿Qué interés persigue una genuina buena voluntad?",
+            "opts": [
+              "El beneficio personal a largo plazo",
+              "La reputación en la sociedad",
+              "Ningún interés, solo hacer lo correcto",
+              "La felicidad de sus familiares"
+            ],
+            "correct": 2,
+            "explicacion": "En el momento en que se añade un interés ulterior, la acción pierde su valor moral puro."
+          }
+        }
+      ]
+    },
+    {
+      "titulo": "Ética Material",
+      "puntos": [
+        {
+          "texto": "Ética Material: es una ética teleológica que busca un fin o meta.",
+          "pregunta": {
+            "q": "¿Qué característica define estructuralmente a la Ética Material?",
+            "opts": [
+              "Busca un fin o meta (teleológica)",
+              "Se basa únicamente en el deber",
+              "Es de carácter incondicionado",
+              "No persigue objetivos externos"
+            ],
+            "correct": 0,
+            "explicacion": "Kant critica este modelo histórico de ética porque supedita la moral a conseguir algo fuera del individuo (el cielo, la felicidad, el placer)."
+          }
+        },
+        {
+          "texto": "Ética Material (naturaleza): genera una moral heterónoma.",
+          "pregunta": {
+            "q": "¿Qué tipo de moral se deriva de seguir una Ética Material?",
+            "opts": [
+              "Autónoma",
+              "Heterónoma",
+              "Incondicionada",
+              "Estrictamente racional"
+            ],
+            "correct": 1,
+            "explicacion": "Es heterónoma porque la ley que rige la voluntad no se la da el individuo, sino el objeto o meta que desea alcanzar."
+          }
+        },
+        {
+          "texto": "Ética Material (alcance): es de carácter particular y condicionada (contingente).",
+          "pregunta": {
+            "q": "¿Qué alcance tiene la Ética Material sobre las personas?",
+            "opts": [
+              "Es universal e igual para todos",
+              "Es particular y condicionada",
+              "Es obligatoria e ineludible",
+              "Es una ley de la física"
+            ],
+            "correct": 1,
+            "explicacion": "Como los fines que persiguen las personas varían (no todos desean lo mismo), la ética material no puede ser una ley universal obligatoria."
+          }
+        },
+        {
+          "texto": "Ética Material (mandatos): se rige mediante imperativos hipotéticos.",
+          "pregunta": {
+            "q": "¿Qué forma toman los mandatos en la Ética Material?",
+            "opts": [
+              "Imperativos universales",
+              "Imperativos categóricos",
+              "Imperativos hipotéticos",
+              "Leyes trascendentales"
+            ],
+            "correct": 2,
+            "explicacion": "Su forma lógica es condicional: 'Si quieres A, entonces debes hacer B'."
+          }
+        },
+        {
+          "texto": "Ética Material (ejemplo): 'Estudio para el examen'.",
+          "pregunta": {
+            "q": "¿Qué ejemplo ilustra un comportamiento de Ética Material o hipotética?",
+            "opts": [
+              "No miento bajo ninguna circunstancia",
+              "Estudio para el examen",
+              "Ayudo por puro sentido del deber",
+              "Respeto la dignidad de todos"
+            ],
+            "correct": 1,
+            "explicacion": "Estudiar es un medio utilizado únicamente para lograr un fin externo (aprobar), por lo que carece de mérito moral autónomo."
+          }
+        },
+        {
+          "texto": "Ética Material (ejemplo 2): 'Soy bueno porque me conviene'.",
+          "pregunta": {
+            "q": "¿Qué frase resume la motivación detrás de una Ética Material?",
+            "opts": [
+              "Cumplo mi deber aunque duela",
+              "La ley moral vive en mí",
+              "Soy bueno porque me conviene",
+              "El hombre es un fin en sí mismo"
+            ],
+            "correct": 2,
+            "explicacion": "Al obrar por conveniencia, la motivación es egoísta y contingente, no obedece al deber por el deber."
+          }
+        }
+      ]
+    },
+    {
+      "titulo": "Ética Formal",
+      "puntos": [
+        {
+          "texto": "Ética Formal: es deontológica, basándose en el deber por el deber.",
+          "pregunta": {
+            "q": "¿En qué concepto se fundamenta primordialmente la Ética Formal?",
+            "opts": [
+              "El alcance del placer",
+              "El deber (deontológica)",
+              "Los mandamientos externos",
+              "El resultado de las acciones"
+            ],
+            "correct": 1,
+            "explicacion": "La palabra deontología deriva del griego 'deon', que significa deber. Lo importante es la intención y forma de la regla, no las consecuencias."
+          }
+        },
+        {
+          "texto": "Ética Formal (naturaleza): genera una moral autónoma.",
+          "pregunta": {
+            "q": "¿Qué clase de moral resulta de aplicar la Ética Formal kantiana?",
+            "opts": [
+              "Autónoma",
+              "Heterónoma",
+              "Teleológica",
+              "Condicionada"
+            ],
+            "correct": 0,
+            "explicacion": "Es autónoma porque el individuo, mediante su propia razón pura práctica, se dicta a sí mismo la ley que debe cumplir."
+          }
+        },
+        {
+          "texto": "Ética Formal (alcance): es de carácter universal, incondicionada y necesaria.",
+          "pregunta": {
+            "q": "¿Qué alcance posee la moral en la Ética Formal?",
+            "opts": [
+              "Particular y subjetivo",
+              "Universal e incondicionado",
+              "Relativo a cada cultura",
+              "Dependiente del individuo"
+            ],
+            "correct": 1,
+            "explicacion": "Al no depender de fines personales ni circunstancias variables, su mandato es válido para todo ser racional, en todo momento."
+          }
+        },
+        {
+          "texto": "Ética Formal (mandatos): se rige mediante imperativos categóricos.",
+          "pregunta": {
+            "q": "¿A través de qué mandatos se expresa la Ética Formal?",
+            "opts": [
+              "Imperativos hipotéticos",
+              "Juicios analíticos a posteriori",
+              "Imperativos categóricos",
+              "Leyes de la naturaleza"
+            ],
+            "correct": 2,
+            "explicacion": "El imperativo categórico ordena una acción sin condiciones de forma absoluta: 'Debes hacer A', sin 'peros' ni 'sis'."
+          }
+        },
+        {
+          "texto": "El hombre y el deber: 'Trata siempre al hombre como un fin en sí mismo'.",
+          "pregunta": {
+            "q": "¿Cómo exige la Ética Formal que tratemos a la humanidad?",
+            "opts": [
+              "Como un recurso intercambiable",
+              "Como un fin en sí mismo",
+              "Como un peldaño hacia el progreso",
+              "Como individuos prescindibles"
+            ],
+            "correct": 1,
+            "explicacion": "Esta segunda formulación del imperativo resalta la dignidad inherente e inalienable de las personas."
+          }
+        },
+        {
+          "texto": "La dignidad humana: 'No trates al hombre como un mero medio o instrumento'.",
+          "pregunta": {
+            "q": "¿Qué prohíbe explícitamente Kant respecto al trato de las personas?",
+            "opts": [
+              "No tratarlos como un mero medio",
+              "No exigirles responsabilidad moral",
+              "No considerarlos seres racionales",
+              "No tratarlos como un fin en sí mismos"
+            ],
+            "correct": 0,
+            "explicacion": "Usar a alguien exclusivamente como herramienta para nuestros propósitos es violar su estatus de ser racional autónomo."
+          }
+        },
+        {
+          "texto": "Máxima universal: 'Obra como si tu acción sea una ley universal'.",
+          "pregunta": {
+            "q": "¿Cuál es el criterio central para que una acción sea moralmente válida?",
+            "opts": [
+              "Que su resultado maximice el bienestar",
+              "Que obres como si tu acción sea ley universal",
+              "Que esté aprobada legalmente",
+              "Que genere placer inmediato"
+            ],
+            "correct": 1,
+            "explicacion": "Si puedes querer que la máxima de tu acción se convierta en regla general de comportamiento sin contradecirse, es un acto moral."
+          }
+        },
+        {
+          "texto": "Máxima de la racionalidad: 'Actúa de modo racional'.",
+          "pregunta": {
+            "q": "¿Qué facultad debe guiar nuestras acciones morales según las máximas de Kant?",
+            "opts": [
+              "El instinto animal",
+              "Las emociones",
+              "La racionalidad",
+              "La intuición mística"
+            ],
+            "correct": 2,
+            "explicacion": "La moralidad es una exigencia de la razón pura práctica impuesta sobre nuestras inclinaciones o deseos biológicos."
+          }
+        }
+      ]
+    }
+  ]
+}

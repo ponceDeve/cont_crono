@@ -1,0 +1,148 @@
+{
+  "curso": "Economía",
+  "tema": "Elasticidad de la Demanda",
+  "glosario": {
+    "elasticidad": "Coeficiente que mide qué tanto cambia la cantidad demandada ante un cambio en el precio.",
+    "elástica": "La cantidad reacciona más que proporcionalmente al precio.",
+    "inelástica": "La cantidad reacciona menos que proporcionalmente al precio.",
+    "unitaria": "La cantidad reacciona en la misma proporción que el precio."
+  },
+  "theory": [
+    {
+      "titulo": "Elasticidad: Definición",
+      "puntos": [
+        {
+          "texto": "Es un coeficiente que mide el grado de variación: el cambio porcentual de $Q^d_x$ (en valor absoluto) respecto al cambio porcentual en el precio",
+          "pregunta": {
+            "q": "¿Qué mide la elasticidad de la demanda?",
+            "opts": [
+              "El precio de equilibrio",
+              "Cuánto cambia la cantidad demandada ante un cambio de precio",
+              "La oferta total",
+              "El ingreso del consumidor"
+            ],
+            "correct": 1,
+            "explicacion": "La elasticidad no mide el precio ni la cantidad por separado, sino qué tan sensible es la cantidad demandada frente a cambios en el precio: si un pequeño cambio de precio genera un gran cambio en la cantidad, o casi ninguno."
+          }
+        },
+        {
+          "texto": "Influye la cantidad de sustitutos que tenga el bien",
+          "pregunta": {
+            "q": "¿Qué factor influye directamente en la elasticidad de un bien?",
+            "opts": [
+              "Su color",
+              "La cantidad de sustitutos que tenga",
+              "Su nombre",
+              "El clima"
+            ],
+            "correct": 1,
+            "explicacion": "Mientras más sustitutos tenga un bien, más fácil es para el consumidor cambiarse a otra opción si el precio sube, haciendo que la demanda sea más elástica (sensible al precio)."
+          }
+        }
+      ]
+    },
+    {
+      "titulo": "Cálculo de la Elasticidad Precio (Ep)",
+      "puntos": [
+        {
+          "texto": "Fórmula 1: $EP = \\dfrac{\\Delta\\% Q^d_x}{\\Delta\\% P_x}$ (ejemplo: $\\dfrac{20\\%}{50\\%} = 0.4$)",
+          "pregunta": {
+            "q": "¿Cómo se calcula la elasticidad precio con la fórmula porcentual?",
+            "opts": [
+              "Cambio % de precio ÷ cambio % de cantidad",
+              "Cambio % de cantidad ÷ cambio % de precio",
+              "Cambio de cantidad × cambio de precio",
+              "Precio ÷ cantidad"
+            ],
+            "correct": 1,
+            "explicacion": "Se compara qué tanto varió porcentualmente la cantidad demandada frente a qué tanto varió porcentualmente el precio; si la cantidad varía más que el precio, el resultado es mayor a 1 (elástica)."
+          }
+        },
+        {
+          "texto": "Fórmula 2: $EP = \\left(\\dfrac{\\Delta Q^d_x}{\\Delta P_x}\\right) \\cdot \\dfrac{P_x}{Q^d_x}$",
+          "pregunta": {
+            "q": "En la fórmula 2 de elasticidad, ¿qué se multiplica por (ΔQd/ΔP)?",
+            "opts": ["Px/Qdx", "Qdx/Px", "ΔP/ΔQ", "Solo Px"],
+            "correct": 0,
+            "explicacion": "Esta versión de la fórmula convierte los cambios absolutos en un valor comparable, multiplicando la tasa de cambio (ΔQd/ΔP) por la razón entre el precio y la cantidad iniciales (Px/Qdx)."
+          }
+        }
+      ]
+    },
+    {
+      "titulo": "Tipos de Elasticidad de la Demanda",
+      "puntos": [
+        {
+          "texto": "Elástica: $|EP| > 1$. Se presenta en bienes con varios sustitutos. Gráfica con pendiente relativamente plana",
+          "pregunta": {
+            "q": "¿Cuándo la demanda es elástica?",
+            "opts": [
+              "Cuando |EP| < 1",
+              "Cuando |EP| > 1",
+              "Cuando |EP| = 0",
+              "Cuando |EP| = 1"
+            ],
+            "correct": 1,
+            "explicacion": "Cuando el valor absoluto de la elasticidad supera 1, significa que la cantidad demandada cambia proporcionalmente más que el precio — pequeños cambios de precio generan grandes cambios en las ventas."
+          }
+        },
+        {
+          "texto": "Inelástica: $|EP| < 1$. Productos con pocos sustitutos. Gráfica con pendiente más pronunciada",
+          "pregunta": {
+            "q": "¿Cuándo la demanda es inelástica?",
+            "opts": [
+              "Cuando |EP| > 1",
+              "Cuando |EP| < 1",
+              "Cuando |EP| = ∞",
+              "Cuando |EP| = 1"
+            ],
+            "correct": 1,
+            "explicacion": "Cuando el valor absoluto de la elasticidad es menor a 1, la cantidad demandada cambia poco aunque el precio varíe bastante — típico de bienes necesarios sin muchos sustitutos."
+          }
+        },
+        {
+          "texto": "Perfectamente inelástica: $|EP| = 0$. No tiene sustituto alguno. Gráfica vertical",
+          "pregunta": {
+            "q": "¿Qué caracteriza a la demanda perfectamente inelástica?",
+            "opts": [
+              "|EP| = 1, gráfica hiperbólica",
+              "|EP| = 0, gráfica vertical, sin sustitutos",
+              "|EP| = ∞, gráfica horizontal",
+              "|EP| > 1, gráfica plana"
+            ],
+            "correct": 1,
+            "explicacion": "Es el caso extremo donde la cantidad demandada no cambia nada sin importar cuánto suba el precio (por ejemplo, medicamentos vitales sin sustituto), por eso su gráfica es una línea vertical."
+          }
+        },
+        {
+          "texto": "Unitaria: $|EP| = 1$. Caso teórico. Gráfica hiperbólica",
+          "pregunta": {
+            "q": "¿Qué caracteriza a la demanda unitaria?",
+            "opts": [
+              "|EP| = 0",
+              "|EP| = 1, caso teórico, gráfica hiperbólica",
+              "|EP| > 1",
+              "|EP| = ∞"
+            ],
+            "correct": 1,
+            "explicacion": "Es un caso límite teórico donde el cambio porcentual en cantidad es exactamente igual al cambio porcentual en precio; en la práctica es difícil encontrar un bien real que cumpla esto exactamente."
+          }
+        },
+        {
+          "texto": "Perfectamente elástica: $|EP| = \\infty$. Con sustitutos infinitos. Gráfica horizontal",
+          "pregunta": {
+            "q": "¿Qué caracteriza a la demanda perfectamente elástica?",
+            "opts": [
+              "|EP| = 0, gráfica vertical",
+              "|EP| = 1, gráfica hiperbólica",
+              "|EP| = ∞, gráfica horizontal, sustitutos infinitos",
+              "|EP| < 1, gráfica pronunciada"
+            ],
+            "correct": 2,
+            "explicacion": "Es el otro extremo: cualquier pequeño aumento de precio hace que la cantidad demandada caiga a cero, porque existen sustitutos perfectos disponibles; se grafica como una línea horizontal."
+          }
+        }
+      ]
+    }
+  ]
+}

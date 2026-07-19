@@ -1,0 +1,331 @@
+{
+  "curso": "Historia del Perú",
+  "tema": "Guerras Civiles entre los Conquistadores",
+  "glosario": {
+    "Capitulación de Toledo": "Acuerdo de 1529 que otorgó mayores beneficios a Pizarro frente a Almagro, sembrando rivalidad.",
+    "Encomienda": "Sistema de trabajo donde se asignaba un grupo de indígenas a un español para su evangelización a cambio de tributo o trabajo.",
+    "Nueva Toledo": "Gobernación asignada a Diego de Almagro, correspondiente a los territorios del sur (actual Chile).",
+    "Real Audiencia": "Máximo tribunal de justicia de la corona española en América, con funciones de gobierno en ausencia del Virrey."
+  },
+  "theory": [
+    {
+      "titulo": "Guerra de las Fronteras (1536-1538)",
+      "puntos": [
+        {
+          "texto": "Naturaleza de las guerras: Conflictos de tipo feudal.",
+          "pregunta": {
+            "q": "¿Qué carácter o naturaleza tuvieron las primeras guerras civiles entre los conquistadores?",
+            "opts": [
+              "Guerras de independencia",
+              "Conflictos de tipo feudal",
+              "Guerras religiosas",
+              "Revoluciones industriales"
+            ],
+            "correct": 1,
+            "explicacion": "Se consideran de tipo feudal porque los conquistadores actuaban como señores que disputaban tierras (encomiendas), siervos (indígenas) y poder político, resistiéndose al control central de la Corona española."
+          }
+        },
+        {
+          "texto": "Bandos enfrentados: Francisco Pizarro vs. Diego de Almagro.",
+          "pregunta": {
+            "q": "¿Quiénes fueron los líderes de los bandos enfrentados en la Guerra de las Fronteras?",
+            "opts": [
+              "Gonzalo Pizarro y Blasco Núñez de Vela",
+              "Hernández Girón y La Gasca",
+              "Francisco Pizarro y Diego de Almagro",
+              "Vaca de Castro y Almagro el Mozo"
+            ],
+            "correct": 2,
+            "explicacion": "Los dos antiguos socios de la conquista se enfrentaron tras acumular resentimientos y ambiciones territoriales incompatibles tras la caída del Imperio Inca."
+          }
+        },
+        {
+          "texto": "Causa lejana: Capitulación de Toledo.",
+          "pregunta": {
+            "q": "¿Qué documento es considerado la causa lejana de la Guerra de las Fronteras?",
+            "opts": [
+              "Capitulación de Ayacucho",
+              "Las Leyes Nuevas",
+              "Tratado de Tordesillas",
+              "Capitulación de Toledo"
+            ],
+            "correct": 3,
+            "explicacion": "Firmada en 1529, esta capitulación otorgó a Pizarro títulos de Gobernador y Capitán General, además de un sueldo mucho mayor, marginando política y económicamente a Almagro."
+          }
+        },
+        {
+          "texto": "Causa cercana: Posesión del Cusco.",
+          "pregunta": {
+            "q": "¿Cuál fue el detonante o causa cercana que inició la guerra entre Pizarro y Almagro?",
+            "opts": [
+              "La posesión del Cusco",
+              "El reparto del rescate de Atahualpa",
+              "La fundación de Lima",
+              "La muerte de Huáscar"
+            ],
+            "correct": 0,
+            "explicacion": "Ambos reclamaban que la rica ciudad imperial del Cusco caía dentro de los límites de sus respectivas gobernaciones (Nueva Castilla para Pizarro y Nueva Toledo para Almagro)."
+          }
+        },
+        {
+          "texto": "Antecedente: Fracaso de Almagro en Nueva Toledo.",
+          "pregunta": {
+            "q": "¿Qué suceso motivó a Almagro a retornar y reclamar el Cusco por la fuerza?",
+            "opts": [
+              "Su fracaso expedicionario en Nueva Toledo",
+              "Una orden directa del rey",
+              "La muerte de Pizarro",
+              "El descubrimiento de Potosí"
+            ],
+            "correct": 0,
+            "explicacion": "Almagro marchó al sur (Chile) esperando encontrar riquezas, pero solo halló resistencia indígena (mapuches) y tierras áridas, lo que lo forzó a volver y tomar el Cusco para compensar sus pérdidas."
+          }
+        },
+        {
+          "texto": "Batalla final: Las Salinas → Derrota y ejecución de Almagro.",
+          "pregunta": {
+            "q": "¿En qué batalla fue derrotado definitivamente Diego de Almagro?",
+            "opts": [
+              "Batalla de Chupas",
+              "Batalla de las Salinas",
+              "Batalla de Jaquijahuana",
+              "Batalla de Iñaquito"
+            ],
+            "correct": 1,
+            "explicacion": "En 1538, las tropas pizarristas (lideradas por Hernando Pizarro) vencieron a los almagristas en Las Salinas (Cusco). Almagro fue capturado y ejecutado por estrangulamiento."
+          }
+        }
+      ]
+    },
+    {
+      "titulo": "Asesinato de Pizarro y Guerra de Almagro El Mozo",
+      "puntos": [
+        {
+          "texto": "Asesinato de Pizarro (Lima, 1541) → Causa: Pobreza y venganza almagrista.",
+          "pregunta": {
+            "q": "¿Qué motivó el asesinato de Francisco Pizarro en 1541?",
+            "opts": [
+              "Orden de la Inquisición",
+              "Rebelión indígena en Lima",
+              "Pobreza y venganza de los almagristas",
+              "Disputa por las minas de plata"
+            ],
+            "correct": 2,
+            "explicacion": "Tras la muerte de Almagro, sus seguidores (conocidos como 'los de Chile') fueron despojados de sus bienes y encomiendas, viviendo en la miseria en Lima, lo que alimentó su sed de venganza."
+          }
+        },
+        {
+          "texto": "Líderes del asesinato: Rada, Bilbao, Barragán.",
+          "pregunta": {
+            "q": "¿Quiénes fueron los principales implicados en el asesinato de Francisco Pizarro?",
+            "opts": [
+              "Gonzalo y Hernando Pizarro",
+              "Rada, Bilbao y Barragán",
+              "La Gasca y Núñez de Vela",
+              "Hernández Girón y Vaca de Castro"
+            ],
+            "correct": 1,
+            "explicacion": "Juan de Rada lideró al grupo de almagristas que irrumpió en la casa de Pizarro en Lima, dándole muerte a estocadas al grito de '¡Muera el tirano!'."
+          }
+        },
+        {
+          "texto": "Bandos: Almagro 'El Mozo' vs. Vaca de Castro.",
+          "pregunta": {
+            "q": "¿Quién enfrentó a Almagro 'El Mozo' en nombre de la Corona?",
+            "opts": [
+              "Pedro de la Gasca",
+              "Blasco Núñez de Vela",
+              "Gonzalo Pizarro",
+              "Cristóbal Vaca de Castro"
+            ],
+            "correct": 3,
+            "explicacion": "Vaca de Castro fue enviado por el rey Carlos I como juez comisionado para pacificar la región, pero al encontrar a Pizarro muerto, asumió el gobierno y combatió la rebelión almagrista."
+          }
+        },
+        {
+          "texto": "Desenlace: Batalla de Chupas → Derrota almagrista.",
+          "pregunta": {
+            "q": "¿En qué batalla fue derrotado Almagro 'El Mozo'?",
+            "opts": [
+              "Batalla de Chupas",
+              "Batalla de Pucará",
+              "Batalla de Iñaquito",
+              "Batalla de las Salinas"
+            ],
+            "correct": 0,
+            "explicacion": "Librada en 1542 cerca de Huamanga (Ayacucho), las fuerzas leales a Vaca de Castro vencieron a las de Almagro 'El Mozo', quien huyó al Cusco pero fue capturado y decapitado."
+          }
+        }
+      ]
+    },
+    {
+      "titulo": "Las Leyes Nuevas de 1542",
+      "puntos": [
+        {
+          "texto": "Promulgación: Carlos I bajo influencia de Bartolomé de las Casas.",
+          "pregunta": {
+            "q": "¿Qué fraile dominico influyó decisivamente en la creación de las Leyes Nuevas?",
+            "opts": [
+              "Vicente de Valverde",
+              "Hernando de Luque",
+              "Bartolomé de las Casas",
+              "Tomás de San Martín"
+            ],
+            "correct": 2,
+            "explicacion": "Fray Bartolomé de las Casas denunció los abusos de los conquistadores en su 'Brevísima relación de la destrucción de las Indias', convenciendo a Carlos I de intervenir para proteger a los nativos."
+          }
+        },
+        {
+          "texto": "Objetivo y medida principal: Proteger a los indios y eliminar encomiendas perpetuas.",
+          "pregunta": {
+            "q": "¿Qué limitación económica y política impusieron las Leyes Nuevas a los conquistadores?",
+            "opts": [
+              "Prohibición de extracción de plata",
+              "Eliminación de la perpetuidad de las encomiendas",
+              "Expulsión de los criollos del virreinato",
+              "Cobro de diezmos directos a los soldados"
+            ],
+            "correct": 1,
+            "explicacion": "La corona decretó que las encomiendas no serían hereditarias (perpetuas); al morir el encomendero, los indígenas pasarían a tributar directamente a la Corona, quitando poder a los conquistadores."
+          }
+        }
+      ]
+    },
+    {
+      "titulo": "Guerra de los Encomenderos (1544-1548)",
+      "puntos": [
+        {
+          "texto": "Fase 1 (Bandos): Gonzalo Pizarro vs. Blasco Núñez de Vela (1er Virrey).",
+          "pregunta": {
+            "q": "¿Contra quién se rebeló Gonzalo Pizarro en la primera fase de la guerra de encomenderos?",
+            "opts": [
+              "Vaca de Castro",
+              "Pedro de la Gasca",
+              "Diego de Almagro",
+              "Blasco Núñez de Vela"
+            ],
+            "correct": 3,
+            "explicacion": "Blasco Núñez de Vela llegó al Perú como el primer Virrey, con la misión inflexible de aplicar las Leyes Nuevas, lo que provocó el levantamiento armado de los encomenderos liderados por Gonzalo Pizarro."
+          }
+        },
+        {
+          "texto": "Fase 1 (Desenlace): Batalla de Iñaquito → Derrota de Núñez de Vela.",
+          "pregunta": {
+            "q": "¿Qué batalla resultó en la derrota y muerte del primer virrey del Perú?",
+            "opts": [
+              "Batalla de Iñaquito",
+              "Batalla de Chupas",
+              "Batalla de Jaquijahuana",
+              "Batalla de Pucará"
+            ],
+            "correct": 0,
+            "explicacion": "En 1546, cerca de Quito, el ejército de Gonzalo Pizarro derrotó a las fuerzas virreinales. Núñez de Vela fue decapitado en el campo de batalla."
+          }
+        },
+        {
+          "texto": "Fase 2 (Bandos): Gonzalo Pizarro vs. Pedro de la Gasca (Pacificador).",
+          "pregunta": {
+            "q": "¿A quién envió la Corona española como 'Pacificador' para someter a Gonzalo Pizarro?",
+            "opts": [
+              "Francisco de Toledo",
+              "Pedro de la Gasca",
+              "Vaca de Castro",
+              "Hernando Pizarro"
+            ],
+            "correct": 1,
+            "explicacion": "El clérigo Pedro de la Gasca fue enviado con amplios poderes. Utilizó la diplomacia, ofreciendo perdones y nuevas encomiendas, para desarmar las alianzas de Gonzalo Pizarro antes de la batalla final."
+          }
+        },
+        {
+          "texto": "Fase 2 (Causa): Búsqueda de autonomía pizarrista.",
+          "pregunta": {
+            "q": "¿Cuál era la pretensión política de fondo de Gonzalo Pizarro en la segunda fase del conflicto?",
+            "opts": [
+              "Restaurar el imperio Inca",
+              "Autonomía pizarrista frente a España",
+              "Conquistar territorios en Chile",
+              "Abolir la esclavitud africana"
+            ],
+            "correct": 1,
+            "explicacion": "Envalentonado por sus victorias, Francisco de Carvajal (asesor militar de Gonzalo Pizarro) le propuso casarse con una princesa inca y proclamarse rey del Perú, separándose totalmente del Imperio español."
+          }
+        },
+        {
+          "texto": "Fase 2 (Desenlace): Batalla de Jaquijahuana → Derrota y ejecución de G. Pizarro.",
+          "pregunta": {
+            "q": "¿En qué enfrentamiento fue derrotado y capturado Gonzalo Pizarro?",
+            "opts": [
+              "Batalla de Salinas",
+              "Batalla de Pucará",
+              "Batalla de Jaquijahuana",
+              "Batalla de Iñaquito"
+            ],
+            "correct": 2,
+            "explicacion": "En 1548, el ejército de Pizarro se desbandó casi sin luchar, ya que la mayoría de sus capitanes desertaron hacia el bando de La Gasca. Pizarro y Carvajal fueron ejecutados."
+          }
+        },
+        {
+          "texto": "Medida post-guerra: Reparto de Huaynarima por La Gasca.",
+          "pregunta": {
+            "q": "¿Cómo se llamó a la redistribución de tierras e indios realizada por La Gasca tras vencer a Gonzalo Pizarro?",
+            "opts": [
+              "Reparto de Huaynarima",
+              "Capitulación de Toledo",
+              "Tratado de Acobamba",
+              "Ordenanzas de Alfaro"
+            ],
+            "correct": 0,
+            "explicacion": "La Gasca tuvo que cumplir sus promesas a quienes desertaron del bando pizarrista. Repartió encomiendas en Huaynarima, pero no hubo suficientes para todos, dejando a muchos 'insatisfechos'."
+          }
+        }
+      ]
+    },
+    {
+      "titulo": "Rebelión de los Insatisfechos",
+      "puntos": [
+        {
+          "texto": "Bandos: Hernández Girón vs. Real Audiencia.",
+          "pregunta": {
+            "q": "¿Quién lideró la llamada Rebelión de los Insatisfechos contra la Real Audiencia?",
+            "opts": [
+              "Diego de Almagro el Mozo",
+              "Francisco Hernández Girón",
+              "Gonzalo Pizarro",
+              "Francisco de Carvajal"
+            ],
+            "correct": 1,
+            "explicacion": "Francisco Hernández Girón lideró este último levantamiento encomendero, asumiendo el mando de aquellos españoles que se sintieron marginados de las riquezas en los repartos recientes."
+          }
+        },
+        {
+          "texto": "Causa central: Mal reparto de encomiendas.",
+          "pregunta": {
+            "q": "¿Cuál fue el motivo principal de la rebelión de Hernández Girón?",
+            "opts": [
+              "La ejecución de Atahualpa",
+              "El deseo de fundar un reino independiente",
+              "El mal reparto de encomiendas",
+              "La invasión de piratas ingleses"
+            ],
+            "correct": 2,
+            "explicacion": "La rebelión estalló en 1553 porque muchos conquistadores sintieron que no fueron adecuadamente recompensados en el Reparto de Huaynarima, quedándose sin sirvientes indígenas ni rentas."
+          }
+        },
+        {
+          "texto": "Desenlace final: Batalla de Pucará → Derrota de los rebeldes.",
+          "pregunta": {
+            "q": "¿Qué batalla puso fin a las guerras civiles y a la Rebelión de los Insatisfechos?",
+            "opts": [
+              "Batalla de las Salinas",
+              "Batalla de Iñaquito",
+              "Batalla de Chupas",
+              "Batalla de Pucará"
+            ],
+            "correct": 3,
+            "explicacion": "En 1554, el ejército de la Real Audiencia derrotó a Hernández Girón en Pucará (Puno). Con su posterior ejecución en Lima, se consolidó definitivamente el poder de la Corona sobre el Virreinato."
+          }
+        }
+      ]
+    }
+  ]
+}

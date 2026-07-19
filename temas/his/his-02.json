@@ -1,0 +1,274 @@
+{
+  "curso": "Historia",
+  "tema": "Invasión al Tahuantinsuyo",
+  "theory": [
+    {
+      "titulo": "Antecedentes",
+      "puntos": [
+        {
+          "texto": "1508 — División de tierras: Capitulación de Burgos",
+          "pregunta": {
+            "q": "¿Qué capitulación dividió las tierras en 1508?",
+            "opts": [
+              "Capitulación de Toledo",
+              "Capitulación de Burgos",
+              "Capitulación de Santa Fe",
+              "Capitulación de Valladolid"
+            ],
+            "correct": 1,
+            "explicacion": "La Corona española repartió el territorio de Tierra Firme entre dos gobernadores para organizar la exploración y colonización, evitando que un solo hombre controlara toda la región."
+          }
+        },
+        {
+          "texto": "Gobernación de Castilla de Oro / Veragua, a cargo de Diego de Nicuesa",
+          "pregunta": {
+            "q": "¿Quién gobernó Castilla de Oro / Veragua?",
+            "opts": [
+              "Diego de Nicuesa",
+              "Alonso de Ojeda",
+              "Francisco Pizarro",
+              "Hernando de Soto"
+            ],
+            "correct": 0,
+            "explicacion": "Diego de Nicuesa recibió la gobernación occidental (actual Panamá/Costa Rica), aunque su expedición fracasó por hambre y enfermedades, y terminó desapareciendo en el mar."
+          }
+        },
+        {
+          "texto": "Gobernación de Nueva Andalucía, a cargo de Alonso de Ojeda (Santa María la Antigua del Darién)",
+          "pregunta": {
+            "q": "¿Quién gobernó Nueva Andalucía?",
+            "opts": [
+              "Diego de Nicuesa",
+              "Alonso de Ojeda",
+              "Diego de Almagro",
+              "Bartolomé Ruiz"
+            ],
+            "correct": 1,
+            "explicacion": "A Alonso de Ojeda le tocó la gobernación oriental, donde fundó Santa María la Antigua del Darién, primera ciudad europea estable en tierra firme americana."
+          }
+        },
+        {
+          "texto": "1513 — Vasco Núñez de Balboa descubre el Mar del Sur (Océano Pacífico)",
+          "pregunta": {
+            "q": "¿Quién descubrió el Mar del Sur en 1513?",
+            "opts": ["Pizarro", "Balboa", "Almagro", "Ruiz"],
+            "correct": 1,
+            "explicacion": "Vasco Núñez de Balboa cruzó el istmo de Panamá y fue el primer europeo en ver el océano Pacífico desde América, al que llamó 'Mar del Sur' por la dirección en que lo encontró."
+          }
+        }
+      ]
+    },
+    {
+      "titulo": "Viajes de Pizarro",
+      "puntos": [
+        {
+          "texto": "Empresa del Levante: Pizarro, Almagro y Luque, asociados con Gaspar de Espinosa",
+          "pregunta": {
+            "q": "¿Quiénes integraron la Empresa del Levante?",
+            "opts": [
+              "Colón, Pinzón y Santángel",
+              "Pizarro, Almagro y Luque",
+              "Magallanes, Elcano y Balboa",
+              "Cortés, Pizarro y Almagro"
+            ],
+            "correct": 1,
+            "explicacion": "Pizarro y Almagro aportaban la fuerza militar y organización, mientras el sacerdote Hernando de Luque conseguía el financiamiento junto con el juez Gaspar de Espinosa, formando así la sociedad que conquistaría el Perú."
+          }
+        },
+        {
+          "texto": "I viaje (1524-25):",
+          "sub": ["De exploración", "Llegan hasta el río San Juan"],
+          "pregunta": {
+            "q": "¿Qué caracterizó al I viaje de Pizarro?",
+            "opts": [
+              "Fue de conquista",
+              "Fue de exploración",
+              "Fue de descubrimiento",
+              "Fue de rescate"
+            ],
+            "correct": 1,
+            "explicacion": "El primer viaje (1524-25) fue apenas un reconocimiento del terreno; la expedición sufrió hambre y ataques, y no llegaron más allá de explorar la costa hasta el río San Juan."
+          }
+        },
+        {
+          "texto": "II viaje (1526-28):",
+          "sub": [
+            "De descubrimiento",
+            "Bartolomé Ruiz captura balseros",
+            "Destaca el intérprete Felipillo"
+          ],
+          "pregunta": {
+            "q": "¿Quién destacó como intérprete en el II viaje de Pizarro?",
+            "opts": [
+              "Bartolomé Ruiz",
+              "Felipillo",
+              "Valverde",
+              "Hernando de Soto"
+            ],
+            "correct": 1,
+            "explicacion": "Felipillo fue uno de los indígenas capturados y llevado a España para aprender español; luego sirvió como traductor clave en el encuentro con Atahualpa, aunque su traducción del 'requerimiento' fue muy imprecisa."
+          }
+        },
+        {
+          "texto": "Hito: 'El pleito del gallo' (los Trece de la Fama)",
+          "pregunta": {
+            "q": "¿Cómo se conoce al episodio de los Trece de la Fama?",
+            "opts": [
+              "La captura del gallo",
+              "El pleito del gallo",
+              "La rebelión del gallo",
+              "El motín de Tumbes"
+            ],
+            "correct": 1,
+            "explicacion": "Cuando la expedición estaba a punto de rendirse por el hambre y las dificultades, Pizarro trazó una raya en la arena y solo 13 hombres decidieron cruzarla y continuar con él, mostrando su lealtad pese al riesgo."
+          }
+        },
+        {
+          "texto": "Primer desembarco en Tumbes; llegan hasta el río Santa",
+          "pregunta": {
+            "q": "¿Hasta qué río llegaron en el primer desembarco en Tumbes?",
+            "opts": ["Río San Juan", "Río Santa", "Río Rímac", "Río Apurímac"],
+            "correct": 1,
+            "explicacion": "Tras el primer contacto con Tumbes, los españoles siguieron explorando la costa hasta el río Santa, confirmando la riqueza y organización del imperio que tenían por delante."
+          }
+        },
+        {
+          "texto": "Capitulación de Toledo (1529):",
+          "sub": [
+            "Permiso para el 3er viaje",
+            "Mayor beneficio para Francisco Pizarro",
+            "Quinto real para la Corona"
+          ],
+          "pregunta": {
+            "q": "¿Qué otorgó la Capitulación de Toledo (1529)?",
+            "opts": [
+              "El descubrimiento del Pacífico",
+              "Permiso para el 3er viaje y el quinto real",
+              "La fundación de Lima",
+              "El primer desembarco en Tumbes"
+            ],
+            "correct": 1,
+            "explicacion": "La reina Isabel de Portugal (regente) firmó este documento con Pizarro, autorizando oficialmente el tercer viaje de conquista, otorgándole el título de gobernador y asegurando que la Corona recibiera el 'quinto real' (20% del botín)."
+          }
+        },
+        {
+          "texto": "III viaje (1531-32): segundo desembarco en Tumbes",
+          "pregunta": {
+            "q": "¿Qué ocurrió en el segundo desembarco en Tumbes (1531-32)?",
+            "opts": [
+              "Se firmó la Capitulación de Burgos",
+              "Fue el inicio del III viaje de Pizarro",
+              "Se descubrió el Pacífico",
+              "Se fundó Lima"
+            ],
+            "correct": 1,
+            "explicacion": "Con el permiso real ya en mano, Pizarro regresó a Tumbes para iniciar formalmente la conquista, avanzando desde ahí hacia el interior del imperio inca, en plena guerra civil entre Huáscar y Atahualpa."
+          }
+        }
+      ]
+    },
+    {
+      "titulo": "Captura de Atahualpa",
+      "puntos": [
+        {
+          "texto": "Entrevista en Cajamarca: participan Hernando de Soto y Hernando Pizarro",
+          "pregunta": {
+            "q": "¿Quiénes participaron en la entrevista de Cajamarca junto a Pizarro?",
+            "opts": [
+              "Almagro y Ruiz",
+              "Hernando de Soto y Hernando Pizarro",
+              "Balboa y Nicuesa",
+              "Valverde y Ojeda"
+            ],
+            "correct": 1,
+            "explicacion": "Hernando Pizarro (hermano de Francisco) y Hernando de Soto fueron enviados como emisarios a contactar a Atahualpa antes del encuentro final, en el que el Inca fue emboscado y capturado."
+          }
+        },
+        {
+          "texto": "Captura del Inca tras el requerimiento leído por fray Vicente de Valverde",
+          "pregunta": {
+            "q": "¿Quién leyó el requerimiento antes de capturar a Atahualpa?",
+            "opts": [
+              "Hernando Pizarro",
+              "Hernando de Soto",
+              "Fray Vicente de Valverde",
+              "Diego de Almagro"
+            ],
+            "correct": 2,
+            "explicacion": "El fraile Vicente de Valverde leyó el 'requerimiento', un documento que exigía al Inca someterse a la Corona española y a la fe católica; Atahualpa lo rechazó, lo que los españoles usaron como pretexto para atacar."
+          }
+        }
+      ]
+    },
+    {
+      "titulo": "Atahualpa en prisión",
+      "puntos": [
+        {
+          "texto": "Prisión llamada Amaru Wasi ('la casa de la sierpe')",
+          "pregunta": {
+            "q": "¿Cómo se llamó la prisión de Atahualpa?",
+            "opts": [
+              "Amaru Wasi",
+              "Sacsayhuamán",
+              "Coricancha",
+              "Machu Picchu"
+            ],
+            "correct": 0,
+            "explicacion": "El Inca fue confinado en un recinto llamado Amaru Wasi ('casa de la serpiente' en quechua), mientras negociaba su rescate con los españoles."
+          }
+        },
+        {
+          "texto": "Manda asesinar a su hermano Huáscar",
+          "pregunta": {
+            "q": "¿A quién mandó asesinar Atahualpa preso?",
+            "opts": ["A Pizarro", "A Almagro", "A Huáscar", "A Valverde"],
+            "correct": 2,
+            "explicacion": "Aun estando prisionero, Atahualpa temía que su hermano Huáscar (con quien mantenía una guerra civil) pudiera negociar con los españoles y recuperar el trono, por lo que ordenó su ejecución."
+          }
+        },
+        {
+          "texto": "Ofrece oro y plata a cambio de su rescate",
+          "pregunta": {
+            "q": "¿Qué ofreció Atahualpa a cambio de su rescate?",
+            "opts": [
+              "Tierras y ejércitos",
+              "Oro y plata",
+              "Esclavos",
+              "Alimentos"
+            ],
+            "correct": 1,
+            "explicacion": "Atahualpa prometió llenar un cuarto de oro y dos de plata para obtener su libertad; el rescate se completó, pero los españoles decidieron ejecutarlo de todas formas."
+          }
+        },
+        {
+          "texto": "Llega Diego de Almagro con refuerzos",
+          "pregunta": {
+            "q": "¿Quién llegó como refuerzo mientras Atahualpa estaba preso?",
+            "opts": [
+              "Hernando de Soto",
+              "Diego de Almagro",
+              "Bartolomé Ruiz",
+              "Vicente de Valverde"
+            ],
+            "correct": 1,
+            "explicacion": "Diego de Almagro llegó a Cajamarca con más soldados españoles, lo que aumentó la presión y las tensiones internas sobre qué hacer con el Inca capturado."
+          }
+        },
+        {
+          "texto": "Es condenado y ejecutado en el garrote",
+          "pregunta": {
+            "q": "¿Cómo murió Atahualpa?",
+            "opts": [
+              "En batalla",
+              "Ejecutado en el garrote",
+              "De enfermedad",
+              "Escapó al Cusco"
+            ],
+            "correct": 1,
+            "explicacion": "Pese a haber pagado el rescate, los españoles lo acusaron de conspirar contra ellos y de la muerte de Huáscar, condenándolo a morir en el garrote (estrangulamiento), tras aceptar bautizarse para evitar ser quemado vivo."
+          }
+        }
+      ]
+    }
+  ]
+}

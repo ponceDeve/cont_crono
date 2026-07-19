@@ -1,0 +1,149 @@
+{
+  "curso": "Razonamiento Verbal",
+  "tema": "Jerarquía Textual",
+  "glosario": {
+    "tema": "Frase nominal que nombra de forma general el asunto del texto.",
+    "tema central": "Precisión más específica del tema general.",
+    "idea principal": "Oración que resume lo más importante del texto.",
+    "idea secundaria": "Ejemplo, detalle o anécdota que apoya la idea principal.",
+    "frase nominal": "Frase sin verbo conjugado, solo un sustantivo con sus modificadores."
+  },
+  "theory": [
+    {
+      "titulo": "Deducción de la jerarquía textual",
+      "puntos": [
+        {
+          "texto": "Tema: se presenta en forma de frase nominal y especifica el tema general",
+          "pregunta": {
+            "q": "¿En qué forma se presenta el Tema?",
+            "opts": [
+              "Como una oración completa",
+              "Como una frase nominal",
+              "Como una pregunta",
+              "Como un diálogo"
+            ],
+            "correct": 1,
+            "explicacion": "El tema no lleva verbo ni forma una oración; es solo un sustantivo con sus modificadores (una frase nominal), como 'el enamoramiento juvenil' o 'la contaminación ambiental'."
+          }
+        },
+        {
+          "texto": "Tema central: especifica aún más el tema",
+          "pregunta": {
+            "q": "¿Qué hace el Tema central respecto al Tema?",
+            "opts": [
+              "Lo contradice",
+              "Lo especifica más",
+              "Lo repite igual",
+              "Lo elimina"
+            ],
+            "correct": 1,
+            "explicacion": "El tema central acota el tema general a un enfoque más concreto; por ejemplo, del tema amplio 'el enamoramiento juvenil' se puede precisar 'las desventajas del enamoramiento juvenil'."
+          }
+        },
+        {
+          "texto": "Idea principal: es una oración completa",
+          "pregunta": {
+            "q": "¿Qué forma tiene la Idea principal?",
+            "opts": [
+              "Frase nominal",
+              "Una oración completa",
+              "Solo una palabra",
+              "Un signo"
+            ],
+            "correct": 1,
+            "explicacion": "A diferencia del tema y el tema central (que son frases sin verbo), la idea principal sí es una oración completa, con sujeto y predicado, que afirma algo sobre el tema central."
+          }
+        },
+        {
+          "texto": "Fórmula: Idea Principal = Tema central + verbo + complemento",
+          "pregunta": {
+            "q": "¿Cuál es la fórmula de la Idea Principal?",
+            "opts": [
+              "Tema + Idea secundaria",
+              "Tema central + verbo + complemento",
+              "Tema + verbo",
+              "Idea secundaria + verbo"
+            ],
+            "correct": 1,
+            "explicacion": "Para construir la idea principal, se toma el tema central (ya delimitado) y se le agrega un verbo y un complemento que digan qué pasa con ese tema central específicamente."
+          }
+        },
+        {
+          "texto": "Idea secundaria: ejemplifica, detalla, muestra anécdotas",
+          "pregunta": {
+            "q": "¿Qué función cumple la Idea secundaria?",
+            "opts": [
+              "Resume todo el texto",
+              "Ejemplifica, detalla o da anécdotas",
+              "Presenta el tema general",
+              "Reemplaza a la idea principal"
+            ],
+            "correct": 1,
+            "explicacion": "Las ideas secundarias no presentan información nueva sobre el tema, sino que respaldan o ilustran la idea principal con ejemplos, datos o anécdotas concretas."
+          }
+        }
+      ]
+    },
+    {
+      "titulo": "Caso aplicado",
+      "puntos": [
+        {
+          "texto": "Tema: El enamoramiento juvenil",
+          "pregunta": {
+            "q": "En el caso del ejemplo, ¿cuál es el Tema?",
+            "opts": [
+              "El enamoramiento juvenil",
+              "Las desventajas académicas",
+              "La distracción escolar",
+              "El ámbito académico"
+            ],
+            "correct": 0,
+            "explicacion": "'El enamoramiento juvenil' es el tema porque es solo una frase nominal general, sin verbo, que nombra el asunto del texto sin precisar ningún enfoque todavía."
+          }
+        },
+        {
+          "texto": "Tema central: Desventajas del enamoramiento juvenil",
+          "pregunta": {
+            "q": "En el caso del ejemplo, ¿cuál es el Tema central?",
+            "opts": [
+              "El enamoramiento juvenil",
+              "Desventajas del enamoramiento juvenil",
+              "La distracción",
+              "El ámbito académico"
+            ],
+            "correct": 1,
+            "explicacion": "'Desventajas del enamoramiento juvenil' ya no es el tema general, sino un recorte más específico: se enfoca solo en el lado negativo del enamoramiento, no en el tema completo."
+          }
+        },
+        {
+          "texto": "Idea principal: El enamoramiento juvenil perjudica en el ámbito académico",
+          "pregunta": {
+            "q": "En el caso del ejemplo, ¿cuál es la Idea principal?",
+            "opts": [
+              "El enamoramiento juvenil",
+              "Desventajas del enamoramiento juvenil",
+              "El enamoramiento juvenil perjudica en el ámbito académico",
+              "La distracción es un problema"
+            ],
+            "correct": 2,
+            "explicacion": "Esta frase sí es una oración completa (sujeto + verbo 'perjudica' + complemento 'en el ámbito académico'), siguiendo la fórmula: tema central + verbo + complemento."
+          }
+        },
+        {
+          "texto": "Idea secundaria: una de las desventajas en el ámbito académico es la distracción",
+          "pregunta": {
+            "q": "En el caso del ejemplo, ¿cuál es la Idea secundaria?",
+            "opts": [
+              "El enamoramiento juvenil",
+              "Desventajas del enamoramiento juvenil",
+              "El enamoramiento juvenil perjudica en el ámbito académico",
+              "Una desventaja es la distracción"
+            ],
+            "correct": 3,
+            "explicacion": "Esta idea no presenta un nuevo argumento, sino que ejemplifica y detalla una forma concreta en que ocurre lo dicho en la idea principal: la distracción académica."
+          }
+        }
+      ]
+    }
+  ]
+}

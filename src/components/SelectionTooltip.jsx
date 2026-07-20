@@ -62,7 +62,6 @@ export default function SelectionTooltip() {
       style={{ top: pos.top, left: pos.left }}
     >
       <i className="fab fa-google" />
-      Buscar en Google
     </div>
   );
 }

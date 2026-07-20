@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 
 export default function TopicsModal({
   open,
@@ -8,12 +8,40 @@ export default function TopicsModal({
   listaTemas = [],
   onSelectTema
 }) {
+  const [activeIndex, setActiveIndex] = useState(null);
+
   if (!open) return null;
 
+  function manejarClickTema(item, index) {
+    if (activeIndex === index) {
+      // Segundo clic sobre la misma celda: recién ahí entra al tema
+      onSelectTema(item);
+      onClose();
+      setActiveIndex(null);
+    } else {
+      // Primer clic: muestra el nombre flotando y lo lee en voz alta
+      setActiveIndex(index);
+      if (typeof window !== "undefined" && window.speechSynthesis) {
+        window.speechSynthesis.cancel();
+        const utterance = new SpeechSynthesisUtterance(item.tema);
+        utterance.lang = "es-ES";
+        window.speechSynthesis.speak(utterance);
+      }
+    }
+  }
+
   return (
-    <div className="levels-modal" style={{ zIndex: 1000 }}>
-      <div className="levels-modal__inner">
+    <div
+      className="levels-modal"
+      style={{ zIndex: 1000 }}
+      onClick={() => setActiveIndex(null)}
+    >
+      <div className="levels-modal__inner" onClick={(e) => e.stopPropagation()}>
         <h2 className="levels-modal__title">Temas de {curso}</h2>
+
+        {activeIndex !== null && listaTemas[activeIndex] && (
+          <div className="level-tema-banner">{listaTemas[activeIndex].tema}</div>
+        )}
 
         <div className="levels-modal__grid">
           {listaTemas.map((item, index) => {
@@ -21,16 +49,11 @@ export default function TopicsModal({
 
             return (
               <div key={index} className="level-cell">
-                {/* Tooltip nativo usando tu clase de CSS */}
-                <div className="level-tooltip">
-                  {item.tema}
-                </div>
-
                 <button
                   className={`level-btn ${esTemaActual ? 'is-current' : ''}`}
-                  onClick={() => {
-                    onSelectTema(item);
-                    onClose();
+                  onClick={(e) => {
+                    e.stopPropagation();
+                    manejarClickTema(item, index);
                   }}
                 >
                   {index + 1}

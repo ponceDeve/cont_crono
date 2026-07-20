@@ -73,12 +73,9 @@ export default function MiEstudioPage() {
     if (!query.trim()) return [];
     const q = query.trim().toLowerCase();
 
-    return OPCIONES_BUSQUEDA.filter((item) => {
-      if (item.type === "curso") {
-        return item.nombre.toLowerCase().includes(q);
-      }
-      return item.tema.toLowerCase().includes(q) || item.curso.toLowerCase().includes(q);
-    }).slice(0, 8);
+    return OPCIONES_BUSQUEDA.filter(
+      (item) => item.type === "curso" && item.nombre.toLowerCase().includes(q),
+    ).slice(0, 8);
   }, [query]);
 
   useEffect(() => {
@@ -106,7 +103,7 @@ export default function MiEstudioPage() {
     setLoading(true);
     setError("");
     try {
-      const res = await fetch(`/${item.archivo}`);
+      const res = await fetch(item.archivo);
       if (!res.ok) throw new Error("No se encontró el archivo del tema");
       const data = await res.json();
       const puntos = (data.theory || []).flatMap((seccion) =>
@@ -428,18 +425,11 @@ export default function MiEstudioPage() {
                 <div className="home-search-results">
                   {results.map((r, i) => (
                     <button
-                      key={r.type === "curso" ? r.nombre : r.archivo}
+                      key={r.nombre}
                       onClick={() => seleccionarItem(r)}
-                      className={`home-search-result ${i === focusedInicial ? "is-focused" : ""}`}
+                      className={`home-search-result is-curso ${i === focusedInicial ? "is-focused" : ""}`}
                     >
-                      {r.type === "curso" ? (
-                        <p> {r.nombre}</p>
-                      ) : (
-                        <>
-                          <p>{r.tema}</p>
-                          <p>{r.curso}</p>
-                        </>
-                      )}
+                      <p>{r.nombre}</p>
                     </button>
                   ))}
                 </div>

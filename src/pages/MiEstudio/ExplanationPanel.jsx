@@ -34,7 +34,7 @@ export default function ExplanationPanel({
           </button>
         ) : (
           <button onClick={onReintentar} className="explanation-panel__btn is-retry">
-            Intentar de nuevo <span>(Enter)</span> <i className="fas fa-rotate-left" />
+            <i className="fas fa-rotate-left" />
           </button>
         )}
       </div>

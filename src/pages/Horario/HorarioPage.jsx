@@ -23,8 +23,6 @@ const DIAS_FILA1 = ["lunes", "martes", "miercoles"];
 const DIAS_FILA2 = ["jueves", "viernes", "sabado"];
 
 function levelClass(level) {
-  // Paleta pensada para aprendizaje: se evita el rojo saturado (genera estrés/urgencia)
-  // y se usan tonos suaves: azul = calma y foco, verde = equilibrio, naranja = atención puntual.
   if (level === "easy") return "level-easy";
   if (level === "medium") return "level-medium";
   return "level-hard";
@@ -84,7 +82,7 @@ export default function HorarioPage() {
   function handleTaskComplete() {
     if (alarmRef.current) {
       alarmRef.current.currentTime = 0;
-      alarmRef.current.play().catch(() => {});
+      alarmRef.current.play().catch(() => { });
     }
     if (!activeCourse) return;
     const key = progressKey(selectedDay, activeCourse.subject);
@@ -110,11 +108,11 @@ export default function HorarioPage() {
 
   const currentTaskDuration = activeCourse
     ? activeTasks[getTaskIndex(selectedDay, activeCourse.subject)]?.duration ||
-      POMODORO_MIN
+    POMODORO_MIN
     : POMODORO_MIN;
   const progressPct = Math.round(
     ((currentTaskDuration * 60 - secondsLeft) / (currentTaskDuration * 60)) *
-      100,
+    100,
   );
 
   function abrirCurso(idx) {
@@ -133,7 +131,7 @@ export default function HorarioPage() {
       pendingCourseComplete &&
       temaDesdeLink &&
       temaDesdeLink.curso.toLowerCase() ===
-        pendingCourseComplete.subject.toLowerCase();
+      pendingCourseComplete.subject.toLowerCase();
     if (vieneConTema) {
       registrarCursoCompletado({
         ...pendingCourseComplete,
@@ -404,9 +402,11 @@ export default function HorarioPage() {
       </main>
 
       <div className="horario__repaso-link-wrap">
-        <a href="/repaso" target="_blank" rel="noopener noreferrer" className="horario__repaso-link">
-          <i className="bi bi-calendar-check" /> Ver mis repasos de hoy
-        </a>
+        <div className="horario__repaso-link-wrap">
+          <a href={`${window.location.origin}/cont_crono/repaso`} target="_blank" rel="noopener noreferrer" className="horario__repaso-link">
+            <i className="bi bi-calendar-check" /> Ver mis repasos de hoy
+          </a>
+        </div>
       </div>
 
       <audio ref={alarmRef} src="/sonidos/loud-alarm-ringtones-annoying.mp3" preload="auto" />

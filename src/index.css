@@ -162,7 +162,7 @@ a {
 
 .timer-font {
   font-family: "DSDigi", monospace;
-  font-size: 25rem;
+  margin: 0;
 }
 
 .arcade-big-btn {
@@ -628,32 +628,72 @@ a {
     var(--shadow-lg),
     0 0 0 3px var(--primary-bg);
 }
+/* Contenedor de resultados */
 .search-results {
-  max-height: 18rem;
-  overflow-y: auto;
   display: flex;
   flex-direction: column;
-  gap: 4px;
-  margin-top: 8px;
-  background: var(--surface);
-  border-radius: var(--radius-lg);
-  box-shadow: var(--shadow-lg);
-  padding: 8px;
+  gap: 0;
+  max-height: 400px;
+  overflow-y: auto;
+  padding: 8px 0;
 }
+
+/* Base para cualquier item de la lista */
 .search-result-item {
   width: 100%;
   text-align: left;
-  padding: 10px 14px;
-  border-radius: var(--radius-md);
   border: none;
-  background: none;
+  background: transparent;
+  padding: 10px 16px;
   cursor: pointer;
-  transition: background 0.15s;
+  border-radius: 0; /* sin esquinas redondeadas: se leen como lista continua, no burbujas sueltas */
 }
+
+/* Estado de foco (navegación por teclado) */
 .search-result-item:hover,
 .search-result-item.is-focused {
-  background: var(--primary-bg);
+  background-color: var(--surface-hover);
+  outline: none;
 }
+
+/* 
+  JERARQUÍA: CURSO 
+  Color primario, fondo propio de la paleta oscura, sin margen izquierdo
+*/
+.search-result-item.is-curso {
+  background-color: var(--surface-alt);
+  color: var(--primary);
+  font-weight: 700;
+  font-size: 1rem;
+  margin-bottom: 2px; /* separación mínima, no un salto grande */
+}
+.search-result-item.is-curso:hover,
+.search-result-item.is-curso.is-focused {
+  background-color: var(--surface-hover);
+}
+
+/* 
+  JERARQUÍA: TEMA 
+  Indentación (margin-left) y un tinte casi imperceptible, no un fondo claro
+*/
+.search-result-item.is-tema {
+  background-color: rgba(
+    255,
+    255,
+    255,
+    0.03
+  ); /* tinte muy sutil sobre el fondo oscuro */
+  color: var(--ink-soft);
+  font-size: 0.95rem;
+  margin-left: 24px; /* <--- La indentación visual */
+  width: calc(100% - 24px); /* Ajuste de ancho por el margin */
+  border-left: 2px solid var(--border); /* línea guía discreta */
+}
+.search-result-item.is-tema:hover,
+.search-result-item.is-tema.is-focused {
+  background-color: rgba(255, 255, 255, 0.06);
+}
+
 .search-result-item__tema {
   font-weight: 700;
   font-size: 13px;
@@ -726,10 +766,33 @@ a {
   margin: 0;
   color: var(--ink);
 }
-.home-search-result p:last-child {
-  font-size: 11px;
-  margin: 0;
+
+/* JERARQUÍA: CURSO — fondo y color propios, sin indentación */
+.home-search-result.is-curso {
+  background-color: var(--surface-alt);
+}
+.home-search-result.is-curso p:first-child {
   color: var(--primary);
+  font-weight: 700;
+}
+.home-search-result.is-curso:hover,
+.home-search-result.is-curso.is-focused {
+  background-color: var(--surface-hover);
+}
+
+/* JERARQUÍA: TEMA — tinte casi imperceptible, color de texto discreto */
+.home-search-result.is-tema {
+  background-color: rgba(255, 255, 255, 0.03);
+  padding-left: 40px; /* 16px base + 24px de indentación */
+  border-left: 2px solid var(--border);
+}
+.home-search-result.is-tema p:first-child {
+  color: var(--ink-soft);
+  font-weight: 600;
+}
+.home-search-result.is-tema:hover,
+.home-search-result.is-tema.is-focused {
+  background-color: rgba(255, 255, 255, 0.06);
 }
 
 /* ============================================================
@@ -754,8 +817,8 @@ a {
 }
 .levels-modal__title {
   font-family: var(--font-mono);
-  font-size: 1.9rem;
-  color: var(--accent);
+  font-size: 20px;
+  color: var(--ink);
   margin-bottom: 32px;
   text-transform: uppercase;
   letter-spacing: 0.05em;
@@ -767,20 +830,31 @@ a {
   justify-content: center;
   padding-bottom: 32px;
 }
-.level-cell {
-  position: relative;
+.level-tema-banner {
+  background: var(--bg);
+  color: var(--accent);
+  border: 2px solid var(--accent);
+  border-radius: var(--radius-sm);
+  padding: 10px 16px;
+  font-size: 20px;
+  font-weight: 800;
+  max-width: 100%;
+  width: fit-content;
+  margin: 0 auto 20px;
+  text-align: center;
+  box-shadow: var(--shadow-md);
 }
 .level-tooltip {
   position: absolute;
   bottom: calc(100% + 10px);
   left: 50%;
   transform: translateX(-50%);
-  background: var(--ink);
+  background: var(--bg);
   color: var(--accent);
   border: 2px solid var(--accent);
   border-radius: var(--radius-sm);
-  padding: 6px 12px;
-  font-size: 12px;
+  padding: 8px 14px;
+  font-size: 20px;
   font-weight: 800;
   white-space: nowrap;
   z-index: 10;
@@ -824,6 +898,11 @@ a {
   border-bottom-width: 3px;
 }
 .level-btn.is-current {
+  border-color: var(--border);
+  color: var(--ink-soft);
+  box-shadow: none;
+}
+.level-btn:active:not(:disabled) {
   border-color: var(--accent);
   color: var(--accent-dark);
   box-shadow: 0 0 0 3px var(--accent-bg);
@@ -840,11 +919,11 @@ a {
   font-weight: 700;
   font-size: 16px;
   padding: 14px 28px;
-  border: none;
+  border: 2px solid var(--primary-dark);
   border-radius: var(--radius-md);
   cursor: pointer;
-  background: var(--primary);
-  color: #fff;
+  background: transparent;
+  color: var(--ink);
   display: inline-flex;
   align-items: center;
   gap: 10px;
@@ -1099,6 +1178,8 @@ a {
   flex: 1 1 auto;
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
   width: 100%;
 }
 .mi-estudio__hud-wrap {
@@ -1550,19 +1631,15 @@ a {
   font-size: 14px;
   margin-bottom: 12px;
 }
+
 .horario__timer-clock {
+  /* clamp(mínimo, valor_ideal, máximo) */
+  font-size: clamp(7.5rem, 22vw, 22rem);
   letter-spacing: -0.02em;
-  margin-bottom: 20px;
   user-select: none;
-  line-height: 1;
   font-weight: 700;
 }
-@media (min-width: 640px) {
-  .horario__timer-clock {
-    font-size: 96px;
-    margin-bottom: 32px;
-  }
-}
+
 .horario__progress-track {
   position: relative;
   width: 100%;
@@ -2465,9 +2542,6 @@ a {
   .horario__timer-label {
     font-size: 16px;
   }
-  .horario__timer-clock {
-    font-size: 108px;
-  }
   .horario__btn {
     font-size: 15px;
   }
@@ -2675,12 +2749,12 @@ a {
   bottom: calc(100% + 10px);
   left: 50%;
   transform: translateX(-50%);
-  background: var(--ink);
+  background: var(--bg);
   color: var(--accent);
   border: 2px solid var(--accent);
   border-radius: var(--radius-sm);
-  padding: 6px 12px;
-  font-size: 12px;
+  padding: 8px 14px;
+  font-size: 20px;
   font-weight: 800;
   white-space: nowrap;
   z-index: 10;
@@ -2749,12 +2823,12 @@ a {
   bottom: calc(100% + 10px);
   left: 50%;
   transform: translateX(-50%);
-  background: var(--ink);
+  background: var(--bg);
   color: var(--accent);
   border: 2px solid var(--accent);
   border-radius: var(--radius-sm);
-  padding: 6px 12px;
-  font-size: 12px;
+  padding: 8px 14px;
+  font-size: 20px;
   font-weight: 800;
   white-space: nowrap;
   z-index: 10;
@@ -2778,5 +2852,10 @@ a {
 
 /* Lógica de Hover: Muestra el tooltip al pasar el mouse por la celda */
 .level-cell:hover .level-tooltip {
+  display: block;
+}
+
+/* Lógica de tap (móvil): el primer toque activa esta clase desde JS */
+.level-tooltip.is-visible {
   display: block;
 }

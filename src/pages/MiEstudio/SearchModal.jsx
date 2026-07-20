@@ -2,22 +2,6 @@ import { useState, useMemo, useEffect } from "react";
 import manifest from "../../data/manifest.json";
 import { useArrowKeyList } from "../../hooks/useArrowKeyList";
 
-// Preparamos la lista de búsqueda incluyendo cursos y temas
-const OPCIONES_BUSQUEDA = [
-  ...manifest.cursos.map((c) => ({
-    type: "curso",
-    nombre: c.nombre
-  })),
-  ...manifest.cursos.flatMap((c) =>
-    c.temas.map((t) => ({
-      type: "tema",
-      curso: c.nombre,
-      tema: t.tema,
-      archivo: t.archivo
-    }))
-  ),
-];
-
 export default function SearchModal({ open, onClose, onSelect }) {
   const [query, setQuery] = useState("");
 
@@ -25,12 +9,10 @@ export default function SearchModal({ open, onClose, onSelect }) {
     if (!query.trim()) return [];
     const q = query.trim().toLowerCase();
 
-    return OPCIONES_BUSQUEDA.filter((item) => {
-      if (item.type === "curso") {
-        return item.nombre.toLowerCase().includes(q);
-      }
-      return item.tema.toLowerCase().includes(q) || item.curso.toLowerCase().includes(q);
-    }).slice(0, 8);
+    return manifest.cursos
+      .filter((c) => c.nombre.toLowerCase().includes(q))
+      .map((c) => ({ type: "curso", nombre: c.nombre }))
+      .slice(0, 15);
   }, [query]);
 
   const { focusedIdx, handleKeyDown } = useArrowKeyList(results, (item) => {
@@ -67,31 +49,30 @@ export default function SearchModal({ open, onClose, onSelect }) {
 
         {results.length > 0 && (
           <div className="search-results">
-            {results.map((r, i) => (
-              <button
-                key={r.type === "curso" ? r.nombre : r.archivo}
-                onClick={() => {
-                  onSelect(r); // Enviamos el objeto con su tipo al padre
-                  setQuery("");
-                  onClose();
-                }}
-                className={`search-result-item ${i === focusedIdx ? "is-focused" : ""}`}
-              >
-                {r.type === "curso" ? (
-                  // Diseño visual para Cursos
-                  <div className="search-result-item__curso-row">
-                    <span className="search-result-item__tag">📚 Curso</span>
-                    <span className="search-result-item__nombre">{r.nombre}</span>
-                  </div>
-                ) : (
-                  // Diseño visual para Temas
-                  <>
-                    <p className="search-result-item__tema">{r.tema}</p>
-                    <p className="search-result-item__curso">{r.curso}</p>
-                  </>
-                )}
-              </button>
-            ))}
+            {results.map((r, i) => {
+              const isFocused = i === focusedIdx;
+              const isCurso = r.type === "curso";
+
+              return (
+                <button
+                  key={isCurso ? `curso-${r.nombre}` : `tema-${r.archivo}`}
+                  onClick={() => {
+                    onSelect(r);
+                    setQuery("");
+                    onClose();
+                  }}
+                  className={`search-result-item ${isCurso ? "is-curso" : "is-tema"} ${isFocused ? "is-focused" : ""}`}
+                >
+                  {isCurso ? (
+                    // Solo el nombre del curso
+                    <span className="curso-title">{r.nombre}</span>
+                  ) : (
+                    // Solo el nombre del tema (indentado visualmente vía CSS)
+                    <span className="tema-title">{r.tema}</span>
+                  )}
+                </button>
+              );
+            })}
           </div>
         )}
 

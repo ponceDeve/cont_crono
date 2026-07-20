@@ -10,14 +10,45 @@ export default function TopBar({
   onAbrirTemas // <-- Nueva función
 }) {
   const [configOpen, setConfigOpen] = useState(false);
-  const pomodoroHref = `/pomodoro?curso=${encodeURIComponent(curso)}&tema=${encodeURIComponent(tema)}`;
+
+  // Construir las URLs absolutas usando el origen actual
+  const baseUrl = window.location.origin;
+  const pomodoroHref = `${baseUrl}/cont_crono/pomodoro?curso=${encodeURIComponent(curso)}&tema=${encodeURIComponent(tema)}`;
+  const repasoHref = `${baseUrl}/cont_crono/repaso`;
 
   const botones = [
-    { title: "Niveles", label: "Nvl", icon: "fa-solid fa-flag-checkered", onClick: onAbrirNiveles },
-    { title: "Mini cronómetro", label: "Timer", icon: "fa-solid fa-clock", onClick: onTogglePomodoroMini },
-    { title: "Ir al Pomodoro de este curso", label: "Pomo", icon: "fa-solid fa-calendar-alt", href: pomodoroHref, target: "_blank" },
-    { title: "Ir a Mis Repasos", label: "Repaso", icon: "fa-solid fa-brain", href: "/repaso", target: "_blank" },
-    { title: "Buscar otro tema", label: "Buscar", icon: "fa-solid fa-magnifying-glass", onClick: onAbrirBuscador },
+    {
+      title: "Niveles",
+      label: "Nvl",
+      icon: "fa-solid fa-flag-checkered",
+      onClick: onAbrirNiveles
+    },
+    {
+      title: "Mini cronómetro",
+      label: "Timer",
+      icon: "fa-solid fa-clock",
+      onClick: onTogglePomodoroMini
+    },
+    {
+      title: "Ir al Pomodoro de este curso",
+      label: "Pomo",
+      icon: "fa-solid fa-calendar-alt",
+      href: pomodoroHref,
+      target: "_blank"
+    },
+    {
+      title: "Ir a Mis Repasos",
+      label: "Repaso",
+      icon: "fa-solid fa-brain",
+      href: repasoHref,
+      target: "_blank"
+    },
+    {
+      title: "Buscar otro tema",
+      label: "Buscar",
+      icon: "fa-solid fa-magnifying-glass",
+      onClick: onAbrirBuscador
+    },
   ];
 
   function renderBoton(b, cls) {

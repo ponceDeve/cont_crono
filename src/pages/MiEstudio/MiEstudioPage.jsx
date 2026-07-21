@@ -4,6 +4,7 @@ import { registrarCursoCompletado } from "../../lib/repasoStorage";
 import { useArrowKeyList } from "../../hooks/useArrowKeyList";
 import QuestionCard from "./QuestionCard";
 import ExplanationPanel from "./ExplanationPanel";
+import GlossaryText from "./GlossaryText";
 import TopBar from "./TopBar";
 import Hud from "./Hud";
 import LevelsModal from "./LevelsModal";
@@ -47,6 +48,13 @@ export default function MiEstudioPage() {
   const [stage, setStage] = useState("theory"); // 'theory' | 'question' | 'finished'
   const [isLevelMode, setIsLevelMode] = useState(false);
 
+  // ESTADO PARA EL CRONÓMETRO
+  const [countdown, setCountdown] = useState(0);
+
+  // ESTADOS DEL MODO HARDCORE
+  const [vidas, setVidas] = useState(5);
+  const [alertaVidas, setAlertaVidas] = useState(null);
+
   // Niveles de examen: independientes de las tarjetas de teoría (flatPuntos)
   const [examenPreguntas, setExamenPreguntas] = useState([]);
   const [nivelIndex, setNivelIndex] = useState(0);
@@ -86,6 +94,19 @@ export default function MiEstudioPage() {
     return () =>
       document.removeEventListener("fullscreenchange", onFullscreenChange);
   }, []);
+
+  // EFECTO PARA EL CRONÓMETRO
+  useEffect(() => {
+    let timer = null;
+    if (stage === "question" && countdown > 0) {
+      timer = setInterval(() => {
+        setCountdown((prev) => prev - 1);
+      }, 1000);
+    }
+    return () => {
+      if (timer) clearInterval(timer);
+    };
+  }, [stage, countdown]);
 
   function toggleFullscreen() {
     if (!document.fullscreenElement) {
@@ -150,6 +171,11 @@ export default function MiEstudioPage() {
       setAttemptKey(0);
       setQuery("");
       setSearchOpen(false);
+      setCountdown(0);
+
+      // Reset de vidas y alertas al iniciar
+      setVidas(5);
+      setAlertaVidas(null);
     } catch (e) {
       setError(`No pude cargar "${item.tema}".`);
     } finally {
@@ -174,7 +200,13 @@ export default function MiEstudioPage() {
 
   function toggleStage() {
     setIsLevelMode(false);
-    setStage((prev) => (prev === "theory" ? "question" : "theory"));
+    if (stage === "theory") {
+      setCountdown(10); // Iniciamos el cronómetro estricto
+      setStage("question");
+    } else {
+      setCountdown(0);
+      setStage("theory");
+    }
   }
 
   function irANivel(idx) {
@@ -184,6 +216,7 @@ export default function MiEstudioPage() {
     setQuestionResult(null);
     setAttemptKey(0);
     setLevelsOpen(false);
+    setCountdown(0);
   }
 
   function avanzarCard() {
@@ -203,6 +236,7 @@ export default function MiEstudioPage() {
       setIsLevelMode(false);
       setQuestionResult(null);
       setAttemptKey(0);
+      setCountdown(0);
     } else {
       finalizarTema();
     }
@@ -223,6 +257,7 @@ export default function MiEstudioPage() {
       setIsLevelMode(false);
       setQuestionResult(null);
       setAttemptKey(0);
+      setCountdown(0);
     }
   }
 
@@ -239,6 +274,34 @@ export default function MiEstudioPage() {
         tema: topicData.tema,
       });
     }
+  }
+
+  // NUEVA FUNCIÓN: Game Over y Limpieza de Disco
+  function gameOver() {
+    if (!topicData) return;
+
+    // 1. Borrar progreso del localStorage
+    localStorage.removeItem(`completions_${topicData.curso}_${topicData.tema}`);
+    localStorage.removeItem(`maxUnlocked_${topicData.curso}_${topicData.tema}`);
+    localStorage.removeItem(`examenCompletions_${topicData.curso}_${topicData.tema}`);
+    localStorage.removeItem(`examenMaxUnlocked_${topicData.curso}_${topicData.tema}`);
+
+    // 2. Limpiar estados para forzar inicio en nivel 1
+    setLevelCompletions({});
+    setMaxUnlocked(0);
+    setNivelCompletions({});
+    setNivelMaxUnlocked(0);
+    setCardIndex(0);
+    setNivelIndex(0);
+
+    // 3. Regresar a la pantalla de teoría y reiniciar variables de intento
+    setStage("theory");
+    setIsLevelMode(false);
+    setScore(0);
+    setWrongCount(0);
+    setQuestionResult(null);
+    setAttemptKey(0);
+    setCountdown(0);
   }
 
   function manejarRespuesta(correcto) {
@@ -287,6 +350,22 @@ export default function MiEstudioPage() {
       }
     } else {
       setWrongCount((w) => w + 1);
+
+      // NUEVA LÓGICA HARDCORE: Castigo por fallar
+      setVidas((prevVidas) => {
+        const nuevasVidas = prevVidas - 1;
+
+        if (nuevasVidas === 3) {
+          setAlertaVidas("tres");
+        } else if (nuevasVidas === 1) {
+          setAlertaVidas("una");
+        } else if (nuevasVidas <= 0) {
+          setAlertaVidas("cero");
+          gameOver();
+        }
+
+        return nuevasVidas;
+      });
     }
   }
 
@@ -311,6 +390,9 @@ export default function MiEstudioPage() {
     function onKeyDown(e) {
       if (document.activeElement && document.activeElement.tagName === "INPUT") return;
       if (levelsOpen || searchOpen || configOpen || temasOpen || !topicData) return;
+
+      // Ignorar teclas si el cronómetro está activo
+      if (stage === "question" && countdown > 0) return;
 
       if (e.key === "Enter") {
         if (stage === "theory" && !isLevelMode) {
@@ -337,7 +419,7 @@ export default function MiEstudioPage() {
 
     window.addEventListener("keydown", onKeyDown);
     return () => window.removeEventListener("keydown", onKeyDown);
-  }, [stage, questionResult, levelsOpen, searchOpen, configOpen, temasOpen, topicData, cardIndex, flatPuntos, maxUnlocked, nivelIndex, examenPreguntas, nivelMaxUnlocked, canAdvance, isLevelMode]);
+  }, [stage, questionResult, levelsOpen, searchOpen, configOpen, temasOpen, topicData, cardIndex, flatPuntos, maxUnlocked, nivelIndex, examenPreguntas, nivelMaxUnlocked, canAdvance, isLevelMode, countdown]);
 
   const wrapClass = ["mi-estudio__wrap", topicData ? "has-topbar" : ""].join(" ");
 
@@ -351,6 +433,7 @@ export default function MiEstudioPage() {
         <TopBar
           tema={topicData.tema}
           curso={topicData.curso}
+          vidas={vidas}
           onAbrirNiveles={() => setLevelsOpen(true)}
           onAbrirBuscador={() => setSearchOpen(true)}
           onTogglePomodoroMini={() => setPomodoroMiniOpen((o) => !o)}
@@ -453,7 +536,9 @@ export default function MiEstudioPage() {
                   <p className="mi-estudio__theory-badge">
                     Nivel {cardIndex + 1}: {current.seccionTitulo}
                   </p>
-                  <p className="mi-estudio__theory-text">{current.texto}</p>
+                  <p className="mi-estudio__theory-text">
+                    <GlossaryText text={current.texto} glosario={topicData?.glosario} />
+                  </p>
 
                   <div className="mi-estudio__google">
                     <div className="mi-estudio__google-input-wrap">
@@ -484,13 +569,23 @@ export default function MiEstudioPage() {
                   </button>
                 )}
 
-                <div className="mi-estudio__question-inner animate-fade-in">
-                  <QuestionCard
-                    key={`${isLevelMode ? "nivel-" + nivelIndex : "teoria-" + cardIndex}-${attemptKey}`}
-                    pregunta={preguntaActual}
-                    onRespondido={manejarRespuesta}
-                  />
-                </div>
+                {/* LOGICA DE RENDERIZADO DEL CRONOMETRO ESTRICTO */}
+                {countdown > 0 ? (
+                  <div className="animate-fade-in" style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', flex: 1, minHeight: '300px' }}>
+                    <h2 style={{ fontSize: '5rem', margin: '0', color: 'var(--primary-color, #fff)' }}>{countdown}</h2>
+                    <p style={{ fontSize: '1.2rem', opacity: 0.8, marginTop: '10px', textAlign: 'center' }}>
+                      Intenta recordar la teoría antes de ver la pregunta...
+                    </p>
+                  </div>
+                ) : (
+                  <div className="mi-estudio__question-inner animate-fade-in">
+                    <QuestionCard
+                      key={`${isLevelMode ? "nivel-" + nivelIndex : "teoria-" + cardIndex}-${attemptKey}`}
+                      pregunta={preguntaActual}
+                      onRespondido={manejarRespuesta}
+                    />
+                  </div>
+                )}
               </div>
             )}
 
@@ -596,6 +691,43 @@ export default function MiEstudioPage() {
             });
           }}
         />
+      )}
+
+      {/* ================= MODALES HARDCORE ================= */}
+      {alertaVidas === "tres" && (
+        <div className="config-overlay animate-fade-in" style={{ zIndex: 9999 }}>
+          <div className="config-overlay__row" style={{ flexDirection: 'column', gap: '20px', background: '#222', padding: '30px', borderRadius: '15px', border: '2px solid #f39c12' }}>
+            <h2 style={{ color: '#f39c12', margin: 0 }}>¡Cuidado!</h2>
+            <p style={{ color: '#fff', fontSize: '1.2rem', textAlign: 'center' }}>Te quedan 3 vidas. No te confíes.</p>
+            <button className="config-overlay__btn is-primary" onClick={() => setAlertaVidas(null)} style={{ padding: '10px 30px' }}>
+              Continuar
+            </button>
+          </div>
+        </div>
+      )}
+
+      {alertaVidas === "una" && (
+        <div className="config-overlay animate-fade-in" style={{ zIndex: 9999 }}>
+          <div className="config-overlay__row" style={{ flexDirection: 'column', gap: '20px', background: '#331111', padding: '30px', borderRadius: '15px', border: '2px solid #e74c3c' }}>
+            <h2 style={{ color: '#e74c3c', margin: 0, animation: 'pulse 1s infinite' }}>¡Peligro Inminente!</h2>
+            <p style={{ color: '#fff', fontSize: '1.2rem', textAlign: 'center', maxWidth: '300px' }}>Te queda 1 sola vida. Si fallas ahora, perderás todo el progreso de este tema.</p>
+            <button className="config-overlay__btn is-danger" onClick={() => setAlertaVidas(null)} style={{ padding: '10px 30px' }}>
+              Entendido
+            </button>
+          </div>
+        </div>
+      )}
+
+      {alertaVidas === "cero" && (
+        <div className="config-overlay animate-fade-in" style={{ zIndex: 9999 }}>
+          <div className="config-overlay__row" style={{ flexDirection: 'column', gap: '20px', background: '#000', padding: '40px', borderRadius: '15px', border: '3px solid red' }}>
+            <h1 style={{ color: 'red', margin: 0, fontSize: '3rem', textShadow: '0 0 10px red' }}>GAME OVER</h1>
+            <p style={{ color: '#aaa', fontSize: '1.1rem', textAlign: 'center', maxWidth: '350px' }}>Tu memoria ha fallado. El progreso ha sido limpiado y debes empezar desde el Nivel 1.</p>
+            <button className="config-overlay__btn is-primary" onClick={() => { setAlertaVidas(null); setVidas(5); }} style={{ padding: '15px 40px', marginTop: '10px' }}>
+              Reiniciar desde cero
+            </button>
+          </div>
+        </div>
       )}
     </div>
   );

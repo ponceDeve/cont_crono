@@ -7,7 +7,8 @@ export default function TopBar({
   onAbrirNiveles,
   onAbrirBuscador,
   onTogglePomodoroMini,
-  onAbrirTemas // <-- Nueva función
+  onAbrirTemas,
+  vidas = 5
 }) {
   const [configOpen, setConfigOpen] = useState(false);
 
@@ -88,10 +89,11 @@ export default function TopBar({
   }
 
   return (
-    <div className="topbar">
-      <div className="topbar__title">
+    <div className="topbar" style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', padding: '0 15px' }}>
+
+      {/* CAJA 1: Nombre del curso con su tema */}
+      <div className="topbar__title" style={{ display: 'flex', flexDirection: 'column', justifyContent: 'center' }}>
         <span className="topbar__tema">{tema}</span>
-        {/* Aquí hacemos que el curso sea clickeable */}
         <span
           className="topbar__curso topbar__curso--clickable"
           onClick={onAbrirTemas}
@@ -101,13 +103,27 @@ export default function TopBar({
         </span>
       </div>
 
-      <div className="topbar__nav">
-        {botones.map((b) => renderBoton(b, "topbar__nav-btn"))}
+      {/* CAJA 2: Los corazones */}
+      <div className="topbar__vidas" style={{ display: 'flex', gap: '3px', color: '#ff4d4f', fontSize: '0.8rem' }}>
+        {[...Array(5)].map((_, i) => (
+          <i
+            key={i}
+            className={i < vidas ? "fa-solid fa-heart" : "fa-regular fa-heart"}
+            style={{ opacity: i < vidas ? 1 : 0.3 }}
+          />
+        ))}
       </div>
 
-      <button onClick={() => setConfigOpen(true)} title="Opciones" className="topbar__gear">
-        <i className="fa-solid fa-gear" />
-      </button>
+      {/* CAJA 3: Botones de escritorio (usando la clase original topbar__nav para ocultarse en móvil) + Engranaje con clase topbar__gear */}
+      <div style={{ display: 'flex', alignItems: 'center', gap: '6px' }}>
+        <div className="topbar__nav">
+          {botones.map((b) => renderBoton(b, "topbar__nav-btn"))}
+        </div>
+
+        <button onClick={() => setConfigOpen(true)} title="Opciones" className="topbar__gear">
+          <i className="fa-solid fa-gear" />
+        </button>
+      </div>
 
       {configOpen && (
         <div

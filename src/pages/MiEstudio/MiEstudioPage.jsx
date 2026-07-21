@@ -11,6 +11,7 @@ import LevelsModal from "./LevelsModal";
 import SearchModal from "./SearchModal";
 import PomodoroWidget from "../../components/PomodoroWidget";
 import TopicsModal from "./TopicsModal";
+import 'katex/dist/katex.min.css';
 
 const OPCIONES_BUSQUEDA = [
   ...manifest.cursos.map((c) => ({
@@ -370,10 +371,13 @@ export default function MiEstudioPage() {
   }
 
   function abandonarJuego() {
-    setTopicData(null);
+    // Si estamos en modo niveles, al abandonar regresamos a la teoría inicial del tema (cardIndex 0)
+    setStage("theory");
+    setIsLevelMode(false);
+    setCardIndex(0);
     setConfigOpen(false);
     setConfirmLeave(false);
-    setIsLevelMode(false);
+    setCountdown(0);
   }
 
   function buscarEnGoogle() {
@@ -421,7 +425,7 @@ export default function MiEstudioPage() {
     return () => window.removeEventListener("keydown", onKeyDown);
   }, [stage, questionResult, levelsOpen, searchOpen, configOpen, temasOpen, topicData, cardIndex, flatPuntos, maxUnlocked, nivelIndex, examenPreguntas, nivelMaxUnlocked, canAdvance, isLevelMode, countdown]);
 
-  const wrapClass = ["mi-estudio__wrap", topicData ? "has-topbar" : ""].join(" ");
+  const wrapClass = ["mi-estudio__wrap", topicData && !isLevelMode ? "has-topbar" : ""].join(" ");
 
   const nombreCursoActivo = cursoSeleccionado || (topicData ? topicData.curso : null);
   const cursoEncontrado = manifest.cursos.find(c => c.nombre === nombreCursoActivo);
@@ -429,7 +433,8 @@ export default function MiEstudioPage() {
 
   return (
     <div className="mi-estudio">
-      {topicData && (
+      {/* El TopBar solo se muestra si hay tema y NO estamos en modo niveles */}
+      {topicData && !isLevelMode && (
         <TopBar
           tema={topicData.tema}
           curso={topicData.curso}

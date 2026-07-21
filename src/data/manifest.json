@@ -1,19 +1,6 @@
 {
   "cursos": [
     {
-      "nombre": "Razonamiento Verbal",
-      "codigo": "RVE",
-      "temas": [
-        {
-          "tema": "Jerarquía Textual",
-          "archivo": "temas/rve/rve-01.json"
-        },{
-          "tema": "Textos Filosoficos",
-          "archivo": "temas/rve/rve-02.json"
-        }
-      ]
-    },
-    {
       "nombre": "Educación Cívica",
       "codigo": "CIV",
       "temas": [
@@ -24,30 +11,16 @@
       ]
     },
     {
-      "nombre": "Literatura",
-      "codigo": "LIT",
-      "temas": [
-        {
-          "tema": "Teatro Español",
-          "archivo": "temas/lit/lit-01.json"
-        },
-        {
-          "tema": "Generacion del 27",
-          "archivo": "temas/lit/lit-02.json"
-        }
-      ]
-    },
-    {
       "nombre": "Filosofía",
       "codigo": "FIL",
       "temas": [
         {
-          "tema": "Filosofía Moderna",
-          "archivo": "temas/fil/fil-01.json"
-        },
-        {
           "tema": "Criticismo",
           "archivo": "temas/fil/fil-02.json"
+        },
+        {
+          "tema": "Filosofía Moderna",
+          "archivo": "temas/fil/fil-01.json"
         },
         {
           "tema": "Idealismo",
@@ -56,12 +29,32 @@
       ]
     },
     {
-      "nombre": "Psicología",
-      "codigo": "PSI",
+      "nombre": "Historia",
+      "codigo": "HIS",
       "temas": [
         {
-          "tema": "Inteligencia",
-          "archivo": "temas/psi/psi-01.json"
+          "tema": "contrareforma",
+          "archivo": "temas/his/his-04.json"
+        },
+        {
+          "tema": "Expansión Europea",
+          "archivo": "temas/his/his-01.json"
+        },
+        {
+          "tema": "Guerras civiles",
+          "archivo": "temas/his/his-06.json"
+        },
+        {
+          "tema": "Invasión al Tahuantisuyo",
+          "archivo": "temas/his/his-02.json"
+        },
+        {
+          "tema": "Reforma Protestante",
+          "archivo": "temas/his/his-03.json"
+        },
+        {
+          "tema": "Resistencia andina",
+          "archivo": "temas/his/his-05.json"
         }
       ]
     },
@@ -76,77 +69,30 @@
       ]
     },
     {
-      "nombre": "Economía",
-      "codigo": "ECO",
+      "nombre": "Literatura",
+      "codigo": "LIT",
       "temas": [
         {
-          "tema": "Demanda",
-          "archivo": "temas/eco/eco-01.json"
+          "tema": "Generacion del 27",
+          "archivo": "temas/lit/lit-02.json"
         },
         {
-          "tema": "Elasticidad de la Demanda",
-          "archivo": "temas/eco/eco-02.json"
-        },{
-          "tema": "Dinero",
-          "archivo": "temas/eco/eco-03.json"
+          "tema": "Teatro Español",
+          "archivo": "temas/lit/lit-01.json"
         }
       ]
     },
     {
-      "nombre": "Geografía",
-      "codigo": "GEO",
+      "nombre": "Razonamiento Verbal",
+      "codigo": "RVE",
       "temas": [
         {
-          "tema": "geodinamica externa",
-          "archivo": "temas/geo/geo-01.json"
-        }
-      ]
-    },
-    {
-      "nombre": "Historia",
-      "codigo": "HIS",
-      "temas": [
-        {
-          "tema": "Expansión Europea",
-          "archivo": "temas/his/his-01.json"
+          "tema": "Jerarquía Textual",
+          "archivo": "temas/rve/rve-01.json"
         },
         {
-          "tema": "Invasión al Tahuantisuyo",
-          "archivo": "temas/his/his-02.json"
-        },
-        {
-          "tema": "Reforma Protestante",
-          "archivo": "temas/his/his-03.json"
-        },
-        {
-          "tema": "contrareforma",
-          "archivo": "temas/his/his-04.json"
-        },
-        {
-          "tema": "Resistencia andina",
-          "archivo": "temas/his/his-05.json"
-        },
-        {
-          "tema": "Guerras civiles",
-          "archivo": "temas/his/his-06.json"
-        }
-      ]
-    },
-    {
-      "nombre": "Química",
-      "codigo": "QUI",
-      "temas": [
-        {
-          "tema": "Hidróxidos",
-          "archivo": "temas/qui/qui-01.json"
-        },
-        {
-          "tema": "Ácidos",
-          "archivo": "temas/qui/qui-02.json"
-        },
-        {
-          "tema": "Calculos en quimica",
-          "archivo": "temas/qui/qui-03.json"
+          "tema": "Textos Filosoficos",
+          "archivo": "temas/rve/rve-02.json"
         }
       ]
     },
@@ -161,6 +107,24 @@
       ]
     },
     {
+      "nombre": "Economía",
+      "codigo": "ECO",
+      "temas": [
+        {
+          "tema": "Demanda",
+          "archivo": "temas/eco/eco-01.json"
+        },
+        {
+          "tema": "Dinero",
+          "archivo": "temas/eco/eco-03.json"
+        },
+        {
+          "tema": "Elasticidad de la Demanda",
+          "archivo": "temas/eco/eco-02.json"
+        }
+      ]
+    },
+    {
       "nombre": "Física",
       "codigo": "FIS",
       "temas": [
@@ -171,8 +135,50 @@
       ]
     },
     {
-      "nombre": "Razonamiento Matemático",
-      "codigo": "RMA",
+      "nombre": "Geografía",
+      "codigo": "GEO",
+      "temas": [
+        {
+          "tema": "Relieve andino",
+          "archivo": "temas/geo/geo-18.json"
+        },
+        {
+          "tema": "geodinamica externa",
+          "archivo": "temas/geo/geo-01.json"
+        }
+      ]
+    },
+    {
+      "nombre": "Psicología",
+      "codigo": "PSI",
+      "temas": [
+        {
+          "tema": "Inteligencia",
+          "archivo": "temas/psi/psi-01.json"
+        }
+      ]
+    },
+    {
+      "nombre": "Química",
+      "codigo": "QUI",
+      "temas": [
+        {
+          "tema": "Ácidos",
+          "archivo": "temas/qui/qui-02.json"
+        },
+        {
+          "tema": "Calculos en quimica",
+          "archivo": "temas/qui/qui-03.json"
+        },
+        {
+          "tema": "Hidróxidos",
+          "archivo": "temas/qui/qui-01.json"
+        }
+      ]
+    },
+    {
+      "nombre": "Álgebra",
+      "codigo": "ALG",
       "temas": []
     },
     {
@@ -186,19 +192,28 @@
       ]
     },
     {
-      "nombre": "Álgebra",
-      "codigo": "ALG",
-      "temas": []
-    },
-    {
       "nombre": "Geometría",
       "codigo": "GEM",
       "temas": []
     },
     {
+      "nombre": "Razonamiento Matemático",
+      "codigo": "RMA",
+      "temas": [
+        {
+          "tema": "Calendarios 1",
+          "archivo": "temas/rma/rma-18.json"
+        }
+      ]
+    },
+    {
       "nombre": "Trigonometría",
       "codigo": "TRI",
       "temas": [
+        {
+          "tema": "identidades del angulo doble",
+          "archivo": "temas/tri/tri-18.json"
+        },
         {
           "tema": "resolucion al primer cuadrante",
           "archivo": "temas/tri/tri-01.json"

@@ -1,4 +1,6 @@
 import { useMemo, useState } from "react";
+import 'katex/dist/katex.min.css';
+import Latex from 'react-latex-next';
 
 function escapeRegExp(str) {
   return str.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
@@ -48,7 +50,13 @@ export default function GlossaryText({ text, glosario = {} }) {
   return (
     <span onClick={() => setActivo(null)}>
       {partes.map((parte, i) => {
-        if (parte.tipo === "texto") return <span key={i}>{parte.valor}</span>;
+        if (parte.tipo === "texto") {
+          return (
+            <span key={i}>
+              <Latex>{parte.valor}</Latex>
+            </span>
+          );
+        }
 
         const visible = activo === i;
         return (
@@ -62,9 +70,13 @@ export default function GlossaryText({ text, glosario = {} }) {
                 setActivo((cur) => (cur === i ? null : i));
               }}
             >
-              {parte.valor}
+              <Latex>{parte.valor}</Latex>
             </span>
-            {visible && <span className="glossary-tooltip">{glosario[parte.key]}</span>}
+            {visible && (
+              <span className="glossary-tooltip">
+                <Latex>{glosario[parte.key]}</Latex>
+              </span>
+            )}
           </span>
         );
       })}

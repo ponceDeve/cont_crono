@@ -2996,16 +2996,17 @@ a {
 /* La burbuja flotante con la definición */
 .glossary-tooltip {
   position: absolute;
+  max-width: 400px;
+  padding: 5px 7px;
+  width: max-content;
   bottom: 130%; /* La posiciona justo encima de la palabra */
   left: 50%;
   transform: translateX(-50%); /* Centra la burbuja horizontalmente */
   background-color: #1f2937; /* Gris oscuro/negro */
   color: #f9fafb;
-  padding: 8px 12px;
   border-radius: 6px;
-  font-size: 0.85rem;
+  font-size: 0.75rem;
   font-weight: 400;
-  white-space: nowrap; /* Evita que el texto se parta si es corto, cámbialo a 'normal' si las definiciones son muy largas */
   z-index: 50; /* Asegura que flote por encima de otros elementos */
   pointer-events: none; /* Evita que el tooltip interfiera con el ratón */
   box-shadow:

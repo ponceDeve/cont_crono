@@ -1,4 +1,6 @@
 import { useState, useRef, useMemo, useEffect } from "react";
+import 'katex/dist/katex.min.css';
+import Latex from 'react-latex-next';
 
 function normalizeWord(w) {
   return w
@@ -105,7 +107,9 @@ function OpcionMultiple({ pregunta, onRespondido }) {
 
   return (
     <>
-      <h3 className="question-card__q">{pregunta.q}</h3>
+      <h3 className="question-card__q">
+        <Latex>{pregunta.q}</Latex>
+      </h3>
 
       <div className="question-card__options">
         {shuffled.map((opt, i) => {
@@ -124,7 +128,7 @@ function OpcionMultiple({ pregunta, onRespondido }) {
               disabled={answered}
               className={`question-card__opt ${cls}`}
             >
-              {opt.text}
+              <Latex>{opt.text}</Latex>
             </button>
           );
         })}
@@ -192,7 +196,11 @@ function VerdaderoFalso({ pregunta, onRespondido }) {
 
   return (
     <>
-      {pregunta.q && <h3 className="question-card__q">{pregunta.q}</h3>}
+      {pregunta.q && (
+        <h3 className="question-card__q">
+          <Latex>{pregunta.q}</Latex>
+        </h3>
+      )}
 
       <div className="question-card__vf-list">
         {proposiciones.map((prop, i) => {
@@ -204,7 +212,7 @@ function VerdaderoFalso({ pregunta, onRespondido }) {
               className={`question-card__vf-row ${propAcertada ? "is-correct" : ""} ${propFallada ? "is-wrong" : ""}`}
             >
               <span className="question-card__vf-texto">
-                {i + 1}. {prop.texto}
+                {i + 1}. <Latex>{prop.texto}</Latex>
               </span>
               <div className="question-card__vf-btns">
                 <button
@@ -287,11 +295,21 @@ function Completar({ pregunta, onRespondido }) {
 
   return (
     <>
-      {pregunta.q && <h3 className="question-card__q">{pregunta.q}</h3>}
+      {pregunta.q && (
+        <h3 className="question-card__q">
+          <Latex>{pregunta.q}</Latex>
+        </h3>
+      )}
 
       <p className="question-card__cloze">
         {partes.map((parte, i) => {
-          if (parte.tipo === "texto") return <span key={i}>{parte.valor}</span>;
+          if (parte.tipo === "texto") {
+            return (
+              <span key={i}>
+                <Latex>{parte.valor}</Latex>
+              </span>
+            );
+          }
 
           espacioIdx += 1;
           const idx = espacioIdx;

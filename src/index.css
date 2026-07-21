@@ -846,7 +846,7 @@ a {
 }
 .level-tooltip {
   position: absolute;
-  bottom: calc(100% + 10px);
+  top: 10px;
   left: 50%;
   transform: translateX(-50%);
   background: var(--bg);
@@ -856,7 +856,9 @@ a {
   padding: 8px 14px;
   font-size: 20px;
   font-weight: 800;
-  white-space: nowrap;
+  white-space: normal;
+  max-width: min(220px, 80vw);
+  text-align: center;
   z-index: 10;
   box-shadow: var(--shadow-md);
 }
@@ -919,11 +921,11 @@ a {
   font-weight: 700;
   font-size: 16px;
   padding: 14px 28px;
-  border: 2px solid var(--primary-dark);
+  border: none;
   border-radius: var(--radius-md);
   cursor: pointer;
-  background: transparent;
-  color: var(--ink);
+  background: var(--primary);
+  color: #fff;
   display: inline-flex;
   align-items: center;
   gap: 10px;
@@ -1038,6 +1040,114 @@ a {
 }
 .question-card__submit:hover {
   background: var(--primary-dark);
+}
+.question-card__submit:disabled {
+  opacity: 0.5;
+  cursor: default;
+}
+.question-card__explicacion {
+  margin-top: 16px;
+  font-size: 13px;
+  color: var(--ink-soft);
+}
+
+/* Tipo: verdadero / falso (lista de proposiciones) */
+.question-card__vf-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 20px;
+  width: 100%;
+}
+.question-card__vf-row {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  border: 1px solid var(--border-strong);
+  border-radius: var(--radius-md);
+  background: var(--surface-alt);
+  padding: 10px 14px;
+}
+.question-card__vf-row.is-correct {
+  border-color: var(--success);
+  background: var(--success-bg);
+}
+.question-card__vf-row.is-wrong {
+  border-color: var(--danger);
+  background: var(--danger-bg);
+}
+.question-card__vf-texto {
+  flex: 1 1 200px;
+  font-size: 13px;
+  color: var(--ink);
+  text-align: left;
+}
+.question-card__vf-btns {
+  display: flex;
+  gap: 6px;
+}
+.question-card__vf-btn {
+  width: 36px;
+  height: 36px;
+  border: 1px solid var(--border-strong);
+  border-radius: var(--radius-sm);
+  background: var(--surface);
+  color: var(--ink-soft);
+  font-weight: 700;
+  cursor: pointer;
+}
+.question-card__vf-btn:hover:not(:disabled) {
+  border-color: var(--primary);
+  color: var(--primary);
+}
+.question-card__vf-btn.is-selected {
+  background: var(--primary);
+  border-color: var(--primary);
+  color: #fff;
+}
+.question-card__vf-btn:disabled {
+  cursor: default;
+}
+.question-card__vf-correcta {
+  width: 100%;
+  font-size: 12px;
+  color: var(--danger);
+}
+
+/* Tipo: completar (texto con espacios en blanco) */
+.question-card__cloze {
+  font-size: 15px;
+  line-height: 2.2;
+  color: var(--ink);
+  text-align: center;
+  margin-bottom: 16px;
+}
+.question-card__cloze-input {
+  display: inline-block;
+  width: 110px;
+  margin: 0 4px;
+  padding: 4px 8px;
+  border: none;
+  border-bottom: 2px solid var(--primary);
+  background: transparent;
+  color: var(--ink);
+  font-size: 15px;
+  text-align: center;
+  outline: none;
+}
+.question-card__cloze-input.is-correct {
+  border-bottom-color: var(--success);
+  color: var(--success);
+}
+.question-card__cloze-input.is-wrong {
+  border-bottom-color: var(--danger);
+  color: var(--danger);
+}
+.question-card__cloze-correctas {
+  font-size: 12px;
+  color: var(--danger);
+  margin-bottom: 12px;
 }
 
 /* ============================================================
@@ -2746,7 +2856,7 @@ a {
 /* 1. Ocultar el tooltip por defecto */
 .level-tooltip {
   position: absolute;
-  bottom: calc(100% + 10px);
+  top: 10px;
   left: 50%;
   transform: translateX(-50%);
   background: var(--bg);
@@ -2756,7 +2866,9 @@ a {
   padding: 8px 14px;
   font-size: 20px;
   font-weight: 800;
-  white-space: nowrap;
+  white-space: normal;
+  max-width: min(220px, 80vw);
+  text-align: center;
   z-index: 10;
   box-shadow: var(--shadow-md);
   display: none; /* <--- AÑADE ESTO: Lo oculta inicialmente */
@@ -2820,7 +2932,7 @@ a {
    ============================================================ */
 .level-tooltip {
   position: absolute;
-  bottom: calc(100% + 10px);
+  top: 10px;
   left: 50%;
   transform: translateX(-50%);
   background: var(--bg);
@@ -2830,7 +2942,9 @@ a {
   padding: 8px 14px;
   font-size: 20px;
   font-weight: 800;
-  white-space: nowrap;
+  white-space: normal;
+  max-width: min(220px, 80vw);
+  text-align: center;
   z-index: 10;
   box-shadow: var(--shadow-md);
   display: none; /* Oculto por defecto */
@@ -2858,4 +2972,68 @@ a {
 /* Lógica de tap (móvil): el primer toque activa esta clase desde JS */
 .level-tooltip.is-visible {
   display: block;
+}
+
+/* Contenedor relativo para que el tooltip se posicione respecto a la palabra */
+.glossary-term-wrap {
+  position: relative;
+  display: inline-block;
+}
+
+/* Estilo para que el usuario sepa que la palabra es interactiva */
+.glossary-term {
+  color: #3b82f6; /* Color azul (puedes cambiarlo al tema de tu app) */
+  text-decoration: underline dotted; /* Subrayado punteado clásico de glosarios */
+  cursor: default; /* Cambia el cursor a un signo de interrogación */
+  font-weight: 600;
+  transition: color 0.2s;
+}
+
+.glossary-term:hover {
+  color: #2563eb; /* Azul más oscuro al pasar el ratón */
+}
+
+/* La burbuja flotante con la definición */
+.glossary-tooltip {
+  position: absolute;
+  bottom: 130%; /* La posiciona justo encima de la palabra */
+  left: 50%;
+  transform: translateX(-50%); /* Centra la burbuja horizontalmente */
+  background-color: #1f2937; /* Gris oscuro/negro */
+  color: #f9fafb;
+  padding: 8px 12px;
+  border-radius: 6px;
+  font-size: 0.85rem;
+  font-weight: 400;
+  white-space: nowrap; /* Evita que el texto se parta si es corto, cámbialo a 'normal' si las definiciones son muy largas */
+  z-index: 50; /* Asegura que flote por encima de otros elementos */
+  pointer-events: none; /* Evita que el tooltip interfiera con el ratón */
+  box-shadow:
+    0 4px 6px -1px rgba(0, 0, 0, 0.1),
+    0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  animation: fadeIn 0.2s ease-in-out;
+}
+
+/* Triángulo decorativo apuntando hacia abajo */
+.glossary-tooltip::after {
+  content: "";
+  position: absolute;
+  top: 100%; /* Justo debajo de la caja principal */
+  left: 50%;
+  transform: translateX(-50%);
+  border-width: 6px;
+  border-style: solid;
+  border-color: #1f2937 transparent transparent transparent; /* El color superior debe coincidir con el background del tooltip */
+}
+
+/* Pequeña animación de entrada */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translate(-50%, 5px);
+  }
+  to {
+    opacity: 1;
+    transform: translate(-50%, 0);
+  }
 }

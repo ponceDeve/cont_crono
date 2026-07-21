@@ -80,10 +80,15 @@ export default function HorarioPage() {
   }
 
   function handleTaskComplete() {
+    // --- SOLUCIÓN APLICADA AQUÍ ---
     if (alarmRef.current) {
-      alarmRef.current.currentTime = 0;
+      alarmRef.current.muted = false; // Fuerza a que no esté silenciado
+      alarmRef.current.volume = 1.0;  // Volumen al máximo
+      alarmRef.current.load();        // Recarga el audio para evitar el bloqueo del navegador
       alarmRef.current.play().catch(() => { });
     }
+    // ------------------------------
+
     if (!activeCourse) return;
     const key = progressKey(selectedDay, activeCourse.subject);
     const currentIdx = getTaskIndex(selectedDay, activeCourse.subject);
@@ -409,7 +414,7 @@ export default function HorarioPage() {
         </div>
       </div>
 
-      <audio ref={alarmRef} src="/sonidos/loud-alarm-ringtones-annoying.mp3" preload="auto" />
+      <audio ref={alarmRef} src="sonidos/loud-alarm-ringtones-annoying.mp3" preload="auto" />
 
       <Modal open={courseCompleteOpen} wide>
         <div className="horario__complete-modal">

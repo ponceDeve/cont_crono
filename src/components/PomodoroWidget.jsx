@@ -1,10 +1,11 @@
-import { useState, useRef, useCallback } from "react";
+import { useState, useRef, useCallback, useEffect } from "react";
 import { useCountdown } from "../hooks/useCountdown";
 
 const MINUTOS_DISPONIBLES = [5, 10, 25, 30];
 
 export default function PomodoroWidget({ open, onClose }) {
-  const [selectedMin, setSelectedMin] = useState(25);
+  // 1. Iniciar en 0 para que el cronómetro muestre 00:00 al abrir
+  const [selectedMin, setSelectedMin] = useState(0);
   const [pos, setPos] = useState({ top: 90, left: null });
   const [isCollapsed, setIsCollapsed] = useState(false);
 
@@ -21,11 +22,33 @@ export default function PomodoroWidget({ open, onClose }) {
       audio.currentTime = 0;
       audio.play().catch(() => { });
     }
+    // 2. Reiniciar los minutos a 00:00 al terminar
+    setSelectedMin(0);
   }, [selectedMin]);
 
   const { formatted, isRunning, start, pause, reset, setMinutes } = useCountdown(selectedMin, handleComplete);
 
+  // Asegurarnos de que el hook interno también vuelva a 0 si selectedMin cambia a 0
+  useEffect(() => {
+    if (selectedMin === 0 && setMinutes && !isRunning) {
+      setMinutes(0);
+    }
+  }, [selectedMin, setMinutes, isRunning]);
+
+  // Limpieza de eventos de arrastre por seguridad (si el componente se desmonta)
+  useEffect(() => {
+    return () => {
+      window.removeEventListener("mousemove", onDragMove);
+      window.removeEventListener("mouseup", onDragEnd);
+      window.removeEventListener("touchmove", onDragMove);
+      window.removeEventListener("touchend", onDragEnd);
+    };
+  }, []);
+
   function handleStart() {
+    // Evitar iniciar si el tiempo es 00:00
+    if (selectedMin === 0) return;
+
     start();
     if (window.innerWidth <= 768) {
       setIsCollapsed(true);
@@ -46,17 +69,24 @@ export default function PomodoroWidget({ open, onClose }) {
   }
 
   function getCoordinates(e) {
-    if (e.type.includes("touch")) {
+    if (e.type.includes("touch") || e.touches) {
       return { clientX: e.touches[0].clientX, clientY: e.touches[0].clientY };
     }
     return { clientX: e.clientX, clientY: e.clientY };
   }
 
+  // 3. Modificación del sistema de arrastre
   function onDragStart(e) {
     const rect = widgetRef.current.getBoundingClientRect();
     const { clientX, clientY } = getCoordinates(e);
     dragRef.current = { dragging: true, moved: false, offsetX: clientX - rect.left, offsetY: clientY - rect.top };
     setPos({ top: rect.top, left: rect.left });
+
+    // Enlazamos los eventos al window para que el mouse no se "escape"
+    window.addEventListener("mousemove", onDragMove);
+    window.addEventListener("mouseup", onDragEnd);
+    window.addEventListener("touchmove", onDragMove, { passive: false });
+    window.addEventListener("touchend", onDragEnd);
   }
 
   function onDragMove(e) {
@@ -67,6 +97,7 @@ export default function PomodoroWidget({ open, onClose }) {
     const w = widgetRef.current;
     let newLeft = clientX - dragRef.current.offsetX;
     let newTop = clientY - dragRef.current.offsetY;
+
     newLeft = Math.max(0, Math.min(window.innerWidth - w.offsetWidth, newLeft));
     newTop = Math.max(0, Math.min(window.innerHeight - w.offsetHeight, newTop));
     setPos({ top: newTop, left: newLeft });
@@ -74,16 +105,20 @@ export default function PomodoroWidget({ open, onClose }) {
 
   function onDragEnd() {
     dragRef.current.dragging = false;
+
+    // Retiramos los eventos del window al soltar el click
+    window.removeEventListener("mousemove", onDragMove);
+    window.removeEventListener("mouseup", onDragEnd);
+    window.removeEventListener("touchmove", onDragMove);
+    window.removeEventListener("touchend", onDragEnd);
   }
 
-  // Abre el widget desde el icono
   function handleIconClick() {
     if (!dragRef.current.moved) {
       setIsCollapsed(false);
     }
   }
 
-  // NUEVO: Cierra el widget desde el header (solo si está corriendo el tiempo y no se está arrastrando)
   function handleHeaderClick() {
     if (!dragRef.current.moved && isRunning) {
       setIsCollapsed(true);
@@ -95,12 +130,7 @@ export default function PomodoroWidget({ open, onClose }) {
   return (
     <div
       ref={widgetRef}
-      onMouseMove={onDragMove}
-      onMouseUp={onDragEnd}
-      onMouseLeave={onDragEnd}
-      onTouchMove={onDragMove}
-      onTouchEnd={onDragEnd}
-      onTouchCancel={onDragEnd}
+      // Ya no necesitamos onMouseMove, onMouseUp, etc. aquí
       className={`pomo-widget ${isCollapsed ? "is-collapsed" : ""}`}
       style={{
         top: pos.top,
@@ -136,9 +166,8 @@ export default function PomodoroWidget({ open, onClose }) {
           <div
             onMouseDown={onDragStart}
             onTouchStart={onDragStart}
-            onClick={handleHeaderClick} // NUEVO: Permite minimizar al hacer clic
+            onClick={handleHeaderClick}
             className="pomo-widget__header"
-            // NUEVO: Añadimos flexbox al header para acomodar el icono de minimizar
             style={{
               touchAction: "none",
               cursor: "grab",
@@ -148,7 +177,6 @@ export default function PomodoroWidget({ open, onClose }) {
             }}
           >
             <div><i className="fas fa-clock" /> Pomodoro</div>
-            {/* NUEVO: Indicador visual de que se puede minimizar */}
             {isRunning && <i className="fas fa-minus" title="Minimizar" style={{ cursor: "pointer", opacity: 0.8 }} />}
           </div>
           <div className="pomo-widget__body">
@@ -169,7 +197,8 @@ export default function PomodoroWidget({ open, onClose }) {
                   ))}
                 </div>
                 <div className="pomo-widget__controls">
-                  <button onClick={handleStart} className="pomo-widget__icon-btn">
+                  {/* Se deshabilita visualmente si está en 0 */}
+                  <button onClick={handleStart} className="pomo-widget__icon-btn" style={{ opacity: selectedMin === 0 ? 0.5 : 1, cursor: selectedMin === 0 ? "not-allowed" : "pointer" }}>
                     <i className="fas fa-play" />
                   </button>
                   <button onClick={() => reset()} className="pomo-widget__icon-btn">
@@ -187,8 +216,8 @@ export default function PomodoroWidget({ open, onClose }) {
         </>
       )}
 
-      <audio ref={loudRef} src="/sonidos/loud-alarm-ringtones-annoying.mp3" preload="auto" />
-      <audio ref={alienRef} src="/sonidos/alien-alarmdrum.mp3" preload="auto" />
+      <audio ref={loudRef} src="sonidos/loud-alarm-ringtones-annoying.mp3" preload="auto" />
+      <audio ref={alienRef} src="sonidos/alien-alarmdrum.mp3" preload="auto" />
     </div>
   );
 }

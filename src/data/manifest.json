@@ -7,6 +7,9 @@
         {
           "tema": "Jerarquía Textual",
           "archivo": "temas/rve/rve-01.json"
+        },{
+          "tema": "Textos Filosoficos",
+          "archivo": "temas/rve/rve-02.json"
         }
       ]
     },
@@ -83,6 +86,9 @@
         {
           "tema": "Elasticidad de la Demanda",
           "archivo": "temas/eco/eco-02.json"
+        },{
+          "tema": "Dinero",
+          "archivo": "temas/eco/eco-03.json"
         }
       ]
     },

@@ -1,0 +1,746 @@
+{
+  "curso": "Geografía",
+  "tema": "Relieve Andino",
+  "glosario": {
+    "Relieve Andino": "Sistema montañoso que conforma la cordillera de los Andes en el territorio peruano.",
+    "Aluvional": "Depósito de materiales arrastrados por corrientes de agua.",
+    "Degradación fluvial": "Desgaste del relieve producido por la fuerza de los ríos.",
+    "Degradación glaciar": "Erosión producida por el movimiento de grandes masas de hielo.",
+    "Piso altitudinal": "Franja ecológica determinada por la altitud sobre el nivel del mar.",
+    "=": "Definición / es",
+    "→": "Produce / genera / conduce a / resultado",
+    "⊃": "Contiene",
+    "∈": "Pertenece a",
+    "+": "Combinación / junto con"
+  },
+  "theory": [
+    {
+      "titulo": "Generalidades de los Andes",
+      "puntos": [
+        {
+          "texto": "Relieve Andino = 30% del Perú + 28% población.",
+          "pregunta": {
+            "q": "¿Qué proporción del territorio y población peruana ocupa el Relieve Andino?",
+            "opts": [
+              "50% del territorio y 10% de la población",
+              "30% del Perú y 28% de la población",
+              "28% del Perú y 30% de la población"
+            ],
+            "correct": 1,
+            "explicacion": "El relieve andino abarca casi un tercio del territorio nacional y alberga a poco más de la cuarta parte de sus habitantes."
+          }
+        },
+        {
+          "texto": "Relieve Andino → diversidad climática + pisos altitudinales.",
+          "pregunta": {
+            "q": "¿Cuál es el principal efecto físico del Relieve Andino en el territorio?",
+            "opts": [
+              "Uniformidad de la flora y fauna",
+              "Ausencia de precipitaciones fluviales",
+              "Diversidad climática y pisos altitudinales"
+            ],
+            "correct": 2,
+            "explicacion": "La imponente cordillera modifica el clima según la altitud, creando distintos pisos ecológicos con variadas temperaturas."
+          }
+        },
+        {
+          "texto": "Andes = barrera natural + reserva hídrica.",
+          "pregunta": {
+            "q": "¿Qué características definen la función ambiental de los Andes?",
+            "opts": [
+              "Son una barrera natural y una reserva hídrica",
+              "Son llanuras desérticas y reservas de gas",
+              "Son vías de transporte natural y reservas forestales"
+            ],
+            "correct": 0,
+            "explicacion": "La altitud de los Andes bloquea y desvía vientos (barrera) y almacena agua en forma de glaciares (reserva)."
+          }
+        },
+        {
+          "texto": "Cordillera Andes = cordillera más larga del mundo.",
+          "pregunta": {
+            "q": "¿Qué récord mundial ostenta la Cordillera de los Andes?",
+            "opts": [
+              "Ser la más ancha del mundo",
+              "Ser la más antigua del planeta",
+              "Ser la cordillera más larga del mundo"
+            ],
+            "correct": 2,
+            "explicacion": "A nivel continental y global, los Andes destacan por su inmensa longitud que atraviesa Sudamérica."
+          }
+        },
+        {
+          "texto": "Andes ⊃ Venezuela, Colombia, Ecuador, Perú, Bolivia, Argentina, Chile.",
+          "pregunta": {
+            "q": "¿Qué países sudamericanos abarca la cordillera de los Andes?",
+            "opts": [
+              "Perú, Brasil, Uruguay, Paraguay, Chile, Bolivia",
+              "Venezuela, Colombia, Ecuador, Perú, Bolivia, Argentina, Chile",
+              "Solo Ecuador, Perú, Bolivia y Chile"
+            ],
+            "correct": 1,
+            "explicacion": "La cadena montañosa recorre la parte occidental de Sudamérica cruzando siete países desde Venezuela hasta Chile/Argentina."
+          }
+        }
+      ]
+    },
+    {
+      "titulo": "Principales Cordilleras",
+      "puntos": [
+        {
+          "texto": "Cordillera Campanquis = la más boreal.",
+          "pregunta": {
+            "q": "¿Cuál es la característica principal de la Cordillera Campanquis?",
+            "opts": [
+              "Es la más elevada",
+              "Es la más austral",
+              "Es la más boreal"
+            ],
+            "correct": 2,
+            "explicacion": "Al ser la más boreal, significa que es la cordillera ubicada más al norte dentro del relieve andino peruano."
+          }
+        },
+        {
+          "texto": "Cordillera Blanca = la más elevada.",
+          "pregunta": {
+            "q": "¿Qué rasgo distingue a la Cordillera Blanca?",
+            "opts": [
+              "Ser la cordillera más elevada",
+              "Ser la zona más baja de los Andes",
+              "Ser la cordillera más austral"
+            ],
+            "correct": 0,
+            "explicacion": "La Cordillera Blanca concentra las mayores altitudes del Perú, incluyendo al nevado Huascarán."
+          }
+        },
+        {
+          "texto": "Cordillera Huayhuash = segunda más alta.",
+          "pregunta": {
+            "q": "¿Qué posición ocupa la Cordillera Huayhuash en cuanto a altitud?",
+            "opts": [
+              "Es la tercera más alta",
+              "Es la segunda más alta",
+              "Es la cordillera más alta de todas"
+            ],
+            "correct": 1,
+            "explicacion": "Sigue en elevación a la Cordillera Blanca, albergando picos muy importantes como el Yerupajá."
+          }
+        },
+        {
+          "texto": "Cordillera Chila → origen remoto Río Amazonas.",
+          "pregunta": {
+            "q": "¿Qué evento hidrográfico importante ocurre en la Cordillera Chila?",
+            "opts": [
+              "Se forma el Cañón del Colca",
+              "Desemboca el Río Amazonas",
+              "Se da el origen remoto del Río Amazonas"
+            ],
+            "correct": 2,
+            "explicacion": "En las cumbres de esta cordillera (Arequipa) se encuentran los primeros deshielos que dan inicio a la cuenca amazónica."
+          }
+        },
+        {
+          "texto": "Cordillera Barroso = la más austral.",
+          "pregunta": {
+            "q": "¿Cómo se clasifica geográficamente a la Cordillera Barroso?",
+            "opts": [
+              "Como la más austral",
+              "Como la más central",
+              "Como la más boreal"
+            ],
+            "correct": 0,
+            "explicacion": "Austral hace referencia al sur, por lo que esta es la cordillera ubicada más al sur del país."
+          }
+        }
+      ]
+    },
+    {
+      "titulo": "Valles Interandinos",
+      "puntos": [
+        {
+          "texto": "Valles Interandinos = origen aluvional + forma alargada.",
+          "pregunta": {
+            "q": "¿Cómo se originan y qué forma tienen los valles interandinos?",
+            "opts": [
+              "Origen volcánico y forma circular",
+              "Origen glaciar y forma escarpada",
+              "Origen aluvional y forma alargada"
+            ],
+            "correct": 2,
+            "explicacion": "Estos valles son depresiones entre montañas formadas por depósitos de los ríos a lo largo del tiempo, adoptando siluetas estrechas y largas."
+          }
+        },
+        {
+          "texto": "Valles Interandinos → concentran mayor población + agricultura extensiva.",
+          "pregunta": {
+            "q": "¿Qué actividades o fenómenos predominan en los valles interandinos?",
+            "opts": [
+              "Concentran mayor población y agricultura extensiva",
+              "Minería intensiva y despoblamiento masivo",
+              "Pesca industrial y turismo de playas"
+            ],
+            "correct": 0,
+            "explicacion": "Por sus tierras fértiles y clima favorable, son el hogar de la mayor parte de los habitantes andinos y su principal zona de cultivos."
+          }
+        },
+        {
+          "texto": "Valle Urubamba ∈ Cusco.",
+          "pregunta": {
+            "q": "¿En qué región se encuentra el Valle de Urubamba?",
+            "opts": [
+              "Arequipa",
+              "Junín",
+              "Cusco"
+            ],
+            "correct": 2,
+            "explicacion": "Este importante valle, conocido como el primer productor de maíz, está ubicado en la región Cusco."
+          }
+        },
+        {
+          "texto": "Valle Mantaro → despensa de Lima.",
+          "pregunta": {
+            "q": "¿Con qué denominación se conoce al Valle del Mantaro debido a su producción?",
+            "opts": [
+              "Reserva natural del centro",
+              "Despensa de Lima",
+              "Capital agrícola del sur"
+            ],
+            "correct": 1,
+            "explicacion": "Por su alta producción agrícola que abastece principalmente a la capital peruana, recibe este apelativo."
+          }
+        }
+      ]
+    },
+    {
+      "titulo": "Cañones",
+      "puntos": [
+        {
+          "texto": "Cañones = producto de degradación fluvial.",
+          "pregunta": {
+            "q": "¿Qué fenómeno natural es responsable de formar cañones?",
+            "opts": [
+              "La degradación glaciar",
+              "El movimiento tectónico",
+              "La degradación fluvial"
+            ],
+            "correct": 2,
+            "explicacion": "El desgaste constante provocado por la fuerza de los ríos corta las montañas y genera estas profundas gargantas."
+          }
+        },
+        {
+          "texto": "Cañones → potencial hidroeléctrico + turismo.",
+          "pregunta": {
+            "q": "¿Qué aprovechamiento económico ofrecen los cañones?",
+            "opts": [
+              "Potencial hidroeléctrico y turismo",
+              "Agricultura a gran escala y ganadería",
+              "Extracción petrolera y minería a tajo abierto"
+            ],
+            "correct": 0,
+            "explicacion": "La fuerza del agua en los cañones permite instalar centrales hidroeléctricas, y sus paisajes son atractivos turísticos."
+          }
+        },
+        {
+          "texto": "Cañón Cotahuasi = el más profundo.",
+          "pregunta": {
+            "q": "¿Qué récord nacional tiene el Cañón de Cotahuasi?",
+            "opts": [
+              "Ser el cañón más profundo",
+              "Ser el cañón más visitado",
+              "Ser el cañón más ancho"
+            ],
+            "correct": 0,
+            "explicacion": "Ubicado en la cuenca del río Ocoña, supera en profundidad a todos los demás cañones del Perú."
+          }
+        },
+        {
+          "texto": "Cañón Colca = el más visitado.",
+          "pregunta": {
+            "q": "¿Cuál es la principal característica turística del Cañón del Colca?",
+            "opts": [
+              "Es el cañón menos explorado",
+              "Es el cañón más visitado",
+              "Es el único cañón con nevados"
+            ],
+            "correct": 1,
+            "explicacion": "A pesar de no ser el más profundo, su accesibilidad e infraestructura lo convierten en el líder del turismo en su tipo."
+          }
+        }
+      ]
+    },
+    {
+      "titulo": "Pasos o Abras",
+      "puntos": [
+        {
+          "texto": "Pasos o Abras = origen por degradación glaciar.",
+          "pregunta": {
+            "q": "¿Qué proceso erosivo da origen a los pasos o abras?",
+            "opts": [
+              "La degradación eólica",
+              "La degradación fluvial",
+              "La degradación glaciar"
+            ],
+            "correct": 2,
+            "explicacion": "El avance y retroceso histórico de los glaciares talla estas aberturas en las partes altas de las cordilleras."
+          }
+        },
+        {
+          "texto": "Pasos o Abras → permiten construcción de vías.",
+          "pregunta": {
+            "q": "¿Para qué son utilizados principalmente los pasos o abras por el ser humano?",
+            "opts": [
+              "Permiten la construcción de vías",
+              "Se usan como tierras de cultivo intenso",
+              "Sirven exclusivamente para la minería"
+            ],
+            "correct": 0,
+            "explicacion": "Al ser zonas más bajas entre cumbres, facilitan el trazado de carreteras y vías férreas para cruzar los Andes."
+          }
+        },
+        {
+          "texto": "Paso Chimboya = el más alto.",
+          "pregunta": {
+            "q": "¿Qué cualidad destaca al Paso Chimboya respecto a otros?",
+            "opts": [
+              "Es el más bajo",
+              "Es el más transitado",
+              "Es el más alto"
+            ],
+            "correct": 2,
+            "explicacion": "Este paso, que conecta Puno y Cusco, se encuentra a mayor altitud que cualquier otro paso en el país."
+          }
+        },
+        {
+          "texto": "Paso Porculla = el más bajo.",
+          "pregunta": {
+            "q": "¿Qué característica distingue al Paso Porculla?",
+            "opts": [
+              "Es el paso más bajo",
+              "Es el paso más alto",
+              "Es un paso de origen volcánico"
+            ],
+            "correct": 0,
+            "explicacion": "Ubicado entre Olmos y Jaén, es la depresión más baja de la cordillera andina para cruzar hacia la selva."
+          }
+        },
+        {
+          "texto": "Paso Anticona-Ticlio → une Lima y La Oroya.",
+          "pregunta": {
+            "q": "¿Qué ciudades principales conecta el Paso Anticona-Ticlio?",
+            "opts": [
+              "Huanuco y Tingo María",
+              "Lima y La Oroya",
+              "Olmos y Jaén"
+            ],
+            "correct": 1,
+            "explicacion": "Es el punto de cruce vial y ferroviario clásico en la sierra central para viajar de Lima hacia la zona de La Oroya."
+          }
+        }
+      ]
+    },
+    {
+      "titulo": "Mesetas",
+      "puntos": [
+        {
+          "texto": "Mesetas = altiplanos + clima frío-seco.",
+          "pregunta": {
+            "q": "¿Cómo se definen morfológica y climáticamente las mesetas andinas?",
+            "opts": [
+              "Son altiplanos con clima frío-seco",
+              "Son llanuras bajas con clima cálido-húmedo",
+              "Son valles estrechos con clima templado"
+            ],
+            "correct": 0,
+            "explicacion": "Las mesetas son planicies elevadas a más de 3500 msnm, lo que determina su ambiente gélido y de baja humedad."
+          }
+        },
+        {
+          "texto": "Mesetas → favorecen ganadería + piscicultura.",
+          "pregunta": {
+            "q": "¿Qué actividades económicas se desarrollan principalmente en las mesetas?",
+            "opts": [
+              "Explotación maderera y fruticultura",
+              "Agricultura intensiva y comercio marítimo",
+              "Ganadería y piscicultura"
+            ],
+            "correct": 2,
+            "explicacion": "La abundancia de pastos naturales (ichu) sostiene la cría de animales, y sus lagunas se usan para criar truchas."
+          }
+        },
+        {
+          "texto": "Meseta Collao ∈ Puno = la más extensa.",
+          "pregunta": {
+            "q": "¿Dónde se ubica y cuál es la característica de la Meseta del Collao?",
+            "opts": [
+              "En Junín y es la más pequeña",
+              "En Puno y es la más extensa",
+              "En Ayacucho y es la más extensa"
+            ],
+            "correct": 1,
+            "explicacion": "Esta altiplanicie compartida con Bolivia es la de mayor área en todo el sistema andino peruano."
+          }
+        },
+        {
+          "texto": "Meseta Pampas Galeras → preservación de vicuñas.",
+          "pregunta": {
+            "q": "¿Qué fauna es protegida principalmente en la Meseta de Pampas Galeras?",
+            "opts": [
+              "Osos de anteojos",
+              "Vicuñas",
+              "Cóndores"
+            ],
+            "correct": 1,
+            "explicacion": "Ubicada en Ayacucho, es una zona emblemática y fundamental para la conservación y manejo de rebaños de vicuñas."
+          }
+        },
+        {
+          "texto": "Meseta Marcahuasi ∈ Lima = bosque de piedras.",
+          "pregunta": {
+            "q": "¿Qué formación geológica destaca en la Meseta de Marcahuasi?",
+            "opts": [
+              "Un bosque de piedras",
+              "Un complejo de lagunas",
+              "Un cráter volcánico"
+            ],
+            "correct": 0,
+            "explicacion": "Esta zona en Lima es famosa por sus curiosas formaciones rocosas esculpidas por la erosión eólica e hídrica."
+          }
+        }
+      ]
+    },
+    {
+      "titulo": "Volcanes",
+      "puntos": [
+        {
+          "texto": "Volcanes → turismo + energía geotérmica.",
+          "pregunta": {
+            "q": "¿Qué usos o potenciales económicos brindan los volcanes andinos?",
+            "opts": [
+              "Solo la extracción de minerales metálicos",
+              "Turismo y aprovechamiento de energía geotérmica",
+              "Uso exclusivo como reservas de agua dulce"
+            ],
+            "correct": 1,
+            "explicacion": "El calor interno y la majestuosidad de los volcanes permiten generar energía mediante el vapor y atraer visitantes."
+          }
+        },
+        {
+          "texto": "Volcán Coropuna = el más alto.",
+          "pregunta": {
+            "q": "¿Qué caracteriza al volcán Coropuna dentro de su categoría?",
+            "opts": [
+              "Es el volcán más alto",
+              "Es el volcán más activo",
+              "Es el volcán más pequeño"
+            ],
+            "correct": 0,
+            "explicacion": "Además de ser el volcán de mayor altitud, es la tercera cumbre más elevada de todo el país."
+          }
+        },
+        {
+          "texto": "Volcán Ubinas ∈ Moquegua = el más activo.",
+          "pregunta": {
+            "q": "¿Cuál es la característica principal del volcán Ubinas?",
+            "opts": [
+              "Es el más alto del país",
+              "Es el más hermoso",
+              "Es el volcán más activo"
+            ],
+            "correct": 2,
+            "explicacion": "Ubicado en Moquegua, este volcán mantiene constantes procesos eruptivos y emisiones de ceniza en la actualidad."
+          }
+        },
+        {
+          "texto": "Volcán Misti = el más bello.",
+          "pregunta": {
+            "q": "¿Por qué atributo destaca el volcán Misti en la clasificación andina?",
+            "opts": [
+              "Por ser el más alto",
+              "Por ser el más bello",
+              "Por ser el más activo"
+            ],
+            "correct": 1,
+            "explicacion": "El Misti es considerado el volcán más hermoso debido a su forma de cono casi perfecta."
+          }
+        }
+      ]
+    },
+    {
+      "titulo": "Nevados",
+      "puntos": [
+        {
+          "texto": "Nevados → promueven el turismo.",
+          "pregunta": {
+            "q": "¿Qué actividad económica se beneficia directamente de los nevados?",
+            "opts": [
+              "La agricultura de regadío",
+              "La ganadería intensiva",
+              "El turismo"
+            ],
+            "correct": 2,
+            "explicacion": "Las montañas cubiertas de hielo a más de 5000 metros atraen a montañistas, escaladores y turistas en general."
+          }
+        },
+        {
+          "texto": "Nevado Huascarán = el más alto.",
+          "pregunta": {
+            "q": "¿Qué récord tiene el Nevado Huascarán?",
+            "opts": [
+              "Es el nevado más alto",
+              "Es el volcán más activo",
+              "Es la meseta más extensa"
+            ],
+            "correct": 0,
+            "explicacion": "Ubicado en la Cordillera Blanca, es el punto geográfico de mayor altitud de todo el territorio peruano."
+          }
+        },
+        {
+          "texto": "Nevado Alpamayo = el más bello.",
+          "pregunta": {
+            "q": "¿Por qué es mundialmente reconocido el Nevado Alpamayo?",
+            "opts": [
+              "Por ser el más alto",
+              "Por ser el más bello",
+              "Por ser el más extenso"
+            ],
+            "correct": 1,
+            "explicacion": "Su peculiar forma piramidal cubierta de hielo le ha otorgado el título de la montaña más hermosa."
+          }
+        }
+      ]
+    }
+  ],
+  "examen": [
+    {
+      "tipo": "opcion_multiple",
+      "q": "¿Qué alternativa señala correctamente la relación entre la geoforma andina originada por la intensa degradación fluvial y el río responsable de su modelado?",
+      "opts": [
+        "Cañón del Pato originado por el río Ocoña.",
+        "Cañón de Cotahuasi originado por el río Santa.",
+        "Cañón del Infiernillo originado por el río Rímac.",
+        "Cañón del Colca originado por el río Amazonas."
+      ],
+      "correct": 2,
+      "explicacion": "El cañón del Infiernillo es una estrecha garganta formada por la fuerza del río Rímac en la sierra de Lima. El cañón del Pato es obra del río Santa, el cañón de Cotahuasi es formado por el río Ocoña y el Colca por el río Majes."
+    },
+    {
+      "tipo": "verdadero_falso",
+      "q": "Determine el valor de verdad de las siguientes proposiciones referidas a los pasos o abras, los cuales son relieves fundamentales para la integración del país:",
+      "proposiciones": [
+        {
+          "texto": "El paso de Carpish permite la conexión terrestre entre las localidades de Huánuco y Tingo María.",
+          "correct": true
+        },
+        {
+          "texto": "El abra de Cahuish facilita el tránsito vial para dirigirse de Recuay hacia la zona de Chavín.",
+          "correct": true
+        },
+        {
+          "texto": "El paso Chimboya es considerado el cruce de menor altitud para atravesar la cordillera de los Andes.",
+          "correct": false
+        }
+      ],
+      "explicacion": "Carpish y Cahuish comunican correctamente las ciudades mencionadas. Sin embargo, el paso Chimboya (Puno - Cusco) es el de mayor altitud en el país, mientras que el abra de Porculla es la de menor elevación."
+    },
+    {
+      "tipo": "completar",
+      "q": "Complete el enunciado sobre las altiplanicies y sus características particulares:",
+      "textoConEspacios": "Además de la ganadería, las mesetas altoandinas pueden albergar formaciones rocosas singulares que atraen el turismo, como ocurre en el bosque de piedras de la meseta de 1 en la región Pasco; por otro lado, la meseta del 2 en Junín destaca como la segunda más extensa del territorio nacional.",
+      "respuestas": [
+        "Huayllay",
+        "Bombón"
+      ],
+      "explicacion": "Huayllay (Pasco) es un célebre santuario nacional conocido por sus gigantescas formaciones rocosas de origen volcánico. La meseta del Bombón (Junín) es la segunda en extensión, solo superada por la del Collao en Puno."
+    },
+    {
+      "tipo": "opcion_multiple",
+      "q": "Un equipo de investigadores planea estudiar in situ la preservación de vicuñas en su hábitat natural altoandino y, posteriormente, levantar datos topográficos en la altiplanicie de mayor extensión del Perú. Según la morfología andina, ¿qué áreas deben visitar respectivamente?",
+      "opts": [
+        "Meseta de Marcahuasi y meseta del Bombón.",
+        "Meseta de Pampas Galeras y meseta del Collao.",
+        "Meseta de Huayllay y meseta del Collao.",
+        "Meseta de Pampas Galeras y meseta de Marcahuasi."
+      ],
+      "correct": 1,
+      "explicacion": "Pampas Galeras (Ayacucho) es el área natural emblemática para la conservación de la vicuña. Luego, deben trasladarse a la meseta del Collao (Puno), que constituye la planicie más extensa del sistema andino peruano."
+    },
+    {
+      "tipo": "opcion_multiple",
+      "q": "Señale la alternativa que contiene una afirmación INCORRECTA sobre las cumbres, nevados y volcanes de la cordillera de los Andes peruanos.",
+      "opts": [
+        "El nevado Alpamayo es mundialmente reconocido por su imponente belleza paisajística y forma piramidal.",
+        "El volcán Coropuna constituye la cumbre de origen volcánico más alta de todo el territorio nacional.",
+        "El nevado Huascarán se localiza en la cordillera Negra y representa el punto más elevado del país.",
+        "El volcán Ubinas es monitoreado constantemente debido a su continua y actual actividad eruptiva."
+      ],
+      "correct": 2,
+      "explicacion": "La alternativa incorrecta es la tercera, ya que el nevado Huascarán, si bien es el punto más elevado del país, se ubica en la cordillera Blanca (cubierta de glaciares) y no en la cordillera Negra (que carece de nevados). Las demás descripciones son precisas."
+    },
+    {
+      "tipo": "verdadero_falso",
+      "q": "En base a las características geomorfológicas y el uso del suelo de los valles interandinos, indique si las siguientes afirmaciones son verdaderas o falsas:",
+      "proposiciones": [
+        {
+          "texto": "Los valles interandinos presentan una agricultura predominante de regadío en un 70% de su extensión total.",
+          "correct": false
+        },
+        {
+          "texto": "El valle del Callejón de Huaylas ha sido modelado longitudinalmente por la acción de depósito y erosión del río Santa.",
+          "correct": true
+        },
+        {
+          "texto": "Los valles andinos poseen una morfología de silueta circular producto de procesos tectónicos y volcánicos.",
+          "correct": false
+        }
+      ],
+      "explicacion": "La agricultura en los valles interandinos es mayormente extensiva (70%) y el regadío representa el 30%. Además, su morfología no es circular ni volcánica, sino alargada y de origen aluvional (por sedimentación fluvial). El Callejón de Huaylas sí es recorrido y modelado por el río Santa."
+    },
+    {
+      "tipo": "completar",
+      "q": "Identifique las cadenas montañosas de gran altitud de acuerdo con sus características geográficas:",
+      "textoConEspacios": "La diversidad altitudinal de los Andes incluye cadenas montañosas donde la cordillera 1 agrupa los picos más elevados del territorio, mientras que la cordillera 2 ostenta la segunda montaña más alta del país, el Yerupajá.",
+      "respuestas": [
+        "Blanca",
+        "Huayhuash"
+      ],
+      "explicacion": "La cordillera Blanca, en Áncash, es la más alta del Perú (albergando al Huascarán). Le sigue en altitud la cordillera Huayhuash, ubicada en el límite de Áncash, Huánuco y Lima, hogar del nevado Yerupajá."
+    },
+    {
+      "tipo": "opcion_multiple",
+      "q": "Analice las siguientes características y determine a qué sector específico del relieve andino corresponden: 'Son formaciones de relieve originadas por acumulación de materiales arrastrados por los ríos a lo largo de los siglos; tienen forma longitudinal, concentran a gran parte de la población de la región y sus suelos resultan ser los más idóneos para la agricultura.'",
+      "opts": [
+        "Mesetas altoandinas.",
+        "Pasos o abras.",
+        "Valles interandinos.",
+        "Cañones fluviales."
+      ],
+      "correct": 2,
+      "explicacion": "Las características mencionadas (origen aluvional, forma alargada, concentración poblacional y alta productividad agrícola) son las propiedades que definen geográficamente a los valles interandinos, a diferencia de las mesetas (ganadería en altura), abras (vías de paso) o cañones (energía hidroeléctrica)."
+    },
+    {
+      "tipo": "opcion_multiple",
+      "q": "¿Qué porcentaje aproximado de la población peruana habita en el Relieve Andino según sus características generales?",
+      "opts": [
+        "10%",
+        "28%",
+        "50%"
+      ],
+      "correct": 1,
+      "explicacion": "El Relieve Andino ocupa aproximadamente el 30% del territorio peruano y concentra cerca del 28% de la población."
+    },
+    {
+      "tipo": "opcion_multiple",
+      "q": "La presencia de diferentes pisos altitudinales en los Andes permite principalmente:",
+      "opts": [
+        "La diversidad climática",
+        "La desaparición de ecosistemas",
+        "La uniformidad del clima"
+      ],
+      "correct": 0,
+      "explicacion": "Los cambios de altitud generan variaciones climáticas y diferentes ambientes ecológicos."
+    },
+    {
+      "tipo": "verdadero_falso",
+      "q": "Determine el valor de verdad de las siguientes afirmaciones sobre las cordilleras andinas:",
+      "proposiciones": [
+        {
+          "texto": "La Cordillera Blanca es considerada la más elevada del Perú.",
+          "correct": true
+        },
+        {
+          "texto": "La Cordillera Barroso es la más boreal del territorio peruano.",
+          "correct": false
+        },
+        {
+          "texto": "La Cordillera Huayhuash ocupa el segundo lugar en altitud.",
+          "correct": true
+        }
+      ],
+      "explicacion": "La Cordillera Blanca es la más elevada, Huayhuash es la segunda más alta y Barroso destaca por ser la más austral."
+    },
+    {
+      "tipo": "completar",
+      "q": "Complete el enunciado sobre las cordilleras principales:",
+      "textoConEspacios": "La Cordillera 1 destaca por ser la más boreal, mientras que la Cordillera 2 se caracteriza por ser la más austral del Perú.",
+      "respuestas": [
+        "Campanquis",
+        "Barroso"
+      ],
+      "explicacion": "Campanquis corresponde a la cordillera más boreal y Barroso a la más austral."
+    },
+    {
+      "tipo": "opcion_multiple",
+      "q": "¿Qué característica económica explica la importancia de los valles interandinos?",
+      "opts": [
+        "Permiten agricultura extensiva y concentran población",
+        "Son zonas exclusivas para actividad minera",
+        "Carecen de población permanente"
+      ],
+      "correct": 0,
+      "explicacion": "Los valles interandinos poseen suelos favorables y concentran gran cantidad de población debido a sus actividades agrícolas."
+    },
+    {
+      "tipo": "opcion_multiple",
+      "q": "¿Cuál es la relación correcta entre valle y ubicación?",
+      "opts": [
+        "Valle Urubamba - Cusco",
+        "Valle Mantaro - Arequipa",
+        "Valle Urubamba - Puno"
+      ],
+      "correct": 0,
+      "explicacion": "El Valle de Urubamba pertenece a Cusco."
+    },
+    {
+      "tipo": "verdadero_falso",
+      "q": "Sobre los cañones del relieve andino:",
+      "proposiciones": [
+        {
+          "texto": "Los cañones se forman por degradación fluvial.",
+          "correct": true
+        },
+        {
+          "texto": "Los cañones no tienen importancia turística.",
+          "correct": false
+        },
+        {
+          "texto": "Los cañones pueden tener potencial hidroeléctrico.",
+          "correct": true
+        }
+      ],
+      "explicacion": "La acción erosiva de los ríos forma cañones, los cuales también tienen valor turístico y energético."
+    },
+    {
+      "tipo": "opcion_multiple",
+      "q": "¿Cuál es la característica principal del Paso Anticona-Ticlio?",
+      "opts": [
+        "Une Lima y La Oroya",
+        "Es el paso más bajo del Perú",
+        "Es el paso más alto del Perú"
+      ],
+      "correct": 0,
+      "explicacion": "El Paso Anticona-Ticlio conecta Lima con La Oroya."
+    },
+    {
+      "tipo": "opcion_multiple",
+      "q": "¿Qué actividades favorecen las mesetas altoandinas?",
+      "opts": [
+        "Ganadería y piscicultura",
+        "Pesca marítima y comercio",
+        "Industria pesada"
+      ],
+      "correct": 0,
+      "explicacion": "Las mesetas permiten actividades como la ganadería por sus pastos naturales y la piscicultura en sus lagunas."
+    },
+    {
+      "tipo": "opcion_multiple",
+      "q": "¿Qué relación es correcta respecto a los volcanes peruanos?",
+      "opts": [
+        "Ubinas - volcán más activo",
+        "Misti - volcán más alto",
+        "Coropuna - volcán más activo"
+      ],
+      "correct": 0,
+      "explicacion": "Según la teoría, el volcán Ubinas destaca por ser el más activo."
+    }
+  ]
+}

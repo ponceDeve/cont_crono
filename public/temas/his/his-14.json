@@ -1,0 +1,303 @@
+{
+  "curso": "Historia Universal",
+  "tema": "Grecia II",
+  "glosario": {
+    "=": "definición / es",
+    "→": "produce, genera, conduce a, resultado",
+    "⊃": "contiene / abarca",
+    "≠": "enfrentamiento / oposición / diferencia",
+    "+": "combinación / y",
+    "Hegemonía": "Supremacía o dominio político y militar de un Estado sobre otros.",
+    "Falange": "Formación militar táctica empleada en la antigüedad.",
+    "Helenización": "Expansión e influencia de la cultura griega en los pueblos orientales.",
+    "Liga": "Alianza política y militar entre distintas ciudades.",
+    "Polis": "Ciudades-estado autónomas de la antigua Grecia."
+  },
+  "theory": [
+    {
+      "titulo": "Guerras del Peloponeso",
+      "puntos": [
+        {
+          "texto": "Guerras del Peloponeso = Liga de Delos (Atenas) VS Liga del Peloponeso (Esparta)",
+          "pregunta": {
+            "q": "¿Qué bloques de alianzas militares se enfrentaron en las Guerras del Peloponeso?",
+            "opts": [
+              "Liga de Beocia vs Liga de Corinto",
+              "Liga de Delos (Atenas) vs Liga del Peloponeso (Esparta)",
+              "Liga Jónica vs Imperio Persa"
+            ],
+            "correct": 1,
+            "explicacion": "El conflicto dividió a Grecia en dos grandes facciones lideradas por Atenas y Esparta con sus respectivas ligas aliadas."
+          }
+        },
+        {
+          "texto": "Consecuencia Guerras Peloponeso → Esparta impone gobierno de los 30 tiranos",
+          "pregunta": {
+            "q": "¿Qué régimen político fue instaurado como resultado del fin de las Guerras del Peloponeso?",
+            "opts": [
+              "Esparta impone gobierno de los 30 tiranos",
+              "Se restaura la democracia ateniense pura",
+              "Se establece una monarquía dual panhelénica"
+            ],
+            "correct": 0,
+            "explicacion": "Tras vencer, Esparta impuso en Atenas una oligarquía pro-espartana conocida como el gobierno de los Treinta Tiranos."
+          }
+        },
+        {
+          "texto": "Consecuencia Guerras Peloponeso → breve hegemonía espartana",
+          "pregunta": {
+            "q": "¿Qué ciudad-estado logró una etapa de dominio tras este conflicto?",
+            "opts": [
+              "Tebas",
+              "Macedonia",
+              "Esparta"
+            ],
+            "correct": 2,
+            "explicacion": "La victoria bélica le otorgó a Esparta una hegemonía militar sobre el resto de Grecia, aunque de corta duración."
+          }
+        },
+        {
+          "texto": "Consecuencia Guerras Peloponeso → decadencia de las polis",
+          "pregunta": {
+            "q": "¿Qué efecto general a largo plazo provocó el conflicto en el sistema griego?",
+            "opts": [
+              "Auge económico de las colonias",
+              "Decadencia de las polis",
+              "Unificación voluntaria de los Estados"
+            ],
+            "correct": 1,
+            "explicacion": "El desgaste prolongado de la guerra civil helénica condujo al debilitamiento y decadencia general del modelo de polis autónoma."
+          }
+        }
+      ]
+    },
+    {
+      "titulo": "Hegemonía Tebana",
+      "puntos": [
+        {
+          "texto": "Hegemonía tebana ⊃ creación de la falange (Epaminondas)",
+          "pregunta": {
+            "q": "¿Qué innovación táctica militar formó parte del éxito de Tebas?",
+            "opts": [
+              "Creación de la armada naval de trirremes",
+              "Creación de la falange (Epaminondas)",
+              "Uso de artillería de asedio"
+            ],
+            "correct": 1,
+            "explicacion": "Bajo el liderazgo del general Epaminondas, Tebas desarrolló una versión innovadora de la formación en falange."
+          }
+        },
+        {
+          "texto": "Hegemonía tebana ⊃ Liga de Beocia",
+          "pregunta": {
+            "q": "¿Qué alianza regional sostuvo el poder durante la supremacía tebana?",
+            "opts": [
+              "Liga del Peloponeso",
+              "Liga de Corinto",
+              "Liga de Beocia"
+            ],
+            "correct": 2,
+            "explicacion": "Tebas consolidó su fuerza liderando a las ciudades de su región a través de la Liga de Beocia."
+          }
+        },
+        {
+          "texto": "Liga de Beocia → derrotan a Esparta + Atenas",
+          "pregunta": {
+            "q": "¿Qué hito militar alcanzó la coalición de ciudades beocias?",
+            "opts": [
+              "Derrotan al Imperio Persa",
+              "Derrotan a Esparta + Atenas",
+              "Destruyen la ciudad de Troya"
+            ],
+            "correct": 1,
+            "explicacion": "Las fuerzas de la Liga de Beocia lograron quebrar el poder tradicional venciendo conjuntamente a espartanos y atenienses."
+          }
+        }
+      ]
+    },
+    {
+      "titulo": "Hegemonía Macedónica: Filipo II",
+      "puntos": [
+        {
+          "texto": "Filipo II → perfecciona la falange (caballería)",
+          "pregunta": {
+            "q": "¿Qué reforma militar clave introdujo el rey Filipo II de Macedonia?",
+            "opts": [
+              "Perfecciona la falange (caballería)",
+              "Introduce el uso de elefantes de guerra",
+              "Reemplaza las lanzas por espadas cortas"
+            ],
+            "correct": 0,
+            "explicacion": "Filipo II tomó el concepto de la falange y lo perfeccionó, integrando decisivamente a la caballería en sus tácticas."
+          }
+        },
+        {
+          "texto": "Filipo II ≠ opositor Demóstenes",
+          "pregunta": {
+            "q": "¿Quién fue el principal líder político opositor al avance macedonio de Filipo II?",
+            "opts": [
+              "Pericles",
+              "Demóstenes",
+              "Epaminondas"
+            ],
+            "correct": 1,
+            "explicacion": "El orador ateniense Demóstenes fue el gran crítico y opositor político de la expansión de Filipo II sobre Grecia."
+          }
+        },
+        {
+          "texto": "Filipo II → conquista Grecia",
+          "pregunta": {
+            "q": "¿Cuál fue el resultado territorial inmediato de las campañas de Filipo II?",
+            "opts": [
+              "Conquista Grecia",
+              "Conquista Egipto",
+              "Conquista el Imperio Persa"
+            ],
+            "correct": 0,
+            "explicacion": "Aprovechando la debilidad de las polis, Filipo II logró someter militarmente a la península griega."
+          }
+        },
+        {
+          "texto": "Filipo II → Liga de Corinto",
+          "pregunta": {
+            "q": "¿Qué estructura de dominación originó Filipo tras someter a las ciudades griegas?",
+            "opts": [
+              "Liga de Delos",
+              "Liga de Corinto",
+              "Liga del Peloponeso"
+            ],
+            "correct": 1,
+            "explicacion": "El monarca macedonio agrupó a las ciudades conquistadas en la Liga de Corinto bajo su control hegemónico."
+          }
+        }
+      ]
+    },
+    {
+      "titulo": "Hegemonía Macedónica: Alejandro Magno",
+      "puntos": [
+        {
+          "texto": "Alejandro Magno → conquista Asia Menor",
+          "pregunta": {
+            "q": "¿Qué región fue una de las primeras en ser conquistadas por Alejandro?",
+            "opts": [
+              "Hispania",
+              "Galia",
+              "Asia Menor"
+            ],
+            "correct": 2,
+            "explicacion": "Iniciando su gran campaña militar hacia oriente, Alejandro logró el control de la región de Asia Menor."
+          }
+        },
+        {
+          "texto": "Alejandro Magno → conquista el Imperio Persa",
+          "pregunta": {
+            "q": "¿Qué gran entidad política fue sometida militarmente por Alejandro Magno?",
+            "opts": [
+              "Imperio Romano",
+              "Imperio Persa",
+              "Imperio Cartaginés"
+            ],
+            "correct": 1,
+            "explicacion": "El principal objetivo y logro supremo de su expedición fue la derrota total del antiguo Imperio Persa."
+          }
+        },
+        {
+          "texto": "Imperio Persa ⊃ Siria, Palestina, Egipto y Mesopotamia",
+          "pregunta": {
+            "q": "¿Qué dominios abarcaba el territorio persa conquistado?",
+            "opts": [
+              "Siria, Palestina, Egipto y Mesopotamia",
+              "Dacia, Tracia, Iliria y Epiro",
+              "Cartago, Numidia, Mauritania y Libia"
+            ],
+            "correct": 0,
+            "explicacion": "El imperio dominado por Alejandro incluía vastas e históricas regiones como Siria, Palestina, Egipto y Mesopotamia."
+          }
+        },
+        {
+          "texto": "Imperio de Alejandro Magno → capital Babilonia",
+          "pregunta": {
+            "q": "¿Qué ciudad fue elegida como el centro político de los dominios de Alejandro?",
+            "opts": [
+              "Atenas",
+              "Pella",
+              "Babilonia"
+            ],
+            "correct": 2,
+            "explicacion": "Alejandro designó a la milenaria ciudad de Babilonia como la capital de su inmenso imperio oriental."
+          }
+        },
+        {
+          "texto": "Expansión Alejandro Magno → llega hasta la India (Hidaspes)",
+          "pregunta": {
+            "q": "¿Cuál fue el límite oriental máximo al que llegó la campaña macedónica?",
+            "opts": [
+              "Llega hasta China (río Amarillo)",
+              "Llega hasta Japón",
+              "Llega hasta la India (Hidaspes)"
+            ],
+            "correct": 2,
+            "explicacion": "El avance del ejército de Alejandro se detuvo únicamente tras alcanzar el territorio de la India, en la región del río Hidaspes."
+          }
+        },
+        {
+          "texto": "Conquistas Alejandro Magno → helenización (occidente + oriente)",
+          "pregunta": {
+            "q": "¿Qué fenómeno de intercambio y fusión resultó de sus conquistas territoriales?",
+            "opts": [
+              "Helenización (occidente + oriente)",
+              "Aislamiento cultural persa",
+              "Imposición del monoteísmo estricto"
+            ],
+            "correct": 0,
+            "explicacion": "Las expediciones provocaron la helenización, un proceso histórico que mezcló la cultura griega (occidente) con las tradiciones locales (oriente)."
+          }
+        }
+      ]
+    },
+    {
+      "titulo": "Reinos Helenísticos",
+      "puntos": [
+        {
+          "texto": "Reinos helenísticos ⊃ destaca Egipto",
+          "pregunta": {
+            "q": "¿Qué territorio destacó entre los reinos fragmentados tras el imperio de Alejandro?",
+            "opts": [
+              "Macedonia central",
+              "Egipto",
+              "Partia"
+            ],
+            "correct": 1,
+            "explicacion": "De los varios reinos surgidos a la muerte del conquistador, Egipto resaltó por su riqueza y desarrollo."
+          }
+        },
+        {
+          "texto": "Egipto helenístico = Dinastía Ptolemaica",
+          "pregunta": {
+            "q": "¿Bajo qué linaje de gobernantes estuvo bajo control el Egipto de esta etapa?",
+            "opts": [
+              "Dinastía Seléucida",
+              "Dinastía Antigónida",
+              "Dinastía Ptolemaica"
+            ],
+            "correct": 2,
+            "explicacion": "El general Ptolomeo y sus descendientes instauraron la Dinastía Ptolemaica para regir el Egipto helenístico."
+          }
+        },
+        {
+          "texto": "Dinastía Ptolemaica → Alejandría (difusión cultural)",
+          "pregunta": {
+            "q": "¿Qué ciudad promovieron los Ptolomeos como el máximo centro de difusión cultural?",
+            "opts": [
+              "Alejandría",
+              "Menfis",
+              "Tebas"
+            ],
+            "correct": 0,
+            "explicacion": "La dinastía impulsó la ciudad de Alejandría, convirtiéndola en el principal foco de conocimiento y cultura del mundo mediterráneo."
+          }
+        }
+      ]
+    }
+  ]
+}

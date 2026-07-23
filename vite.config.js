@@ -31,4 +31,8 @@ export default defineConfig({
     }),
   ],
   base: "/cont_crono/",
+  server: {
+    port: 3000,
+    open: true,
+  },
 });

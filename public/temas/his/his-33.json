@@ -1,0 +1,390 @@
+{
+  "curso": "Historia del Perú",
+  "tema": "Resistencia Andina",
+  "glosario": {
+    "Resistencia Quiteña": "Facción del ejército inca, originaria de Quito, que se opuso militarmente a la invasión española.",
+    "Huancas": "Pueblo andino del centro del Perú que se alió con los españoles en contra de los incas.",
+    "Toparpa": "Nombre con el que también se conocía a Túpac Huallpa, inca títere de los españoles.",
+    "Incas de Vilcabamba": "Dinastía de gobernantes incas que lideraron la resistencia desde la región de Vilcabamba.",
+    "Encomienda": "Sistema colonial español que otorgaba el trabajo y tributo de un grupo de indígenas a un conquistador.",
+    "Paz de Acobamba": "Tratado firmado entre Titu Cusi Yupanqui y los españoles que permitió el ingreso de misioneros.",
+    "Huaca": "Término andino para referirse a una deidad, lugar u objeto sagrado.",
+    "Extirpación de idolatrías": "Campañas impulsadas por la Iglesia Católica para destruir las creencias tradicionales indígenas.",
+    "⊃": "Contiene / conformado por",
+    "→": "Realiza / conduce a / acción",
+    "⇒": "Causa directa de / tiene como consecuencia",
+    "=": "Es / significa / equivale a",
+    "+": "Combinación / junto con",
+    "≈": "Coincide temporalmente con"
+  },
+  "theory": [
+    {
+      "titulo": "La Marcha al Cusco",
+      "puntos": [
+        {
+          "texto": "Resistencia Quiteña ⊃ Rumi Ñahui + Quis Quis + Calcuchimac.",
+          "pregunta": {
+            "q": "¿Qué líderes conformaban la Resistencia Quiteña?",
+            "opts": [
+              "Manco Inca, Sayri Túpac y Titu Cusi Yupanqui.",
+              "Rumi Ñahui, Quis Quis y Calcuchimac.",
+              "Juan Chocne y Taulichusco."
+            ],
+            "correct": 1,
+            "explicacion": "La resistencia armada proveniente del norte (Quito) estuvo liderada principalmente por los generales Rumi Ñahui, Quis Quis y Calcuchimac."
+          }
+        },
+        {
+          "texto": "Españoles → nombran inca a Túpac Huallpa (Toparpa).",
+          "pregunta": {
+            "q": "¿A qué personaje nombraron inca los conquistadores españoles?",
+            "opts": [
+              "A Túpac Huallpa, conocido como Toparpa.",
+              "Al general Calcuchimac.",
+              "A Manco Inca."
+            ],
+            "correct": 0,
+            "explicacion": "Para facilitar su avance hacia el Cusco, los españoles nombraron como inca aliado a Túpac Huallpa (Toparpa)."
+          }
+        },
+        {
+          "texto": "Huancas → apoyan a españoles.",
+          "pregunta": {
+            "q": "¿Qué postura adoptaron los huancas durante la marcha al Cusco?",
+            "opts": [
+              "Se unieron a la Resistencia Quiteña.",
+              "Se declararon neutrales en el conflicto.",
+              "Apoyaron a los invasores españoles."
+            ],
+            "correct": 2,
+            "explicacion": "Los huancas fueron una de las etnias que decidió brindar apoyo militar y logístico a los españoles."
+          }
+        },
+        {
+          "texto": "Quis Quis → ataca Jauja.",
+          "pregunta": {
+            "q": "¿Qué acción militar realizó el general Quis Quis en este periodo?",
+            "opts": [
+              "Atacó la ciudad de Jauja.",
+              "Defendió la fortaleza de Sacsayhuamán.",
+              "Incendió la ciudad de Lima."
+            ],
+            "correct": 0,
+            "explicacion": "El general quiteño Quis Quis dirigió sus fuerzas para atacar la zona de Jauja."
+          }
+        },
+        {
+          "texto": "Asesinato Toparpa ⇒ ejecución de Calcuchimac.",
+          "pregunta": {
+            "q": "¿Qué suceso trajo como consecuencia directa la ejecución de Calcuchimac?",
+            "opts": [
+              "El ataque a Jauja.",
+              "El asesinato de Toparpa.",
+              "La rebelión de Manco Inca."
+            ],
+            "correct": 1,
+            "explicacion": "Tras el asesinato del inca títere Toparpa, los españoles culparon a Calcuchimac (quien era su cautivo) y lo ejecutaron."
+          }
+        },
+        {
+          "texto": "Manco Inca (Manco II) → recibe españoles en Cusco.",
+          "pregunta": {
+            "q": "¿Quién recibió a los españoles a su llegada a la ciudad del Cusco?",
+            "opts": [
+              "Rumi Ñahui.",
+              "Sayri Túpac.",
+              "Manco Inca."
+            ],
+            "correct": 2,
+            "explicacion": "Manco Inca, también conocido como Manco II, fue quien inicialmente dio el recibimiento a las tropas españolas en el Cusco."
+          }
+        }
+      ]
+    },
+    {
+      "titulo": "Fundación de Ciudades",
+      "puntos": [
+        {
+          "texto": "Jauja = 1ra capital.",
+          "pregunta": {
+            "q": "¿Qué ciudad fue considerada la primera capital fundada por los españoles?",
+            "opts": [
+              "Lima.",
+              "Cusco.",
+              "Jauja."
+            ],
+            "correct": 2,
+            "explicacion": "En el orden de fundaciones, Jauja fue establecida como la primera capital de la gobernación."
+          }
+        },
+        {
+          "texto": "Lima = capital definitiva.",
+          "pregunta": {
+            "q": "¿Qué ciudad se estableció como la capital definitiva?",
+            "opts": [
+              "Lima.",
+              "Jauja.",
+              "Arequipa."
+            ],
+            "correct": 0,
+            "explicacion": "Finalmente, los españoles decidieron asentar la capital definitiva en la costa, en la ciudad de Lima."
+          }
+        },
+        {
+          "texto": "Taulichusco → entrega territorio de Lima.",
+          "pregunta": {
+            "q": "¿Quién fue el curaca que entregó el territorio para la fundación de Lima?",
+            "opts": [
+              "Túpac Huallpa.",
+              "Taulichusco.",
+              "Quizu Yupanqui."
+            ],
+            "correct": 1,
+            "explicacion": "El curaca Taulichusco era la autoridad local que cedió el territorio donde se fundaría la capital definitiva, Lima."
+          }
+        }
+      ]
+    },
+    {
+      "titulo": "Incas de Vilcabamba: Manco Inca",
+      "puntos": [
+        {
+          "texto": "Manco Inca → ataca Cusco + Lima (1536 - 1537).",
+          "pregunta": {
+            "q": "¿Qué ciudades atacó Manco Inca entre los años 1536 y 1537?",
+            "opts": [
+              "Jauja y Trujillo.",
+              "Cusco y Lima.",
+              "Quito y el altiplano."
+            ],
+            "correct": 1,
+            "explicacion": "Durante su gran rebelión en 1536, Manco Inca organizó una ofensiva militar simultánea contra el Cusco y Lima."
+          }
+        },
+        {
+          "texto": "Cusi Huallpa → lidera ataque al Cusco.",
+          "pregunta": {
+            "q": "¿Quién estuvo a cargo de liderar el ataque contra el Cusco?",
+            "opts": [
+              "Cusi Huallpa.",
+              "Quizu Yupanqui.",
+              "Rumi Ñahui."
+            ],
+            "correct": 0,
+            "explicacion": "El asedio específico a la ciudad imperial del Cusco fue dirigido operativamente por Cusi Huallpa."
+          }
+        },
+        {
+          "texto": "Quizu Yupanqui → lidera ataque a Lima.",
+          "pregunta": {
+            "q": "¿A quién se le encomendó liderar el asedio a la ciudad de Lima?",
+            "opts": [
+              "Cusi Huallpa.",
+              "Taulichusco.",
+              "Quizu Yupanqui."
+            ],
+            "correct": 2,
+            "explicacion": "El general Quizu Yupanqui fue el encargado de marchar hacia la costa y dirigir el ataque sobre Lima."
+          }
+        },
+        {
+          "texto": "Manco Inca → ataca Quito + saquea altiplano (1537 - 1538).",
+          "pregunta": {
+            "q": "¿Qué acciones realizó Manco Inca en el periodo de 1537 a 1538?",
+            "opts": [
+              "Fundó la ciudad de Jauja y negoció la paz.",
+              "Atacó Quito y saqueó el altiplano.",
+              "Escribió una crónica y se rindió."
+            ],
+            "correct": 1,
+            "explicacion": "Continuando su rebelión, Manco Inca expandió sus ataques hacia el norte (Quito) y saqueó la zona del altiplano."
+          }
+        }
+      ]
+    },
+    {
+      "titulo": "Incas de Vilcabamba: Sayri Túpac y Titu Cusi Yupanqui",
+      "puntos": [
+        {
+          "texto": "Sayri Túpac → negocia con virrey Andrés Hurtado de Mendoza.",
+          "pregunta": {
+            "q": "¿Con qué autoridad española entabló negociaciones Sayri Túpac?",
+            "opts": [
+              "Con el virrey Francisco de Toledo.",
+              "Con Francisco Pizarro.",
+              "Con el virrey Andrés Hurtado de Mendoza."
+            ],
+            "correct": 2,
+            "explicacion": "A diferencia de su padre, Sayri Túpac optó por la diplomacia y negoció con el virrey Andrés Hurtado de Mendoza."
+          }
+        },
+        {
+          "texto": "Sayri Túpac → recibe encomienda de Yucay.",
+          "pregunta": {
+            "q": "¿Qué beneficio obtuvo Sayri Túpac tras sus negociaciones?",
+            "opts": [
+              "El título de Rey de Vilcabamba.",
+              "La encomienda de Yucay.",
+              "El control sobre el Cusco."
+            ],
+            "correct": 1,
+            "explicacion": "Como resultado del pacto con el virrey, Sayri Túpac aceptó someterse a cambio de la rica encomienda del valle de Yucay."
+          }
+        },
+        {
+          "texto": "Titu Cusi Yupanqui = firma Paz de Acobamba.",
+          "pregunta": {
+            "q": "¿Qué importante acuerdo fue firmado por Titu Cusi Yupanqui?",
+            "opts": [
+              "El Tratado de Tordesillas.",
+              "La Paz de Acobamba.",
+              "La Capitulación de Toledo."
+            ],
+            "correct": 1,
+            "explicacion": "El inca Titu Cusi Yupanqui fue el artífice de la firma del tratado conocido como la Paz de Acobamba."
+          }
+        },
+        {
+          "texto": "Paz de Acobamba → evangelización en Vilcabamba.",
+          "pregunta": {
+            "q": "¿Qué actividad permitió la firma de la Paz de Acobamba en territorio inca?",
+            "opts": [
+              "La evangelización en Vilcabamba.",
+              "La fundación de universidades.",
+              "El comercio libre con el Cusco."
+            ],
+            "correct": 0,
+            "explicacion": "Este tratado tuvo como consecuencia principal permitir el ingreso de misioneros para iniciar la evangelización en Vilcabamba."
+          }
+        },
+        {
+          "texto": "Titu Cusi Yupanqui → escribe crónica sobre Manco Inca.",
+          "pregunta": {
+            "q": "¿Qué labor literaria o histórica realizó Titu Cusi Yupanqui?",
+            "opts": [
+              "Tradujo la Biblia al quechua.",
+              "Escribió una crónica sobre su padre, Manco Inca.",
+              "Redactó las leyes de Indias."
+            ],
+            "correct": 1,
+            "explicacion": "Titu Cusi Yupanqui dictó y dejó escrita una crónica en la que relata la historia y rebelión de su padre, Manco Inca."
+          }
+        },
+        {
+          "texto": "Gobierno Titu Cusi Yupanqui ≈ coincide con Taki Onkoy.",
+          "pregunta": {
+            "q": "¿Con qué movimiento coincidió temporalmente el gobierno de Titu Cusi Yupanqui?",
+            "opts": [
+              "Con la rebelión de Túpac Amaru II.",
+              "Con el movimiento Taki Onkoy.",
+              "Con la extirpación de idolatrías."
+            ],
+            "correct": 1,
+            "explicacion": "Durante el periodo en que gobernaba Titu Cusi Yupanqui, se desarrollaba en paralelo el movimiento del Taki Onkoy en los Andes centrales."
+          }
+        }
+      ]
+    },
+    {
+      "titulo": "Incas de Vilcabamba: Túpac Amaru I",
+      "puntos": [
+        {
+          "texto": "Túpac Amaru I → derrotado en batalla Huayna Pucara.",
+          "pregunta": {
+            "q": "¿En qué batalla sufrió su derrota Túpac Amaru I?",
+            "opts": [
+              "En la batalla de Jauja.",
+              "En la batalla de Sacsayhuamán.",
+              "En la batalla de Huayna Pucara."
+            ],
+            "correct": 2,
+            "explicacion": "El último inca de Vilcabamba, Túpac Amaru I, fue vencido militarmente en la batalla de Huayna Pucara."
+          }
+        },
+        {
+          "texto": "1572 Túpac Amaru I → decapitado por virrey Toledo.",
+          "pregunta": {
+            "q": "¿Qué destino tuvo Túpac Amaru I y quién lo ordenó en 1572?",
+            "opts": [
+              "Fue desterrado por Hurtado de Mendoza.",
+              "Fue decapitado por orden del virrey Toledo.",
+              "Fue perdonado y recibió una encomienda."
+            ],
+            "correct": 1,
+            "explicacion": "Tras su captura en 1572, Túpac Amaru I fue sentenciado y decapitado bajo las órdenes del virrey Francisco de Toledo, poniendo fin a la resistencia de Vilcabamba."
+          }
+        }
+      ]
+    },
+    {
+      "titulo": "Movimiento Taki Onkoy",
+      "puntos": [
+        {
+          "texto": "Taki Onkoy = canto de la enfermedad.",
+          "pregunta": {
+            "q": "¿Cuál es el significado literal del término 'Taki Onkoy'?",
+            "opts": [
+              "Canto de la enfermedad.",
+              "Danza de la victoria.",
+              "Unión de los dioses."
+            ],
+            "correct": 0,
+            "explicacion": "En quechua, la expresión Taki Onkoy se traduce literalmente como el 'canto de la enfermedad'."
+          }
+        },
+        {
+          "texto": "Taki Onkoy = resistencia ideológica.",
+          "pregunta": {
+            "q": "¿Qué tipo de resistencia representó el movimiento Taki Onkoy?",
+            "opts": [
+              "Una resistencia exclusivamente militar.",
+              "Una resistencia ideológica.",
+              "Una resistencia económica."
+            ],
+            "correct": 1,
+            "explicacion": "A diferencia de las campañas militares de Vilcabamba, el Taki Onkoy fue un movimiento de resistencia religiosa e ideológica pacífica."
+          }
+        },
+        {
+          "texto": "Origen Taki Onkoy = Juan Chocne (Ayacucho).",
+          "pregunta": {
+            "q": "¿Quién fue el iniciador y de dónde provino el movimiento Taki Onkoy?",
+            "opts": [
+              "Túpac Amaru I desde el Cusco.",
+              "Manco Inca desde Vilcabamba.",
+              "Juan Chocne desde Ayacucho."
+            ],
+            "correct": 2,
+            "explicacion": "El movimiento tuvo su foco de origen en la región de Ayacucho y fue impulsado por el líder o profeta indígena Juan Chocne."
+          }
+        },
+        {
+          "texto": "Taki Onkoy → propone unión de huacas + expulsión española.",
+          "pregunta": {
+            "q": "¿Cuáles eran las principales propuestas del Taki Onkoy?",
+            "opts": [
+              "Unión de huacas y expulsión de los españoles.",
+              "Adopción del catolicismo y rechazo al inca.",
+              "Aceptación de las encomiendas."
+            ],
+            "correct": 0,
+            "explicacion": "El mensaje central del movimiento promovía la alianza de las deidades andinas (huacas) para vencer y expulsar a los colonizadores españoles."
+          }
+        },
+        {
+          "texto": "Taki Onkoy → combatido por extirpación de idolatrías.",
+          "pregunta": {
+            "q": "¿Qué mecanismo emplearon los españoles para combatir el Taki Onkoy?",
+            "opts": [
+              "La firma de la Paz de Acobamba.",
+              "Las campañas de extirpación de idolatrías.",
+              "La entrega de nuevas encomiendas."
+            ],
+            "correct": 1,
+            "explicacion": "Para erradicar esta resistencia ideológica, la administración colonial y religiosa ejecutó intensas campañas conocidas como extirpación de idolatrías."
+          }
+        }
+      ]
+    }
+  ]
+}

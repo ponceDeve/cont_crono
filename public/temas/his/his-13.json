@@ -1,0 +1,749 @@
+{
+  "curso": "Historia Universal",
+  "tema": "Grecia Antigua",
+  "glosario": {
+    "=": "definición / es",
+    "→": "produce, genera, conduce a, resultado",
+    "⊃": "contiene",
+    "∈": "pertenece a",
+    "⇒": "causa / debido a",
+    "✓": "requiere / posee / característica",
+    "≠": "diferencia / enfrentamiento",
+    "+": "combinación / y",
+    "Talasocracia": "Dominio o poder político y económico basado en el control de los mares.",
+    "Polis": "Ciudades-estado autónomas de la antigua Grecia.",
+    "Sinecismo": "Proceso histórico de agrupación de diversas poblaciones o aldeas para formar una polis.",
+    "Eugenesia": "Práctica enfocada en el perfeccionamiento de la especie mediante la selección, aplicada en Esparta.",
+    "Éforos": "Magistrados espartanos encargados de la supervisión.",
+    "Gerusia": "Consejo de ancianos en la organización política de Esparta.",
+    "Apella": "Asamblea popular en el sistema espartano.",
+    "Bulé": "Consejo político en Atenas.",
+    "Eclesia": "Asamblea principal de ciudadanos en Atenas.",
+    "Basileus": "Título otorgado al monarca o rey en la antigua Atenas.",
+    "Wannax": "Título del gobernante supremo durante el periodo micénico.",
+    "Ostracismo": "Castigo político en Atenas que consistía en el destierro.",
+    "Cicuta": "Método de ejecución o pena de muerte usado en Atenas.",
+    "Misthos": "Sueldo o pago por ejercer cargos públicos instaurado en Atenas."
+  },
+  "theory": [
+    {
+      "titulo": "Geografía e Importancia",
+      "puntos": [
+        {
+          "texto": "Grecia = cuna civilización occ.",
+          "pregunta": {
+            "q": "¿Qué título histórico y cultural se le atribuye a Grecia?",
+            "opts": [
+              "Fin del mundo antiguo",
+              "Cuna civilización occ.",
+              "Imperio monoteísta absoluto"
+            ],
+            "correct": 1,
+            "explicacion": "El texto señala que Grecia es considerada la cuna de la civilización occidental."
+          }
+        },
+        {
+          "texto": "Grecia ∈ península Balcanes",
+          "pregunta": {
+            "q": "¿A qué región geográfica pertenece Grecia?",
+            "opts": [
+              "Península Itálica",
+              "Península Balcanes",
+              "Península Ibérica"
+            ],
+            "correct": 1,
+            "explicacion": "Geográficamente, el desarrollo de la civilización griega se enmarca en la península de los Balcanes."
+          }
+        },
+        {
+          "texto": "Grecia ✓ relieve accidentado",
+          "pregunta": {
+            "q": "¿Qué característica posee el territorio geográfico de Grecia?",
+            "opts": [
+              "Relieve accidentado",
+              "Llanuras extensas",
+              "Valles tropicales"
+            ],
+            "correct": 0,
+            "explicacion": "La geografía griega está definida por poseer un relieve fuertemente accidentado y montañoso."
+          }
+        }
+      ]
+    },
+    {
+      "titulo": "Civilización Egea",
+      "puntos": [
+        {
+          "texto": "P. Cretense = talasocracia (poder marítimo comercial)",
+          "pregunta": {
+            "q": "¿En qué consistía el dominio del Periodo Cretense?",
+            "opts": [
+              "Agricultura de andenes y cultivo",
+              "Imperio terrestre militar",
+              "Talasocracia (poder marítimo comercial)"
+            ],
+            "correct": 2,
+            "explicacion": "El periodo cretense basó su fuerza en la talasocracia, es decir, el poder comercial a través del mar."
+          }
+        },
+        {
+          "texto": "P. Cretense → capital Cnossos",
+          "pregunta": {
+            "q": "¿Cuál fue la capital durante el Periodo Cretense?",
+            "opts": [
+              "Micenas",
+              "Esparta",
+              "Cnossos"
+            ],
+            "correct": 2,
+            "explicacion": "Cnossos fue el centro administrativo y la capital que generó el Periodo Cretense."
+          }
+        },
+        {
+          "texto": "Fin P. Cretense ⇒ invasión aqueos",
+          "pregunta": {
+            "q": "¿Qué causó el fin del Periodo Cretense?",
+            "opts": [
+              "Invasión dorios",
+              "Invasión aqueos",
+              "Guerra de Troya"
+            ],
+            "correct": 1,
+            "explicacion": "La caída de la civilización cretense se debió directamente a la invasión del pueblo de los aqueos."
+          }
+        },
+        {
+          "texto": "P. Creto-micénico → gobernante Wannax",
+          "pregunta": {
+            "q": "¿Cómo se denominaba al gobernante en el Periodo Creto-micénico?",
+            "opts": [
+              "Wannax",
+              "Basileus",
+              "Éforo"
+            ],
+            "correct": 0,
+            "explicacion": "El resultado político de este periodo fue la figura del gobernante supremo conocido como Wannax."
+          }
+        },
+        {
+          "texto": "P. Creto-micénico → capital Micenas",
+          "pregunta": {
+            "q": "¿Qué ciudad fue la capital durante el Periodo Creto-micénico?",
+            "opts": [
+              "Atenas",
+              "Micenas",
+              "Ilión"
+            ],
+            "correct": 1,
+            "explicacion": "Micenas se estableció como la capital y centro principal de esta etapa histórica."
+          }
+        },
+        {
+          "texto": "P. Creto-micénico → invade Ilión (Troya)",
+          "pregunta": {
+            "q": "¿Qué acción militar externa se asocia al Periodo Creto-micénico?",
+            "opts": [
+              "Defensa contra los persas",
+              "Destrucción de Cnossos",
+              "Invade Ilión (Troya)"
+            ],
+            "correct": 2,
+            "explicacion": "Durante esta etapa, los micénicos llevaron a cabo la invasión a la ciudad de Ilión, acontecimiento conocido como la Guerra de Troya."
+          }
+        },
+        {
+          "texto": "Fin P. Creto-micénico ⇒ invasión dorios + jonios + eolios (hierro)",
+          "pregunta": {
+            "q": "¿Qué causó la caída del Periodo Creto-micénico?",
+            "opts": [
+              "Invasión dorios + jonios + eolios (hierro)",
+              "Rebelión de Ilión (Troya)",
+              "Expansión del imperio persa"
+            ],
+            "correct": 0,
+            "explicacion": "El fin de esta época fue provocado por la combinación de invasiones de pueblos indoeuropeos (dorios, jonios y eolios) portadores del hierro."
+          }
+        }
+      ]
+    },
+    {
+      "titulo": "Civilización Helénica",
+      "puntos": [
+        {
+          "texto": "P. Oscuro ✓ pocas fuentes escritas",
+          "pregunta": {
+            "q": "¿Qué característica documental posee el Periodo Oscuro?",
+            "opts": [
+              "Abundancia de códigos legales",
+              "Pocas fuentes escritas",
+              "Registros detallados de comercio"
+            ],
+            "correct": 1,
+            "explicacion": "Se le denomina Oscuro justamente porque requiere o posee muy pocas fuentes escritas para su estudio."
+          }
+        },
+        {
+          "texto": "P. Oscuro → prosigue sinecismo",
+          "pregunta": {
+            "q": "¿Qué proceso social continuó desarrollándose durante el Periodo Oscuro?",
+            "opts": [
+              "Prosigue sinecismo",
+              "Desintegración de urbes",
+              "Migración a Asia"
+            ],
+            "correct": 0,
+            "explicacion": "El Periodo Oscuro dio como resultado la continuación del proceso de sinecismo, unificando poblaciones."
+          }
+        },
+        {
+          "texto": "P. Arcaico → surgen polis (ciudades estados autónomas)",
+          "pregunta": {
+            "q": "¿Qué estructura política surge como resultado del Periodo Arcaico?",
+            "opts": [
+              "Surgen imperios centralizados",
+              "Surgen polis (ciudades estados autónomas)",
+              "Surgen feudos agrícolas"
+            ],
+            "correct": 1,
+            "explicacion": "En el Periodo Arcaico se consolidan y surgen formalmente las polis, caracterizadas por su autonomía."
+          }
+        },
+        {
+          "texto": "Polis ⊃ acrópolis + ágora + teatro",
+          "pregunta": {
+            "q": "¿Qué elementos arquitectónicos y sociales contiene una polis?",
+            "opts": [
+              "Pirámides + zócalos + canales",
+              "Acrópolis + ágora + teatro",
+              "Castillos + murallas + fosos"
+            ],
+            "correct": 1,
+            "explicacion": "Una polis griega típica integraba en su diseño una zona alta (acrópolis), una plaza pública (ágora) y un teatro."
+          }
+        },
+        {
+          "texto": "Sobrepoblación polis ⇒ colonización",
+          "pregunta": {
+            "q": "¿Qué causó el proceso de colonización en Grecia?",
+            "opts": [
+              "Búsqueda de oro",
+              "Sobrepoblación polis",
+              "Guerras civiles internas"
+            ],
+            "correct": 1,
+            "explicacion": "El exceso de habitantes o sobrepoblación en las ciudades-estado obligó a los griegos a migrar y colonizar nuevos territorios."
+          }
+        },
+        {
+          "texto": "Colonización → expansión comercial + cultural",
+          "pregunta": {
+            "q": "¿Cuáles fueron los resultados de la colonización griega?",
+            "opts": [
+              "Aislamiento diplomático",
+              "Expansión comercial + cultural",
+              "Pérdida de identidad helénica"
+            ],
+            "correct": 1,
+            "explicacion": "Al fundar nuevas colonias, los griegos produjeron una enorme expansión tanto de su red de comercio como de su cultura."
+          }
+        }
+      ]
+    },
+    {
+      "titulo": "Periodo Clásico: Esparta",
+      "puntos": [
+        {
+          "texto": "Esparta ∈ península Peloponeso",
+          "pregunta": {
+            "q": "¿A qué península pertenece la ciudad de Esparta?",
+            "opts": [
+              "Península Ática",
+              "Península Peloponeso",
+              "Península Jónica"
+            ],
+            "correct": 1,
+            "explicacion": "El territorio espartano se ubicaba históricamente en la región sur de Grecia, conocida como la península del Peloponeso."
+          }
+        },
+        {
+          "texto": "Fundación Esparta ⇒ Dorios",
+          "pregunta": {
+            "q": "¿Qué pueblo causó u originó la fundación de Esparta?",
+            "opts": [
+              "Jonios",
+              "Eolios",
+              "Dorios"
+            ],
+            "correct": 2,
+            "explicacion": "El origen de la civilización espartana se debe al asentamiento del pueblo indoeuropeo de los Dorios."
+          }
+        },
+        {
+          "texto": "Actividad Esparta = agricultura",
+          "pregunta": {
+            "q": "¿Cuál fue la actividad económica principal que define a Esparta?",
+            "opts": [
+              "Agricultura",
+              "Comercio marítimo",
+              "Minería"
+            ],
+            "correct": 0,
+            "explicacion": "A diferencia de otras polis, Esparta basó fundamentalmente su subsistencia material en la agricultura."
+          }
+        },
+        {
+          "texto": "Política Esparta = aristocracia militar",
+          "pregunta": {
+            "q": "¿Cómo se define el sistema sociopolítico de Esparta?",
+            "opts": [
+              "Democracia directa",
+              "Aristocracia militar",
+              "Monarquía absoluta"
+            ],
+            "correct": 1,
+            "explicacion": "La organización política espartana era esencialmente una aristocracia conformada y dirigida por élites militares."
+          }
+        },
+        {
+          "texto": "Organización Esparta ⇒ Licurgo",
+          "pregunta": {
+            "q": "¿Quién fue el causante de estructurar la organización de Esparta?",
+            "opts": [
+              "Pericles",
+              "Solón",
+              "Licurgo"
+            ],
+            "correct": 2,
+            "explicacion": "Las leyes e instituciones que organizaron la vida del Estado espartano son atribuidas al legendario legislador Licurgo."
+          }
+        },
+        {
+          "texto": "Dios Esparta = Ares",
+          "pregunta": {
+            "q": "¿Qué deidad representaba principalmente a la polis de Esparta?",
+            "opts": [
+              "Atenea",
+              "Ares",
+              "Zeus"
+            ],
+            "correct": 1,
+            "explicacion": "Congruente con su cultura bélica, la deidad patrona y referente divino en Esparta era Ares, dios de la guerra."
+          }
+        },
+        {
+          "texto": "Esparta ✓ eugenesia",
+          "pregunta": {
+            "q": "¿Qué práctica poseía y aplicaba el Estado espartano?",
+            "opts": [
+              "Eugenesia",
+              "Ostracismo",
+              "Tolerancia religiosa absoluta"
+            ],
+            "correct": 0,
+            "explicacion": "Esparta requería aplicar políticas de eugenesia para garantizar el nacimiento de ciudadanos aptos físicamente para el ejército."
+          }
+        },
+        {
+          "texto": "Esparta ⊃ Éforos (5 supervisores)",
+          "pregunta": {
+            "q": "¿Qué institución contiene la estructura política espartana encargada de la supervisión?",
+            "opts": [
+              "Gerusia (28 ancianos)",
+              "Bulé (400)",
+              "Éforos (5 supervisores)"
+            ],
+            "correct": 2,
+            "explicacion": "El gobierno de Esparta integraba la figura de cinco magistrados o Éforos, cuyo rol era el de supervisores del estado."
+          }
+        },
+        {
+          "texto": "Esparta ⊃ Diarquía (2 reyes)",
+          "pregunta": {
+            "q": "¿Qué elemento monárquico contiene la organización de Esparta?",
+            "opts": [
+              "Monarquía de un solo Basileus",
+              "Diarquía (2 reyes)",
+              "Triunvirato (3 líderes)"
+            ],
+            "correct": 1,
+            "explicacion": "El sistema espartano mantenía a dos reyes gobernando simultáneamente, figura conocida como diarquía."
+          }
+        },
+        {
+          "texto": "Esparta ⊃ Gerusia (28 ancianos)",
+          "pregunta": {
+            "q": "¿Qué institución legislativa y consultiva contiene Esparta?",
+            "opts": [
+              "Gerusia (28 ancianos)",
+              "Eclesia (asamblea mayor)",
+              "Apella (asamblea popular)"
+            ],
+            "correct": 0,
+            "explicacion": "La Gerusia formaba parte del Estado espartano y estaba conformada por un consejo de veintiocho ancianos."
+          }
+        },
+        {
+          "texto": "Esparta ⊃ Apella (asamblea popular)",
+          "pregunta": {
+            "q": "¿Qué organismo de participación ciudadana contiene el sistema de Esparta?",
+            "opts": [
+              "Gerusia",
+              "Éforos",
+              "Apella (asamblea popular)"
+            ],
+            "correct": 2,
+            "explicacion": "La Apella era la asamblea conformada por el pueblo espartano que formaba parte de su dinámica política."
+          }
+        }
+      ]
+    },
+    {
+      "titulo": "Periodo Clásico: Atenas",
+      "puntos": [
+        {
+          "texto": "Atenas ∈ península Ática",
+          "pregunta": {
+            "q": "¿A qué región geográfica pertenece la polis de Atenas?",
+            "opts": [
+              "Península Ática",
+              "Península Peloponeso",
+              "Creta"
+            ],
+            "correct": 0,
+            "explicacion": "Atenas se desarrolló geográficamente en la zona este de la península griega continental, llamada Ática."
+          }
+        },
+        {
+          "texto": "Fundación Atenas ⇒ Jonios",
+          "pregunta": {
+            "q": "¿Qué pueblo causó la fundación de Atenas?",
+            "opts": [
+              "Dorios",
+              "Aqueos",
+              "Jonios"
+            ],
+            "correct": 2,
+            "explicacion": "La base poblacional que dio origen a la ciudad de Atenas fueron los grupos Jonios."
+          }
+        },
+        {
+          "texto": "Actividad Atenas = comercio",
+          "pregunta": {
+            "q": "¿Qué actividad define el centro de la economía en Atenas?",
+            "opts": [
+              "Agricultura",
+              "Ganadería extensiva",
+              "Comercio"
+            ],
+            "correct": 2,
+            "explicacion": "Contrario a las polis agrícolas, el motor económico ateniense era el comercio."
+          }
+        },
+        {
+          "texto": "Política Atenas = oligárquica",
+          "pregunta": {
+            "q": "¿Cuál fue una característica sociopolítica histórica importante de Atenas?",
+            "opts": [
+              "Absolutista",
+              "Oligárquica",
+              "Militarizada"
+            ],
+            "correct": 1,
+            "explicacion": "En etapas claves de su evolución, Atenas estuvo definida por un poder de base oligárquica."
+          }
+        },
+        {
+          "texto": "Organización Atenas ⇒ Solón + Clístenes",
+          "pregunta": {
+            "q": "¿Qué personajes causaron o estructuraron la organización política de Atenas?",
+            "opts": [
+              "Solón + Clístenes",
+              "Licurgo + Leónidas",
+              "Dracón + Pisístrato"
+            ],
+            "correct": 0,
+            "explicacion": "Las reformas legales y políticas que moldearon el Estado ateniense fueron obra fundamental de reformadores como Solón y Clístenes."
+          }
+        },
+        {
+          "texto": "Dios Atenas = Atenea",
+          "pregunta": {
+            "q": "¿Quién es la deidad tutelar de Atenas?",
+            "opts": [
+              "Ares",
+              "Atenea",
+              "Apolo"
+            ],
+            "correct": 1,
+            "explicacion": "La polis ateniense rinde tributo y toma su identidad divina de la diosa Atenea."
+          }
+        },
+        {
+          "texto": "Monarquía Atenas → Basileus",
+          "pregunta": {
+            "q": "¿Qué figura producía o lideraba la etapa de la Monarquía en Atenas?",
+            "opts": [
+              "Tirano",
+              "Arconte",
+              "Basileus"
+            ],
+            "correct": 2,
+            "explicacion": "Durante su primera fase monárquica, Atenas era dirigida por la figura real conocida como Basileus."
+          }
+        },
+        {
+          "texto": "Aristocracia Atenas (nobleza) ⇒ Dracón",
+          "pregunta": {
+            "q": "¿Qué personaje organizó u originó las leyes en la etapa de Aristocracia (nobleza) ateniense?",
+            "opts": [
+              "Solón",
+              "Dracón",
+              "Licurgo"
+            ],
+            "correct": 1,
+            "explicacion": "Durante el gobierno de los nobles (aristocracia), Dracón fue el causante de establecer los primeros códigos legales estrictos."
+          }
+        },
+        {
+          "texto": "Timocracia Atenas (ricos) ⇒ Solón",
+          "pregunta": {
+            "q": "¿Quién causó las reformas de la Timocracia, el gobierno de los ricos en Atenas?",
+            "opts": [
+              "Solón",
+              "Clístenes",
+              "Dracón"
+            ],
+            "correct": 0,
+            "explicacion": "Solón impulsó las reformas que derivaron en la Timocracia, donde el poder dependía de la riqueza."
+          }
+        },
+        {
+          "texto": "Timocracia Atenas ⊃ Bulé (400) + Eclesia (4000)",
+          "pregunta": {
+            "q": "¿Qué instituciones contenía el sistema de Timocracia instaurado en Atenas?",
+            "opts": [
+              "Éforos (5) + Gerusia (28)",
+              "Bulé (400) + Eclesia (4000)",
+              "Apella (popular) + Reyes (2)"
+            ],
+            "correct": 1,
+            "explicacion": "Esta etapa integró formalmente instituciones deliberativas masivas como la Bulé (consejo de 400) y la Eclesia (asamblea de 4000)."
+          }
+        },
+        {
+          "texto": "Tiranía Atenas ⇒ Pisístrato",
+          "pregunta": {
+            "q": "¿A través de quién se impuso la Tiranía en la historia de Atenas?",
+            "opts": [
+              "Pisístrato",
+              "Dracón",
+              "Pericles"
+            ],
+            "correct": 0,
+            "explicacion": "El gobierno autoritario e inconstitucional (tiranía) en Atenas fue liderado por Pisístrato."
+          }
+        },
+        {
+          "texto": "Tiranía Atenas → Democracia directa",
+          "pregunta": {
+            "q": "¿Hacia qué sistema político condujo posteriormente el fin de la Tiranía en Atenas?",
+            "opts": [
+              "Democracia directa",
+              "Regreso a la Monarquía",
+              "Imperio absoluto"
+            ],
+            "correct": 0,
+            "explicacion": "La evolución política ateniense resultó, tras superar la tiranía, en la instauración de una Democracia directa."
+          }
+        },
+        {
+          "texto": "Democracia Atenas ⊃ ostracismo (destierro)",
+          "pregunta": {
+            "q": "¿Qué mecanismo legal contiene la Democracia de Atenas para alejar a personas peligrosas?",
+            "opts": [
+              "Misthos (sueldo)",
+              "Ostracismo (destierro)",
+              "Eugenesia"
+            ],
+            "correct": 1,
+            "explicacion": "La democracia ateniense usaba el ostracismo para desterrar a aquellos ciudadanos que amenazaran el orden político."
+          }
+        },
+        {
+          "texto": "Democracia Atenas ⊃ cicuta (pena de muerte)",
+          "pregunta": {
+            "q": "¿Qué método punitivo extremo contenía el sistema legal de Atenas?",
+            "opts": [
+              "Crucifixión",
+              "Cicuta (pena de muerte)",
+              "Trabajos forzados vitalicios"
+            ],
+            "correct": 1,
+            "explicacion": "Para ejecutar la pena capital, el sistema judicial ateniense obligaba al condenado a beber un veneno llamado cicuta."
+          }
+        }
+      ]
+    },
+    {
+      "titulo": "Guerras Médicas",
+      "puntos": [
+        {
+          "texto": "Guerras Médicas = Griegos ≠ Persas",
+          "pregunta": {
+            "q": "¿Entre qué bandos fue el enfrentamiento o diferencia en las Guerras Médicas?",
+            "opts": [
+              "Espartanos ≠ Atenienses",
+              "Griegos ≠ Persas",
+              "Macedonios ≠ Romanos"
+            ],
+            "correct": 1,
+            "explicacion": "Las Guerras Médicas definen el conflicto bélico entre las polis griegas y el Imperio Persa."
+          }
+        },
+        {
+          "texto": "Causa G. Médicas = control Asia Menor + Mar Egeo",
+          "pregunta": {
+            "q": "¿Qué factor geopolítico define una de las causas de las Guerras Médicas?",
+            "opts": [
+              "Control Asia Menor + Mar Egeo",
+              "Destrucción de la ciudad de Troya",
+              "Control exclusivo de Egipto"
+            ],
+            "correct": 0,
+            "explicacion": "El detonante real de la guerra fue la disputa por dominar las rutas comerciales del Asia Menor y del mar Egeo."
+          }
+        },
+        {
+          "texto": "Causa G. Médicas = expansionismo persa",
+          "pregunta": {
+            "q": "¿Qué actitud imperial define otra de las causas de las Guerras Médicas?",
+            "opts": [
+              "Aislacionismo espartano",
+              "Colonización ateniense",
+              "Expansionismo persa"
+            ],
+            "correct": 2,
+            "explicacion": "La continua intención del Imperio persa por extender sus fronteras hacia occidente generó el inevitable choque con Grecia."
+          }
+        },
+        {
+          "texto": "Pretexto G. Médicas = rebelión Mileto (jónica)",
+          "pregunta": {
+            "q": "¿Qué suceso es considerado el pretexto que inició las Guerras Médicas?",
+            "opts": [
+              "Asesinato de reyes espartanos",
+              "Rebelión Mileto (jónica)",
+              "Incendio de Atenas"
+            ],
+            "correct": 1,
+            "explicacion": "El conflicto formal se desató usando como excusa o pretexto la revuelta de la colonia griega de Mileto (Jonia)."
+          }
+        },
+        {
+          "texto": "I G.M. (Maratón) → victoria Atenas",
+          "pregunta": {
+            "q": "¿Cuál fue el resultado de la batalla de Maratón en la I Guerra Médica?",
+            "opts": [
+              "Derrota de Esparta",
+              "Victoria Atenas",
+              "Triunfo total de los persas"
+            ],
+            "correct": 1,
+            "explicacion": "El resultado directo del enfrentamiento en Maratón fue una importante victoria para las tropas de Atenas."
+          }
+        },
+        {
+          "texto": "II G.M. (Termópilas) → derrota espartana (Leónidas)",
+          "pregunta": {
+            "q": "¿Qué desenlace produjo la batalla de las Termópilas en la II Guerra Médica?",
+            "opts": [
+              "Derrota espartana (Leónidas)",
+              "Victoria definitiva griega",
+              "Destrucción de la flota persa"
+            ],
+            "correct": 0,
+            "explicacion": "El combate en el paso de las Termópilas concluyó en la derrota y sacrificio del contingente espartano liderado por Leónidas."
+          }
+        },
+        {
+          "texto": "II G.M. (Salamina) → victoria griega",
+          "pregunta": {
+            "q": "¿Qué resultado arrojó el combate naval de Salamina durante la II Guerra Médica?",
+            "opts": [
+              "Rendición incondicional helénica",
+              "Avance persa sin oposición",
+              "Victoria griega"
+            ],
+            "correct": 2,
+            "explicacion": "En el mar, específicamente en Salamina, las fuerzas combinadas helenas produjeron una victoria decisiva para Grecia."
+          }
+        },
+        {
+          "texto": "III G.M. → victoria Liga Delos",
+          "pregunta": {
+            "q": "¿Qué alianza produjo la victoria en la III Guerra Médica?",
+            "opts": [
+              "Liga del Peloponeso",
+              "Liga de Delos",
+              "Alianza Persa-Espartana"
+            ],
+            "correct": 1,
+            "explicacion": "La fase final del conflicto se definió por la intervención y victoria militar liderada por la Liga de Delos."
+          }
+        },
+        {
+          "texto": "Fin G. Médicas ⇒ Siglo Pericles",
+          "pregunta": {
+            "q": "¿Qué periodo histórico para Atenas fue causado por el fin y victoria en las Guerras Médicas?",
+            "opts": [
+              "Periodo Oscuro",
+              "Dominación macedónica",
+              "Siglo Pericles"
+            ],
+            "correct": 2,
+            "explicacion": "La victoria sobre los persas generó la supremacía ateniense, originando el inicio del Siglo de Pericles."
+          }
+        },
+        {
+          "texto": "Siglo Pericles = máximo esplendor artes + letras",
+          "pregunta": {
+            "q": "¿Cómo se define culturalmente al Siglo de Pericles?",
+            "opts": [
+              "Decadencia artística",
+              "Máximo esplendor artes + letras",
+              "Época de analfabetismo"
+            ],
+            "correct": 1,
+            "explicacion": "Este siglo es reconocido históricamente como la etapa cumbre o de máximo esplendor para las artes y letras atenienses."
+          }
+        },
+        {
+          "texto": "Siglo Pericles → consolidación democracia",
+          "pregunta": {
+            "q": "¿Qué resultado político produjo el Siglo de Pericles en Atenas?",
+            "opts": [
+              "Restauración de la monarquía",
+              "Regreso de la oligarquía",
+              "Consolidación democracia"
+            ],
+            "correct": 2,
+            "explicacion": "Durante el mandato de Pericles se alcanzó el resultado político maduro de consolidar totalmente el sistema democrático."
+          }
+        },
+        {
+          "texto": "Siglo Pericles ⊃ misthos (sueldo)",
+          "pregunta": {
+            "q": "¿Qué innovación económica y laboral contenía la administración del Siglo de Pericles?",
+            "opts": [
+              "Misthos (sueldo)",
+              "Trabajo esclavo obligatorio",
+              "Eugenesia financiera"
+            ],
+            "correct": 0,
+            "explicacion": "Para asegurar la participación popular en política, el sistema integró el pago de un sueldo o 'misthos' a los funcionarios."
+          }
+        }
+      ]
+    }
+  ]
+}

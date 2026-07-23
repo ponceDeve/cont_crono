@@ -1,396 +1,553 @@
 {
   "curso": "Historia Universal",
-  "tema": "Reforma Protestante",
+  "tema": "Prehistoria: Edad de Piedra y Edad de los Metales",
   "glosario": {
-    "Indulgencia": "Perdón parcial de penas por pecados.",
-    "Luteranismo": "Doctrina cristiana iniciada por Martín Lutero.",
-    "Calvinismo": "Doctrina protestante fundada por Juan Calvino.",
-    "Anglicanismo": "Iglesia cristiana separada de Roma.",
-    "Predestinación": "Dios decide previamente la salvación.",
-    "Consistorio": "Consejo religioso que gobernaba Ginebra.",
-    "Dieta": "Asamblea política del Sacro Imperio.",
-    "SIRG": "Sacro Imperio Romano Germánico.",
-    "Transubstanciación": "Conversión del pan y vino en Cristo.",
-    "Purgatorio": "Estado de purificación antes del cielo.",
-    "Hugonotes": "Calvinistas franceses.",
-    "Puritanos": "Protestantes ingleses reformistas.",
-    "Presbiterianos": "Seguidores del calvinismo escocés.",
-    "Acta de Supremacía": "Ley que hizo al rey jefe religioso."
+    "Pleistoceno": "Época geológica caracterizada por las glaciaciones.",
+    "Holoceno": "Época geológica posglacial actual con clima más cálido.",
+    "Megafauna": "Animales gigantes que se extinguieron al inicio del Holoceno.",
+    "Cuprolítico": "Periodo de transición donde se usa la piedra y el cobre.",
+    "Megalítico": "Arte prehistórico construido con grandes bloques de piedra.",
+    "Ideográfica": "Tipo de escritura basada en símbolos o ideas.",
+    "=": "Es / se define como / es igual a",
+    "→": "Produce / genera / tiene como logro",
+    "⊃": "Contiene / abarca",
+    "∈": "Pertenece a / ubicado en",
+    "+": "Y / en conjunto con"
   },
   "theory": [
     {
-      "titulo": "Antecedentes",
+      "titulo": "Paleolítico: Generalidades e Inferior",
       "puntos": [
         {
-          "texto": "John Wycliffe tradujo la Biblia al inglés.",
+          "texto": "Paleolítico ∈ Pleistoceno",
           "pregunta": {
-            "q": "¿Qué hizo John Wycliffe antes de la Reforma Protestante?",
+            "q": "¿En qué periodo geológico se desarrolló el Paleolítico?",
             "opts": [
-              "Tradujo la Biblia al inglés",
-              "Fundó el calvinismo",
-              "Escribió las 95 tesis",
-              "Convocó el Concilio de Trento"
-            ],
-            "correct": 0,
-            "explicacion": "La traducción de la Biblia permitió que más personas accedieran directamente a las Escrituras. Esta idea influyó posteriormente en los reformadores protestantes."
-          }
-        },
-        {
-          "texto": "Jan Hus fue enviado a la hoguera.",
-          "sub": [
-            "Era de origen checo.",
-            "Fue condenado en el Concilio de Constanza (1415)."
-          ],
-          "pregunta": {
-            "q": "¿En qué concilio fue condenado Jan Hus?",
-            "opts": [
-              "Concilio de Nicea",
-              "Concilio de Constanza",
-              "Concilio de Trento",
-              "Concilio de Letrán"
+              "Holoceno",
+              "Pleistoceno",
+              "Antropoceno"
             ],
             "correct": 1,
-            "explicacion": "Jan Hus criticó prácticas de la Iglesia y fue declarado hereje. Su ejecución en 1415 inspiró posteriormente a otros reformadores."
+            "explicacion": "El periodo del Paleolítico transcurre íntegramente durante la época de las glaciaciones conocida como Pleistoceno."
           }
-        }
-      ]
-    },
-    {
-      "titulo": "Causas",
-      "puntos": [
+        },
         {
-          "texto": "Corrupción del clero.",
+          "texto": "Paleolítico = Bandas nómadas + Economía de subsistencia",
           "pregunta": {
-            "q": "¿Cuál fue una causa importante de la Reforma Protestante?",
+            "q": "¿Cómo era la organización social y económica durante el Paleolítico?",
             "opts": [
-              "Corrupción del clero",
-              "Expansión del islam",
-              "Caída de Constantinopla",
-              "Descubrimiento de América"
+              "Tribus sedentarias con agricultura",
+              "Ciudades con intercambio comercial",
+              "Bandas nómadas con economía de subsistencia"
             ],
-            "correct": 0,
-            "explicacion": "Muchos miembros del clero cometían abusos y prácticas cuestionadas. Esto provocó un fuerte descontento entre los creyentes."
-          }
-        },
-        {
-          "texto": "Intromisión del papa en asuntos políticos.",
-          "pregunta": {
-            "q": "¿Qué aspecto político favoreció la Reforma?",
-            "opts": [
-              "El aislamiento del papa",
-              "La intromisión del papa en política",
-              "La independencia del clero",
-              "La unificación alemana"
-            ],
-            "correct": 1,
-            "explicacion": "El papado intervenía en asuntos políticos europeos, generando conflictos con gobernantes y sectores religiosos."
-          }
-        },
-        {
-          "texto": "Secularización de bienes.",
-          "pregunta": {
-            "q": "¿Qué proceso aparece entre las causas de la Reforma?",
-            "opts": [
-              "Mercantilismo",
-              "Secularización de bienes",
-              "Colonización",
-              "Industrialización"
-            ],
-            "correct": 1,
-            "explicacion": "Muchos gobernantes buscaban controlar los bienes eclesiásticos y reducir el poder económico de la Iglesia."
-          }
-        },
-        {
-          "texto": "Libre examen.",
-          "pregunta": {
-            "q": "¿Qué principio favorecía la interpretación personal de la Biblia?",
-            "opts": [
-              "Predestinación",
-              "Libre examen",
-              "Humanismo",
-              "Dogmatismo"
-            ],
-            "correct": 1,
-            "explicacion": "El libre examen defendía que cada creyente podía interpretar las Escrituras sin depender exclusivamente del clero."
-          }
-        },
-        {
-          "texto": "La imprenta impulsó la difusión de ideas.",
-          "pregunta": {
-            "q": "¿Qué invento facilitó la expansión de las ideas reformistas?",
-            "opts": ["Brújula", "Imprenta", "Astrolabio", "Telescopio"],
-            "correct": 1,
-            "explicacion": "La imprenta permitió reproducir rápidamente libros y panfletos, difundiendo las críticas a la Iglesia por toda Europa."
-          }
-        }
-      ]
-    },
-    {
-      "titulo": "Detonante y Luteranismo",
-      "puntos": [
-        {
-          "texto": "La venta de indulgencias detonó la Reforma.",
-          "sub": [
-            "Promovida por el papa León X.",
-            "Financiaba la Basílica de San Pedro."
-          ],
-          "pregunta": {
-            "q": "¿Qué hecho desencadenó la Reforma Protestante?",
-            "opts": [
-              "Venta de indulgencias",
-              "Caída de Roma",
-              "Peste Negra",
-              "Concilio de Trento"
-            ],
-            "correct": 0,
-            "explicacion": "La comercialización de indulgencias fue considerada un abuso por Martín Lutero y otros reformadores."
-          }
-        },
-        {
-          "texto": "Martín Lutero inició el luteranismo.",
-          "sub": [
-            "Vivía en el SIRG (Alemania).",
-            "1517: publicó las 95 tesis en Wittenberg."
-          ],
-          "pregunta": {
-            "q": "¿Qué hecho marcó el inicio del luteranismo?",
-            "opts": [
-              "Las 95 tesis de 1517",
-              "El Acta de Supremacía",
-              "La Paz de Westfalia",
-              "El Concilio de Trento"
-            ],
-            "correct": 0,
-            "explicacion": "Las 95 tesis cuestionaban principalmente la venta de indulgencias y dieron inicio al movimiento reformista."
-          }
-        },
-        {
-          "texto": "La Dieta de Worms ocurrió en 1521.",
-          "sub": [
-            "Fue convocada por Carlos V.",
-            "Lutero fue desterrado.",
-            "Federico de Sajonia lo protegió."
-          ],
-          "pregunta": {
-            "q": "¿Quién protegió a Martín Lutero tras la Dieta de Worms?",
-            "opts": [
-              "Carlos V",
-              "Federico de Sajonia",
-              "León X",
-              "Enrique VIII"
-            ],
-            "correct": 1,
-            "explicacion": "Aunque fue declarado proscrito, Federico de Sajonia escondió a Lutero en el castillo de Wartburg para proteger su vida."
-          }
-        },
-        {
-          "texto": "Otras Dietas fortalecieron la Reforma.",
-          "sub": ["Spira: protestantismo.", "Augsburgo: luteranismo."],
-          "pregunta": {
-            "q": "¿Qué ciudad quedó asociada al luteranismo?",
-            "opts": ["Spira", "Augsburgo", "Ginebra", "Roma"],
-            "correct": 1,
-            "explicacion": "La Dieta de Augsburgo consolidó el reconocimiento político del luteranismo dentro del Sacro Imperio."
-          }
-        },
-        {
-          "texto": "Hubo guerras religiosas en el SIRG.",
-          "sub": [
-            "Liga de Smalkalda (protestante).",
-            "Liga de Núremberg (católica).",
-            "1555: Paz de Augsburgo.",
-            "Cada príncipe adoptaba su religión."
-          ],
-          "pregunta": {
-            "q": "¿Qué estableció la Paz de Augsburgo de 1555?",
-            "opts": [
-              "Libertad religiosa universal",
-              "Cada príncipe elegía la religión de su territorio",
-              "El triunfo del catolicismo",
-              "La unión de todas las iglesias"
-            ],
-            "correct": 1,
-            "explicacion": "La Paz de Augsburgo reconoció el principio 'cuius regio, eius religio', permitiendo que cada príncipe decidiera la religión oficial de sus dominios."
-          }
-        }
-      ]
-    },
-    {
-      "titulo": "Postulados del Luteranismo",
-      "puntos": [
-        {
-          "texto": "La salvación depende solo de la fe.",
-          "pregunta": {
-            "q": "¿Cuál era la única fuente de salvación para Lutero?",
-            "opts": [
-              "Las obras",
-              "La fe",
-              "Las indulgencias",
-              "Los sacramentos"
-            ],
-            "correct": 1,
-            "explicacion": "La doctrina de la justificación por la fe afirmaba que la salvación era un regalo de Dios y no podía comprarse ni ganarse."
-          }
-        },
-        {
-          "texto": "Aceptó solo dos sacramentos.",
-          "sub": ["Bautismo.", "Comunión."],
-          "pregunta": {
-            "q": "¿Cuántos sacramentos aceptó el luteranismo?",
-            "opts": ["Siete", "Cinco", "Tres", "Dos"],
-            "correct": 3,
-            "explicacion": "Lutero conservó únicamente los sacramentos que consideraba respaldados claramente por la Biblia."
-          }
-        },
-        {
-          "texto": "Rechazó varias doctrinas católicas.",
-          "sub": [
-            "Transubstanciación.",
-            "Purgatorio.",
-            "Culto a las imágenes.",
-            "Celibato."
-          ],
-          "pregunta": {
-            "q": "¿Cuál de estas doctrinas rechazó el luteranismo?",
-            "opts": ["Purgatorio", "Bautismo", "Comunión", "Biblia"],
-            "correct": 0,
-            "explicacion": "Lutero cuestionó enseñanzas que, según él, no tenían fundamento bíblico suficiente."
-          }
-        },
-        {
-          "texto": "Defendió la libre interpretación bíblica.",
-          "sub": ["Única imagen aceptada: ✠."],
-          "pregunta": {
-            "q": "¿Qué principio permitió interpretar personalmente la Biblia?",
-            "opts": [
-              "Libre interpretación",
-              "Infalibilidad papal",
-              "Tradición oral",
-              "Concilios"
-            ],
-            "correct": 0,
-            "explicacion": "Cada creyente podía estudiar las Escrituras directamente, sin depender exclusivamente de la autoridad eclesiástica."
-          }
-        }
-      ]
-    },
-    {
-      "titulo": "Calvinismo",
-      "puntos": [
-        {
-          "texto": "Juan Calvino impulsó el calvinismo.",
-          "sub": ["Suiza.", "1541: Consistorio de Ginebra."],
-          "pregunta": {
-            "q": "¿Dónde estableció Calvino su gobierno religioso?",
-            "opts": ["Roma", "Ginebra", "Wittenberg", "Londres"],
-            "correct": 1,
-            "explicacion": "En Ginebra, Calvino organizó un régimen religioso con fuerte disciplina moral mediante el Consistorio."
-          }
-        },
-        {
-          "texto": "El calvinismo aceptó dos sacramentos.",
-          "sub": ["Bautismo.", "Comunión."],
-          "pregunta": {
-            "q": "¿Qué sacramentos conservó el calvinismo?",
-            "opts": [
-              "Confirmación y matrimonio",
-              "Bautismo y comunión",
-              "Penitencia y unción",
-              "Orden sacerdotal y matrimonio"
-            ],
-            "correct": 1,
-            "explicacion": "Al igual que el luteranismo, el calvinismo solo reconoció dos sacramentos."
-          }
-        },
-        {
-          "texto": "La predestinación fue su doctrina central.",
-          "pregunta": {
-            "q": "¿Qué doctrina caracteriza principalmente al calvinismo?",
-            "opts": [
-              "Predestinación",
-              "Infalibilidad papal",
-              "Venta de indulgencias",
-              "Culto a las reliquias"
-            ],
-            "correct": 0,
-            "explicacion": "Calvino sostenía que Dios había determinado desde antes quiénes serían salvados."
-          }
-        },
-        {
-          "texto": "El éxito económico era una bendición.",
-          "pregunta": {
-            "q": "¿Cómo interpretaba el calvinismo el éxito económico?",
-            "opts": [
-              "Como un pecado",
-              "Como una bendición divina",
-              "Como una obligación estatal",
-              "Como un castigo"
-            ],
-            "correct": 1,
-            "explicacion": "El trabajo, la disciplina y la prosperidad podían considerarse señales del favor de Dios."
-          }
-        },
-        {
-          "texto": "Defendió el libre examen.",
-          "pregunta": {
-            "q": "¿Qué principio compartía el calvinismo con el luteranismo?",
-            "opts": [
-              "Libre examen",
-              "Venta de indulgencias",
-              "Infalibilidad papal",
-              "Purgatorio"
-            ],
-            "correct": 0,
-            "explicacion": "El calvinismo también promovía el estudio personal de las Escrituras."
-          }
-        }
-      ]
-    },
-    {
-      "titulo": "Difusión y Anglicanismo",
-      "puntos": [
-        {
-          "texto": "El calvinismo se difundió en Europa.",
-          "sub": [
-            "Francia: hugonotes.",
-            "Inglaterra: puritanos.",
-            "Escocia: presbiterianos."
-          ],
-          "pregunta": {
-            "q": "¿Cómo se llamó a los calvinistas franceses?",
-            "opts": ["Puritanos", "Presbiterianos", "Hugonotes", "Jesuitas"],
             "correct": 2,
-            "explicacion": "Los hugonotes fueron los principales seguidores del calvinismo en Francia y protagonizaron conflictos religiosos."
+            "explicacion": "En el Paleolítico, los humanos se agrupaban en bandas que se movían constantemente cazando y recolectando para subsistir."
           }
         },
         {
-          "texto": "Enrique VIII fundó el anglicanismo.",
-          "sub": [
-            "Dinastía Tudor.",
-            "Pretexto: Catalina de Aragón.",
-            "Matrimonio con Ana Bolena.",
-            "Problemas con el papa Clemente VII."
-          ],
+          "texto": "Paleolítico Inferior ⊃ Homo habilis",
           "pregunta": {
-            "q": "¿Qué rey impulsó el anglicanismo en Inglaterra?",
-            "opts": ["Carlos V", "Felipe II", "Enrique VIII", "Luis XIV"],
-            "correct": 2,
-            "explicacion": "Enrique VIII rompió con la Iglesia católica cuando el papa no anuló su matrimonio con Catalina de Aragón."
-          }
-        },
-        {
-          "texto": "1534: Acta de Supremacía.",
-          "sub": ["El rey fue la máxima autoridad de la Iglesia."],
-          "pregunta": {
-            "q": "¿Qué estableció el Acta de Supremacía de 1534?",
+            "q": "¿Qué especie de homínido se ubica dentro del Paleolítico Inferior?",
             "opts": [
-              "El papa gobernaba Inglaterra",
-              "El rey era la máxima autoridad religiosa",
-              "Se restauró el catolicismo",
-              "Se prohibió la Biblia"
+              "Homo habilis",
+              "Homo neanderthalensis",
+              "Homo sapiens"
+            ],
+            "correct": 0,
+            "explicacion": "El Homo habilis es uno de los primeros representantes del género humano y pertenece a la etapa más antigua, el Paleolítico Inferior."
+          }
+        },
+        {
+          "texto": "Homo habilis ∈ Kenia + Tanzania",
+          "pregunta": {
+            "q": "¿En qué territorios actuales se ubican los restos del Homo habilis?",
+            "opts": [
+              "España y Francia",
+              "Kenia y Tanzania",
+              "Java y Pekín"
             ],
             "correct": 1,
-            "explicacion": "Esta ley convirtió oficialmente al monarca inglés en cabeza de la Iglesia de Inglaterra, consolidando el anglicanismo."
+            "explicacion": "Los hallazgos fundamentales del Homo habilis, como los de la garganta de Olduvai, se localizan en Kenia y Tanzania."
+          }
+        },
+        {
+          "texto": "Homo habilis → 1ras herramientas",
+          "pregunta": {
+            "q": "¿Cuál es el principal logro atribuido al Homo habilis?",
+            "opts": [
+              "El lenguaje articulado",
+              "La creación de las primeras herramientas",
+              "La pintura en cavernas"
+            ],
+            "correct": 1,
+            "explicacion": "A esta especie se le atribuye la fabricación de los primeros útiles de piedra tallada, conocidos como cantos rodados."
+          }
+        },
+        {
+          "texto": "Paleolítico Inferior ⊃ Homo erectus",
+          "pregunta": {
+            "q": "¿Además del Homo habilis, qué otra especie destaca en el Paleolítico Inferior?",
+            "opts": [
+              "Homo erectus",
+              "Homo sapiens",
+              "Neandertal"
+            ],
+            "correct": 0,
+            "explicacion": "El Homo erectus es otro de los homínidos representativos que vivieron durante el periodo del Paleolítico Inferior."
+          }
+        },
+        {
+          "texto": "Homo erectus → 1er uso del fuego",
+          "pregunta": {
+            "q": "¿Qué importante descubrimiento o uso es característico del Homo erectus?",
+            "opts": [
+              "La rueda",
+              "La domesticación de animales",
+              "El primer uso del fuego"
+            ],
+            "correct": 2,
+            "explicacion": "El Homo erectus logró dominar el fuego, lo que supuso un salto inmenso en la supervivencia y desarrollo."
+          }
+        },
+        {
+          "texto": "Fuego → Mejora de dieta alimenticia",
+          "pregunta": {
+            "q": "¿Qué efecto directo tuvo el uso del fuego sobre la nutrición?",
+            "opts": [
+              "Aparición de la agricultura",
+              "Mejora de la dieta alimenticia",
+              "Escasez de carnes"
+            ],
+            "correct": 1,
+            "explicacion": "Al poder cocinar los alimentos, el fuego permitió que la dieta alimenticia fuera más fácil de digerir y más nutritiva."
+          }
+        },
+        {
+          "texto": "Homo antecessor = 1er europeo",
+          "pregunta": {
+            "q": "¿Con qué título geográfico se le asocia al Homo antecessor?",
+            "opts": [
+              "El último africano",
+              "El primer asiático",
+              "El primer europeo"
+            ],
+            "correct": 2,
+            "explicacion": "Los restos hallados en Atapuerca (España) señalan al Homo antecessor como el habitante más antiguo conocido en Europa."
+          }
+        }
+      ]
+    },
+    {
+      "titulo": "Paleolítico: Medio y Superior",
+      "puntos": [
+        {
+          "texto": "Paleolítico Medio ⊃ Homo Neanderthalensis",
+          "pregunta": {
+            "q": "¿A qué etapa específica del Paleolítico pertenece el hombre de Neandertal?",
+            "opts": [
+              "Paleolítico Inferior",
+              "Paleolítico Medio",
+              "Paleolítico Superior"
+            ],
+            "correct": 1,
+            "explicacion": "El Homo Neanderthalensis dominó Eurasia durante la etapa intermedia de esta era, el Paleolítico Medio."
+          }
+        },
+        {
+          "texto": "Homo Neanderthalensis → Lenguaje articulado",
+          "pregunta": {
+            "q": "¿Qué capacidad comunicativa desarrolló el Homo Neanderthalensis?",
+            "opts": [
+              "Escritura ideográfica",
+              "Lenguaje de señas exclusivo",
+              "Lenguaje articulado"
+            ],
+            "correct": 2,
+            "explicacion": "Por su anatomía vocal y desarrollo cerebral, se atribuye al Neandertal el uso de un lenguaje complejo y articulado."
+          }
+        },
+        {
+          "texto": "Homo Neanderthalensis → 1ros entierros religiosos",
+          "pregunta": {
+            "q": "¿Qué práctica ritual inició el Homo Neanderthalensis?",
+            "opts": [
+              "Los primeros entierros religiosos",
+              "El sacrificio de prisioneros",
+              "La momificación de líderes"
+            ],
+            "correct": 0,
+            "explicacion": "Las evidencias demuestran que los Neandertales sepultaban a sus muertos, siendo la primera manifestación de pensamiento mágico-religioso."
+          }
+        },
+        {
+          "texto": "Paleolítico Superior ⊃ Homo sapiens",
+          "pregunta": {
+            "q": "¿Qué especie homínida es la protagonista del Paleolítico Superior?",
+            "opts": [
+              "Homo habilis",
+              "Homo sapiens",
+              "Homo erectus"
+            ],
+            "correct": 1,
+            "explicacion": "El humano anatómicamente moderno, el Homo sapiens, emerge como especie principal durante el Paleolítico Superior."
+          }
+        },
+        {
+          "texto": "Homo sapiens → Pinturas rupestres",
+          "pregunta": {
+            "q": "¿Qué expresión artística en cavernas creó el Homo sapiens?",
+            "opts": [
+              "Estatuas de metal",
+              "Pinturas rupestres",
+              "Escritura cuneiforme"
+            ],
+            "correct": 1,
+            "explicacion": "El Homo sapiens plasmó en las paredes de las cuevas escenas de caza conocidas como pinturas rupestres."
+          }
+        },
+        {
+          "texto": "Arte mobilar = Venus paleolíticas",
+          "pregunta": {
+            "q": "¿Qué famosas estatuillas representan al arte mobilar de esta época?",
+            "opts": [
+              "Los ídolos megalíticos",
+              "Las Venus paleolíticas",
+              "Las cerámicas funerarias"
+            ],
+            "correct": 1,
+            "explicacion": "Las esculturas portátiles o arte mobilar tienen su máximo exponente en las figuras femeninas llamadas Venus paleolíticas."
+          }
+        }
+      ]
+    },
+    {
+      "titulo": "Mesolítico",
+      "puntos": [
+        {
+          "texto": "Mesolítico ∈ Holoceno",
+          "pregunta": {
+            "q": "¿En qué nueva etapa climática o época se desarrolla el Mesolítico?",
+            "opts": [
+              "Holoceno",
+              "Pleistoceno",
+              "Mioceno"
+            ],
+            "correct": 0,
+            "explicacion": "A diferencia del Paleolítico, el Mesolítico coincide con el calentamiento global que marca el inicio del Holoceno."
+          }
+        },
+        {
+          "texto": "Holoceno → Fin de la megafauna",
+          "pregunta": {
+            "q": "¿Qué consecuencia faunística trajo consigo la época del Holoceno?",
+            "opts": [
+              "Aparición de dinosaurios",
+              "El fin de la megafauna",
+              "Multiplicación de mamuts"
+            ],
+            "correct": 1,
+            "explicacion": "El cambio climático del Holoceno alteró los ecosistemas, provocando la extinción de los grandes mamíferos o megafauna."
+          }
+        },
+        {
+          "texto": "Mesolítico = Horticultura + seminómadas",
+          "pregunta": {
+            "q": "¿Qué características de vida y subsistencia definen al periodo Mesolítico?",
+            "opts": [
+              "Horticultura y grupos seminómadas",
+              "Agricultura avanzada y ciudades",
+              "Solo recolección y nomadismo total"
+            ],
+            "correct": 0,
+            "explicacion": "En esta etapa de transición se inicia la horticultura básica y los grupos humanos se vuelven seminómadas, asentándose por temporadas."
+          }
+        },
+        {
+          "texto": "Mesolítico → Arte microlítico",
+          "pregunta": {
+            "q": "¿Qué tipo de producción artística o de herramientas pequeñas caracteriza al Mesolítico?",
+            "opts": [
+              "Arte megalítico",
+              "Herramientas de hierro",
+              "Arte microlítico"
+            ],
+            "correct": 2,
+            "explicacion": "El uso de pequeñas piezas de piedra tallada para formar herramientas compuestas dio lugar al arte microlítico."
+          }
+        },
+        {
+          "texto": "Mesolítico → Domesticación del perro",
+          "pregunta": {
+            "q": "¿Qué hito en la relación humano-animal ocurrió durante el Mesolítico?",
+            "opts": [
+              "La doma del caballo",
+              "La domesticación del perro",
+              "La crianza de vacas"
+            ],
+            "correct": 1,
+            "explicacion": "El lobo comenzó a convivir con los humanos y evolucionó hasta convertirse en el perro, el primer animal domesticado."
+          }
+        }
+      ]
+    },
+    {
+      "titulo": "Neolítico",
+      "puntos": [
+        {
+          "texto": "Neolítico = Agricultura excedente de producción",
+          "pregunta": {
+            "q": "¿Qué característica define la economía productiva del Neolítico?",
+            "opts": [
+              "La recolección escasa",
+              "La caza intensiva",
+              "La agricultura con excedente de producción"
+            ],
+            "correct": 2,
+            "explicacion": "El Neolítico se marca por el desarrollo de la agricultura que permitió generar más alimentos de los que se consumían, creando un excedente."
+          }
+        },
+        {
+          "texto": "Excedente de producción → Intercambio comercial",
+          "pregunta": {
+            "q": "¿Qué actividad surgió gracias al excedente de producción agrícola?",
+            "opts": [
+              "El intercambio comercial",
+              "La pintura rupestre",
+              "El nomadismo"
+            ],
+            "correct": 0,
+            "explicacion": "Al sobrar productos, las comunidades empezaron a intercambiarlos con otros grupos, dando origen al comercio (trueque)."
+          }
+        },
+        {
+          "texto": "Neolítico → Clases sociales + Propiedad Privada",
+          "pregunta": {
+            "q": "¿Qué nueva estructura socioeconómica apareció durante el Neolítico?",
+            "opts": [
+              "Sociedades igualitarias puras",
+              "Clases sociales y propiedad privada",
+              "Imperios sin tierra"
+            ],
+            "correct": 1,
+            "explicacion": "La acumulación de tierras y excedentes provocó la división de la sociedad en clases y el origen del concepto de propiedad privada."
+          }
+        },
+        {
+          "texto": "Neolítico → Sedentarismo",
+          "pregunta": {
+            "q": "¿Qué modo de asentamiento adoptó el ser humano en el Neolítico?",
+            "opts": [
+              "Nomadismo estacional",
+              "Vida seminómada",
+              "Sedentarismo"
+            ],
+            "correct": 2,
+            "explicacion": "Para cuidar de sus cultivos y rebaños, los grupos humanos dejaron de moverse y se establecieron permanentemente en un solo lugar."
+          }
+        },
+        {
+          "texto": "Primer centro originario = Creciente fértil",
+          "pregunta": {
+            "q": "¿Cómo se denominó al primer núcleo donde se originó la revolución neolítica?",
+            "opts": [
+              "Mesoamérica",
+              "Creciente fértil",
+              "Península ibérica"
+            ],
+            "correct": 1,
+            "explicacion": "La región del Oriente Próximo, conocida como el Creciente fértil, fue el primer centro originario de la agricultura y sedentarismo."
+          }
+        },
+        {
+          "texto": "Neolítico → Cerámica + textilería + ganadería",
+          "pregunta": {
+            "q": "¿Qué nuevas actividades y tecnologías se desarrollaron en esta etapa?",
+            "opts": [
+              "Cerámica, textilería y ganadería",
+              "Metalurgia del hierro",
+              "Escritura y acuñación de moneda"
+            ],
+            "correct": 0,
+            "explicacion": "Con la vida sedentaria aparecieron nuevos oficios necesarios como fabricar vasijas (cerámica), tejidos (textilería) y la cría de animales (ganadería)."
+          }
+        },
+        {
+          "texto": "Neolítico = Piedra pulida",
+          "pregunta": {
+            "q": "¿Qué tipo de técnica para trabajar las herramientas da nombre a la etapa del Neolítico?",
+            "opts": [
+              "Piedra tallada",
+              "Piedra pulida",
+              "Fundición de cobre"
+            ],
+            "correct": 1,
+            "explicacion": "A diferencia de la piedra golpeada o tallada, el Neolítico ('nueva piedra') destaca por el uso de herramientas de piedra pulida, más resistentes."
+          }
+        },
+        {
+          "texto": "Neolítico → Arte megalítico",
+          "pregunta": {
+            "q": "¿Qué forma de arquitectura monumental surge en el Neolítico?",
+            "opts": [
+              "El arte megalítico",
+              "Pirámides de adobe",
+              "Catedrales góticas"
+            ],
+            "correct": 0,
+            "explicacion": "Las comunidades sedentarias comenzaron a erigir enormes monumentos de piedra, expresión conocida como arte megalítico."
+          }
+        },
+        {
+          "texto": "Ciudades ⊃ Jericó + Çatalhöyük",
+          "pregunta": {
+            "q": "¿Cuáles son ejemplos de las primeras ciudades surgidas en el Neolítico?",
+            "opts": [
+              "Atenas y Esparta",
+              "Jericó y Çatalhöyük",
+              "Roma y Cartago"
+            ],
+            "correct": 1,
+            "explicacion": "El sedentarismo llevó a la conformación de los primeros grandes poblados estables, destacando sitios como Jericó y Çatalhöyük."
+          }
+        }
+      ]
+    },
+    {
+      "titulo": "Edad de los Metales: Cobre y Bronce",
+      "puntos": [
+        {
+          "texto": "Edad de Cobre = Cuprolítico",
+          "pregunta": {
+            "q": "¿Con qué otro nombre técnico se le conoce a la fase inicial o Edad de Cobre?",
+            "opts": [
+              "Paleolítico",
+              "Megalítico",
+              "Cuprolítico"
+            ],
+            "correct": 2,
+            "explicacion": "A este periodo de transición inicial en la metalurgia se le denomina Cuprolítico o Eneolítico."
+          }
+        },
+        {
+          "texto": "Cuprolítico = Uso de Cobre + Piedra",
+          "pregunta": {
+            "q": "¿Qué materiales se usaban simultáneamente en la etapa del cuprolítico?",
+            "opts": [
+              "Cobre y Hierro",
+              "Bronce y Estaño",
+              "Cobre y Piedra"
+            ],
+            "correct": 2,
+            "explicacion": "Durante esta transición, el ser humano empezó a usar herramientas de cobre mientras seguía utilizando las tradicionales de piedra."
+          }
+        },
+        {
+          "texto": "Bronce = Cobre + Estaño",
+          "pregunta": {
+            "q": "¿Qué metales se alean o combinan para producir el Bronce?",
+            "opts": [
+              "Hierro y plomo",
+              "Cobre y estaño",
+              "Oro y plata"
+            ],
+            "correct": 1,
+            "explicacion": "La Edad de Bronce comienza cuando se descubre que al fundir cobre junto con estaño se obtiene un metal mucho más duro."
+          }
+        },
+        {
+          "texto": "Edad de Bronce → Revolución urbana + estados",
+          "pregunta": {
+            "q": "¿Qué cambio social y político masivo ocurrió durante la Edad de Bronce?",
+            "opts": [
+              "Vuelta al nomadismo",
+              "Revolución urbana y surgimiento de estados",
+              "Desaparición de la propiedad privada"
+            ],
+            "correct": 1,
+            "explicacion": "Las aldeas crecieron enormemente y se volvieron complejas, formando verdaderas ciudades gobernadas por estructuras de estado."
+          }
+        },
+        {
+          "texto": "Edad de Bronce → 1ra escritura",
+          "pregunta": {
+            "q": "¿Qué importante invención intelectual apareció durante la Edad de Bronce?",
+            "opts": [
+              "El alfabeto fonético",
+              "La imprenta",
+              "La primera escritura"
+            ],
+            "correct": 2,
+            "explicacion": "La necesidad de administrar las nuevas ciudades y estados llevó a la creación de los primeros sistemas de escritura."
+          }
+        },
+        {
+          "texto": "1ra escritura = Ideográfica",
+          "pregunta": {
+            "q": "¿De qué tipo fueron los primeros sistemas de escritura inventados?",
+            "opts": [
+              "Ideográfica",
+              "Fonética",
+              "Alfabética"
+            ],
+            "correct": 0,
+            "explicacion": "Las primeras formas de escritura no representaban sonidos mediante letras, sino que utilizaban símbolos que representaban ideas."
+          }
+        },
+        {
+          "texto": "Edad de Bronce → 1ros Imperios",
+          "pregunta": {
+            "q": "¿Qué nueva forma de gran organización territorial se formó en la Edad de Bronce?",
+            "opts": [
+              "Las bandas nómadas",
+              "Los primeros imperios",
+              "Las aldeas tribales"
+            ],
+            "correct": 1,
+            "explicacion": "La expansión y dominación de unas ciudades sobre otras originó los primeros grandes imperios de la historia."
+          }
+        }
+      ]
+    },
+    {
+      "titulo": "Edad de los Metales: Hierro",
+      "puntos": [
+        {
+          "texto": "Edad de Hierro → 1er uso por hititas",
+          "pregunta": {
+            "q": "¿A qué civilización se le atribuye el primer uso militar y extendido del hierro?",
+            "opts": [
+              "A los romanos",
+              "A los hititas",
+              "A los egipcios"
+            ],
+            "correct": 1,
+            "explicacion": "El pueblo de los hititas fue pionero en dominar la compleja metalurgia del hierro para forjar armas superiores."
+          }
+        },
+        {
+          "texto": "Edad de Hierro → Alfabeto fonético",
+          "pregunta": {
+            "q": "¿Qué innovación en la comunicación escrita surgió en la Edad de Hierro?",
+            "opts": [
+              "La escritura cuneiforme pura",
+              "Los jeroglíficos",
+              "El alfabeto fonético"
+            ],
+            "correct": 2,
+            "explicacion": "A diferencia de la escritura ideográfica anterior, en esta época se desarrolla un alfabeto donde cada símbolo representa un sonido."
+          }
+        },
+        {
+          "texto": "Edad de Hierro → Intercambio monetario",
+          "pregunta": {
+            "q": "¿Qué nuevo sistema económico reemplazó en gran medida al trueque durante este periodo?",
+            "opts": [
+              "El comunismo primitivo",
+              "El intercambio monetario",
+              "La economía de recolección"
+            ],
+            "correct": 1,
+            "explicacion": "Con el avance en el trabajo de los metales, se comenzaron a acuñar monedas, instaurando el intercambio basado en un valor monetario estándar."
           }
         }
       ]

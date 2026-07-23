@@ -33,28 +33,144 @@
       "codigo": "HIS",
       "temas": [
         {
-          "tema": "contrareforma",
-          "archivo": "temas/his/his-04.json"
-        },
-        {
-          "tema": "Expansión Europea",
+          "tema": "Conceptos basicos",
           "archivo": "temas/his/his-01.json"
         },
         {
-          "tema": "Guerras civiles",
-          "archivo": "temas/his/his-06.json"
-        },
-        {
-          "tema": "Invasión al Tahuantisuyo",
+          "tema": "Hominización",
           "archivo": "temas/his/his-02.json"
         },
         {
-          "tema": "Reforma Protestante",
+          "tema": "Prehistoria",
           "archivo": "temas/his/his-03.json"
         },
         {
-          "tema": "Resistencia andina",
+          "tema": "Mesopotamia",
+          "archivo": "temas/his/his-06.json"
+        },
+        {
+          "tema": "Egipto 1",
+          "archivo": "temas/his/his-07.json"
+        },
+        {
+          "tema": "Egipto 2",
+          "archivo": "temas/his/his-08.json"
+        },
+        {
+          "tema": "Población Americano",
+          "archivo": "temas/his/his-04.json"
+        },
+        {
+          "tema": "Precerámico Andino",
           "archivo": "temas/his/his-05.json"
+        },
+        {
+          "tema": "Formativo inicial",
+          "archivo": "temas/his/his-09.json"
+        },
+        {
+          "tema": "Horizonte Tempano",
+          "archivo": "temas/his/his-10.json"
+        },
+        {
+          "tema": "Intermedio Temprano",
+          "archivo": "temas/his/his-11.json"
+        },
+        {
+          "tema": "Grecia 1",
+          "archivo": "temas/his/his-13.json"
+        },
+        {
+          "tema": "Grecia 2",
+          "archivo": "temas/his/his-14.json"
+        },
+        {
+          "tema": "Roma 1",
+          "archivo": "temas/his/his-15.json"
+        },
+        {
+          "tema": "Roma 2",
+          "archivo": "temas/his/his-16.json"
+        },
+        {
+          "tema": "Horizonte Medio",
+          "archivo": "temas/his/his-12.json"
+        },
+        {
+          "tema": "Intermedio Tardio",
+          "archivo": "temas/his/his-17.json"
+        },
+        {
+          "tema": "Incas",
+          "archivo": "temas/his/his-28.json"
+        },
+        {
+          "tema": "Invaciones Barbaras",
+          "archivo": "temas/his/his-18.json"
+        },
+        {
+          "tema": "Imperio Bizantino",
+          "archivo": "temas/his/his-20.json"
+        },
+        {
+          "tema": "Los Arabes",
+          "archivo": "temas/his/his-19.json"
+        },
+        {
+          "tema": "Imperio Carolingio",
+          "archivo": "temas/his/his-21.json"
+        },
+        {
+          "tema": "Feudalismo 1",
+          "archivo": "temas/his/his-22.json"
+        },
+        {
+          "tema": "Feudalismo 2",
+          "archivo": "temas/his/his-23.json"
+        },
+        {
+          "tema": "Renacimiento Urbano y comercial",
+          "archivo": "temas/his/his-24.json"
+        },
+        {
+          "tema": "Crisis de la baja edad media",
+          "archivo": "temas/his/his-25.json"
+        },
+        {
+          "tema": "Humanismo",
+          "archivo": "temas/his/his-26.json"
+        },
+        {
+          "tema": "Renacimiento",
+          "archivo": "temas/his/his-27.json"
+        },
+        {
+          "tema": "Expansion Europea",
+          "archivo": "temas/his/his-29.json"
+        },
+        {
+          "tema": "Invasion al tahantinsuyo",
+          "archivo": "temas/his/his-30.json"
+        },
+        {
+          "tema": "Reforma protestante",
+          "archivo": "temas/his/his-31.json"
+        },
+        {
+          "tema": "Contra reforma",
+          "archivo": "temas/his/his-32.json"
+        },
+        {
+          "tema": "Resistencia Andina",
+          "archivo": "temas/his/his-33.json"
+        },
+        {
+          "tema": "Guerras civiles",
+          "archivo": "temas/his/his-34.json"
+        },
+        {
+          "tema": "Virreinato",
+          "archivo": "temas/his/his-35.json"
         }
       ]
     },

@@ -1,0 +1,466 @@
+{
+  "curso": "Historia del Perú",
+  "tema": "Intermedio Tardío",
+  "glosario": {
+    "=": "Definición / es equivalente a / significa",
+    "→": "Produce / genera / realiza / lleva a",
+    "+": "Y / junto con",
+    "⊃": "Contiene / abarca / incluye",
+    "∈": "Pertenece a / se ubica en",
+    "Talasocracia": "Dominio político y económico basado en el control de rutas marítimas.",
+    "Huachaques": "Chacras hundidas construidas para cultivar aprovechando la humedad del subsuelo.",
+    "Xilografía": "Arte y técnica de tallado o grabado en madera.",
+    "Mullu": "Concha marina (Spondylus) muy valorada en los Andes, usada en rituales.",
+    "Chullpas": "Torres funerarias de piedra o adobe típicas de las culturas del altiplano.",
+    "Tumi": "Cuchillo ceremonial andino con hoja semicircular, cumbre de la orfebrería regional.",
+    "Bioindicador": "Elemento biológico que sirve para predecir alteraciones climáticas o naturales."
+  },
+  "theory": [
+    {
+      "titulo": "Límites del Periodo y Características",
+      "puntos": [
+        {
+          "texto": "Inicio = decadencia de Wari.",
+          "pregunta": {
+            "q": "¿Qué suceso histórico marca el comienzo de este periodo?",
+            "opts": [
+              "La expansión de los Incas",
+              "La decadencia del imperio Wari",
+              "El surgimiento de Chavín"
+            ],
+            "correct": 1,
+            "explicacion": "La caída de este gran imperio andino permitió el renacimiento de desarrollos regionales autónomos y nuevos señoríos."
+          }
+        },
+        {
+          "texto": "Fin = expansión Inca.",
+          "pregunta": {
+            "q": "¿Qué evento determinó el final de esta etapa de señoríos regionales?",
+            "opts": [
+              "La conquista española",
+              "La invasión Chimú",
+              "La expansión militar Inca"
+            ],
+            "correct": 2,
+            "explicacion": "El avance del Tahuantinsuyo sometió progresivamente a todas las culturas independientes de la época."
+          }
+        },
+        {
+          "texto": "Urbanismo = desarrollan el modelo Wari.",
+          "pregunta": {
+            "q": "¿En qué aspecto arquitectónico y organizativo se basaron las culturas de este periodo?",
+            "opts": [
+              "El diseño de pirámides truncas aisladas",
+              "El desarrollo del urbanismo heredado de Wari",
+              "La construcción exclusiva de chullpas"
+            ],
+            "correct": 1,
+            "explicacion": "Las nuevas sociedades continuaron y perfeccionaron la planificación de ciudades que había caracterizado al Horizonte Medio."
+          }
+        }
+      ]
+    },
+    {
+      "titulo": "Cultura Lambayeque (Sicán)",
+      "puntos": [
+        {
+          "texto": "Fundador = Naylamp → funda Chot.",
+          "pregunta": {
+            "q": "¿A quién se le atribuye el origen mítico de esta cultura y qué edificó?",
+            "opts": [
+              "A Tacaynamo, quien fundó Chan Chan",
+              "A Minchancamán, conquistador del norte",
+              "A Naylamp, fundador del templo de Chot"
+            ],
+            "correct": 2,
+            "explicacion": "La leyenda cuenta que este personaje llegó por el mar y estableció el primer centro de poder de la sociedad lambayecana."
+          }
+        },
+        {
+          "texto": "Economía = agricultura intensiva.",
+          "pregunta": {
+            "q": "¿Cuál fue la base principal de la subsistencia en Sicán?",
+            "opts": [
+              "La agricultura de alta intensidad",
+              "El pastoreo de altura",
+              "Exclusivamente el comercio de mullu"
+            ],
+            "correct": 0,
+            "explicacion": "Desarrollaron complejos sistemas de irrigación en los valles costeños para maximizar su producción agrícola."
+          }
+        },
+        {
+          "texto": "Arte = gran desarrollo de orfebrería (tumi).",
+          "pregunta": {
+            "q": "¿En qué disciplina artística destacaron notablemente, creando objetos como el tumi?",
+            "opts": [
+              "La escultura lítica",
+              "La orfebrería y trabajo en metales",
+              "La textilería de algodón"
+            ],
+            "correct": 1,
+            "explicacion": "Fueron los más grandes maestros metalurgistas, trabajando oro, plata y aleaciones para fines rituales."
+          }
+        },
+        {
+          "texto": "Descubrimiento = Señor de Sicán ∈ complejo Batán Grande.",
+          "pregunta": {
+            "q": "¿En qué sitio arqueológico fue hallado el Señor de Sicán?",
+            "opts": [
+              "En la Huaca Centinela",
+              "En el complejo de Batán Grande",
+              "En las ruinas de Kuélap"
+            ],
+            "correct": 1,
+            "explicacion": "Este importante hallazgo funerario evidenció la riqueza de la élite de esta sociedad en su principal centro ceremonial."
+          }
+        },
+        {
+          "texto": "Señor de Sicán ∈ Huaca el Loro.",
+          "pregunta": {
+            "q": "¿En qué pirámide o huaca específica se encontró la tumba de este dignatario?",
+            "opts": [
+              "Huaca del Sol",
+              "Huaca Rajada",
+              "Huaca el Loro"
+            ],
+            "correct": 2,
+            "explicacion": "Esta estructura, parte de Batán Grande, albergaba los restos rodeados de un impresionante ajuar de oro."
+          }
+        },
+        {
+          "texto": "Fin = invasión Chimú.",
+          "pregunta": {
+            "q": "¿Qué cultura militar provocó el colapso y anexión de Lambayeque?",
+            "opts": [
+              "Los Wari",
+              "Los Incas directamente",
+              "La cultura Chimú"
+            ],
+            "correct": 2,
+            "explicacion": "Fueron absorbidos por este estado vecino en expansión, el cual asimiló también a sus expertos orfebres."
+          }
+        }
+      ]
+    },
+    {
+      "titulo": "Cultura Chimú",
+      "puntos": [
+        {
+          "texto": "Chimú = señorío más poderoso de costa norte.",
+          "pregunta": {
+            "q": "¿Qué posición geopolítica alcanzó Chimú en su región?",
+            "opts": [
+              "Fue un pequeño reino tributario",
+              "Fue el señorío más poderoso de la costa norte",
+              "Fue un imperio de dominio amazónico"
+            ],
+            "correct": 1,
+            "explicacion": "Lograron unificar y dominar extensos valles costeños, consolidando un fuerte estado militar."
+          }
+        },
+        {
+          "texto": "Fundador = Tacaynamo.",
+          "pregunta": {
+            "q": "¿Quién es el personaje fundador en el mito de origen de esta cultura?",
+            "opts": [
+              "Naylamp",
+              "Tacaynamo",
+              "Chinchaycamac"
+            ],
+            "correct": 1,
+            "explicacion": "De manera similar a Lambayeque, su historia fundacional inicia con la llegada de este líder desde el océano."
+          }
+        },
+        {
+          "texto": "Capital = Chan Chan.",
+          "pregunta": {
+            "q": "¿Cuál fue el principal centro urbano y administrativo del reino?",
+            "opts": [
+              "Tambo de Mora",
+              "Chot",
+              "Chan Chan"
+            ],
+            "correct": 2,
+            "explicacion": "Esta vasta ciudad de adobe funcionó como la sede del poder político y residencia de la nobleza."
+          }
+        },
+        {
+          "texto": "Avances agrícolas = huachaques + canales.",
+          "pregunta": {
+            "q": "¿Qué tecnologías utilizaron para expandir sus fronteras agrícolas?",
+            "opts": [
+              "Andenes circulares y cochas",
+              "Huachaques y redes de canales",
+              "Camellones en zonas de gran altitud"
+            ],
+            "correct": 1,
+            "explicacion": "Esta combinación de campos hundidos y acueductos permitió vencer la aridez del desierto costeño."
+          }
+        },
+        {
+          "texto": "Metalurgia = heredada de Sicán.",
+          "pregunta": {
+            "q": "¿De dónde asimiló esta cultura sus principales técnicas y estilos de metalurgia?",
+            "opts": [
+              "De la influencia Chincha",
+              "Del conocimiento heredado de Sicán",
+              "De los aportes de Tiahuanaco"
+            ],
+            "correct": 1,
+            "explicacion": "Tras conquistar Lambayeque, aprovecharon a los artesanos sometidos para producir joyas y adornos de prestigio."
+          }
+        },
+        {
+          "texto": "Máxima expansión = lograda por Minchancamán.",
+          "pregunta": {
+            "q": "¿Bajo el liderazgo de qué gobernante se alcanzó la mayor extensión territorial?",
+            "opts": [
+              "Tacaynamo",
+              "Auqui Túpac Yupanqui",
+              "Minchancamán"
+            ],
+            "correct": 2,
+            "explicacion": "Fue el último gran soberano independiente, llevando las fronteras del reino a su límite máximo."
+          }
+        },
+        {
+          "texto": "Fin = invasión del Auqui Túpac Yupanqui.",
+          "pregunta": {
+            "q": "¿Quién lideró a las fuerzas invasoras que terminaron con este señorío?",
+            "opts": [
+              "El ejército español de Pizarro",
+              "El general Wari",
+              "El Auqui Túpac Yupanqui"
+            ],
+            "correct": 2,
+            "explicacion": "El príncipe inca comandó las tropas cusqueñas que finalmente sometieron y anexaron la costa norte al Tahuantinsuyo."
+          }
+        }
+      ]
+    },
+    {
+      "titulo": "Cultura Chincha",
+      "puntos": [
+        {
+          "texto": "Ubicación ∈ Ica.",
+          "pregunta": {
+            "q": "¿En qué actual región del Perú se desarrolló principalmente esta cultura?",
+            "opts": [
+              "La Libertad",
+              "Ica",
+              "Amazonas"
+            ],
+            "correct": 1,
+            "explicacion": "Los valles de esta región sur-central fueron el núcleo geográfico de su civilización."
+          }
+        },
+        {
+          "texto": "Política = señorío de comerciantes (talasocracia).",
+          "pregunta": {
+            "q": "¿Qué modelo de organización sociopolítica caracterizó a los chinchas?",
+            "opts": [
+              "Un señorío fundamentado en el comercio y el dominio del mar",
+              "Un imperio expansivo de base netamente agrícola",
+              "Una federación de guerreros nómades"
+            ],
+            "correct": 0,
+            "explicacion": "Su poder radicaba en el control de las grandes redes de intercambio y la navegación a larga distancia."
+          }
+        },
+        {
+          "texto": "Sitios principales = Tambo de Mora + Huaca Centinela.",
+          "pregunta": {
+            "q": "¿Qué complejos arquitectónicos destacan como centros de este señorío?",
+            "opts": [
+              "Chan Chan y Chot",
+              "Tambo de Mora y Huaca Centinela",
+              "Kuélap y Gran Pajatén"
+            ],
+            "correct": 1,
+            "explicacion": "Estas pirámides de adobe servían como núcleos administrativos y ceremoniales en el valle."
+          }
+        },
+        {
+          "texto": "Religión = dios principal Chinchaycamac.",
+          "pregunta": {
+            "q": "¿Cómo se llamaba la deidad principal adorada en esta cultura?",
+            "opts": [
+              "Urpihuachay",
+              "Naylamp",
+              "Chinchaycamac"
+            ],
+            "correct": 2,
+            "explicacion": "Era la deidad suprema local, vinculada al oráculo y a la creación en la región."
+          }
+        },
+        {
+          "texto": "Panteón chincha → destaca Urpihuachay.",
+          "pregunta": {
+            "q": "¿Qué otra figura importante resaltaba en sus creencias religiosas?",
+            "opts": [
+              "La diosa Urpihuachay",
+              "El señor Minchancamán",
+              "El dios Viracocha"
+            ],
+            "correct": 0,
+            "explicacion": "Esta divinidad femenina, conocida mitológicamente como la diosa de los peces o las aves, gozaba de gran devoción."
+          }
+        },
+        {
+          "texto": "Metalurgia = vasos narigones.",
+          "pregunta": {
+            "q": "¿Qué objeto es característico del trabajo en metales de los artesanos chinchas?",
+            "opts": [
+              "Los cuchillos tumi",
+              "Los sarcófagos de oro",
+              "Los vasos narigones"
+            ],
+            "correct": 2,
+            "explicacion": "Son recipientes ceremoniales de plata u oro donde se repujaban rostros con narices muy prominentes."
+          }
+        },
+        {
+          "texto": "Arte = destacan en xilografía.",
+          "pregunta": {
+            "q": "¿En qué técnica artística, aparte de la metalurgia, sobresalieron de forma especial?",
+            "opts": [
+              "El tallado en madera o xilografía",
+              "La escultura monumental en piedra",
+              "La pintura al fresco en adobe"
+            ],
+            "correct": 0,
+            "explicacion": "Fueron expertos tallando remos ceremoniales y varas de mando con finos y complejos diseños."
+          }
+        },
+        {
+          "texto": "Ruta = comercio triangular (Ecuador + Costa Central + Altiplano).",
+          "pregunta": {
+            "q": "¿Qué regiones geográficas conectaba su gran red de intercambio mercantil?",
+            "opts": [
+              "La selva norte, la costa sur y Centroamérica",
+              "Ecuador, la Costa Central y el Altiplano",
+              "Solo los valles de Ica y Lima"
+            ],
+            "correct": 1,
+            "explicacion": "Mediante balsas y recuas de llamas, unían el norte cálido con el sur andino, monopolizando el tráfico de bienes suntuarios."
+          }
+        },
+        {
+          "texto": "Tráfico de mullu (Ecuador) = bioindicador de desastres naturales.",
+          "pregunta": {
+            "q": "¿Qué uso científico y ceremonial le daban a la concha traída desde aguas ecuatorianas?",
+            "opts": [
+              "Moneda exclusiva para pago de tributos",
+              "Bioindicador de fenómenos climáticos y desastres",
+              "Material principal para la construcción de balsas"
+            ],
+            "correct": 1,
+            "explicacion": "La aparición del Spondylus en costas más al sur anunciaba alteraciones térmicas del mar, como el Fenómeno del Niño."
+          }
+        }
+      ]
+    },
+    {
+      "titulo": "Cultura Chachapoyas",
+      "puntos": [
+        {
+          "texto": "Ubicación ∈ San Martín + Amazonas.",
+          "pregunta": {
+            "q": "¿En qué zona geográfica del actual Perú se estableció esta sociedad?",
+            "opts": [
+              "En la costa central de Lima",
+              "En la meseta del Collao",
+              "En los departamentos de San Martín y Amazonas"
+            ],
+            "correct": 2,
+            "explicacion": "Habitaron los abruptos territorios de la selva alta o ceja de selva norteña."
+          }
+        },
+        {
+          "texto": "Sitios principales = Kuélap + Gran Pajatén.",
+          "pregunta": {
+            "q": "¿Cuáles son los conjuntos arquitectónicos más representativos de los Chachapoyas?",
+            "opts": [
+              "Tambo de Mora y Chot",
+              "Kuélap y el Gran Pajatén",
+              "Chan Chan y Batán Grande"
+            ],
+            "correct": 1,
+            "explicacion": "Estas fortalezas y centros urbanos de piedra muestran su adaptación y control de un entorno geográfico difícil."
+          }
+        },
+        {
+          "texto": "Patrón funerario → destacan sarcófagos de Karajía.",
+          "pregunta": {
+            "q": "¿Qué tipo de entierros singulares dejaron en las paredes rocosas?",
+            "opts": [
+              "Las chullpas cilíndricas de adobe",
+              "Las tumbas en forma de bota invertida",
+              "Los sarcófagos antropomorfos de Karajía"
+            ],
+            "correct": 2,
+            "explicacion": "Cápsulas funerarias elaboradas con barro y paja, con apariencia humana, ubicadas en acantilados de difícil acceso."
+          }
+        }
+      ]
+    },
+    {
+      "titulo": "Reinos Aymaras",
+      "puntos": [
+        {
+          "texto": "Ubicación ∈ altiplano.",
+          "pregunta": {
+            "q": "¿En qué entorno geográfico se desarrollaron estos agrupamientos políticos?",
+            "opts": [
+              "En la selva baja",
+              "En el altiplano andino",
+              "En los desiertos de la costa sur"
+            ],
+            "correct": 1,
+            "explicacion": "Se asentaron en la vasta meseta del Collao, adaptando su economía a la gran altitud y el frío."
+          }
+        },
+        {
+          "texto": "Reinos ⊃ Canchis + Pacajes + Collas + Lupacas.",
+          "pregunta": {
+            "q": "¿Qué grupos o etnias formaban parte de este conjunto de reinos?",
+            "opts": [
+              "Chimús, Sicán y Lambayeques",
+              "Canchis, Pacajes, Collas y Lupacas",
+              "Chachapoyas, Huancas y Chancas"
+            ],
+            "correct": 1,
+            "explicacion": "Fueron diferentes señoríos lacustres y ganaderos que compartían rasgos culturales pero mantenían autonomía política."
+          }
+        },
+        {
+          "texto": "Cultura = adoptan avances de Tiahuanaco.",
+          "pregunta": {
+            "q": "¿De qué civilización anterior heredaron sus conocimientos y estrategias de adaptación?",
+            "opts": [
+              "Del Imperio Wari",
+              "De la cultura Chavín",
+              "De la cultura Tiahuanaco"
+            ],
+            "correct": 2,
+            "explicacion": "Continuaron prácticas ancestrales del Horizonte Medio como el uso de camellones y la deshidratación de alimentos."
+          }
+        },
+        {
+          "texto": "Entierros = tumbas chullpas.",
+          "pregunta": {
+            "q": "¿Qué nombre reciben las estructuras funerarias típicas construidas por estos reinos?",
+            "opts": [
+              "Huacas piramidales",
+              "Sarcófagos antropomorfos",
+              "Tumbas tipo chullpas"
+            ],
+            "correct": 2,
+            "explicacion": "Eran imponentes torres funerarias donde depositaban a sus líderes y nobles de la élite ganadera."
+          }
+        }
+      ]
+    }
+  ]
+}

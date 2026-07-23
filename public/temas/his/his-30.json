@@ -1,0 +1,415 @@
+{
+  "curso": "Historia del Perú",
+  "tema": "Invasión al Tahuantinsuyo",
+  "glosario": {
+    "1508": "Año de la división de tierra y Capitulación de Burgos.",
+    "Gobernación Nueva Andalucía": "Gobernación asignada a Alonso de Ojeda.",
+    "Gobernación Nueva Castilla": "Gobernación asignada a Diego de Nicuesa.",
+    "1513": "Año del descubrimiento del mar del Sur por Balboa.",
+    "Empresa del Levante": "Sociedad formada por Pizarro, Almagro y Luque.",
+    "Gaspar de Espinoza": "Financiista de la empresa conquistadora.",
+    "I viaje (1524)": "Primera expedición de exploración.",
+    "II viaje (1526)": "Segunda expedición de descubrimiento.",
+    "Felipillo": "Intérprete indígena de la expedición.",
+    "Hito": "Momento crucial o episodio límite.",
+    "I desembarco": "Primer arribo oficial a Tumbes.",
+    "Capitulación de Toledo (1529)": "Acuerdo que autorizó el tercer viaje y otorgó privilegios.",
+    "III viaje (1531-1532)": "Expedición final de conquista.",
+    "Atahualpa": "Inca capturado durante la invasión.",
+    "Amaruwasi": "Prisión de Atahualpa llamada casa de la serpiente.",
+    "Huáscar": "Inca rival y hermano de Atahualpa.",
+    "Rescate": "Ofrecimiento de metales preciosos por libertad.",
+    "Almagro": "Socio que arribó con refuerzos.",
+    "garrote": "Método de ejecución aplicado al Inca.",
+    "etnias": "Pueblos indígenas descontentos con el poder cusqueño.",
+    "guerra civil": "Conflicto sucesorio entre Huáscar y Atahualpa.",
+    "providencialismo español": "Ideología que atribuía el éxito a la voluntad divina.",
+    "colonización": "Proceso de implantación del sistema colonial.",
+    "colapso demográfico": "Disminución drástica de población nativa.",
+    "aculturación": "Pérdida y asimilación de elementos culturales.",
+    "mestizaje": "Cruce biológico y cultural entre poblaciones.",
+    "=": "Definición / es",
+    "+": "Combinación / junto con",
+    "⇒": "Causa",
+    "→": "Produce, genera o resultado",
+    "⊃": "Contiene"
+  },
+  "theory": [
+    {
+      "titulo": "Antecedentes",
+      "puntos": [
+        {
+          "texto": "1508 = división de tierra + Capitulación de Burgos.",
+          "pregunta": {
+            "q": "¿Qué acuerdo político territorial se estableció en 1508?",
+            "opts": [
+              "Capitulación de Burgos",
+              "Capitulación de Toledo",
+              "Tratado de Tordesillas"
+            ],
+            "correct": 0,
+            "explicacion": "La Capitulación de Burgos de 1508 dividió tierra firme en gobernaciones."
+          }
+        },
+        {
+          "texto": "Gobernación Nueva Andalucía ⇒ gobernada por Ojeda.",
+          "pregunta": {
+            "q": "¿Quién estuvo a cargo de la Gobernación de Nueva Andalucía?",
+            "opts": [
+              "Diego de Nicuesa",
+              "Alonso de Ojeda",
+              "Vasco Núñez de Balboa"
+            ],
+            "correct": 1,
+            "explicacion": "Alonso de Ojeda recibió la gobernación de Nueva Andalucía."
+          }
+        },
+        {
+          "texto": "Gobernación Nueva Castilla ⇒ gobernada por D. Nicuesa.",
+          "pregunta": {
+            "q": "¿A quién le correspondió la Gobernación de Nueva Castilla?",
+            "opts": [
+              "Francisco Pizarro",
+              "Hernando de Luque",
+              "Diego de Nicuesa"
+            ],
+            "correct": 2,
+            "explicacion": "Diego de Nicuesa fue designado para la gobernación de Nueva Castilla."
+          }
+        },
+        {
+          "texto": "1513 = descubrimiento del mar del Sur por Balboa.",
+          "pregunta": {
+            "q": "¿Qué importante descubrimiento marítimo realizó Balboa en 1513?",
+            "opts": [
+              "Océano Pacífico (mar del Sur)",
+              "Estrecho de Magallanes",
+              "Río Amazonas"
+            ],
+            "correct": 0,
+            "explicacion": "Vasco Núñez de Balboa descubrió el mar del Sur, conocido posteriormente como el océano Pacífico."
+          }
+        }
+      ]
+    },
+    {
+      "titulo": "Viajes de Pizarro",
+      "puntos": [
+        {
+          "texto": "Empresa del Levante = Pizarro + Almagro + Luque.",
+          "pregunta": {
+            "q": "¿Quiénes conformaron inicialmente la Empresa del Levante?",
+            "opts": [
+              "Pizarro, Balboa y Ojeda",
+              "Pizarro, Almagro y Luque",
+              "Almagro, Nicuesa y Luque"
+            ],
+            "correct": 1,
+            "explicacion": "La sociedad conquistadora estuvo integrada por Francisco Pizarro, Diego de Almagro y Hernando de Luque."
+          }
+        },
+        {
+          "texto": "Gaspar de Espinoza = financiista de la empresa.",
+          "pregunta": {
+            "q": "¿Cuál fue el rol principal de Gaspar de Espinoza?",
+            "opts": [
+              "Financiista",
+              "Cronista oficial",
+              "Capitán de infantería"
+            ],
+            "correct": 0,
+            "explicacion": "Gaspar de Espinoza participó como el respaldo financiero de la expedición."
+          }
+        },
+        {
+          "texto": "I viaje (1524) = exploración → río San Juan.",
+          "pregunta": {
+            "q": "¿Cuál fue el carácter y límite del primer viaje de Pizarro?",
+            "opts": [
+              "Descubrimiento hasta Tumbes",
+              "Conquista hasta Cajamarca",
+              "Exploración hasta el río San Juan"
+            ],
+            "correct": 2,
+            "explicacion": "El primer viaje tuvo un carácter netamente exploratorio, llegando hasta el río San Juan."
+          }
+        },
+        {
+          "texto": "II viaje (1526) = descubrimiento → B. Ruiz captura balseros.",
+          "pregunta": {
+            "q": "¿Qué hito destacó durante el segundo viaje de Pizarro?",
+            "opts": [
+              "La captura de balseros norteños por B. Ruiz",
+              "La firma de la Capitulación de Toledo",
+              "El desembarco en Tumbes"
+            ],
+            "correct": 0,
+            "explicacion": "Bartolomé Ruiz capturó una balsa con indios tallanes, confirmando la existencia del Tahuantinsuyo."
+          }
+        },
+        {
+          "texto": "Felipillo = intérprete destacado en segundo viaje.",
+          "pregunta": {
+            "q": "¿Qué rol cumplió Felipillo durante los viajes?",
+            "opts": [
+              "Intérprete",
+              "Capitán de navío",
+              "Financiista"
+            ],
+            "correct": 0,
+            "explicacion": "Felipillo actuó como traductor o lengua entre los españoles y los nativos."
+          }
+        },
+        {
+          "texto": "Hito = pleito del gallo (13 soldados).",
+          "pregunta": {
+            "q": "¿Cuántos soldados decidieron continuar con Pizarro tras la isla del Gallo?",
+            "opts": [
+              "Treinta",
+              "Trece",
+              "Doce"
+            ],
+            "correct": 1,
+            "explicacion": "Solo trece hombres decidieron seguir adelante tras trazar la línea en la arena en la isla del Gallo."
+          }
+        },
+        {
+          "texto": "I desembarco = llegada a Tumbes.",
+          "pregunta": {
+            "q": "¿Dónde se realizó el primer desembarco oficial en territorio norteño?",
+            "opts": [
+              "Río Santa",
+              "Cajamarca",
+              "Tumbes"
+            ],
+            "correct": 2,
+            "explicacion": "Los expedicionarios lograron tocar tierra firme por primera vez en Tumbes."
+          }
+        },
+        {
+          "texto": "Expedición → llega hasta el río Santa.",
+          "pregunta": {
+            "q": "¿Hasta qué río llegaron los españoles en sus exploraciones costeras?",
+            "opts": [
+              "Río Santa",
+              "Río San Juan",
+              "Río Rímac"
+            ],
+            "correct": 0,
+            "explicacion": "Las exploraciones costeras avanzaron hacia el sur hasta la zona del río Santa."
+          }
+        },
+        {
+          "texto": "Capitulación de Toledo (1529) = premios 3er viaje + Quinto real.",
+          "pregunta": {
+            "q": "¿Qué estableció la Capitulación de Toledo en 1529?",
+            "opts": [
+              "La disolución de la Empresa",
+              "Mayores privilegios y autorización para el tercer viaje",
+              "El nombramiento de Almagro como gobernador"
+            ],
+            "correct": 1,
+            "explicacion": "Este documento otorgó mayores privilegios a Francisco Pizarro y legalizó la empresa del tercer viaje."
+          }
+        },
+        {
+          "texto": "III viaje (1531-1532) = 2do desembarco en Tumbes.",
+          "pregunta": {
+            "q": "¿Qué acción marcó el inicio del tercer viaje en 1531-1532?",
+            "opts": [
+              "Segundo desembarco en Tumbes",
+              "Firma del tratado de Burgos",
+              "Captura de Huáscar"
+            ],
+            "correct": 0,
+            "explicacion": "El tercer viaje comenzó formalmente con un segundo desembarco en la zona de Tumbes."
+          }
+        },
+        {
+          "texto": "Atahualpa ⊃ H. Soto + H. Pizarro.",
+          "pregunta": {
+            "q": "¿Quiénes se entrevistaron con Atahualpa en Pultumarca?",
+            "opts": [
+              "Diego de Almagro y Francisco Pizarro",
+              "Hernando de Soto y Hernando Pizarro",
+              "Vicente Valverde y Felipillo"
+            ],
+            "correct": 1,
+            "explicacion": "Hernando de Soto y Hernando Pizarro acudieron a entrevistarse con el Inca Atahualpa."
+          }
+        },
+        {
+          "texto": "Captura del inca = requerimiento (v. Valverde).",
+          "pregunta": {
+            "q": "¿Qué fórmula legal se leyó antes de la captura del Inca?",
+            "opts": [
+              "El requerimiento por Vicente Valverde",
+              "La Capitulación de Toledo",
+              "El tratado de Burgos"
+            ],
+            "correct": 0,
+            "explicacion": "El fraile Vicente Valverde leyó el requerimiento exigiendo la sumisión al cristianismo y al rey."
+          }
+        }
+      ]
+    },
+    {
+      "titulo": "Atahualpa en prisión",
+      "puntos": [
+        {
+          "texto": "Amaruwasi = casa de la serpiente.",
+          "pregunta": {
+            "q": "¿Qué nombre recibió la prisión de Atahualpa?",
+            "opts": [
+              "Pultumarca",
+              "Amaruwasi",
+              "Tumbes"
+            ],
+            "correct": 1,
+            "explicacion": "Atahualpa estuvo encarcelado en el Amaruwasi o casa de la serpiente."
+          }
+        },
+        {
+          "texto": "Atahualpa en prisión ⇒ manda asesinar a Huáscar.",
+          "pregunta": {
+            "q": "¿Qué orden dio Atahualpa desde su prisión respecto a Huáscar?",
+            "opts": [
+              "Mandar a asesinarlo",
+              "Nombrarlo co-gobernante",
+              "Liberarlo y enviarlo al Cuzco"
+            ],
+            "correct": 0,
+            "explicacion": "Estando cautivo, Atahualpa ordenó la ejecución de su hermano Huáscar para evitar alianzas."
+          }
+        },
+        {
+          "texto": "Rescate = ofrece oro y plata.",
+          "pregunta": {
+            "q": "¿Qué ofreció Atahualpa a cambio de su libertad?",
+            "opts": [
+              "Tierras y ganado",
+              "Tropas y fortalezas",
+              "Oro y plata"
+            ],
+            "correct": 2,
+            "explicacion": "Atahualpa ofreció riquezas en metales preciosos por su rescate."
+          }
+        },
+        {
+          "texto": "Llegada de Almagro = refuerzo a hueste.",
+          "pregunta": {
+            "q": "¿Qué significó la llegada de Diego de Almagro?",
+            "opts": [
+              "La llegada de refuerzos",
+              "La partida de Pizarro a España",
+              "La liberación del Inca"
+            ],
+            "correct": 0,
+            "explicacion": "Almagro se sumó a la expedición trayendo nuevos hombres y recursos."
+          }
+        },
+        {
+          "texto": "Sentencia = enviado al garrote.",
+          "pregunta": {
+            "q": "¿Cuál fue el método de ejecución aplicado al Inca?",
+            "opts": [
+              "La hoguera",
+              "El garrote",
+              "El destierro"
+            ],
+            "correct": 1,
+            "explicacion": "Atahualpa fue ejecutado mediante la pena del garrote tras un juicio sumario."
+          }
+        }
+      ]
+    },
+    {
+      "titulo": "Causas de la caída",
+      "puntos": [
+        {
+          "texto": "Apoyo de etnias = factor determinante.",
+          "pregunta": {
+            "q": "¿Qué factor indígena interno favoreció la caída del imperio?",
+            "opts": [
+              "El apoyo de etnias descontentas a los españoles",
+              "La unificación militar de los chancas",
+              "La alianza total de los curacas con Huáscar"
+            ],
+            "correct": 0,
+            "explicacion": "Diversas etnias oprimidas por los incas colaboraron con las huestes invasoras."
+          }
+        },
+        {
+          "texto": "Guerra civil = crisis política interna.",
+          "pregunta": {
+            "q": "¿Cómo afectó la guerra civil al Imperio?",
+            "opts": [
+              "Fortaleció el ejército imperial frente a invasores",
+              "Consolidó el poder absoluto de la nobleza cusqueña",
+              "Debilitó profundamente la unidad y organización del Estado"
+            ],
+            "correct": 2,
+            "explicacion": "El enfrentamiento entre Huáscar y Atahualpa fragmentó militar y políticamente al Tahuantinsuyo."
+          }
+        },
+        {
+          "texto": "Providencialismo español = creencia en superioridad divina.",
+          "pregunta": {
+            "q": "¿Qué concepción ideológica predominó entre los españoles sobre su éxito?",
+            "opts": [
+              "El providencialismo español como favor divino",
+              "La superioridad numérica absoluta",
+              "El conocimiento avanzado de la metalurgia andina"
+            ],
+            "correct": 0,
+            "explicacion": "Los conquistadores interpretaban sus victorias como designios y protección de la providencia."
+          }
+        }
+      ]
+    },
+    {
+      "titulo": "Consecuencias",
+      "puntos": [
+        {
+          "texto": "Inicio colonización = dominio hispano.",
+          "pregunta": {
+            "q": "¿Qué proceso político se inició tras la caída del Tahuantinsuyo?",
+            "opts": [
+              "La restauración del imperio incaico",
+              "El inicio de la colonización española",
+              "La independencia de los pueblos del norte"
+            ],
+            "correct": 1,
+            "explicacion": "La caída del imperio dio pase al establecimiento del régimen colonial en los Andes."
+          }
+        },
+        {
+          "texto": "Colapso demográfico = caída población indígena.",
+          "pregunta": {
+            "q": "¿Qué significó el colapso demográfico para la población nativa?",
+            "opts": [
+              "Una drástica disminución de la población indígena",
+              "Un aumento de la mano de obra disponible",
+              "La migración masiva hacia Europa"
+            ],
+            "correct": 0,
+            "explicacion": "Las epidemias, trabajos forzados y la guerra provocaron una gran catástrofe demográfica."
+          }
+        },
+        {
+          "texto": "Aculturación y mestizaje = choque cultural.",
+          "pregunta": {
+            "q": "¿Qué procesos caracterizaron el periodo posterior?",
+            "opts": [
+              "Aislamiento cultural total",
+              "Homogeneización absoluta de costumbres",
+              "Aculturación y mestizaje"
+            ],
+            "correct": 2,
+            "explicacion": "El choque de culturas derivó en la aculturación de los nativos y un intenso mestizaje."
+          }
+        }
+      ]
+    }
+  ]
+}

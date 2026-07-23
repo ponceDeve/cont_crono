@@ -1,0 +1,462 @@
+{
+  "curso": "Historia Universal",
+  "tema": "Feudalismo e Imperio Bizantino",
+  "glosario": {
+    "Feudalismo": "Sistema político, económico y social de la Edad Media basado en la tenencia de tierras y relaciones de vasallaje.",
+    "Feudo": "Tierra, bienes o derechos otorgados por un señor a su vasallo a cambio de fidelidad.",
+    "Vasallo": "Hombre libre, generalmente noble, que jura fidelidad a un señor superior a cambio de un feudo.",
+    "Siervo": "Campesino no libre, vinculado a la tierra del señor feudal y sujeto a su autoridad.",
+    "Corvea": "Obligación del siervo de trabajar gratuitamente en las tierras del señor.",
+    "Manso": "Parcela de tierra entregada a un siervo para su subsistencia familiar.",
+    "Cisma de Oriente": "Separación definitiva ocurrida en 1054 entre la Iglesia de Roma y la de Constantinopla.",
+    "=": "Definición, es, equivale a",
+    "→": "Produce, conduce a, está relacionado con, liderado por",
+    "⇒": "Causa, origina, tiene como consecuencia",
+    "⊃": "Contiene, está conformado por",
+    "∈": "Pertenece a, forma parte de",
+    "+": "En combinación con, y"
+  },
+  "theory": [
+    {
+      "titulo": "Origen y Factores del Feudalismo",
+      "puntos": [
+        {
+          "texto": "Feudalismo → origen = Tratado de Verdún",
+          "pregunta": {
+            "q": "¿Qué tratado histórico marcó el origen político del sistema feudal tras la desintegración del poder central?",
+            "opts": [
+              "El Tratado de Mersen",
+              "El Tratado de Verdún",
+              "El Edicto de Quierzy"
+            ],
+            "correct": 1,
+            "explicacion": "El Tratado de Verdún (843) fragmentó el Imperio Carolingio, debilitando la figura real y dando inicio a la delegación de poder a los nobles locales."
+          }
+        },
+        {
+          "texto": "II oleada de invasiones bárbaras ⇒ inseguridad",
+          "pregunta": {
+            "q": "¿Qué consecuencia social generó la segunda oleada de invasiones bárbaras en Europa?",
+            "opts": [
+              "El aumento del comercio exterior",
+              "Un periodo de gran paz institucional",
+              "Un clima de inseguridad generalizada"
+            ],
+            "correct": 2,
+            "explicacion": "El asedio de nuevos pueblos invasores provocó miedo e inestabilidad, obligando a las poblaciones a buscar protección militar a nivel local."
+          }
+        },
+        {
+          "texto": "Inseguridad + costumbres germánicas ⇒ feudalismo",
+          "pregunta": {
+            "q": "¿Qué combinación de factores propició el surgimiento del feudalismo como sistema organizativo?",
+            "opts": [
+              "La inseguridad y las costumbres de relación germánicas",
+              "La expansión del Imperio Romano y la paz armada",
+              "El crecimiento urbano y las rutas comerciales"
+            ],
+            "correct": 0,
+            "explicacion": "La necesidad de protección se unió a las tradiciones germánicas de lealtad personal para sentar las bases del vasallaje y el régimen feudal."
+          }
+        },
+        {
+          "texto": "Edicto de Mersen = protección para hombres libres",
+          "pregunta": {
+            "q": "¿Qué disposición se estableció legalmente a través del Edicto de Mersen?",
+            "opts": [
+              "La obligación de los hombres libres de buscar protección",
+              "La entrega de tierras a la iglesia romana",
+              "La exención de impuestos para los siervos"
+            ],
+            "correct": 0,
+            "explicacion": "Este edicto formalizó que todo hombre libre debía encomendarse a un señor más poderoso para garantizar su protección."
+          }
+        },
+        {
+          "texto": "Edicto de Quierzy = tierras hereditarias",
+          "pregunta": {
+            "q": "¿Cuál fue el impacto principal del Edicto de Quierzy sobre la posesión territorial?",
+            "opts": [
+              "Estableció que las tierras regresaran al rey tras la muerte",
+              "Determinó que las tierras entregadas fueran hereditarias",
+              "Prohibió la entrega de tierras a los vasallos"
+            ],
+            "correct": 1,
+            "explicacion": "Este decreto permitió que los feudos otorgados por el monarca pudieran ser heredados por los hijos de los nobles, consolidando su poder."
+          }
+        }
+      ]
+    },
+    {
+      "titulo": "Elementos del Feudalismo: Feudo y Señor",
+      "puntos": [
+        {
+          "texto": "Feudo = beneficio ⊃ tierra + bienes + siervo",
+          "pregunta": {
+            "q": "¿Qué elementos integraban el beneficio económico conocido como feudo?",
+            "opts": [
+              "Tierra, bienes y siervos",
+              "Únicamente el uso de la tierra agrícola",
+              "Monedas de oro y títulos nobiliarios"
+            ],
+            "correct": 0,
+            "explicacion": "El feudo no era solo un pedazo de terreno, sino un paquete que incluía los recursos naturales, las instalaciones y la mano de obra adscrita a él."
+          }
+        },
+        {
+          "texto": "Tierras del señor feudal = reserva",
+          "pregunta": {
+            "q": "¿Cómo se denominaba a la porción de tierra de uso exclusivo y directo del señor feudal?",
+            "opts": [
+              "Manso",
+              "Feudo de altar",
+              "Reserva"
+            ],
+            "correct": 2,
+            "explicacion": "La reserva señorial era trabajada gratuitamente por los siervos y toda su producción iba directamente a los almacenes del señor."
+          }
+        },
+        {
+          "texto": "Tierras de la iglesia = feudos de altar",
+          "pregunta": {
+            "q": "¿Qué nombre recibían las extensiones territoriales que pertenecían a la institución eclesiástica?",
+            "opts": [
+              "Feudos de altar",
+              "Reservas monásticas",
+              "Mansos eclesiásticos"
+            ],
+            "correct": 0,
+            "explicacion": "La Iglesia también actuaba como un señor feudal, poseyendo vastas propiedades denominadas feudos de altar."
+          }
+        },
+        {
+          "texto": "Señor feudal ∈ nobleza",
+          "pregunta": {
+            "q": "¿A qué estamento o grupo social pertenecía la figura del señor feudal?",
+            "opts": [
+              "A la burguesía comercial",
+              "A la nobleza",
+              "A los siervos libres"
+            ],
+            "correct": 1,
+            "explicacion": "Los señores feudales formaban parte de la aristocracia terrateniente, manteniendo los privilegios estamentales propios de la nobleza."
+          }
+        },
+        {
+          "texto": "Señor feudal → autonomía + soberanía",
+          "pregunta": {
+            "q": "¿Qué características de poder político ejercía el señor feudal dentro de sus dominios?",
+            "opts": [
+              "Dependencia estricta de las leyes del rey",
+              "Autonomía y soberanía",
+              "Gobierno democrático junto a los siervos"
+            ],
+            "correct": 1,
+            "explicacion": "Ante la debilidad de los reyes, el señor feudal actuaba como un soberano local, administrando justicia, acuñando moneda y creando leyes en su territorio."
+          }
+        }
+      ]
+    },
+    {
+      "titulo": "Elementos del Feudalismo: El Vasallo",
+      "puntos": [
+        {
+          "texto": "Vasallo ∈ nobleza",
+          "pregunta": {
+            "q": "¿Qué condición social era requisito habitual para ser considerado vasallo en el contrato feudal?",
+            "opts": [
+              "Pertenecer a la nobleza",
+              "Ser un campesino adscrito a la tierra",
+              "Formar parte del clero regular"
+            ],
+            "correct": 0,
+            "explicacion": "El vasallaje era un pacto entre iguales socialmente hablando, es decir, entre miembros del estamento nobiliario, aunque de distinta jerarquía."
+          }
+        },
+        {
+          "texto": "Vasallo → sirve a señor feudal",
+          "pregunta": {
+            "q": "¿Hacia quién dirigía su servicio directo y lealtad el vasallo?",
+            "opts": [
+              "Al emperador bizantino",
+              "Al señor feudal",
+              "A la comunidad de siervos"
+            ],
+            "correct": 1,
+            "explicacion": "El vasallo se comprometía a través del homenaje a servir y acatar las órdenes de un noble de rango superior."
+          }
+        },
+        {
+          "texto": "Vasallo → recibe feudo en usufructo",
+          "pregunta": {
+            "q": "¿Qué entregaba el señor al vasallo como compensación por su servicio y fidelidad?",
+            "opts": [
+              "Un sueldo anual en monedas de plata",
+              "Un feudo para su usufructo",
+              "La libertad absoluta de impuestos comerciales"
+            ],
+            "correct": 1,
+            "explicacion": "Mediante la ceremonia de investidura, el vasallo obtenía el derecho de explotar económicamente el feudo concedido por su señor."
+          }
+        },
+        {
+          "texto": "Obligaciones del vasallo ⊃ lealtad + auxilium + consilium",
+          "pregunta": {
+            "q": "¿Cuáles eran las tres principales obligaciones que adquiría el vasallo con su señor?",
+            "opts": [
+              "Pago de talla, banalidades y pontazgo",
+              "Lealtad, auxilium y consilium",
+              "Trabajo de corvea, entrega de primicia y diezmo"
+            ],
+            "correct": 1,
+            "explicacion": "El contrato de vasallaje exigía no traicionar al señor (lealtad), ayudarlo en la guerra (auxilium) y asesorarlo (consilium)."
+          }
+        },
+        {
+          "texto": "Auxilium = apoyo militar",
+          "pregunta": {
+            "q": "¿En qué consistía el deber de auxilium que prestaba el vasallo?",
+            "opts": [
+              "En brindar apoyo militar",
+              "En recolectar las cosechas del señor",
+              "En pagar el rescate del rey"
+            ],
+            "correct": 0,
+            "explicacion": "El auxilium requería que el vasallo acudiera con sus propias tropas o armadura para defender al señor o acompañarlo en campañas bélicas."
+          }
+        },
+        {
+          "texto": "Consilium = apoyo político",
+          "pregunta": {
+            "q": "¿Qué tipo de contribución implicaba el cumplimiento del consilium?",
+            "opts": [
+              "La defensa armada del castillo",
+              "El trabajo físico en las reservas",
+              "El apoyo político y consejo"
+            ],
+            "correct": 2,
+            "explicacion": "El consilium consistía en formar parte de la corte del señor para aconsejarle en la toma de decisiones legales, políticas o judiciales."
+          }
+        }
+      ]
+    },
+    {
+      "titulo": "Elementos del Feudalismo: El Siervo y Tributos",
+      "puntos": [
+        {
+          "texto": "Siervo = campesino adscrito al feudo",
+          "pregunta": {
+            "q": "¿Cómo se define la condición del siervo dentro de la estructura agraria medieval?",
+            "opts": [
+              "Un mercenario contratado estacionalmente",
+              "Un campesino adscrito permanentemente al feudo",
+              "Un comerciante que alquilaba tierras"
+            ],
+            "correct": 1,
+            "explicacion": "El siervo no era libre de abandonar la tierra en la que había nacido; estaba vinculado legalmente a ella y a la autoridad de su señor."
+          }
+        },
+        {
+          "texto": "Siervo → relación de servidumbre",
+          "pregunta": {
+            "q": "¿Qué tipo de vínculo jurídico y social mantenía el siervo con el señor feudal?",
+            "opts": [
+              "Un pacto de vasallaje",
+              "Una relación de servidumbre",
+              "Un contrato comercial equitativo"
+            ],
+            "correct": 1,
+            "explicacion": "A diferencia del vasallo (relación de honor y lealtad), el siervo estaba sometido a un vínculo de servidumbre, que implicaba obediencia y tributación obligatoria."
+          }
+        },
+        {
+          "texto": "Siervo → recibe manso",
+          "pregunta": {
+            "q": "¿Qué elemento entregaba el señor al siervo para garantizar su propia supervivencia familiar?",
+            "opts": [
+              "Una parcela llamada manso",
+              "Una reserva señorial",
+              "Un título de usufructo vitalicio"
+            ],
+            "correct": 0,
+            "explicacion": "El manso era una pequeña porción de tierra dentro del feudo que el siervo cultivaba para alimentar a su familia, a cambio de pagar tributos."
+          }
+        },
+        {
+          "texto": "Corvea = trabajo gratuito del siervo",
+          "pregunta": {
+            "q": "¿Qué obligación laboral no remunerada debía cumplir el siervo a favor del señor?",
+            "opts": [
+              "El pago de la talla",
+              "El auxilium militar",
+              "El trabajo de corvea"
+            ],
+            "correct": 2,
+            "explicacion": "La corvea consistía en días de trabajo físico obligatorio que el siervo debía realizar en la reserva personal del señor feudal sin recibir pago."
+          }
+        },
+        {
+          "texto": "Impuesto Talla = renta",
+          "pregunta": {
+            "q": "¿A qué correspondía el pago del tributo conocido como talla?",
+            "opts": [
+              "Al uso obligatorio del puente",
+              "Al diezmo para la Iglesia",
+              "A la renta general impuesta al siervo"
+            ],
+            "correct": 2,
+            "explicacion": "La talla era un impuesto o renta arbitraria que el señor cobraba a sus siervos como reconocimiento de su dominio."
+          }
+        },
+        {
+          "texto": "Impuesto Banalidades = pago por bienes",
+          "pregunta": {
+            "q": "¿Por qué motivo específico los campesinos debían pagar el impuesto de las banalidades?",
+            "opts": [
+              "Por usar los bienes del señor como el molino o el horno",
+              "Por transitar libremente por los caminos públicos",
+              "Por el derecho a portar armas y escudos"
+            ],
+            "correct": 0,
+            "explicacion": "Los señores poseían el monopolio de la infraestructura (molinos, hornos, lagares) y exigían un pago cada vez que los siervos necesitaban usarlos."
+          }
+        },
+        {
+          "texto": "Impuesto Pontazgo = uso de puentes",
+          "pregunta": {
+            "q": "¿Qué actividad generaba la obligación de pagar el tributo del pontazgo?",
+            "opts": [
+              "Cruzar o utilizar los puentes del feudo",
+              "Sembrar en las tierras eclesiásticas",
+              "Heredar el manso a la siguiente generación"
+            ],
+            "correct": 0,
+            "explicacion": "Como dueños absolutos de la infraestructura de su territorio, los señores cobraban peajes o pontazgos a quienes transitaran por sus puentes y caminos."
+          }
+        },
+        {
+          "texto": "Impuesto Diezmo = 10% para la iglesia",
+          "pregunta": {
+            "q": "¿A qué entidad estaba destinado el cobro del impuesto llamado diezmo?",
+            "opts": [
+              "Al tesoro imperial",
+              "A las arcas del señor feudal",
+              "A la iglesia"
+            ],
+            "correct": 2,
+            "explicacion": "El diezmo obligaba a los campesinos a entregar la décima parte del producto de sus cosechas para el sostenimiento del clero."
+          }
+        },
+        {
+          "texto": "Impuesto Primicia = pago con ganado",
+          "pregunta": {
+            "q": "¿Con qué tipo de bienes se abonaba tradicionalmente el impuesto de la primicia?",
+            "opts": [
+              "Con monedas de oro acuñadas en el feudo",
+              "Con animales de ganado",
+              "Con armas y armaduras confiscadas"
+            ],
+            "correct": 1,
+            "explicacion": "Este impuesto exigía que los campesinos entregaran a la Iglesia o al señor los primeros frutos de sus tierras y las primeras crías de sus animales."
+          }
+        }
+      ]
+    },
+    {
+      "titulo": "El Imperio Bizantino: Constantino IX y XI",
+      "puntos": [
+        {
+          "texto": "Constantino IX → Cisma de Oriente (1054)",
+          "pregunta": {
+            "q": "¿Bajo el gobierno de qué emperador bizantino se consumó el Cisma de Oriente en el año 1054?",
+            "opts": [
+              "Constantino XI",
+              "Constantino IX",
+              "Justiniano el Grande"
+            ],
+            "correct": 1,
+            "explicacion": "Durante el reinado de Constantino IX Monómaco, las tensiones religiosas acumuladas llevaron a la ruptura formal entre las iglesias de Oriente y Occidente."
+          }
+        },
+        {
+          "texto": "Cisma de Oriente ⊃ Igl. Apostólica Romana + Igl. Ortodoxa",
+          "pregunta": {
+            "q": "¿Qué dos grandes instituciones religiosas resultaron de la división provocada por el Cisma de Oriente?",
+            "opts": [
+              "Iglesia Luterana e Iglesia Calvinista",
+              "Iglesia Apostólica Romana e Iglesia Ortodoxa",
+              "Iglesia Anglicana e Iglesia Copta"
+            ],
+            "correct": 1,
+            "explicacion": "El conflicto teológico y de autoridad partió a la cristiandad en dos ramas principales que se mantuvieron separadas hasta la actualidad."
+          }
+        },
+        {
+          "texto": "Igl. Apostólica Romana → liderada por Papa",
+          "pregunta": {
+            "q": "¿Quién ejercía la máxima autoridad sobre la Iglesia Apostólica Romana en Europa Occidental?",
+            "opts": [
+              "El Papa",
+              "El Patriarca de Constantinopla",
+              "El Emperador del Sacro Imperio"
+            ],
+            "correct": 0,
+            "explicacion": "La iglesia occidental consolidó la figura del obispo de Roma (el Papa) como cabeza suprema e indiscutible de la cristiandad en esa región."
+          }
+        },
+        {
+          "texto": "Igl. Ortodoxa → liderada por Patriarca",
+          "pregunta": {
+            "q": "¿Quién asumió el liderazgo espiritual de la Iglesia Ortodoxa en Europa Oriental tras el cisma?",
+            "opts": [
+              "El Papa de Roma",
+              "El Patriarca",
+              "El Rey Franco"
+            ],
+            "correct": 1,
+            "explicacion": "La iglesia oriental rechazó la supremacía papal, manteniendo al Patriarca (junto con la influencia del emperador) como su principal guía espiritual."
+          }
+        },
+        {
+          "texto": "Constantino XI → Toma de Constantinopla (1453)",
+          "pregunta": {
+            "q": "¿Qué emperador se encontraba en el trono durante la caída final de Constantinopla en 1453?",
+            "opts": [
+              "Constantino IX",
+              "León III el Isaurio",
+              "Constantino XI"
+            ],
+            "correct": 2,
+            "explicacion": "Constantino XI Paleólogo fue el último emperador del Imperio Bizantino, quien murió defendiendo las murallas de su capital frente al asedio enemigo."
+          }
+        },
+        {
+          "texto": "Toma de Constantinopla ⇒ victoria de turcos otomanos",
+          "pregunta": {
+            "q": "¿Qué fuerza militar logró finalmente quebrar las defensas y tomar Constantinopla?",
+            "opts": [
+              "Los cruzados francos",
+              "Los mercenarios vikingos",
+              "Los turcos otomanos"
+            ],
+            "correct": 2,
+            "explicacion": "El avance imparable del Imperio Otomano terminó por someter a la antigua capital bizantina, poniendo fin a la Edad Media."
+          }
+        },
+        {
+          "texto": "Turcos otomanos → liderados por Mehmet II",
+          "pregunta": {
+            "q": "¿Quién fue el sultán que dirigió a las tropas otomanas hacia la victoria en Constantinopla?",
+            "opts": [
+              "Mehmet II",
+              "Solimán el Magnífico",
+              "Saladino"
+            ],
+            "correct": 0,
+            "explicacion": "A los 21 años, Mehmet II logró planificar y ejecutar exitosamente el asedio final contra las casi inexpugnables murallas de la ciudad."
+          }
+        }
+      ]
+    }
+  ]
+}

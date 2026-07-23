@@ -1,0 +1,469 @@
+{
+  "curso": "Historia del Perú",
+  "tema": "Formativo Inicial y Teorías del Origen de la Cultura Peruana",
+  "glosario": {
+    "Litoescultura": "Arte de esculpir o tallar en piedra.",
+    "Orfebrería": "Arte de labrar objetos en metales preciosos.",
+    "Panandina": "Que abarca un área muy extensa del territorio de los Andes.",
+    "Arawac": "Grupo de pueblos indígenas provenientes de la cuenca amazónica.",
+    "Cupisnique": "Cultura formativa de la costa norte peruana.",
+    "=": "Es / Definición / Representado por",
+    "→": "Da origen a / Produce / Evoluciona hacia",
+    "⊃": "Contiene / Incluye / Sostiene",
+    "∈": "Se ubica en / Pertenece a",
+    "+": "Y / Junto con / Sumado a"
+  },
+  "theory": [
+    {
+      "titulo": "Formativo Inicial",
+      "puntos": [
+        {
+          "texto": "Formativo Inicial → surge cerámica + litoescultura",
+          "pregunta": {
+            "q": "¿Qué manifestaciones artísticas y tecnológicas surgen durante el Formativo Inicial?",
+            "opts": [
+              "Escritura y metalurgia del hierro",
+              "Cerámica y litoescultura",
+              "Textilería y vidrio"
+            ],
+            "correct": 1,
+            "explicacion": "El inicio de este periodo está marcado por la aparición de la alfarería y el trabajo de tallado en piedra."
+          }
+        },
+        {
+          "texto": "Formativo Inicial → difusión centros ceremoniales",
+          "pregunta": {
+            "q": "¿Qué tipo de edificaciones experimentaron una gran expansión territorial en esta época?",
+            "opts": [
+              "Centros ceremoniales",
+              "Fortalezas militares",
+              "Palacios de gobierno"
+            ],
+            "correct": 0,
+            "explicacion": "El Formativo se caracteriza por la proliferación de complejos arquitectónicos dedicados al culto religioso."
+          }
+        },
+        {
+          "texto": "Formativo Inicial → nace orfebrería",
+          "pregunta": {
+            "q": "¿Qué importante técnica metalúrgica aparece en el Formativo Inicial?",
+            "opts": [
+              "La orfebrería",
+              "La siderurgia",
+              "La fundición de bronce"
+            ],
+            "correct": 0,
+            "explicacion": "Las sociedades de esta época comenzaron a trabajar metales preciosos para crear objetos rituales y adornos."
+          }
+        },
+        {
+          "texto": "Cupisnique ∈ La Libertad",
+          "pregunta": {
+            "q": "¿En qué actual región del Perú se desarrolló el centro de Cupisnique?",
+            "opts": [
+              "Lambayeque",
+              "La Libertad",
+              "Áncash"
+            ],
+            "correct": 1,
+            "explicacion": "Cupisnique fue un importante centro cultural del Formativo ubicado en la costa de la región La Libertad."
+          }
+        },
+        {
+          "texto": "Tutishcainyo ∈ Ucayali",
+          "pregunta": {
+            "q": "¿En qué región se ubica el centro formativo de Tutishcainyo?",
+            "opts": [
+              "Ucayali",
+              "Loreto",
+              "Amazonas"
+            ],
+            "correct": 0,
+            "explicacion": "Representa uno de los hallazgos de cerámica más antiguos de la Amazonía peruana, en la cuenca del Ucayali."
+          }
+        },
+        {
+          "texto": "Sechín Alto Moxeque ∈ Áncash",
+          "pregunta": {
+            "q": "¿A qué región pertenece el complejo arqueológico Sechín Alto Moxeque?",
+            "opts": [
+              "Lima",
+              "Ica",
+              "Áncash"
+            ],
+            "correct": 2,
+            "explicacion": "Este colosal centro ceremonial costeño se desarrolló en el valle de Casma, región Áncash."
+          }
+        },
+        {
+          "texto": "Pacopampa + Kuntur Wasi ∈ Cajamarca",
+          "pregunta": {
+            "q": "¿En qué región andina se localizan los centros de Pacopampa y Kuntur Wasi?",
+            "opts": [
+              "Piura",
+              "Cajamarca",
+              "Huánuco"
+            ],
+            "correct": 1,
+            "explicacion": "Ambos complejos son exponentes monumentales del Formativo en la sierra norte, específicamente en Cajamarca."
+          }
+        },
+        {
+          "texto": "Kotosh Wairajirca ∈ Huánuco",
+          "pregunta": {
+            "q": "¿Dónde se sitúa la fase formativa de Kotosh Wairajirca?",
+            "opts": [
+              "Pasco",
+              "Junín",
+              "Huánuco"
+            ],
+            "correct": 2,
+            "explicacion": "Es en la región de Huánuco donde se desarrolla esta fase temprana que introduce la cerámica en el sitio de Kotosh."
+          }
+        }
+      ]
+    },
+    {
+      "titulo": "Teoría Inmigracionista (Difusionista)",
+      "puntos": [
+        {
+          "texto": "Teoría Inmigracionista = Max Uhle",
+          "pregunta": {
+            "q": "¿Quién es el autor principal que propuso la Teoría Inmigracionista?",
+            "opts": [
+              "Julio C. Tello",
+              "Max Uhle",
+              "Federico Kauffman Doig"
+            ],
+            "correct": 1,
+            "explicacion": "El investigador alemán Max Uhle fue el pionero en plantear un origen externo para la alta cultura andina."
+          }
+        },
+        {
+          "texto": "Teoría Inmigracionista ⊃ origen en Mesoamérica",
+          "pregunta": {
+            "q": "Según la Teoría Inmigracionista, ¿cuál fue el lugar de origen de la alta cultura andina?",
+            "opts": [
+              "Mesoamérica",
+              "La costa ecuatoriana",
+              "La llanura amazónica"
+            ],
+            "correct": 0,
+            "explicacion": "Uhle sostuvo que los mayas u otras culturas mesoamericanas irradiaron civilización hacia los Andes."
+          }
+        },
+        {
+          "texto": "Mesoamérica → Proto Chimú + Proto Nazca",
+          "pregunta": {
+            "q": "¿Qué sociedades tempranas de la costa habrían surgido por influencia mesoamericana según esta teoría?",
+            "opts": [
+              "Chavín y Paracas",
+              "Mochica y Tiahuanaco",
+              "Proto Chimú y Proto Nazca"
+            ],
+            "correct": 2,
+            "explicacion": "Uhle creía que los inmigrantes formaron estas culturas pioneras en la costa antes de extenderse a la sierra."
+          }
+        },
+        {
+          "texto": "Pruebas Inmigracionistas ⊃ elementos lingüísticos",
+          "pregunta": {
+            "q": "¿Qué tipo de evidencia basada en el lenguaje utilizó Uhle para defender su teoría?",
+            "opts": [
+              "Inscripciones en jeroglíficos andinos",
+              "Elementos lingüísticos afines",
+              "Documentos virreinales escritos en maya"
+            ],
+            "correct": 1,
+            "explicacion": "Encontró supuestas similitudes entre palabras de origen centroamericano y vocablos de lenguas antiguas peruanas."
+          }
+        },
+        {
+          "texto": "Pruebas Inmigracionistas ⊃ leyendas orales",
+          "pregunta": {
+            "q": "¿Qué fuente de tradición inmaterial apoyaba la llegada de civilizadores externos según Uhle?",
+            "opts": [
+              "Cánticos fúnebres de la selva",
+              "Leyendas orales",
+              "Mitos de origen subterráneo"
+            ],
+            "correct": 1,
+            "explicacion": "Se apoyó en relatos míticos sobre la llegada por mar de fundadores como Naylamp."
+          }
+        },
+        {
+          "texto": "Pruebas Inmigracionistas ⊃ estructuras piramidales",
+          "pregunta": {
+            "q": "¿Qué rasgo arquitectónico fue usado por Uhle como prueba de influencia mesoamericana?",
+            "opts": [
+              "Las chullpas circulares",
+              "Los geoglifos gigantes",
+              "Las estructuras piramidales"
+            ],
+            "correct": 2,
+            "explicacion": "La presencia de pirámides escalonadas en la costa peruana fue interpretada como una copia de modelos mayas."
+          }
+        }
+      ]
+    },
+    {
+      "titulo": "Teoría Autoctonista (Evolucionista)",
+      "puntos": [
+        {
+          "texto": "Teoría Autoctonista = J.C. Tello",
+          "pregunta": {
+            "q": "¿Qué arqueólogo es el principal exponente de la Teoría Autoctonista?",
+            "opts": [
+              "J.C. Tello",
+              "R. Larco Hoyle",
+              "L.G. Lumbreras"
+            ],
+            "correct": 0,
+            "explicacion": "Julio C. Tello rebatió a Uhle postulando que la civilización andina tuvo un desarrollo propio y autóctono."
+          }
+        },
+        {
+          "texto": "Teoría Autoctonista ⊃ origen en selva amazónica",
+          "pregunta": {
+            "q": "¿En qué región geográfica sitúa la Teoría Autoctonista el génesis de la civilización?",
+            "opts": [
+              "En la sierra central",
+              "En la selva amazónica",
+              "En la meseta del Collao"
+            ],
+            "correct": 1,
+            "explicacion": "Para Tello, los primeros civilizadores no vinieron del norte, sino que cruzaron los Andes desde el oriente amazónico."
+          }
+        },
+        {
+          "texto": "Tribus Arawac → cultura Chavín",
+          "pregunta": {
+            "q": "¿Qué grupo originario de la Amazonía habría dado nacimiento a la cultura Chavín según Tello?",
+            "opts": [
+              "Tribus Quechuas",
+              "Tribus Arawac",
+              "Tribus Jíbaras"
+            ],
+            "correct": 1,
+            "explicacion": "Tello consideraba que migrantes de filiación Arawac se instalaron en la sierra y fundaron Chavín."
+          }
+        },
+        {
+          "texto": "Chavín = cultura matriz",
+          "pregunta": {
+            "q": "¿Qué estatus le asignó Julio C. Tello a la cultura Chavín?",
+            "opts": [
+              "Cultura final o decadente",
+              "Cultura matriz",
+              "Cultura de transición regional"
+            ],
+            "correct": 1,
+            "explicacion": "La denominó 'matriz' por considerarla la cultura madre que irradió su influencia a todo el territorio andino."
+          }
+        },
+        {
+          "texto": "Pruebas Autoctonistas ⊃ religión (trilogía)",
+          "pregunta": {
+            "q": "¿Qué evidencia ideológica sostuvo el origen selvático propuesto por Tello?",
+            "opts": [
+              "La religión basada en una trilogía",
+              "El monoteísmo solar andino",
+              "El panteón de dioses marinos"
+            ],
+            "correct": 0,
+            "explicacion": "La representación constante del jaguar, la serpiente y el cóndor en su arte religioso fue vista como herencia amazónica."
+          }
+        },
+        {
+          "texto": "Pruebas Autoctonistas ⊃ cultivos tropicales",
+          "pregunta": {
+            "q": "¿Qué prueba agrícola sustentó la migración desde el oriente amazónico a Chavín?",
+            "opts": [
+              "La domesticación de la papa",
+              "El uso de fertilizantes costeros",
+              "La presencia de cultivos tropicales"
+            ],
+            "correct": 2,
+            "explicacion": "El conocimiento y uso de plantas de origen tropical (como la yuca o el maní) reforzaba la teoría del origen selvático."
+          }
+        }
+      ]
+    },
+    {
+      "titulo": "Teoría Aloctonista",
+      "puntos": [
+        {
+          "texto": "Teoría Aloctonista = F. Kauffman Doig",
+          "pregunta": {
+            "q": "¿Quién formuló la Teoría Aloctonista sobre las culturas andinas?",
+            "opts": [
+              "John Rowe",
+              "Max Uhle",
+              "F. Kauffman Doig"
+            ],
+            "correct": 2,
+            "explicacion": "Federico Kauffman Doig propuso una tercera vía que buscaba conciliar las posturas de Uhle y Tello."
+          }
+        },
+        {
+          "texto": "Teoría Aloctonista ⊃ origen en Ecuador",
+          "pregunta": {
+            "q": "¿En qué territorio actual ubica Kauffman Doig el foco originario de las altas culturas de América?",
+            "opts": [
+              "En Ecuador",
+              "En México",
+              "En Bolivia"
+            ],
+            "correct": 0,
+            "explicacion": "Planteó que un centro cultural ecuatoriano irradió civilización simultáneamente hacia Mesoamérica y Perú."
+          }
+        },
+        {
+          "texto": "Cultura Valdivia → cultura Chavín",
+          "pregunta": {
+            "q": "Según el aloctonismo, ¿qué cultura ecuatoriana funcionó como matriz influenciando a Chavín?",
+            "opts": [
+              "Cultura Guangala",
+              "Cultura Valdivia",
+              "Cultura Bahía"
+            ],
+            "correct": 1,
+            "explicacion": "Valdivia, por su antigüedad, fue señalada como la cuna que aportó los elementos civilizatorios hacia los Andes centrales."
+          }
+        },
+        {
+          "texto": "Prueba Aloctonista = primera cerámica",
+          "pregunta": {
+            "q": "¿Qué evidencia material fundamental utilizó Kauffman Doig para avalar a Valdivia como origen?",
+            "opts": [
+              "El descubrimiento de la primera cerámica",
+              "El trabajo pionero del hierro",
+              "La construcción de ciudadelas de barro"
+            ],
+            "correct": 0,
+            "explicacion": "En su momento, los hallazgos alfareros de Valdivia eran los más antiguos del continente, justificando su posición como cultura difusora."
+          }
+        }
+      ]
+    },
+    {
+      "titulo": "Teoría Autoctonista Costeña",
+      "puntos": [
+        {
+          "texto": "Autoctonista Costeña = R. Larco Hoyle",
+          "pregunta": {
+            "q": "¿Qué arqueólogo sostuvo la Teoría Autoctonista Costeña?",
+            "opts": [
+              "J.C. Tello",
+              "R. Larco Hoyle",
+              "L.G. Lumbreras"
+            ],
+            "correct": 1,
+            "explicacion": "Rafael Larco Hoyle centró sus estudios en la costa norte y propuso un foco civilizador diferente al de Tello."
+          }
+        },
+        {
+          "texto": "Autoctonista Costeña ⊃ origen en Cupisnique",
+          "pregunta": {
+            "q": "¿Qué cultura costeña es considerada la verdadera matriz según Larco Hoyle?",
+            "opts": [
+              "Nazca",
+              "Cupisnique",
+              "Salinar"
+            ],
+            "correct": 1,
+            "explicacion": "Larco Hoyle argumentó que los desarrollos en Cupisnique (La Libertad) eran anteriores y originaron a Chavín."
+          }
+        },
+        {
+          "texto": "Prueba Autoctonista Costeña = evolución de cerámica",
+          "pregunta": {
+            "q": "¿A través de qué elemento demostró Larco Hoyle la antigüedad y evolución costeña sobre la serrana?",
+            "opts": [
+              "Los patrones de textilería",
+              "El análisis de cráneos",
+              "La evolución de su cerámica"
+            ],
+            "correct": 2,
+            "explicacion": "Usó las secuencias alfareras de la costa norte para demostrar que tenían un desarrollo previo que luego impactó en la sierra."
+          }
+        }
+      ]
+    },
+    {
+      "titulo": "Teoría Hologenista",
+      "puntos": [
+        {
+          "texto": "Teoría Hologenista = L.G. Lumbreras",
+          "pregunta": {
+            "q": "¿Quién elaboró la síntesis de la Teoría Hologenista?",
+            "opts": [
+              "L.G. Lumbreras",
+              "John Rowe",
+              "Max Uhle"
+            ],
+            "correct": 0,
+            "explicacion": "Luis Guillermo Lumbreras propuso esta teoría neoautoctonista más moderna e integradora."
+          }
+        },
+        {
+          "texto": "Hologenismo = afluencia interna + foránea",
+          "pregunta": {
+            "q": "¿Qué mezcla de elementos explica el origen de la cultura andina según el hologenismo?",
+            "opts": [
+              "Solo migraciones masivas foráneas",
+              "Una afluencia interna y foránea",
+              "Evolución estricta sin contacto externo"
+            ],
+            "correct": 1,
+            "explicacion": "Plantea que la civilización es resultado de dinámicas de desarrollo propio que asimilan aportes culturales de afuera."
+          }
+        },
+        {
+          "texto": "Desarrollo Hologenista → predominio factor interno",
+          "pregunta": {
+            "q": "En el marco de la afluencia cultural hologenista, ¿qué factor tiene el rol predominante?",
+            "opts": [
+              "El factor interno",
+              "El factor foráneo",
+              "El aislamiento absoluto"
+            ],
+            "correct": 0,
+            "explicacion": "Aunque reconoce influencias externas, Lumbreras sostiene que los procesos y logros internos fueron los determinantes."
+          }
+        }
+      ]
+    },
+    {
+      "titulo": "Periodificación de J. Rowe",
+      "puntos": [
+        {
+          "texto": "Horizontes = influencia panandina",
+          "pregunta": {
+            "q": "Según el sistema de John Rowe, ¿qué rasgo define a los llamados 'Horizontes'?",
+            "opts": [
+              "La carencia de cerámica",
+              "Su influencia panandina",
+              "Su restricción a un solo valle"
+            ],
+            "correct": 1,
+            "explicacion": "Los Horizontes son etapas donde una cultura logra unificar y esparcir sus patrones por gran parte del territorio andino."
+          }
+        },
+        {
+          "texto": "Intermedios = influencia regional",
+          "pregunta": {
+            "q": "¿Qué alcance de influencia caracteriza a los periodos 'Intermedios' en la clasificación de Rowe?",
+            "opts": [
+              "Influencia panandina",
+              "Alcance continental",
+              "Influencia regional"
+            ],
+            "correct": 2,
+            "explicacion": "En los Intermedios, el territorio se fragmenta y florecen culturas con estilos y control limitados a regiones específicas."
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,506 @@
+{
+  "curso": "Historia del Perú",
+  "tema": "Horizonte Medio",
+  "glosario": {
+    "=": "definición / es",
+    "→": "produce, genera, conduce a, resultado",
+    "⊃": "contiene",
+    "⇒": "causa",
+    "✓": "requiere / necesita",
+    "+": "combinación / junto con",
+    "Horizonte Medio": "Periodo cronológico entre 600 y 1200 d.C.",
+    "Grapas": "Elementos de metal usados para unir bloques de piedra.",
+    "Kero": "Vaso ceremonial de origen Tiahuanaco.",
+    "Control vertical": "Sistema de aprovechamiento de distintos pisos ecológicos.",
+    "Waru waru": "Técnica agrícola de chacras elevadas.",
+    "Llactas": "Ciudades administrativas o cabezas de región en el imperio Wari.",
+    "Capac ñan": "Gran red vial o red de caminos andinos."
+  },
+  "theory": [
+    {
+      "titulo": "Horizonte Medio y Tiahuanaco: Arquitectura",
+      "puntos": [
+        {
+          "texto": "Horizonte Medio = etapa fusional",
+          "pregunta": {
+            "q": "¿Qué característica define al periodo del Horizonte Medio?",
+            "opts": [
+              "Etapa de aislamiento",
+              "Etapa fusional",
+              "Etapa de decadencia"
+            ],
+            "correct": 1,
+            "explicacion": "El Horizonte Medio se caracteriza por ser una etapa de integración y fusión cultural en los Andes."
+          }
+        },
+        {
+          "texto": "Arquitectura Tiahuanaco ✓ grapas de cobre-bronce",
+          "pregunta": {
+            "q": "¿Qué elemento requería la arquitectura de Tiahuanaco para unir sus estructuras?",
+            "opts": [
+              "Grapas de cobre-bronce",
+              "Amalgama de oro y plata",
+              "Mortero de barro cocido"
+            ],
+            "correct": 0,
+            "explicacion": "Utilizaban grapas metálicas hechas de una aleación de cobre y bronce para asegurar los grandes bloques líticos."
+          }
+        },
+        {
+          "texto": "Arquitectura Tiahuanaco ⊃ Calasasaya + Akapana + el templete",
+          "pregunta": {
+            "q": "¿Qué recintos arqueológicos contiene la arquitectura Tiahuanaco?",
+            "opts": [
+              "Huaca del Sol + Huaca de la Luna",
+              "Chavín de Huántar + Sechín",
+              "Calasasaya + Akapana + el templete"
+            ],
+            "correct": 2,
+            "explicacion": "Estas son tres de las construcciones ceremoniales y administrativas más representativas de esta cultura."
+          }
+        }
+      ]
+    },
+    {
+      "titulo": "Tiahuanaco: Escultura y Cerámica",
+      "puntos": [
+        {
+          "texto": "Escultura Tiahuanaco = antropomorfa + geométrica",
+          "pregunta": {
+            "q": "¿Qué formas definen a la escultura de Tiahuanaco?",
+            "opts": [
+              "Antropomorfa + geométrica",
+              "Zoomorfa + asimétrica",
+              "Fitomorfa + abstracta"
+            ],
+            "correct": 0,
+            "explicacion": "Sus esculturas líticas representaban figuras humanas combinadas con rígidos patrones geométricos."
+          }
+        },
+        {
+          "texto": "Escultura Tiahuanaco ⊃ Portada del Sol + monolito Bennett",
+          "pregunta": {
+            "q": "¿Qué obras importantes contiene la escultura Tiahuanaco?",
+            "opts": [
+              "Portada del Sol + monolito Bennett",
+              "Obelisco Tello + Estela de Raimondi",
+              "Lanzón monolítico + cabezas clavas"
+            ],
+            "correct": 0,
+            "explicacion": "Estas dos piezas talladas en piedra son los ejemplos más icónicos de su arte escultórico monumental."
+          }
+        },
+        {
+          "texto": "Portada del Sol ⊃ Dios bisco (llorón / de los báculos)",
+          "pregunta": {
+            "q": "¿Qué deidad está representada en la Portada del Sol?",
+            "opts": [
+              "Dios Kon",
+              "Dios bisco (llorón / de los báculos)",
+              "Dios Aiapaec"
+            ],
+            "correct": 1,
+            "explicacion": "En el centro de esta portada lítica se encuentra tallado el dios de los báculos, también conocido como el dios llorón o bisco."
+          }
+        },
+        {
+          "texto": "Cerámica Tiahuanaco = policroma + geométrica",
+          "pregunta": {
+            "q": "¿Cómo es el estilo de la cerámica Tiahuanaco?",
+            "opts": [
+              "Bícroma + realista",
+              "Policroma + geométrica",
+              "Monocroma + incisa"
+            ],
+            "correct": 1,
+            "explicacion": "Empleaban múltiples colores (policroma) para trazar diseños y motivos basados en la geometría."
+          }
+        },
+        {
+          "texto": "Cerámica Tiahuanaco ⊃ kero (vaso ceremonial)",
+          "pregunta": {
+            "q": "¿Qué tipo de vasija representativa contiene la cerámica Tiahuanaco?",
+            "opts": [
+              "Huaco retrato",
+              "Huaco silbador",
+              "Kero (vaso ceremonial)"
+            ],
+            "correct": 2,
+            "explicacion": "El kero es un vaso de boca ancha utilizado principalmente para libaciones rituales."
+          }
+        }
+      ]
+    },
+    {
+      "titulo": "Tiahuanaco: Avances Tecnológicos y Fin",
+      "puntos": [
+        {
+          "texto": "Avances Tiahuanaco ⊃ control vertical de pisos ecológicos",
+          "pregunta": {
+            "q": "¿Qué estrategia territorial contiene los avances de Tiahuanaco?",
+            "opts": [
+              "Monopolio marítimo exclusivo",
+              "Control vertical de pisos ecológicos",
+              "Aislamiento geográfico total"
+            ],
+            "correct": 1,
+            "explicacion": "Desarrollaron una política para aprovechar distintos pisos altitudinales y acceder a diversos productos."
+          }
+        },
+        {
+          "texto": "Control vertical = control de enclaves + archipiélagos",
+          "pregunta": {
+            "q": "¿En qué consistía el sistema de control vertical?",
+            "opts": [
+              "Control de enclaves + archipiélagos",
+              "Tributo de prisioneros de guerra",
+              "Intercambio monetario directo"
+            ],
+            "correct": 0,
+            "explicacion": "Este sistema operaba estableciendo colonias (enclaves) discontinuas a modo de archipiélagos en distintas regiones."
+          }
+        },
+        {
+          "texto": "Control vertical → se obtienen otros recursos",
+          "pregunta": {
+            "q": "¿Qué resultado producía el control vertical?",
+            "opts": [
+              "Pérdida de territorio",
+              "Dependencia tecnológica",
+              "Se obtienen otros recursos"
+            ],
+            "correct": 2,
+            "explicacion": "Al asentarse en diferentes altitudes, lograban obtener productos agrícolas que no crecían en la zona altiplánica."
+          }
+        },
+        {
+          "texto": "Control vertical ✓ sin intermediarios",
+          "pregunta": {
+            "q": "¿Qué condición requería el control vertical para su eficacia económica?",
+            "opts": [
+              "Sin intermediarios",
+              "Pagar peajes aduaneros",
+              "Contratar comerciantes externos"
+            ],
+            "correct": 0,
+            "explicacion": "Al tener colonias propias que producían los recursos, el estado Tiahuanaco se abastecía de manera directa, sin depender del comercio con terceros."
+          }
+        },
+        {
+          "texto": "Waru waru (camellones) = chacras elevadas",
+          "pregunta": {
+            "q": "¿Qué son los waru waru o camellones?",
+            "opts": [
+              "Sistemas de acueductos subterráneos",
+              "Chacras elevadas",
+              "Terrazas en laderas empinadas"
+            ],
+            "correct": 1,
+            "explicacion": "Eran plataformas artificiales de tierra rodeadas por canales de agua para el cultivo."
+          }
+        },
+        {
+          "texto": "Waru waru → acción termorreguladora (microclima)",
+          "pregunta": {
+            "q": "¿Qué efecto físico generan los waru waru en el entorno?",
+            "opts": [
+              "Acción termorreguladora (microclima)",
+              "Aumento de la salinidad",
+              "Erosión del suelo agrícola"
+            ],
+            "correct": 0,
+            "explicacion": "El agua de los canales almacenaba calor durante el día y lo liberaba de noche, regulando la temperatura local."
+          }
+        },
+        {
+          "texto": "Waru waru → mitiga las heladas",
+          "pregunta": {
+            "q": "¿Qué problema climático ayuda a resolver los waru waru?",
+            "opts": [
+              "Mitiga las sequías",
+              "Mitiga las inundaciones",
+              "Mitiga las heladas"
+            ],
+            "correct": 2,
+            "explicacion": "Gracias al microclima que generan, estos sistemas protegen los cultivos de las heladas nocturnas propias del altiplano."
+          }
+        },
+        {
+          "texto": "Conservación de alimentos Tiahuanaco = mediante la deshidratación",
+          "pregunta": {
+            "q": "¿Cómo era la técnica de conservación de alimentos en Tiahuanaco?",
+            "opts": [
+              "Mediante la deshidratación",
+              "Mediante el salado de carnes",
+              "Mediante la congelación perpetua"
+            ],
+            "correct": 0,
+            "explicacion": "Usaban el clima altiplánico para deshidratar productos, creando alimentos no perecibles como el chuño (papa) y el charqui (carne)."
+          }
+        },
+        {
+          "texto": "Fin Tiahuanaco ⇒ invasión de los aimaras",
+          "pregunta": {
+            "q": "¿Qué causa principal provocó el fin de Tiahuanaco?",
+            "opts": [
+              "Invasión de los aimaras",
+              "Conquista española",
+              "Llegada de los incas"
+            ],
+            "correct": 0,
+            "explicacion": "El declive y colapso de Tiahuanaco se debió a la irrupción y ataque de pueblos de habla aimara."
+          }
+        }
+      ]
+    },
+    {
+      "titulo": "Cultura Wari: Orígenes e Interpretaciones",
+      "puntos": [
+        {
+          "texto": "Origen Wari ⊃ Huarpa (andenes) + Tiahuanaco (religión)",
+          "pregunta": {
+            "q": "¿De qué culturas toma aportes el origen de Wari en andenería y religión?",
+            "opts": [
+              "Moche (andenes) + Nazca (religión)",
+              "Huarpa (andenes) + Tiahuanaco (religión)",
+              "Lima (andenes) + Paracas (religión)"
+            ],
+            "correct": 1,
+            "explicacion": "Wari es una síntesis cultural que adoptó la tecnología de andenes de los Huarpa y la base religiosa de Tiahuanaco."
+          }
+        },
+        {
+          "texto": "Origen Wari ⊃ Nazca (alfarería + urbanismo)",
+          "pregunta": {
+            "q": "¿Qué aportes culturales asimiló Wari de la cultura Nazca?",
+            "opts": [
+              "Ganadería + metalurgia",
+              "Religión + textilería",
+              "Alfarería + urbanismo"
+            ],
+            "correct": 2,
+            "explicacion": "La influencia Nazca fue clave para el desarrollo artístico cerámico y la planificación de ciudades en Wari."
+          }
+        },
+        {
+          "texto": "R. Shady → Wari = confederación de estados",
+          "pregunta": {
+            "q": "¿Cómo define la arqueóloga Ruth Shady a la sociedad Wari?",
+            "opts": [
+              "Confederación de estados",
+              "Imperio despótico unificado",
+              "Reino monárquico simple"
+            ],
+            "correct": 0,
+            "explicacion": "A diferencia de la tesis imperial, Ruth Shady plantea que Wari funcionaba como una red de estados confederados."
+          }
+        },
+        {
+          "texto": "Confederación Wari (R. Shady) ✓ vínculos comerciales",
+          "pregunta": {
+            "q": "¿Qué requería la confederación Wari, según R. Shady, para mantenerse unida?",
+            "opts": [
+              "Imposición militar constante",
+              "Vínculos comerciales",
+              "Tributo exclusivamente agrícola"
+            ],
+            "correct": 1,
+            "explicacion": "En su teoría, la cohesión de estos estados se daba mediante una fuerte red de intercambio mercantil."
+          }
+        },
+        {
+          "texto": "L. G. Lumbreras → Wari = 1° imperio del Perú",
+          "pregunta": {
+            "q": "¿Qué estatus le otorga Luis Guillermo Lumbreras a la cultura Wari?",
+            "opts": [
+              "Desarrollo regional aislado",
+              "1° imperio del Perú",
+              "Último reducto cultural"
+            ],
+            "correct": 1,
+            "explicacion": "Lumbreras postula que Wari fue el primer Estado imperial andino debido a su expansión militar y administrativa."
+          }
+        },
+        {
+          "texto": "L. G. Lumbreras → Wari = 2° síntesis estado panandino",
+          "pregunta": {
+            "q": "¿Qué otro concepto utiliza L. G. Lumbreras para describir a Wari?",
+            "opts": [
+              "1° desintegración regional",
+              "2° síntesis estado panandino",
+              "3° horizonte tardío"
+            ],
+            "correct": 1,
+            "explicacion": "La considera la segunda gran síntesis cultural que abarcó extensos territorios de los Andes (panandino)."
+          }
+        },
+        {
+          "texto": "Capital Wari = Viñaque",
+          "pregunta": {
+            "q": "¿Cuál fue el principal centro de poder político o capital de Wari?",
+            "opts": [
+              "Chan Chan",
+              "Cahuachi",
+              "Viñaque"
+            ],
+            "correct": 2,
+            "explicacion": "La ciudad de Viñaque, ubicada en la actual región de Ayacucho, funcionó como el núcleo central del Estado Wari."
+          }
+        }
+      ]
+    },
+    {
+      "titulo": "Organización Administrativa Wari",
+      "puntos": [
+        {
+          "texto": "Llactas = cabezas de región",
+          "pregunta": {
+            "q": "¿Qué función cumplían las llactas en la organización Wari?",
+            "opts": [
+              "Centros ceremoniales menores",
+              "Cabezas de región",
+              "Aldeas campesinas"
+            ],
+            "correct": 1,
+            "explicacion": "Eran ciudades planificadas construidas para administrar y controlar política y económicamente las distintas regiones anexadas."
+          }
+        },
+        {
+          "texto": "Llactas ⊃ Wiracochapampa (La Libertad) + Huilcahuain (Ancash)",
+          "pregunta": {
+            "q": "¿Qué llactas se ubicaron en las actuales regiones de La Libertad y Ancash, respectivamente?",
+            "opts": [
+              "Pachacamac + Wariwillca",
+              "Wiracochapampa + Huilcahuain",
+              "Piquillacta + Cerro Baúl"
+            ],
+            "correct": 1,
+            "explicacion": "Estas dos importantes cabezas de región permitían a Wari controlar territorios clave en la sierra y costa norte-centro."
+          }
+        },
+        {
+          "texto": "Llactas ⊃ Piquillacta (Cusco) + Cerro Baúl (Moquegua)",
+          "pregunta": {
+            "q": "¿Qué cabezas de región se establecieron en Cusco y Moquegua?",
+            "opts": [
+              "Piquillacta + Cerro Baúl",
+              "Wariwillca + Pachacamac",
+              "Viñaque + Huilcahuain"
+            ],
+            "correct": 0,
+            "explicacion": "Piquillacta y Cerro Baúl representaron el avance imperial y administrativo de Wari hacia la sierra sur."
+          }
+        },
+        {
+          "texto": "Llactas ⊃ Wariwillca (Junín) + Pachacamac (Lima)",
+          "pregunta": {
+            "q": "¿Qué centros administrativos Wari se ubicaron en Junín y Lima?",
+            "opts": [
+              "Wiracochapampa + Piquillacta",
+              "Wariwillca + Pachacamac",
+              "Cerro Baúl + Viñaque"
+            ],
+            "correct": 1,
+            "explicacion": "Wariwillca funcionó como un importante santuario central, mientras que Pachacamac fue vital para el control en la costa central."
+          }
+        },
+        {
+          "texto": "Wari → destacan en urbanización + resalta tapicería",
+          "pregunta": {
+            "q": "¿En qué aspectos culturales y materiales destacó notablemente el estado Wari?",
+            "opts": [
+              "Metalurgia + orfebrería pura",
+              "Destacan en urbanización + resalta tapicería",
+              "Escultura lítica + pintura mural"
+            ],
+            "correct": 1,
+            "explicacion": "Fueron los grandes urbanistas de los Andes (construcción de ciudades conectadas) y crearon textiles de tapicería de altísima calidad."
+          }
+        }
+      ]
+    },
+    {
+      "titulo": "Integración y Colapso Wari",
+      "puntos": [
+        {
+          "texto": "Lengua oficial Wari = quechua",
+          "pregunta": {
+            "q": "¿Qué idioma fue establecido para la comunicación oficial en Wari?",
+            "opts": [
+              "Quechua",
+              "Aimara",
+              "Puquina"
+            ],
+            "correct": 0,
+            "explicacion": "La expansión del imperio facilitó la difusión del quechua como lengua de administración en diversas regiones."
+          }
+        },
+        {
+          "texto": "Dios oficial Wari = Wiracocha",
+          "pregunta": {
+            "q": "¿Qué deidad fue impuesta como figura religiosa oficial en Wari?",
+            "opts": [
+              "Pachacámac",
+              "Wiracocha",
+              "Naylamp"
+            ],
+            "correct": 1,
+            "explicacion": "Adoptaron y expandieron el culto a Wiracocha, originario de Tiahuanaco, integrándolo en su ideología imperial."
+          }
+        },
+        {
+          "texto": "Red vial Wari = Capac Ñan",
+          "pregunta": {
+            "q": "¿Qué nombre recibe el sistema de caminos construido por los Wari?",
+            "opts": [
+              "Ceques",
+              "Capac Ñan",
+              "Qhapaq Hucha"
+            ],
+            "correct": 1,
+            "explicacion": "Fueron los iniciadores del gran sistema vial andino, que conectaba sus llactas y posteriormente fue expandido por los Incas."
+          }
+        },
+        {
+          "texto": "Wari ✓ uso de chasquis + quipus",
+          "pregunta": {
+            "q": "¿Qué instrumentos o recursos requería Wari para la comunicación y el registro?",
+            "opts": [
+              "Jeroglíficos + papiros",
+              "Uso de chasquis + quipus",
+              "Escritura cuneiforme + arcilla"
+            ],
+            "correct": 1,
+            "explicacion": "Para administrar su vasto territorio, dependían de mensajeros (chasquis) y de un sistema de cuerdas anudadas (quipus) para la contabilidad."
+          }
+        },
+        {
+          "texto": "Sr. de Wari (Vilcabamba) + Castillo de Huarmey (Ancash) → fortalecen idea del imperio",
+          "pregunta": {
+            "q": "¿Qué papel cumplen los hallazgos del Señor de Wari y el Castillo de Huarmey?",
+            "opts": [
+              "Refutan el urbanismo de Wari",
+              "Demuestran que eran pacifistas",
+              "Fortalecen idea del imperio"
+            ],
+            "correct": 2,
+            "explicacion": "Estos recientes y ricos descubrimientos funerarios evidencian la presencia de élites Wari consolidadas lejos de Ayacucho, apoyando la tesis imperial."
+          }
+        },
+        {
+          "texto": "Fin Wari ⇒ desastres naturales + crecimiento de llactas",
+          "pregunta": {
+            "q": "¿Qué factores internos causaron la decadencia y el final del Estado Wari?",
+            "opts": [
+              "Desastres naturales + crecimiento de llactas",
+              "Enfermedades europeas + guerra civil",
+              "Exceso de producción agrícola + paz prolongada"
+            ],
+            "correct": 0,
+            "explicacion": "El cambio climático (fenómeno de El Niño/sequías) junto con la rebelión e independencia de las llactas al crecer desmedidamente, fragmentaron el imperio, lo que sumado a invasiones foráneas causó su fin."
+          }
+        }
+      ]
+    }
+  ]
+}

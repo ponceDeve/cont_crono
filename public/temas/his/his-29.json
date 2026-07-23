@@ -1,0 +1,357 @@
+{
+  "curso": "Historia Universal",
+  "tema": "Expansión Europea (Siglos XV - XVI)",
+  "glosario": {
+    "Constantinopla": "Ciudad estratégica cuyo bloqueo obligó a buscar nuevas rutas comerciales terrestres y marítimas.",
+    "Capitulación": "Contrato o acuerdo legal firmado entre un monarca y un explorador.",
+    "Circunnavegación": "Expedición marítima que tiene como objetivo dar la vuelta al mundo.",
+    "Mercantilismo": "Sistema económico basado en la acumulación de metales preciosos y el monopolio comercial.",
+    "Guanahaní": "Primera isla americana a la que llegó Cristóbal Colón, ubicada en las Bahamas.",
+    "Portulano": "Mapa marítimo antiguo que detallaba las costas, puertos y rutas.",
+    "=": "Definición / es / significa",
+    "→": "Produce / genera / conduce a / realiza",
+    "⇒": "Causa / tiene como consecuencia directa",
+    "✓": "Requiere / posee / cuenta con",
+    "+": "Combinación / junto con / y",
+    "⊃": "Contiene / incluye / abarca"
+  },
+  "theory": [
+    {
+      "titulo": "Factores de la Expansión",
+      "puntos": [
+        {
+          "texto": "Renacimiento urbano + comercial ⇒ expansión europea.",
+          "pregunta": {
+            "q": "¿Qué proceso socioeconómico previo impulsó a los países europeos a expandir sus fronteras?",
+            "opts": [
+              "La decadencia del comercio marítimo",
+              "El renacimiento urbano y comercial",
+              "La crisis de la agricultura feudal"
+            ],
+            "correct": 1,
+            "explicacion": "El crecimiento de las ciudades y el aumento de la actividad comercial crearon la necesidad de buscar nuevos mercados y recursos."
+          }
+        },
+        {
+          "texto": "Toma de Constantinopla ⇒ búsqueda de nuevas rutas a oriente.",
+          "pregunta": {
+            "q": "¿Qué motivación principal generó la caída de Constantinopla en manos otomanas?",
+            "opts": [
+              "La búsqueda de nuevas rutas a oriente",
+              "El fin de las relaciones comerciales europeas",
+              "La colonización inmediata de África"
+            ],
+            "correct": 0,
+            "explicacion": "El bloqueo de la ruta comercial tradicional hacia Asia obligó a potencias como España y Portugal a explorar alternativas marítimas."
+          }
+        },
+        {
+          "texto": "Adelantos técnicos ⊃ papel + imprenta + pólvora.",
+          "pregunta": {
+            "q": "¿Qué conjunto de inventos tecnológicos favoreció el contexto de la expansión?",
+            "opts": [
+              "La máquina de vapor y el telégrafo",
+              "El papel, la imprenta y la pólvora",
+              "El acero fundido y la brújula"
+            ],
+            "correct": 1,
+            "explicacion": "Estos inventos, originarios de Asia y difundidos en Europa, facilitaron la difusión del conocimiento y la superioridad bélica."
+          }
+        },
+        {
+          "texto": "Innovaciones náuticas ⊃ astrolabio + portulanos + carabelas.",
+          "pregunta": {
+            "q": "¿Cuáles fueron los adelantos técnicos específicamente marítimos que permitieron los viajes oceánicos?",
+            "opts": [
+              "El astrolabio, los portulanos y las carabelas",
+              "El timón de codaste y los submarinos",
+              "Los acorazados y la cartografía satelital"
+            ],
+            "correct": 0,
+            "explicacion": "Estas herramientas mejoraron la orientación (astrolabio), la cartografía costera (portulanos) y la resistencia y velocidad en el mar (carabelas)."
+          }
+        }
+      ]
+    },
+    {
+      "titulo": "Proyecto Portugués",
+      "puntos": [
+        {
+          "texto": "Proyecto portugués ✓ exploración de costas occidentales de África.",
+          "pregunta": {
+            "q": "¿Hacia qué región geográfica enfocó Portugal su estrategia inicial para llegar a Asia?",
+            "opts": [
+              "Hacia el océano Pacífico",
+              "A través del mar Mediterráneo",
+              "Por las costas occidentales de África"
+            ],
+            "correct": 2,
+            "explicacion": "Portugal buscó rodear el continente africano navegando por la cuenca atlántica hacia el sur para alcanzar el Océano Índico."
+          }
+        },
+        {
+          "texto": "1487 B. Díaz → descubre Cabo de las Tormentas.",
+          "pregunta": {
+            "q": "¿Qué importante hito geográfico al extremo sur de África alcanzó Bartolomé Díaz en 1487?",
+            "opts": [
+              "El Cabo de Hornos",
+              "El Cabo de las Tormentas",
+              "El Estrecho de Gibraltar"
+            ],
+            "correct": 1,
+            "explicacion": "También rebautizado como Cabo de Buena Esperanza, su descubrimiento demostró que era posible rodear África."
+          }
+        },
+        {
+          "texto": "1498 Vasco da Gama → ruta a Calicut (India).",
+          "pregunta": {
+            "q": "¿Qué explorador portugués logró concretar finalmente la ruta marítima hacia la India?",
+            "opts": [
+              "Bartolomé Díaz",
+              "Vasco da Gama",
+              "Álvares Cabral"
+            ],
+            "correct": 1,
+            "explicacion": "En 1498, Vasco da Gama atravesó el Océano Índico y llegó a Calicut, estableciendo una conexión directa con oriente."
+          }
+        },
+        {
+          "texto": "1500 Álvares Cabral → costas de Brasil.",
+          "pregunta": {
+            "q": "¿A qué territorio americano llegó la expedición de Pedro Álvares Cabral en el año 1500?",
+            "opts": [
+              "Las costas de Brasil",
+              "La península de Florida",
+              "El golfo de México"
+            ],
+            "correct": 0,
+            "explicacion": "Buscando vientos favorables en el Atlántico, Cabral se desvió hacia el oeste y llegó al litoral de Brasil, reclamándolo para Portugal."
+          }
+        }
+      ]
+    },
+    {
+      "titulo": "Proyecto Español",
+      "puntos": [
+        {
+          "texto": "Proyecto español = llegar a oriente por occidente.",
+          "pregunta": {
+            "q": "¿Cuál era la premisa principal del proyecto de navegación español?",
+            "opts": [
+              "Rodear el continente africano",
+              "Llegar a oriente navegando por occidente",
+              "Cruzar el polo norte hacia Asia"
+            ],
+            "correct": 1,
+            "explicacion": "Basado en la esfericidad de la Tierra, Cristóbal Colón propuso cruzar el océano Atlántico hacia el oeste para llegar a las Indias."
+          }
+        },
+        {
+          "texto": "Viajes de Colón ✓ apoyo de Reyes Católicos.",
+          "pregunta": {
+            "q": "¿Qué monarcas brindaron el respaldo político indispensable para la empresa de Colón?",
+            "opts": [
+              "Los Reyes Católicos",
+              "Los Reyes de Portugal",
+              "El Papa Alejandro VI"
+            ],
+            "correct": 0,
+            "explicacion": "Isabel de Castilla y Fernando de Aragón aprobaron y patrocinaron oficialmente la expedición tras la toma de Granada."
+          }
+        },
+        {
+          "texto": "Viajes de Colón ✓ inversión de Luis de Santángel.",
+          "pregunta": {
+            "q": "¿Quién fue el funcionario encargado de gestionar y aportar el capital financiero para el primer viaje?",
+            "opts": [
+              "Hernando de Magallanes",
+              "Luis de Santángel",
+              "Américo Vespucio"
+            ],
+            "correct": 1,
+            "explicacion": "Luis de Santángel convenció a la reina y financió la mayor parte del dinero necesario para armar la flota colombina."
+          }
+        },
+        {
+          "texto": "Permiso para viajar = Capitulación de Santa Fe.",
+          "pregunta": {
+            "q": "¿Qué documento legal autorizó oficialmente los viajes de Cristóbal Colón?",
+            "opts": [
+              "El Tratado de Tordesillas",
+              "La Capitulación de Valladolid",
+              "La Capitulación de Santa Fe"
+            ],
+            "correct": 2,
+            "explicacion": "La Capitulación de Santa Fe fue el acuerdo que estableció las condiciones y privilegios de la expedición hacia occidente."
+          }
+        },
+        {
+          "texto": "Capitulación de Santa Fe → título de almirante + virrey.",
+          "pregunta": {
+            "q": "¿Qué cargos y honores se le prometieron a Colón mediante este acuerdo legal?",
+            "opts": [
+              "Rey de las Indias y embajador",
+              "Comandante militar y obispo",
+              "Título de almirante, virrey y gobernador"
+            ],
+            "correct": 2,
+            "explicacion": "A cambio de sus descubrimientos, la Corona le otorgó títulos vitalicios y hereditarios sobre las tierras encontradas."
+          }
+        },
+        {
+          "texto": "Primer viaje (1492) → llegada a Guanahaní.",
+          "pregunta": {
+            "q": "¿Cuál fue el primer territorio pisado por Colón en su expedición de 1492?",
+            "opts": [
+              "La costa de Venezuela",
+              "La isla de Guanahaní",
+              "Centroamérica"
+            ],
+            "correct": 1,
+            "explicacion": "Guanahaní, a la que Colón llamó San Salvador, marcó el inicio del encuentro entre Europa y América."
+          }
+        },
+        {
+          "texto": "Segundo viaje (1493) → funda La Isabela.",
+          "pregunta": {
+            "q": "¿Qué importante asentamiento estableció Colón durante su segunda expedición?",
+            "opts": [
+              "Funda La Isabela",
+              "Conquista el Imperio Azteca",
+              "Descubre el Océano Pacífico"
+            ],
+            "correct": 0,
+            "explicacion": "La Isabela fue la primera ciudad española fundada formalmente en el Nuevo Mundo, ubicada en la isla La Española."
+          }
+        },
+        {
+          "texto": "Tercer viaje (1498) → llega a tierra firme (Venezuela).",
+          "pregunta": {
+            "q": "¿En qué expedición tocó Cristóbal Colón el continente sudamericano por primera vez?",
+            "opts": [
+              "En el primer viaje",
+              "En el cuarto viaje",
+              "En el tercer viaje"
+            ],
+            "correct": 2,
+            "explicacion": "Durante su tercer viaje, Colón llegó a las costas de la actual Venezuela, dándose cuenta de que exploraba una masa continental."
+          }
+        },
+        {
+          "texto": "Cuarto viaje (1502) → explora Centroamérica.",
+          "pregunta": {
+            "q": "¿Qué región americana recorrió Colón durante su última expedición marítima?",
+            "opts": [
+              "Las Antillas Menores",
+              "La península del Labrador",
+              "Las costas de Centroamérica"
+            ],
+            "correct": 2,
+            "explicacion": "En su afán de encontrar un paso hacia Asia, bordeó la costa de Honduras, Nicaragua, Costa Rica y Panamá."
+          }
+        }
+      ]
+    },
+    {
+      "titulo": "División del Mundo y Circunnavegación",
+      "puntos": [
+        {
+          "texto": "Tratado de Tordesillas (1494) = división del mundo.",
+          "pregunta": {
+            "q": "¿Qué propósito tuvo el Tratado de Tordesillas firmado entre España y Portugal?",
+            "opts": [
+              "La división del mundo para la exploración",
+              "El establecimiento de la paz en Europa",
+              "La abolición del mercantilismo"
+            ],
+            "correct": 0,
+            "explicacion": "El tratado evitó conflictos dividiendo el globo terráqueo en dos hemisferios de influencia exclusiva para cada corona."
+          }
+        },
+        {
+          "texto": "Línea de Tordesillas = 370 leguas desde Cabo Verde.",
+          "pregunta": {
+            "q": "¿Cuál fue el límite geográfico establecido por el Tratado de Tordesillas para dividir los territorios?",
+            "opts": [
+              "El meridiano de Greenwich",
+              "Una línea a 370 leguas al oeste de Cabo Verde",
+              "El paralelo del ecuador"
+            ],
+            "correct": 1,
+            "explicacion": "Trazando esta línea imaginaria, Castilla obtenía los territorios hacia occidente y Portugal aseguraba su ruta africana y parte de Brasil."
+          }
+        },
+        {
+          "texto": "Viaje de Magallanes (1519) ✓ Capitulación de Valladolid.",
+          "pregunta": {
+            "q": "¿Bajo qué documento fue autorizada la primera gran expedición de circunnavegación?",
+            "opts": [
+              "Capitulación de Santa Fe",
+              "Tratado de Tordesillas",
+              "Capitulación de Valladolid"
+            ],
+            "correct": 2,
+            "explicacion": "La monarquía española respaldó el viaje de Hernando de Magallanes mediante la Capitulación de Valladolid."
+          }
+        },
+        {
+          "texto": "Expedición de Magallanes → S. Elcano culmina viaje.",
+          "pregunta": {
+            "q": "¿Qué navegante tomó el mando y finalizó la primera circunnavegación del globo terráqueo?",
+            "opts": [
+              "Sebastián Elcano",
+              "Cristóbal Colón",
+              "Vasco da Gama"
+            ],
+            "correct": 0,
+            "explicacion": "Tras la muerte de Magallanes en Filipinas, Juan Sebastián Elcano completó el viaje de regreso a España, demostrando físicamente que la Tierra era redonda."
+          }
+        }
+      ]
+    },
+    {
+      "titulo": "Consecuencias",
+      "puntos": [
+        {
+          "texto": "Expansión europea → imperios ultramarinos + mercantilismo.",
+          "pregunta": {
+            "q": "¿Qué consecuencias políticas y económicas directas dejó la expansión del siglo XVI?",
+            "opts": [
+              "Democracias y libre mercado",
+              "Feudalismo e imperios continentales",
+              "Imperios ultramarinos y mercantilismo"
+            ],
+            "correct": 2,
+            "explicacion": "Las potencias consolidaron vastos dominios coloniales e instauraron monopolios económicos basados en la extracción de metales."
+          }
+        },
+        {
+          "texto": "Contacto con América ⇒ colapso demográfico por enfermedades.",
+          "pregunta": {
+            "q": "¿Cuál fue el principal impacto de la llegada europea sobre la población nativa americana?",
+            "opts": [
+              "Crecimiento urbano inmediato",
+              "Colapso demográfico por enfermedades",
+              "Asimilación tecnológica pacífica"
+            ],
+            "correct": 1,
+            "explicacion": "La introducción de patógenos europeos, como la viruela, diezmó a la población nativa, la cual carecía de defensas inmunológicas."
+          }
+        },
+        {
+          "texto": "Expansión geográfica → difusión de cultura occidental.",
+          "pregunta": {
+            "q": "¿Qué impacto cultural global provocaron los viajes de exploración?",
+            "opts": [
+              "Aislamiento de la cultura europea",
+              "Preservación de las culturas nativas",
+              "Expansión de la cultura occidental"
+            ],
+            "correct": 2,
+            "explicacion": "El descubrimiento y colonización de nuevas tierras impuso la religión cristiana, idiomas y costumbres europeas a nivel mundial."
+          }
+        }
+      ]
+    }
+  ]
+}

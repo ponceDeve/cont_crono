@@ -1,0 +1,640 @@
+{
+  "curso": "Historia Universal",
+  "tema": "Roma II: República Tardía e Imperio",
+  "glosario": {
+    "=": "Definición / es equivalente a",
+    "→": "Produce / genera / promulga / conduce a",
+    "+": "Y / junto con",
+    "vs": "Contra / enfrentamiento",
+    "⊃": "Contiene / abarca / incluye",
+    "Tribunos": "Magistrados defensores de los derechos de la plebe.",
+    "Ager publicus": "Tierras públicas obtenidas por el Estado tras conquistas.",
+    "Populares": "Facción política romana a favor de reformas para la plebe.",
+    "Optimates": "Facción conservadora del Senado defensora de los patricios.",
+    "Tetrarquía": "Sistema de gobierno dividido en cuatro líderes."
+  },
+  "theory": [
+    {
+      "titulo": "Reformas de los Hermanos Graco",
+      "puntos": [
+        {
+          "texto": "Hermanos Graco = tribunos.",
+          "pregunta": {
+            "q": "¿Qué magistratura ocupaban estos dos reconocidos hermanos?",
+            "opts": [
+              "Censores",
+              "Cónsules",
+              "Tribunos"
+            ],
+            "correct": 2,
+            "explicacion": "Este cargo les permitía defender los intereses de los ciudadanos comunes (plebeyos)."
+          }
+        },
+        {
+          "texto": "Tiberio Graco → Ley Agraria.",
+          "pregunta": {
+            "q": "¿Qué proyecto de ley fue promovido por Tiberio?",
+            "opts": [
+              "La Ley Agraria",
+              "La Ley Frumentaria",
+              "La Ley de las Doce Tablas"
+            ],
+            "correct": 0,
+            "explicacion": "Buscaba redistribuir recursos territoriales para aliviar la pobreza en el campo."
+          }
+        },
+        {
+          "texto": "Ley Agraria → entrega del ager publicus.",
+          "pregunta": {
+            "q": "¿Qué bien específico se buscaba repartir mediante esta legislación?",
+            "opts": [
+              "Monedas del tesoro",
+              "Cargos en el Senado",
+              "El ager publicus"
+            ],
+            "correct": 2,
+            "explicacion": "Se pretendía entregar parcelas de las tierras estatales a los ciudadanos empobrecidos."
+          }
+        },
+        {
+          "texto": "Cayo Graco → Ley Frumentaria.",
+          "pregunta": {
+            "q": "¿Qué iniciativa legal impulsó el hermano menor, Cayo?",
+            "opts": [
+              "La ley de tierras",
+              "La Ley Frumentaria",
+              "El edicto de precios"
+            ],
+            "correct": 1,
+            "explicacion": "Continuó el legado reformista enfocándose en la alimentación de la plebe urbana."
+          }
+        },
+        {
+          "texto": "Ley Frumentaria → bajar precio del cereal.",
+          "pregunta": {
+            "q": "¿Cuál era el beneficio directo de esta norma para la población?",
+            "opts": [
+              "Reducir el costo del cereal",
+              "Regalar tierras agrícolas",
+              "Eximir el pago de impuestos"
+            ],
+            "correct": 0,
+            "explicacion": "Permitía a los ciudadanos más pobres acceder al alimento básico subsidiado por el Estado."
+          }
+        }
+      ]
+    },
+    {
+      "titulo": "Crisis de la República (S. I a.C.) y Primera Guerra Civil",
+      "puntos": [
+        {
+          "texto": "Crisis republicana = Populares vs Optimates.",
+          "pregunta": {
+            "q": "¿Qué bandos políticos protagonizaron la inestabilidad de este siglo?",
+            "opts": [
+              "Patricios contra plebeyos",
+              "Populares frente a Optimates",
+              "Romanos frente a Cartagineses"
+            ],
+            "correct": 1,
+            "explicacion": "El choque entre reformistas y conservadores fracturó el orden institucional del Senado."
+          }
+        },
+        {
+          "texto": "I Guerra civil = Mario vs Sila.",
+          "pregunta": {
+            "q": "¿Qué líderes se enfrentaron en el primer conflicto armado interno?",
+            "opts": [
+              "Pompeyo y Julio César",
+              "Mario y Sila",
+              "Octavio y Marco Antonio"
+            ],
+            "correct": 1,
+            "explicacion": "Representaron la primera gran ruptura donde legiones romanas atacaron a su propia ciudad."
+          }
+        },
+        {
+          "texto": "Mario → profesionaliza el ejército.",
+          "pregunta": {
+            "q": "¿Qué innovación crucial implementó este líder popular en las fuerzas armadas?",
+            "opts": [
+              "La profesionalización de las tropas",
+              "La creación de la marina militar",
+              "El uso de elefantes de guerra"
+            ],
+            "correct": 0,
+            "explicacion": "Permitió reclutar ciudadanos sin tierras, pagándoles un sueldo y atando su lealtad al general."
+          }
+        },
+        {
+          "texto": "Sila = dictador.",
+          "pregunta": {
+            "q": "¿Qué cargo excepcional asumió este líder conservador tras vencer?",
+            "opts": [
+              "Gobernador vitalicio",
+              "Sumo pontífice",
+              "Dictador"
+            ],
+            "correct": 2,
+            "explicacion": "Utilizó este poder absoluto temporal para purgar a sus enemigos e imponer reformas aristocráticas."
+          }
+        }
+      ]
+    },
+    {
+      "titulo": "Primer Triunvirato",
+      "puntos": [
+        {
+          "texto": "Julio César → conquista las Galias.",
+          "pregunta": {
+            "q": "¿Qué gran región europea fue anexada militarmente por este triunviro?",
+            "opts": [
+              "Britania",
+              "Las Galias",
+              "Hispania"
+            ],
+            "correct": 1,
+            "explicacion": "Esta victoria le otorgó enorme prestigio, riquezas y un ejército leal para el futuro."
+          }
+        },
+        {
+          "texto": "Pompeyo → derrota piratas del Mediterráneo.",
+          "pregunta": {
+            "q": "¿Qué importante amenaza de seguridad resolvió este líder militar?",
+            "opts": [
+              "Las incursiones de los piratas mediterráneos",
+              "La rebelión de esclavos",
+              "Las invasiones germánicas"
+            ],
+            "correct": 0,
+            "explicacion": "Limpió las rutas comerciales marítimas, asegurando el abastecimiento de la capital."
+          }
+        },
+        {
+          "texto": "Craso → derrota a Espartaco.",
+          "pregunta": {
+            "q": "¿Qué famosa sublevación fue aplastada por este acaudalado general?",
+            "opts": [
+              "El levantamiento de Espartaco",
+              "La revuelta de los Graco",
+              "La conspiración de Catilina"
+            ],
+            "correct": 0,
+            "explicacion": "Puso fin a la mayor rebelión de esclavos (tercera guerra servil) que amenazaba Italia."
+          }
+        }
+      ]
+    },
+    {
+      "titulo": "Segunda Guerra Civil",
+      "puntos": [
+        {
+          "texto": "II Guerra civil = Pompeyo vs J. César.",
+          "pregunta": {
+            "q": "¿Entre quiénes se desató la segunda gran pugna militar por el poder?",
+            "opts": [
+              "Marco Antonio y Octavio",
+              "Pompeyo y Julio César",
+              "Mario y Sila"
+            ],
+            "correct": 1,
+            "explicacion": "La alianza del triunvirato colapsó y derivó en un choque directo entre ambos generales."
+          }
+        },
+        {
+          "texto": "J. César → victoria en Farsalia.",
+          "pregunta": {
+            "q": "¿En qué decisiva batalla triunfó el líder de los populares?",
+            "opts": [
+              "Actium",
+              "Farsalia",
+              "Cannas"
+            ],
+            "correct": 1,
+            "explicacion": "Este combate en Grecia marcó la derrota definitiva de las fuerzas senatoriales lideradas por Pompeyo."
+          }
+        },
+        {
+          "texto": "J. César = dictador.",
+          "pregunta": {
+            "q": "¿Bajo qué título gobernó el vencedor tras finalizar el conflicto?",
+            "opts": [
+              "Cónsul vitalicio",
+              "Dictador",
+              "Emperador"
+            ],
+            "correct": 1,
+            "explicacion": "Acumuló poderes extraordinarios bajo esta figura magistral, lo que alarmó a los senadores tradicionales."
+          }
+        }
+      ]
+    },
+    {
+      "titulo": "Segundo Triunvirato y Tercera Guerra Civil",
+      "puntos": [
+        {
+          "texto": "II Triunvirato ⊃ Marco Antonio + Lépido + Octavio.",
+          "pregunta": {
+            "q": "¿Qué personajes conformaron esta segunda alianza oficial?",
+            "opts": [
+              "César, Pompeyo y Craso",
+              "Marco Antonio, Lépido y Octavio",
+              "Tiberio, Cayo y Mario"
+            ],
+            "correct": 1,
+            "explicacion": "Se unieron legalmente para vengar a César y repartirse el control de los territorios republicanos."
+          }
+        },
+        {
+          "texto": "Lépido → se vuelve sumo pontífice.",
+          "pregunta": {
+            "q": "¿Qué rol asumió este miembro para apartarse del conflicto político y militar?",
+            "opts": [
+              "Sumo pontífice",
+              "Gobernador de Egipto",
+              "Líder del Senado"
+            ],
+            "correct": 0,
+            "explicacion": "Fue marginado del triunvirato y relegado a este alto cargo religioso en Roma."
+          }
+        },
+        {
+          "texto": "III Guerra civil = M. Antonio + Cleopatra vs Octavio.",
+          "pregunta": {
+            "q": "¿Quiénes fueron los oponentes en la última contienda armada de la República?",
+            "opts": [
+              "Pompeyo contra Julio César",
+              "M. Antonio y Cleopatra contra Octavio",
+              "Sila contra los seguidores de Mario"
+            ],
+            "correct": 1,
+            "explicacion": "La rivalidad por el control total llevó al choque entre las fuerzas de Occidente y Oriente."
+          }
+        },
+        {
+          "texto": "Octavio → victoria en Actium.",
+          "pregunta": {
+            "q": "¿En qué emblemático combate naval se decidió el destino del mundo romano?",
+            "opts": [
+              "Batalla de Zama",
+              "Batalla de Farsalia",
+              "Batalla de Actium"
+            ],
+            "correct": 2,
+            "explicacion": "Esta victoria en el mar liquidó las esperanzas de Marco Antonio y selló el dominio de Octavio."
+          }
+        },
+        {
+          "texto": "Octavio = Augusto + Imperator + Príncipe.",
+          "pregunta": {
+            "q": "¿Qué títulos acumuló el vencedor tras pacificar el Estado?",
+            "opts": [
+              "Dictador y rey",
+              "Augusto, Imperator y Príncipe",
+              "Censor y tribuno de la plebe"
+            ],
+            "correct": 1,
+            "explicacion": "Consolidó el poder absoluto manteniendo una fachada republicana, dando inicio a la etapa imperial."
+          }
+        }
+      ]
+    },
+    {
+      "titulo": "El Imperio: Dinastía Julio-Claudia",
+      "puntos": [
+        {
+          "texto": "Augusto → crea guardia pretoriana.",
+          "pregunta": {
+            "q": "¿Qué cuerpo militar especial instituyó el primer emperador?",
+            "opts": [
+              "Legiones extranjeras",
+              "La guardia pretoriana",
+              "Los centuriones montados"
+            ],
+            "correct": 1,
+            "explicacion": "Su función principal era la protección personal del mandatario y el resguardo de la capital."
+          }
+        },
+        {
+          "texto": "Augusto → paz romana + esplendor cultural.",
+          "pregunta": {
+            "q": "¿Qué características definieron el gobierno fundacional del imperio?",
+            "opts": [
+              "Anarquía y guerras civiles",
+              "Paz romana y un auge en la cultura",
+              "Persecuciones religiosas sistemáticas"
+            ],
+            "correct": 1,
+            "explicacion": "Fue una época dorada de estabilidad interna y florecimiento de las artes y letras (Siglo de Augusto)."
+          }
+        },
+        {
+          "texto": "Claudio → llega a islas británicas.",
+          "pregunta": {
+            "q": "¿Qué logró de expansión territorial se dio bajo el mandato de Claudio?",
+            "opts": [
+              "La conquista de Egipto",
+              "La llegada a las islas británicas",
+              "La toma de Germania central"
+            ],
+            "correct": 1,
+            "explicacion": "Añadió la provincia de Britania, cruzando el canal de la Mancha."
+          }
+        },
+        {
+          "texto": "Nerón → 1° persecución de cristianos.",
+          "pregunta": {
+            "q": "¿Qué acción represiva en materia de religión comenzó con este emperador?",
+            "opts": [
+              "La persecución de judíos",
+              "La primera persecución de cristianos",
+              "La prohibición de cultos egipcios"
+            ],
+            "correct": 1,
+            "explicacion": "Inició los ataques violentos del Estado contra los seguidores de esta naciente fe."
+          }
+        },
+        {
+          "texto": "Persecución → pretexto del incendio de Roma.",
+          "pregunta": {
+            "q": "¿Qué suceso trágico se utilizó como excusa para atacar a esta minoría?",
+            "opts": [
+              "El asesinato del César",
+              "Una peste en la ciudad",
+              "El gran incendio de Roma"
+            ],
+            "correct": 2,
+            "explicacion": "Para desviar la culpa de la catástrofe urbana, se acusó y castigó a los cristianos."
+          }
+        }
+      ]
+    },
+    {
+      "titulo": "Dinastías Flavios y Antoninos",
+      "puntos": [
+        {
+          "texto": "Dinastía Flavios → Anfiteatro Flavio (Coliseo).",
+          "pregunta": {
+            "q": "¿Qué imponente estructura para espectáculos se erigió durante esta dinastía?",
+            "opts": [
+              "El Panteón",
+              "El Anfiteatro Flavio o Coliseo",
+              "El Circo Máximo"
+            ],
+            "correct": 1,
+            "explicacion": "Se convirtió en el símbolo arquitectónico de los juegos gladiatorios y el entretenimiento de masas."
+          }
+        },
+        {
+          "texto": "Dinastía Antoninos → máxima expansión.",
+          "pregunta": {
+            "q": "¿Qué hito geopolítico alcanzó el imperio bajo esta familia de gobernantes?",
+            "opts": [
+              "La división en dos capitales",
+              "La máxima expansión territorial",
+              "La pérdida de las provincias europeas"
+            ],
+            "correct": 1,
+            "explicacion": "Las fronteras abarcaron su mayor tamaño histórico durante este siglo de estabilidad."
+          }
+        },
+        {
+          "texto": "Máxima expansión ⊃ Dacia + Mesopotamia.",
+          "pregunta": {
+            "q": "¿Qué regiones clave se anexaron para marcar este límite territorial extremo?",
+            "opts": [
+              "Galia y Britania",
+              "Hispania e Italia",
+              "Dacia y Mesopotamia"
+            ],
+            "correct": 2,
+            "explicacion": "Con la inclusión de estos territorios (en la actual Rumania e Irak), se alcanzó el cénit geográfico."
+          }
+        }
+      ]
+    },
+    {
+      "titulo": "Dinastía Severos y Anarquía Militar",
+      "puntos": [
+        {
+          "texto": "Dinastía Severos → Edicto de ciudadanía.",
+          "pregunta": {
+            "q": "¿Qué importante promulgación legal se emitió durante este periodo dinástico?",
+            "opts": [
+              "La ley de las Doce Tablas",
+              "El Edicto de ciudadanía",
+              "El Edicto de Milán"
+            ],
+            "correct": 1,
+            "explicacion": "Otorgó el estatus de ciudadano a todos los hombres libres del imperio (Constitución Antoniniana)."
+          }
+        },
+        {
+          "texto": "Edicto de ciudadanía → mayor ingreso fiscal.",
+          "pregunta": {
+            "q": "¿Cuál fue el objetivo económico detrás de extender este derecho poblacional?",
+            "opts": [
+              "Lograr un mayor ingreso fiscal por impuestos",
+              "Pagar deudas de guerra",
+              "Reducir la emisión de monedas"
+            ],
+            "correct": 0,
+            "explicacion": "Al haber más ciudadanos, se incrementaba la cantidad de personas obligadas a pagar ciertos tributos."
+          }
+        },
+        {
+          "texto": "Anarquía militar = crisis S. III d.C.",
+          "pregunta": {
+            "q": "¿A qué periodo de tiempo corresponde esta grave etapa de inestabilidad institucional?",
+            "opts": [
+              "Siglo I a.C.",
+              "Siglo III d.C.",
+              "Siglo V d.C."
+            ],
+            "correct": 1,
+            "explicacion": "Fue una época de constantes golpes de estado y generales que se disputaban el trono por la fuerza."
+          }
+        }
+      ]
+    },
+    {
+      "titulo": "Bajo Imperio: Diocleciano",
+      "puntos": [
+        {
+          "texto": "Diocleciano → 10° persecución cristiana.",
+          "pregunta": {
+            "q": "¿Qué política represiva lideró este gobernante, conocida por su severidad?",
+            "opts": [
+              "La expulsión de los filósofos",
+              "La décima persecución de los cristianos",
+              "La prohibición del politeísmo"
+            ],
+            "correct": 1,
+            "explicacion": "Fue la última y más sangrienta de las grandes purgas oficiales contra esta fe."
+          }
+        },
+        {
+          "texto": "Diocleciano → instaura Tetrarquía.",
+          "pregunta": {
+            "q": "¿Qué nuevo sistema de gobierno creó para intentar frenar la anarquía?",
+            "opts": [
+              "Un tercer triunvirato",
+              "La Tetrarquía",
+              "La monarquía hereditaria directa"
+            ],
+            "correct": 1,
+            "explicacion": "Dividió las responsabilidades defensivas y administrativas para manejar mejor un territorio inmenso."
+          }
+        },
+        {
+          "texto": "Tetrarquía = región Occidente + Oriente.",
+          "pregunta": {
+            "q": "¿En qué dos grandes bloques geográficos se dividió la gestión del poder?",
+            "opts": [
+              "Norte y Sur",
+              "Occidente y Oriente",
+              "Europa y África"
+            ],
+            "correct": 1,
+            "explicacion": "Esta división administrativa sentó las bases de la futura y definitiva partición del imperio."
+          }
+        },
+        {
+          "texto": "Cada región ⊃ 1 Augusto + 1 César.",
+          "pregunta": {
+            "q": "¿Cómo estaba conformado el liderazgo en cada una de las dos mitades?",
+            "opts": [
+              "Un emperador y un senado local",
+              "Dos cónsules anuales",
+              "Un Augusto y un César"
+            ],
+            "correct": 2,
+            "explicacion": "El Augusto era el emperador principal y el César actuaba como su subordinado y sucesor designado."
+          }
+        }
+      ]
+    },
+    {
+      "titulo": "Bajo Imperio: Constantino y Teodosio",
+      "puntos": [
+        {
+          "texto": "Constantino I → Edicto de Milán.",
+          "pregunta": {
+            "q": "¿Qué importante documento fue promulgado por este gobernante?",
+            "opts": [
+              "El Edicto de Tesalónica",
+              "El Edicto de Milán",
+              "El Edicto de ciudadanía"
+            ],
+            "correct": 1,
+            "explicacion": "Marcó un antes y un después en la política religiosa del estado romano."
+          }
+        },
+        {
+          "texto": "Edicto de Milán → tolera demás cultos.",
+          "pregunta": {
+            "q": "¿Qué garantía otorgó esta ley a los habitantes del imperio?",
+            "opts": [
+              "Prohibió la fe pagana",
+              "Estableció la libertad y tolerancia de cultos",
+              "Obligó a adorar al emperador"
+            ],
+            "correct": 1,
+            "explicacion": "Puso fin oficialmente a las persecuciones, permitiendo la libertad religiosa."
+          }
+        },
+        {
+          "texto": "Constantino I = 1° emperador cristiano.",
+          "pregunta": {
+            "q": "¿Qué característica personal inédita define a este mandatario?",
+            "opts": [
+              "Fue el último en gobernar desde Roma",
+              "Fue el primer emperador cristiano",
+              "Fue el fundador de la dinastía Flavia"
+            ],
+            "correct": 1,
+            "explicacion": "Su conversión personal vinculó definitivamente el poder imperial con esta nueva religión."
+          }
+        },
+        {
+          "texto": "Constantino I → Concilio de Nicea.",
+          "pregunta": {
+            "q": "¿Qué importante asamblea teológica fue convocada por él?",
+            "opts": [
+              "El Concilio de Nicea",
+              "El Senado de Constantinopla",
+              "El Sínodo de Milán"
+            ],
+            "correct": 0,
+            "explicacion": "Reunió a los obispos para unificar criterios doctrinales y evitar cismas."
+          }
+        },
+        {
+          "texto": "Concilio de Nicea → nace Iglesia Apostólica Romana.",
+          "pregunta": {
+            "q": "¿Qué institución quedó formalmente establecida tras esta reunión de obispos?",
+            "opts": [
+              "La orden pretoriana",
+              "La Iglesia Apostólica Romana",
+              "El patriarcado de Occidente"
+            ],
+            "correct": 1,
+            "explicacion": "Las resoluciones del concilio estructuraron y dieron base oficial a la organización eclesiástica."
+          }
+        },
+        {
+          "texto": "Teodosio → Edicto de Tesalónica.",
+          "pregunta": {
+            "q": "¿Qué ley trascendental promulgó el gobernante Teodosio?",
+            "opts": [
+              "La tolerancia universal",
+              "La división del ejército",
+              "El Edicto de Tesalónica"
+            ],
+            "correct": 2,
+            "explicacion": "Esta medida modificó drásticamente el estatus de las religiones dentro de las fronteras."
+          }
+        },
+        {
+          "texto": "Edicto de Tesalónica → oficializa el cristianismo.",
+          "pregunta": {
+            "q": "¿Cuál fue el efecto directo de esta legislación promulgada por Teodosio?",
+            "opts": [
+              "Prohibió la religión cristiana",
+              "Decretó la libertad religiosa absoluta",
+              "Convirtió al cristianismo en la fe oficial"
+            ],
+            "correct": 2,
+            "explicacion": "Transformó la religión que antes era perseguida en la única autorizada y respaldada por el Estado."
+          }
+        },
+        {
+          "texto": "Teodosio → División del imperio.",
+          "pregunta": {
+            "q": "¿Qué decisión geopolítica irreversible tomó este emperador a su muerte?",
+            "opts": [
+              "La división definitiva del imperio",
+              "La conquista de Germania",
+              "La mudanza de la capital a Egipto"
+            ],
+            "correct": 0,
+            "explicacion": "Fragmentó los territorios para siempre como estrategia frente a las crisis de gobernabilidad e invasiones."
+          }
+        },
+        {
+          "texto": "División = Occidente (Honorio) + Oriente (Arcadio).",
+          "pregunta": {
+            "q": "¿A quiénes se les entregó el mando de cada mitad tras la separación?",
+            "opts": [
+              "Mario y Sila",
+              "A sus hijos Honorio y Arcadio",
+              "Augusto y Julio César"
+            ],
+            "correct": 1,
+            "explicacion": "Legó el imperio occidental a Honorio y el oriental (bizantino) a Arcadio."
+          }
+        }
+      ]
+    }
+  ]
+}

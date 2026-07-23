@@ -1,0 +1,321 @@
+{
+  "curso": "Historia Universal",
+  "tema": "Egipto: Desarrollo Histórico",
+  "glosario": {
+    "Nomos": "Organización inicial o provincia en el antiguo Egipto.",
+    "Mastabas": "Tipo de tumba del Imperio Antiguo con base rectangular.",
+    "Hicsos": "Pueblo invasor que introdujo el hierro en Egipto.",
+    "Avaris": "Capital de los Hicsos durante su dominio en Egipto.",
+    "Tebas": "Importante ciudad y capital egipcia en distintos periodos.",
+    "=": "Definición / es",
+    "⊃": "Contiene / abarca",
+    "+": "Combinación / junto con",
+    "→": "Produce, genera, conduce a, realiza",
+    "⇒": "Causa"
+  },
+  "theory": [
+    {
+      "titulo": "Geografía y Periodo Predinástico",
+      "puntos": [
+        {
+          "texto": "Egipto = don del Nilo",
+          "pregunta": {
+            "q": "¿Qué frase se utiliza para definir a la civilización egipcia por su dependencia fluvial?",
+            "opts": [
+              "Hijos del desierto",
+              "Don del Nilo",
+              "Tierra de faraones"
+            ],
+            "correct": 1,
+            "explicacion": "La frase 'don del Nilo' refleja cómo la existencia y prosperidad de Egipto dependían de las crecidas de este río."
+          }
+        },
+        {
+          "texto": "Ubicación ⊃ Alto Egipto + Bajo Egipto",
+          "pregunta": {
+            "q": "¿Cuáles son las dos grandes regiones que componen la ubicación espacial de Egipto?",
+            "opts": [
+              "Alto Egipto y Bajo Egipto",
+              "Egipto Oriental y Egipto Occidental",
+              "Desierto Rojo y Desierto Negro"
+            ],
+            "correct": 0,
+            "explicacion": "Geográficamente, el territorio se dividía tradicionalmente en el valle del sur (Alto) y el delta del norte (Bajo)."
+          }
+        },
+        {
+          "texto": "Organización inicial = Nomos",
+          "pregunta": {
+            "q": "¿Qué nombre recibía la organización territorial primaria en el periodo predinástico?",
+            "opts": [
+              "Satrapías",
+              "Marcas",
+              "Nomos"
+            ],
+            "correct": 2,
+            "explicacion": "Antes de la unificación, las comunidades se agrupaban en nomos, que funcionaban como provincias o distritos independientes."
+          }
+        },
+        {
+          "texto": "Aportes ⊃ Calendario solar",
+          "pregunta": {
+            "q": "¿Qué importante sistema de medición del tiempo desarrollaron los egipcios?",
+            "opts": [
+              "Calendario lunar",
+              "Calendario solar",
+              "Reloj de arena"
+            ],
+            "correct": 1,
+            "explicacion": "Para predecir las crecidas del Nilo, idearon un calendario solar de 365 días, base del que usamos en la actualidad."
+          }
+        },
+        {
+          "texto": "Escritura = Jeroglífica + Hierática y Demótica",
+          "pregunta": {
+            "q": "¿Qué sistemas de escritura caracterizaron a la civilización egipcia?",
+            "opts": [
+              "Cuneiforme y lineal",
+              "Jeroglífica junto a hierática y demótica",
+              "Alfabética y fonética"
+            ],
+            "correct": 1,
+            "explicacion": "La escritura sagrada monumental era la jeroglífica, mientras que la hierática y demótica eran variantes más simplificadas para el uso diario."
+          }
+        },
+        {
+          "texto": "Champollion → descifra escritura (Piedra Rosetta)",
+          "pregunta": {
+            "q": "¿Quién logró descifrar la escritura egipcia y con qué objeto?",
+            "opts": [
+              "Howard Carter con el sarcófago de Tutankamón",
+              "Arthur Evans con el disco de Festo",
+              "Jean-François Champollion usando la Piedra Rosetta"
+            ],
+            "correct": 2,
+            "explicacion": "Gracias al texto trilingüe de la Piedra Rosetta, Champollion pudo encontrar la clave para leer los jeroglíficos en 1822."
+          }
+        }
+      ]
+    },
+    {
+      "titulo": "Periodo Tinita (Arcaico)",
+      "puntos": [
+        {
+          "texto": "Narmer (Menes) → unifica Alto + Bajo Egipto",
+          "pregunta": {
+            "q": "¿Qué hito fundamental logró el faraón Narmer o Menes?",
+            "opts": [
+              "La expulsión de los hicsos",
+              "La unificación del Alto y Bajo Egipto",
+              "La construcción de la primera pirámide"
+            ],
+            "correct": 1,
+            "explicacion": "Al unificar ambas regiones, Narmer se convirtió en el primer faraón, marcando el inicio del Egipto dinástico."
+          }
+        }
+      ]
+    },
+    {
+      "titulo": "Imperio Antiguo (Menfita)",
+      "puntos": [
+        {
+          "texto": "Imperio Antiguo = Imperio Menfita",
+          "pregunta": {
+            "q": "¿Con qué otro nombre se le conoce al Imperio Antiguo debido a su centro de poder?",
+            "opts": [
+              "Imperio Tebano",
+              "Imperio Menfita",
+              "Imperio Tinita"
+            ],
+            "correct": 1,
+            "explicacion": "Toma este nombre porque la capital durante este largo periodo fue la ciudad de Menfis."
+          }
+        },
+        {
+          "texto": "Tumbas iniciales = mastabas",
+          "pregunta": {
+            "q": "¿Cómo se denominaban las tumbas con forma de tronco de pirámide usadas inicialmente?",
+            "opts": [
+              "Mastabas",
+              "Hipogeos",
+              "Catacumbas"
+            ],
+            "correct": 0,
+            "explicacion": "Eran estructuras rectangulares precursoras de las grandes pirámides."
+          }
+        },
+        {
+          "texto": "Zoser → Pirámide escalonada (Saqqara)",
+          "pregunta": {
+            "q": "¿Qué faraón ordenó la construcción de la pirámide escalonada de Saqqara?",
+            "opts": [
+              "Zoser",
+              "Keops",
+              "Narmer"
+            ],
+            "correct": 0,
+            "explicacion": "Zoser mandó a erigir este monumento, el cual es considerado el primer gran complejo construido en piedra."
+          }
+        },
+        {
+          "texto": "Imhotep → diseña pirámide escalonada",
+          "pregunta": {
+            "q": "¿Qué rol cumplió Imhotep en el Imperio Antiguo?",
+            "opts": [
+              "Fue un faraón conquistador",
+              "Fue el líder de una rebelión",
+              "Fue el arquitecto que diseñó la pirámide escalonada"
+            ],
+            "correct": 2,
+            "explicacion": "Imhotep es el primer arquitecto conocido de la historia, visir de Zoser y luego deificado."
+          }
+        },
+        {
+          "texto": "Keops, Kefrén + Micerinos → Pirámides de Giza",
+          "pregunta": {
+            "q": "¿A qué faraones corresponden las célebres Pirámides de Giza?",
+            "opts": [
+              "Keops, Kefrén y Micerinos",
+              "Ahmose, Tutmosis y Ramsés",
+              "Zoser, Snefru y Teti"
+            ],
+            "correct": 0,
+            "explicacion": "Estas tres pirámides monumentales marcan el apogeo arquitectónico del Imperio Antiguo."
+          }
+        }
+      ]
+    },
+    {
+      "titulo": "Primer Intermedio",
+      "puntos": [
+        {
+          "texto": "Primer Intermedio = ruptura de centralización + debilidad del faraón",
+          "pregunta": {
+            "q": "¿Qué características políticas definen al Primer Periodo Intermedio?",
+            "opts": [
+              "Expansión imperial y centralización",
+              "Ruptura de la centralización y debilidad del faraón",
+              "Unificación territorial bajo una nueva capital"
+            ],
+            "correct": 1,
+            "explicacion": "Es una época de crisis donde el poder central colapsa y el estado se fragmenta."
+          }
+        },
+        {
+          "texto": "Causa de crisis = excesivo poder de nomarcas + gastos",
+          "pregunta": {
+            "q": "¿Cuáles fueron los motivos principales de la crisis en el Primer Intermedio?",
+            "opts": [
+              "Invasiones extranjeras masivas",
+              "El excesivo poder de los nomarcas y los altos gastos económicos",
+              "Un desastre natural que destruyó la capital"
+            ],
+            "correct": 1,
+            "explicacion": "Los gobernadores locales (nomarcas) ganaron autonomía, mermando los recursos y la autoridad del faraón."
+          }
+        }
+      ]
+    },
+    {
+      "titulo": "Imperio Medio (Tebano)",
+      "puntos": [
+        {
+          "texto": "Imperio Medio = Imperio Tebano",
+          "pregunta": {
+            "q": "¿Qué ciudad le dio su nombre alternativo al Imperio Medio?",
+            "opts": [
+              "Menfis",
+              "Tebas",
+              "Avaris"
+            ],
+            "correct": 1,
+            "explicacion": "El poder se trasladó al sur, consolidando a Tebas como la nueva gran capital del imperio."
+          }
+        },
+        {
+          "texto": "Culto principal = Amón Ra",
+          "pregunta": {
+            "q": "¿Qué deidad se consolidó como el culto principal durante el Imperio Tebano?",
+            "opts": [
+              "Osiris",
+              "Ptah",
+              "Amón Ra"
+            ],
+            "correct": 2,
+            "explicacion": "El dios local de Tebas, Amón, se fusionó con el dios solar Ra, creando la principal deidad del panteón estatal."
+          }
+        },
+        {
+          "texto": "Mentuhotep II → reunificador de Egipto",
+          "pregunta": {
+            "q": "¿Qué faraón es reconocido por reunificar Egipto e iniciar el Imperio Medio?",
+            "opts": [
+              "Ramsés II",
+              "Mentuhotep II",
+              "Amenhotep IV"
+            ],
+            "correct": 1,
+            "explicacion": "Mentuhotep II sometió a los gobernadores locales y restauró la autoridad central desde Tebas."
+          }
+        }
+      ]
+    },
+    {
+      "titulo": "Segundo Periodo Intermedio",
+      "puntos": [
+        {
+          "texto": "Segundo Intermedio ⇒ invasión de los Hicsos",
+          "pregunta": {
+            "q": "¿Qué evento desencadenó el Segundo Periodo Intermedio?",
+            "opts": [
+              "La invasión de los Hicsos",
+              "Una guerra civil entre nobles",
+              "La caída del Imperio Romano"
+            ],
+            "correct": 0,
+            "explicacion": "La llegada de los Hicsos desde Asia fragmentó nuevamente el país, dominando gran parte del territorio."
+          }
+        },
+        {
+          "texto": "Hicsos → introducen el hierro",
+          "pregunta": {
+            "q": "¿Qué importante innovación tecnológica introdujeron los Hicsos en Egipto?",
+            "opts": [
+              "La rueda de molino",
+              "El hierro",
+              "La escritura alfabética"
+            ],
+            "correct": 1,
+            "explicacion": "Junto al carro de guerra tirado por caballos, la metalurgia del hierro otorgó a los invasores superioridad militar inicial."
+          }
+        },
+        {
+          "texto": "Capital Hicsa = Avaris",
+          "pregunta": {
+            "q": "¿Dónde establecieron su capital los invasores Hicsos?",
+            "opts": [
+              "Menfis",
+              "Alejandría",
+              "Avaris"
+            ],
+            "correct": 2,
+            "explicacion": "Ubicada en el delta del Nilo, Avaris fue la sede de poder de las dinastías hicsas."
+          }
+        },
+        {
+          "texto": "Capital egipcia = Tebas",
+          "pregunta": {
+            "q": "¿Qué ciudad se mantuvo como capital de la resistencia egipcia durante el dominio Hicso?",
+            "opts": [
+              "Saqqara",
+              "Tebas",
+              "Karnak"
+            ],
+            "correct": 1,
+            "explicacion": "Los gobernantes nativos de Tebas mantuvieron cierta independencia y desde allí lideraron la futura reconquista."
+          }
+        }
+      ]
+    }
+  ]
+}

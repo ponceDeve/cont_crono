@@ -1,0 +1,608 @@
+{
+  "curso": "Historia del Perú",
+  "tema": "Incas",
+  "glosario": {
+    "Taipicala": "Nombre antiguo de la zona de Tiahuanaco, de donde partió la migración histórica.",
+    "Pururaucas": "Guerreros míticos de piedra que, según la leyenda, ayudaron a vencer a los chancas.",
+    "Yahuarpampa": "Batalla histórica donde los incas, liderados por Cusi Yupanqui, derrotaron a los chancas.",
+    "Tahuantisuyo": "Fase imperial de máxima expansión de los incas, dividida en cuatro suyos.",
+    "Huarachico": "Ceremonia o prueba de paso a la adultez que debía ganar el príncipe heredero.",
+    "Panaca": "Familia o linaje real encargado de cuidar la momia del inca fallecido.",
+    "Ayllu": "Unidad básica de la organización social andina, unida por diversos vínculos.",
+    "Mallqui": "Momia sagrada del inca, venerada y cuidada por su panaca.",
+    "Topo": "Medida de tierra entregada anualmente al poblador común para su sustento.",
+    "=": "Definición / es / significa",
+    "→": "Se encuentra en / conduce a / resulta en",
+    "⊃": "Contiene / incluye / abarca",
+    "✓": "Requiere / posee / se caracteriza por",
+    "+": "Combinación / junto con"
+  },
+  "theory": [
+    {
+      "titulo": "Origen de los Incas",
+      "puntos": [
+        {
+          "texto": "Origen legendario ⊃ Manco Cápac + Mama Ocllo.",
+          "pregunta": {
+            "q": "¿Qué personajes protagonizan una de las principales narraciones legendarias del origen inca?",
+            "opts": [
+              "Los hermanos Ayar",
+              "Manco Cápac y Mama Ocllo",
+              "Cusi Yupanqui y la Coya"
+            ],
+            "correct": 1,
+            "explicacion": "Manco Cápac y Mama Ocllo conforman la pareja fundadora en el mito que los sitúa emergiendo del lago Titicaca."
+          }
+        },
+        {
+          "texto": "Mito de Manco Cápac → obra Comentarios Reales.",
+          "pregunta": {
+            "q": "¿En qué texto histórico quedó registrado el mito de Manco Cápac?",
+            "opts": [
+              "Suma y Narración",
+              "Crónica del Perú",
+              "Comentarios Reales"
+            ],
+            "correct": 2,
+            "explicacion": "El Inca Garcilaso de la Vega inmortalizó esta versión legendaria en su famosa obra Comentarios Reales."
+          }
+        },
+        {
+          "texto": "Origen legendario ⊃ mito de Hermanos Ayar.",
+          "pregunta": {
+            "q": "¿Qué otro relato legendario explica la fundación del Cusco?",
+            "opts": [
+              "El mito de los Hermanos Ayar",
+              "La leyenda de los Pururaucas",
+              "El mito de Taipicala"
+            ],
+            "correct": 0,
+            "explicacion": "El mito de los hermanos Ayar, salidos del cerro Tamputocco en Pacaritambo, es la segunda gran leyenda de origen."
+          }
+        },
+        {
+          "texto": "Mito Hermanos Ayar → obra Suma y Narración.",
+          "pregunta": {
+            "q": "¿Qué documento colonial recopiló la leyenda de los hermanos Ayar?",
+            "opts": [
+              "Nueva Corónica y Buen Gobierno",
+              "Comentarios Reales",
+              "Suma y Narración"
+            ],
+            "correct": 2,
+            "explicacion": "El cronista Juan de Betanzos recogió esta narrativa tradicional en su obra 'Suma y Narración de los Incas'."
+          }
+        },
+        {
+          "texto": "Origen histórico = migración desde Taipicala.",
+          "pregunta": {
+            "q": "¿De qué lugar partió la migración que dio origen real a los incas?",
+            "opts": [
+              "Taipicala",
+              "Pacaritambo",
+              "Yahuarpampa"
+            ],
+            "correct": 0,
+            "explicacion": "Históricamente, los fundadores del Cusco fueron una etnia que migró desde la región de Taipicala (Tiahuanaco)."
+          }
+        }
+      ]
+    },
+    {
+      "titulo": "Victoria contra los Chancas",
+      "puntos": [
+        {
+          "texto": "Victoria legendaria ✓ pururaucas.",
+          "pregunta": {
+            "q": "¿Qué elemento mítico fue fundamental en la victoria legendaria sobre los chancas?",
+            "opts": [
+              "La ayuda de los pururaucas",
+              "El diluvio andino",
+              "La intervención de los hermanos Ayar"
+            ],
+            "correct": 0,
+            "explicacion": "La tradición oral incaica atribuyó la victoria a los pururaucas, fuerzas mágicas que apoyaron al ejército."
+          }
+        },
+        {
+          "texto": "Pururaucas = guerreros de piedra.",
+          "pregunta": {
+            "q": "¿Qué eran exactamente los pururaucas según el mito?",
+            "opts": [
+              "Soldados de élite",
+              "Guerreros de piedra",
+              "Sacerdotes del sol"
+            ],
+            "correct": 1,
+            "explicacion": "El mito cuenta que las piedras del campo de batalla se transformaron en guerreros para defender el Cusco."
+          }
+        },
+        {
+          "texto": "Victoria histórica = batalla de Yahuarpampa.",
+          "pregunta": {
+            "q": "¿En qué enfrentamiento real los incas derrotaron definitivamente a la invasión chanca?",
+            "opts": [
+              "Batalla de Yahuarpampa",
+              "Batalla de Maule",
+              "Batalla de Tampu Tocco"
+            ],
+            "correct": 0,
+            "explicacion": "La llanura de Yahuarpampa fue el escenario histórico donde se frenó la expansión chanca y comenzó el auge inca."
+          }
+        },
+        {
+          "texto": "Yahuarpampa → victoria de Cusi Yupanqui.",
+          "pregunta": {
+            "q": "¿Qué líder inca dirigió a las tropas hacia el triunfo en Yahuarpampa?",
+            "opts": [
+              "Manco Cápac",
+              "Huascar",
+              "Cusi Yupanqui"
+            ],
+            "correct": 2,
+            "explicacion": "Cusi Yupanqui lideró la defensa y, tras esta gran victoria, asumiría el poder bajo el nombre de Pachacútec."
+          }
+        }
+      ]
+    },
+    {
+      "titulo": "Expansión y Dualismo",
+      "puntos": [
+        {
+          "texto": "Fases de expansión ⊃ curacal + confederada + imperial.",
+          "pregunta": {
+            "q": "¿Cuáles fueron las fases del proceso de expansión territorial incaica?",
+            "opts": [
+              "Tribal, regional y decadente",
+              "Curacal, confederada e imperial",
+              "Mítica, legendaria e histórica"
+            ],
+            "correct": 1,
+            "explicacion": "El estado inca evolucionó desde un pequeño curacazgo, pasó por alianzas confederadas y culminó como un vasto imperio."
+          }
+        },
+        {
+          "texto": "Fase imperial = Tahuantisuyo.",
+          "pregunta": {
+            "q": "¿Con qué nombre se conoce a la etapa imperial de máxima expansión?",
+            "opts": [
+              "Tahuantisuyo",
+              "Contisuyo",
+              "Pacaritambo"
+            ],
+            "correct": 0,
+            "explicacion": "El Tahuantisuyo representa la consolidación del imperio abarcando gran parte de la cordillera de los Andes."
+          }
+        },
+        {
+          "texto": "Límite norte = río Ancasmayo.",
+          "pregunta": {
+            "q": "¿Qué accidente geográfico marcó la frontera norte del imperio?",
+            "opts": [
+              "Río Maule",
+              "Río Ancasmayo",
+              "Tucumán"
+            ],
+            "correct": 1,
+            "explicacion": "La máxima expansión hacia el norte llegó hasta el río Ancasmayo, ubicado en la actual Colombia."
+          }
+        },
+        {
+          "texto": "Límite sur = río Maule.",
+          "pregunta": {
+            "q": "¿Hasta qué límite natural se extendió el dominio inca por el sur?",
+            "opts": [
+              "El lago Titicaca",
+              "El río Ancasmayo",
+              "El río Maule"
+            ],
+            "correct": 2,
+            "explicacion": "Por el sur, las tropas imperiales avanzaron hasta el río Maule, en el actual territorio de Chile."
+          }
+        },
+        {
+          "texto": "Dualismo dinástico = Hurin Cusco + Hanan Cusco.",
+          "pregunta": {
+            "q": "¿Cómo se dividía dinásticamente el poder en el Cusco?",
+            "opts": [
+              "Entre Hurin Cusco y Hanan Cusco",
+              "Entre Chinchaysuyo y Collasuyo",
+              "Entre Curacas y Mitimaes"
+            ],
+            "correct": 0,
+            "explicacion": "El Cusco estaba organizado bajo un principio de dualidad espacial y política: la parte baja (Hurin) y la alta (Hanan)."
+          }
+        }
+      ]
+    },
+    {
+      "titulo": "Organización Política",
+      "puntos": [
+        {
+          "texto": "Inca = autoridad suprema.",
+          "pregunta": {
+            "q": "¿Quién ocupaba la cúspide absoluta en la estructura política del Tahuantisuyo?",
+            "opts": [
+              "El Tucuy Ricuy",
+              "El Inca",
+              "El Auqui"
+            ],
+            "correct": 1,
+            "explicacion": "El Inca era el gobernante máximo, concentrando el poder político, militar y religioso de todo el imperio."
+          }
+        },
+        {
+          "texto": "Gobierno inca ✓ poder teocrático + militar.",
+          "pregunta": {
+            "q": "¿Qué pilares fundamentaban el poder del gobierno incaico?",
+            "opts": [
+              "Poder democrático y comercial",
+              "Poder teocrático y militar",
+              "Poder asambleario y civil"
+            ],
+            "correct": 1,
+            "explicacion": "La autoridad del Inca se sostenía en su carácter sagrado (teocracia) y en el dominio de sus ejércitos (militarismo)."
+          }
+        },
+        {
+          "texto": "Auqui = príncipe heredero + cogobernante.",
+          "pregunta": {
+            "q": "¿Qué rol desempeñaba el Auqui en el estado inca?",
+            "opts": [
+              "Jefe supremo de los sacerdotes",
+              "Gobernador de una provincia",
+              "Príncipe heredero y cogobernante"
+            ],
+            "correct": 2,
+            "explicacion": "Para asegurar la transición y entrenarlo en el poder, el Auqui cogobernaba junto al Inca reinante."
+          }
+        },
+        {
+          "texto": "Auqui ✓ ganador del Huarachico.",
+          "pregunta": {
+            "q": "¿Qué requisito indispensable debía cumplir el Auqui para consolidar su posición?",
+            "opts": [
+              "Ser ganador del Huarachico",
+              "Fundar un nuevo ayllu",
+              "Viajar al río Maule"
+            ],
+            "correct": 0,
+            "explicacion": "El Huarachico era un exigente certamen físico y militar que validaba las capacidades del futuro gobernante."
+          }
+        },
+        {
+          "texto": "Tahuantisuyo camachik = consejo de asesores.",
+          "pregunta": {
+            "q": "¿Qué función cumplía el Tahuantisuyo camachik?",
+            "opts": [
+              "Era el tribunal de justicia",
+              "Era el consejo de asesores",
+              "Era la asamblea del pueblo"
+            ],
+            "correct": 1,
+            "explicacion": "Este consejo, conformado por los jefes de los cuatro suyos (apocunas), asesoraba directamente al Inca en sus decisiones."
+          }
+        },
+        {
+          "texto": "Apunchik = gobernador de provincia.",
+          "pregunta": {
+            "q": "¿Qué cargo político ejercía la administración de una provincia o huamaní?",
+            "opts": [
+              "El Apunchik",
+              "El Curaca",
+              "El Tucuy Ricuy"
+            ],
+            "correct": 0,
+            "explicacion": "También conocido como Tocricut, el Apunchik mantenía el control político y militar a nivel provincial."
+          }
+        },
+        {
+          "texto": "Tucuy Ricuy = supervisor + juez.",
+          "pregunta": {
+            "q": "¿Cuáles eran las funciones principales del Tucuy Ricuy?",
+            "opts": [
+              "Dirigir el culto solar",
+              "Ser supervisor y juez",
+              "Liderar a los ejércitos"
+            ],
+            "correct": 1,
+            "explicacion": "Su nombre significa 'el que todo lo ve', ya que viajaba de incógnito supervisando la administración e impartiendo justicia."
+          }
+        },
+        {
+          "texto": "Curaca = jefe del ayllu.",
+          "pregunta": {
+            "q": "¿Qué título recibía la autoridad máxima dentro de un ayllu?",
+            "opts": [
+              "Mitimae",
+              "Curaca",
+              "Auqui"
+            ],
+            "correct": 1,
+            "explicacion": "El Curaca organizaba las tareas agrícolas, mediaba en conflictos y era el nexo entre su comunidad y el Estado."
+          }
+        }
+      ]
+    },
+    {
+      "titulo": "Organización Económica: Principios y Formas de Trabajo",
+      "puntos": [
+        {
+          "texto": "Principio de reciprocidad = intercambio de trabajos.",
+          "pregunta": {
+            "q": "¿En qué consistía el principio andino de la reciprocidad?",
+            "opts": [
+              "En la entrega exclusiva de oro",
+              "En el intercambio de trabajos",
+              "En el comercio con monedas"
+            ],
+            "correct": 1,
+            "explicacion": "Era un sistema de ayuda y prestación de servicios mutuos (que podía ser simétrico o asimétrico) fundamental en la economía."
+          }
+        },
+        {
+          "texto": "Principio de redistribución = reparto de excedentes.",
+          "pregunta": {
+            "q": "¿Qué mecanismo económico permitía asignar bienes almacenados a la población o autoridades?",
+            "opts": [
+              "El tributo monetario",
+              "La compra en ferias",
+              "El principio de redistribución"
+            ],
+            "correct": 2,
+            "explicacion": "El Estado acopiaba los excedentes productivos y luego los redistribuía según las necesidades o para asegurar lealtades."
+          }
+        },
+        {
+          "texto": "Ayni = ayuda mutua.",
+          "pregunta": {
+            "q": "¿Qué sistema laboral representaba la colaboración recíproca entre familias?",
+            "opts": [
+              "El Ayni",
+              "La Mita",
+              "La Minka"
+            ],
+            "correct": 0,
+            "explicacion": "El Ayni era el trabajo comunitario diario donde los miembros de un ayllu se ayudaban mutuamente bajo la premisa de devolver el favor."
+          }
+        },
+        {
+          "texto": "Minka = trabajo festivo para el sol.",
+          "pregunta": {
+            "q": "¿Qué tipo de labor colectiva se realizaba en beneficio de la comunidad o divinidades?",
+            "opts": [
+              "La Chunka",
+              "La Mita",
+              "La Minka"
+            ],
+            "correct": 2,
+            "explicacion": "La Minka movilizaba a la población en un ambiente festivo para trabajar las tierras del Sol o construir obras locales."
+          }
+        },
+        {
+          "texto": "Mita = trabajo a favor del estado.",
+          "pregunta": {
+            "q": "¿Qué sistema de trabajo era de carácter obligatorio para contribuir con el imperio?",
+            "opts": [
+              "La Mita",
+              "El Ayni",
+              "El Katu"
+            ],
+            "correct": 0,
+            "explicacion": "Mediante la Mita, los varones adultos tributaban su fuerza laboral por turnos para grandes obras estatales o militares."
+          }
+        },
+        {
+          "texto": "Chunka = trabajo de emergencia.",
+          "pregunta": {
+            "q": "¿Qué modalidad laboral se activaba exclusivamente frente a situaciones de desastre?",
+            "opts": [
+              "El Ayni",
+              "La Chunka",
+              "La Minka"
+            ],
+            "correct": 1,
+            "explicacion": "La Chunka era convocada de manera excepcional por mujeres y hombres para responder a desastres naturales o emergencias civiles."
+          }
+        }
+      ]
+    },
+    {
+      "titulo": "Almacenes y Distribución de Tierras",
+      "puntos": [
+        {
+          "texto": "Colcas = despensas estatales.",
+          "pregunta": {
+            "q": "¿Qué nombre recibían los depósitos donde el Estado inca guardaba sus provisiones?",
+            "opts": [
+              "Katus",
+              "Colcas",
+              "Pirhuas"
+            ],
+            "correct": 1,
+            "explicacion": "Las colcas eran grandes almacenes construidos por el Estado para resguardar los excedentes generados por la mita."
+          }
+        },
+        {
+          "texto": "Tambos = posadas en caminos.",
+          "pregunta": {
+            "q": "¿Qué función cumplían los tambos en la infraestructura incaica?",
+            "opts": [
+              "Eran templos de oración",
+              "Eran posadas en los caminos",
+              "Eran prisiones de castigo"
+            ],
+            "correct": 1,
+            "explicacion": "A lo largo de la red vial, los tambos servían como refugio y lugar de abastecimiento para mensajeros y tropas."
+          }
+        },
+        {
+          "texto": "Pirhuas = graneros de hogar.",
+          "pregunta": {
+            "q": "¿Dónde almacenaban las familias sus propios alimentos cotidianos?",
+            "opts": [
+              "En las Pirhuas",
+              "En los Tambos",
+              "En las Colcas"
+            ],
+            "correct": 0,
+            "explicacion": "Las pirhuas eran depósitos de escala doméstica utilizados por los hatun runas dentro de sus viviendas."
+          }
+        },
+        {
+          "texto": "Tierras del sol → para el culto.",
+          "pregunta": {
+            "q": "¿A qué propósito se destinaba la producción de las tierras del sol?",
+            "opts": [
+              "Al mantenimiento del Inca",
+              "Para el uso exclusivo del culto",
+              "Para el reparto en las ferias"
+            ],
+            "correct": 1,
+            "explicacion": "Los frutos de estas parcelas sostenían a los sacerdotes y abastecían las ofrendas religiosas."
+          }
+        },
+        {
+          "texto": "Poblador común ✓ recibe un topo anualmente.",
+          "pregunta": {
+            "q": "¿Qué porción de tierra se le asignaba cada año al integrante del pueblo?",
+            "opts": [
+              "Un topo",
+              "Un ayllu",
+              "Una colca"
+            ],
+            "correct": 0,
+            "explicacion": "El topo era una medida variable de tierra productiva entregada anualmente desde las tierras de la comunidad (sapsi) para su sustento."
+          }
+        }
+      ]
+    },
+    {
+      "titulo": "Organización Social: Realeza y Nobleza",
+      "puntos": [
+        {
+          "texto": "Coya = hermana + esposa del Inca.",
+          "pregunta": {
+            "q": "¿Qué parentesco directo y estatus poseía la Coya respecto al Inca?",
+            "opts": [
+              "Era su hija heredera",
+              "Era su hermana y esposa",
+              "Era la madre del Auqui"
+            ],
+            "correct": 1,
+            "explicacion": "En la cúspide de la realeza, el soberano se casaba con su hermana, quien adquiría el título principal de Coya."
+          }
+        },
+        {
+          "texto": "Nobleza de sangre = orejones.",
+          "pregunta": {
+            "q": "¿Cómo se le denominaba popularmente a la élite vinculada por consanguinidad al Inca?",
+            "opts": [
+              "Curacales",
+              "Advenedizos",
+              "Orejones"
+            ],
+            "correct": 2,
+            "explicacion": "Los españoles los apodaron 'orejones' debido a los grandes adornos que dilataban los lóbulos de sus orejas como símbolo de estatus."
+          }
+        },
+        {
+          "texto": "Panaca ✓ cuidar el mallqui.",
+          "pregunta": {
+            "q": "¿Cuál era la responsabilidad principal de la panaca?",
+            "opts": [
+              "Trabajar en la mita",
+              "Cuidar el mallqui",
+              "Vigilar los tambos"
+            ],
+            "correct": 1,
+            "explicacion": "La panaca resguardaba la memoria, los bienes y, sobre todo, custodiaba a la momia sagrada (mallqui) de su ancestro real."
+          }
+        },
+        {
+          "texto": "Nobleza de privilegio ⊃ curacal.",
+          "pregunta": {
+            "q": "¿Qué grupo formaba parte de la nobleza de privilegio advenediza?",
+            "opts": [
+              "Los prisioneros de guerra",
+              "La nobleza curacal",
+              "Los hijos solteros del inca"
+            ],
+            "correct": 1,
+            "explicacion": "La nobleza curacal o advenediza estaba integrada por los jefes de las etnias que habían sido asimiladas al imperio."
+          }
+        }
+      ]
+    },
+    {
+      "titulo": "Organización Social: El Pueblo",
+      "puntos": [
+        {
+          "texto": "Hatun runas = poblador común.",
+          "pregunta": {
+            "q": "¿Qué nombre recibía la base mayoritaria de la sociedad andina?",
+            "opts": [
+              "Yanaconas",
+              "Hatun runas",
+              "Mitimaes"
+            ],
+            "correct": 1,
+            "explicacion": "Los hatun runas conformaban el grueso de la población, dedicados a la agricultura y obligados a tributar con la mita."
+          }
+        },
+        {
+          "texto": "Mitimaes = colonizadores.",
+          "pregunta": {
+            "q": "¿Qué rol específico cumplían los mitimaes designados por el Estado?",
+            "opts": [
+              "Servidores perpetuos",
+              "Eran sacerdotes andantes",
+              "Actuaban como colonizadores"
+            ],
+            "correct": 2,
+            "explicacion": "Eran grupos familiares trasladados a otras regiones para colonizar, asegurar fronteras o enseñar la cultura incaica."
+          }
+        },
+        {
+          "texto": "Acllas = mujeres escogidas.",
+          "pregunta": {
+            "q": "¿Quiénes eran apartadas en los acllahuasis para cumplir labores textiles o religiosas?",
+            "opts": [
+              "Las ñustas",
+              "Las acllas",
+              "Las pallas"
+            ],
+            "correct": 1,
+            "explicacion": "Las acllas eran jóvenes seleccionadas por el Estado por sus habilidades, apartadas para servir al culto o al Inca."
+          }
+        },
+        {
+          "texto": "Yanaconas = servicio personal.",
+          "pregunta": {
+            "q": "¿Qué función realizaban los yanaconas dentro de la sociedad?",
+            "opts": [
+              "Brindar servicio personal",
+              "Gobernar los huamanís",
+              "Dirigir a los ejércitos"
+            ],
+            "correct": 0,
+            "explicacion": "Habían perdido sus lazos de ayllu y se dedicaban a servir de manera directa y vitalicia a la nobleza."
+          }
+        },
+        {
+          "texto": "Piñas = prisioneros perpetuos.",
+          "pregunta": {
+            "q": "¿Qué grupo ocupaba el escalafón más bajo, sometido a trabajos forzados de por vida?",
+            "opts": [
+              "Los piñas",
+              "Los hatun runas",
+              "Los chasquis"
+            ],
+            "correct": 0,
+            "explicacion": "Los piñas eran prisioneros de guerra rebeldes, condenados a servir perpetuamente al Estado en condiciones muy duras."
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,385 @@
+{
+  "curso": "Historia Universal",
+  "tema": "Renacimiento Urbano y Comercial",
+  "glosario": {
+    "Gremio": "Corporación o guildas de profesionales de un mismo oficio.",
+    "Burgos": "Ciudades surgidas alrededor de los castillos feudales.",
+    "Burguesía": "Nueva clase social surgida con el renacimiento comercial y urbano.",
+    "Ferias": "Mercados temporales de gran importancia comercial.",
+    "Banca": "Sistema financiero vinculado al capitalismo mercantil.",
+    "Ligas": "Asociaciones comerciales marítimas y terrestres.",
+    "=": "Definición / es",
+    "→": "Produce / genera / conduce a",
+    "+": "Combinación / junto con"
+  },
+  "theory": [
+    {
+      "titulo": "Factores",
+      "puntos": [
+        {
+          "texto": "Factor 1 = reactivación comercial + 4° cruzada.",
+          "pregunta": {
+            "q": "¿Qué evento militar y comercial impulsó la reactivación del intercambio?",
+            "opts": [
+              "La cuarta cruzada",
+              "La caída del imperio romano",
+              "La revolución industrial"
+            ],
+            "correct": 0,
+            "explicacion": "Las cruzadas, en especial la cuarta, abrieron rutas comerciales y conectaron nuevamente a Occidente con Oriente."
+          }
+        },
+        {
+          "texto": "Factor 2 = sobrepoblación en feudos.",
+          "pregunta": {
+            "q": "¿Qué fenómeno demográfico estimuló la salida de los campesinos de los feudos?",
+            "opts": [
+              "La sobrepoblación",
+              "La disminución total de nacimientos",
+              "La migración hacia continentes lejanos"
+            ],
+            "correct": 0,
+            "explicacion": "El exceso de población en los feudos generó presión demográfica, impulsando a muchos a buscar nuevos horizontes en las ciudades."
+          }
+        },
+        {
+          "texto": "Revolución agrícola medieval → uso del caballo para el arado.",
+          "pregunta": {
+            "q": "¿Qué innovación técnica caracterizó la revolución agrícola medieval?",
+            "opts": [
+              "El uso del caballo para el arado",
+              "La automatización completa de la cosecha",
+              "El abandono total de la ganadería"
+            ],
+            "correct": 0,
+            "explicacion": "El uso del caballo junto con el arado de vertedera mejoró significativamente la eficiencia y el rendimiento de la tierra."
+          }
+        },
+        {
+          "texto": "Revolución agrícola medieval → rotación trienal.",
+          "pregunta": {
+            "q": "¿Qué método de cultivo optimizó la producción agraria medieval?",
+            "opts": [
+              "La rotación trienal",
+              "El monocultivo intensivo anual",
+              "La quema sistemática de suelos"
+            ],
+            "correct": 0,
+            "explicacion": "La rotación trienal permitía dividir la tierra en tres partes para alternar cultivos y evitar el desgaste rápido del suelo."
+          }
+        }
+      ]
+    },
+    {
+      "titulo": "Ciudades",
+      "puntos": [
+        {
+          "texto": "Ciudades = burgos.",
+          "pregunta": {
+            "q": "¿Cómo se denominaban originariamente las ciudades medievales?",
+            "opts": [
+              "Burgos",
+              "Feudos",
+              "Metrópolis"
+            ],
+            "correct": 0,
+            "explicacion": "Los burgos eran los nuevos núcleos urbanos habitados por mercaderes y artesanos libres."
+          }
+        },
+        {
+          "texto": "Ubicación de burgos = alrededor de los castillos feudales.",
+          "pregunta": {
+            "q": "¿Dónde solían ubicarse geográficamente los nuevos burgos?",
+            "opts": [
+              "Alrededor de los castillos feudales",
+              "En el centro de los bosques profundos",
+              "Exclusivamente en alta mar"
+            ],
+            "correct": 0,
+            "explicacion": "Su ubicación periférica respecto a las fortalezas facilitaba la protección y el comercio inicial de sus habitantes."
+          }
+        },
+        {
+          "texto": "Rey otorga cartas o fueros (permisos).",
+          "pregunta": {
+            "q": "¿Qué documento entregaba el monarca para garantizar libertades en las ciudades?",
+            "opts": [
+              "Cartas o fueros",
+              "Constituciones democráticas",
+              "Títulos nobiliarios vitalicios"
+            ],
+            "correct": 0,
+            "explicacion": "Las cartas o fueros otorgaban autonomía jurídica y económica a los burgueses frente al poder de los señores feudales."
+          }
+        },
+        {
+          "texto": "Gobierna en ciudades = burgo maestre.",
+          "pregunta": {
+            "q": "¿Quién ejercía el gobierno local dentro de los burgos?",
+            "opts": [
+              "El burgo maestre",
+              "El señor feudal absoluto",
+              "El alto clero regular"
+            ],
+            "correct": 0,
+            "explicacion": "El burgo maestre era la autoridad administrativa encargada de gestionar la política y el orden en el núcleo urbano."
+          }
+        }
+      ]
+    },
+    {
+      "titulo": "Taller",
+      "puntos": [
+        {
+          "texto": "Jerarquía de taller = maestro → oficial + aprendiz (paga / sueldo).",
+          "pregunta": {
+            "q": "¿Cómo se estructuraba el trabajo dentro de los talleres artesanales?",
+            "opts": [
+              "Maestro, oficial y aprendiz",
+              "Rey, noble y vasallo",
+              "Burgués, capitalista y obrero industrial"
+            ],
+            "correct": 0,
+            "explicacion": "El taller era un espacio de producción gremial donde el conocimiento del oficio se transmitía jerárquicamente desde el maestro."
+          }
+        }
+      ]
+    },
+    {
+      "titulo": "Gremio",
+      "puntos": [
+        {
+          "texto": "Gremio = corporación o guildas.",
+          "pregunta": {
+            "q": "¿Qué otro nombre recibían las corporaciones de profesionales en la edad media?",
+            "opts": [
+              "Guildas",
+              "Ligas mercantiles",
+              "Órdenes monásticas"
+            ],
+            "correct": 0,
+            "explicacion": "Las guildas o gremios regulaban la producción, los precios y la calidad de los artículos elaborados en los talleres."
+          }
+        },
+        {
+          "texto": "Función de gremio = agrupación de profesionales de un mismo oficio.",
+          "pregunta": {
+            "q": "¿Quiénes integraban principalmente un gremio medieval?",
+            "opts": [
+              "Profesionales de un mismo oficio",
+              "Campesinos de diferentes feudos",
+              "Nobles terratenientes del reino"
+            ],
+            "correct": 0,
+            "explicacion": "Agrupaban a artesanos especializados (carpinteros, herreros, tejedores) para defender sus intereses económicos comunes."
+          }
+        },
+        {
+          "texto": "Objetivo de gremio = evitan la competencia.",
+          "pregunta": {
+            "q": "¿Cuál era una de las finalidades principales del control ejercido por los gremios?",
+            "opts": [
+              "Evitar la competencia desleal entre talleres",
+              "Fomentar la libre competencia de precios",
+              "Eliminar por completo la producción artesanal"
+            ],
+            "correct": 0,
+            "explicacion": "Mediante normativas estrictas, los gremios controlaban la cantidad producida y fijaban precios uniformes para proteger a sus miembros."
+          }
+        },
+        {
+          "texto": "Cofradías = culto a santo patrón.",
+          "pregunta": {
+            "q": "¿Qué aspecto religioso organizaban los gremios en honor a sus actividades?",
+            "opts": [
+              "Cofradías dedicadas a un santo patrón",
+              "Monasterios de clero regular estricto",
+              "Cruzadas militares hacia Tierra Santa"
+            ],
+            "correct": 0,
+            "explicacion": "Las cofradías unían la devoción religiosa y la ayuda mutua entre los miembros del mismo gremio bajo la advocación de un santo."
+          }
+        }
+      ]
+    },
+    {
+      "titulo": "Comercio",
+      "puntos": [
+        {
+          "texto": "Comercio medieval → reactivación de la moneda.",
+          "pregunta": {
+            "q": "¿Qué elemento financiero resurgió debido al incremento del intercambio mercantil?",
+            "opts": [
+              "La moneda",
+              "El papel moneda fiduciario digital",
+              "El trueque absoluto sin intermediarios"
+            ],
+            "correct": 0,
+            "explicacion": "La dinamización del comercio requirió nuevamente el uso de monedas estables para facilitar las transacciones a gran escala."
+          }
+        },
+        {
+          "texto": "Comercio → surge la burguesía.",
+          "pregunta": {
+            "q": "¿Qué nueva clase social emergió como consecuencia directa del auge comercial?",
+            "opts": [
+              "La burguesía",
+              "El proletariado industrial",
+              "La aristocracia terrateniente"
+            ],
+            "correct": 0,
+            "explicacion": "La burguesía estuvo conformada por comerciantes y artesanos libres que acumulaban riquezas ajenas a la propiedad de la tierra."
+          }
+        },
+        {
+          "texto": "Ferias = mercado temporal (Ypres, Brujas, Champaña, París).",
+          "pregunta": {
+            "q": "¿Qué características tenían las ferias medievales de intercambio?",
+            "opts": [
+              "Eran mercados temporales de gran alcance regional",
+              "Eran talleres artesanales permanentes en castillos",
+              "Eran puertos militares exclusivos de la nobleza"
+            ],
+            "correct": 0,
+            "explicacion": "Funcionaban temporalmente en puntos estratégicos como Champaña o Flandes, atrayendo a mercaderes de distintas regiones."
+          }
+        },
+        {
+          "texto": "Banca = capitalismo mercantil.",
+          "pregunta": {
+            "q": "¿A qué sistema económico dio origen el desarrollo de la actividad bancaria medieval?",
+            "opts": [
+              "Al capitalismo mercantil",
+              "Al colectivismo agrario cerrado",
+              "Al feudalismo financiero absoluto"
+            ],
+            "correct": 0,
+            "explicacion": "El manejo de letras de cambio, préstamos y depósitos sentó las bases para el surgimiento del capitalismo comercial."
+          }
+        }
+      ]
+    },
+    {
+      "titulo": "Rutas comerciales",
+      "puntos": [
+        {
+          "texto": "Rutas N. Europa = mar del norte y báltico.",
+          "pregunta": {
+            "q": "¿Qué mares abarcaban principalmente las rutas comerciales del norte de Europa?",
+            "opts": [
+              "El mar del Norte y el Báltico",
+              "El mar Mediterráneo y el mar Rojo",
+              "El océano Pacífico y el mar Caribe"
+            ],
+            "correct": 0,
+            "explicacion": "Estas rutas septentrionales conectaban la producción del norte europeo mediante redes marítimas muy activas."
+          }
+        },
+        {
+          "texto": "Ligas norteñas = hanseática (surg. Alemán).",
+          "pregunta": {
+            "q": "¿Qué área geográfica y comercial agrupaba la Liga Hanseática?",
+            "opts": [
+              "Ciudades del norte de Alemania",
+              "Los reinos del sur de España",
+              "Los feudos del centro de Italia"
+            ],
+            "correct": 0,
+            "explicacion": "La Liga Hanseática fue una influyente confederación de ciudades mercantiles alemanas en el mar Báltico y del Norte."
+          }
+        },
+        {
+          "texto": "Ligas sureñas = lombarda (N. Italia) + flamenca (Flandes, países bajos, bélgica, lux) + catalana (España).",
+          "pregunta": {
+            "q": "¿Qué regiones integraban las rutas e influencia comercial del sur y occidente europeo?",
+            "opts": [
+              "Norte de Italia, Flandes y Cataluña",
+              "Escandinavia, Rusia y Polonia",
+              "Inglaterra, Escocia e Irlanda"
+            ],
+            "correct": 0,
+            "explicacion": "Estas zonas destacaban por su intensa actividad comercial urbana, textil y marítima conectando el Mediterráneo y Europa central."
+          }
+        }
+      ]
+    },
+    {
+      "texto": "S. Europa → mar mediterráneo",
+      "pregunta": {
+        "q": "¿Qué mar abarcaban las rutas del sur de Europa?",
+        "opts": [
+          "Mar mediterráneo",
+          "Mar del norte",
+          "Mar báltico"
+        ],
+        "correct": 0,
+        "explicacion": "El sur de Europa se conectaba a través del mar Mediterráneo para el intercambio comercial."
+      }
+    },
+    {
+      "texto": "S. Europa → ciudades independientes del norte de Italia y Toscana",
+      "pregunta": {
+        "q": "¿Qué tipo de ciudades destacaban en el norte de Italia y Toscana?",
+        "opts": [
+          "Ciudades independientes",
+          "Feudos cerrados y vasallos",
+          "Colonias monásticas cerradas"
+        ],
+        "correct": 0,
+        "explicacion": "Eran núcleos urbanos con autonomía política que lideraban la actividad mercantil meridional."
+      }
+    },
+    {
+      "texto": "Norte de Italia y Toscana ⊃ Génova",
+      "pregunta": {
+        "q": "¿Qué ciudad formaba parte de las repúblicas comerciales del norte italiano?",
+        "opts": [
+          "Génova",
+          "París",
+          "Brujas"
+        ],
+        "correct": 0,
+        "explicacion": "Génova fue una de las potencias marítimas comerciales más importantes de la región."
+      }
+    },
+    {
+      "texto": "Norte de Italia y Toscana ⊃ Milán",
+      "pregunta": {
+        "q": "¿Qué ciudad integraba los centros urbanos del norte de Italia?",
+        "opts": [
+          "Milán",
+          "Champaña",
+          "Ypres"
+        ],
+        "correct": 0,
+        "explicacion": "Milán destacó como un punto neurálgico económico y político dentro de las ciudades del norte."
+      }
+    },
+    {
+      "texto": "Norte de Italia y Toscana ⊃ Venecia",
+      "pregunta": {
+        "q": "¿Qué ciudad marítima clave se ubicaba en el norte de Italia?",
+        "opts": [
+          "Venecia",
+          "Londres",
+          "Hamburgo"
+        ],
+        "correct": 0,
+        "explicacion": "Venecia controlaba gran parte del comercio marítimo con el oriente a través del Mediterráneo."
+      }
+    },
+    {
+      "texto": "Norte de Italia y Toscana ⊃ Florencia",
+      "pregunta": {
+        "q": "¿Qué importante ciudad de Toscana destacaba en este sistema comercial?",
+        "opts": [
+          "Florencia",
+          "Lübeck",
+          "Bremen"
+        ],
+        "correct": 0,
+        "explicacion": "Florencia emergió como un centro financiero, comercial y urbano fundamental en la región toscana."
+      }
+    }
+  ]
+}

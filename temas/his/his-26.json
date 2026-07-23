@@ -1,0 +1,203 @@
+{
+  "curso": "Historia Universal",
+  "tema": "Humanismo",
+  "glosario": {
+    "Mecenas": "Personas ricas y poderosas que protegían y financiaban a intelectuales y artistas.",
+    "Constantinopla": "Capital del Imperio Bizantino cuya caída provocó la huida de eruditos.",
+    "Sabios bizantinos": "Eruditos de oriente que llevaron conocimientos clásicos a Europa occidental.",
+    "Grecolatina": "Relativo a la cultura de la antigua Grecia y Roma.",
+    "Antropocentrismo": "Doctrina que sitúa al ser humano como medida y centro de todas las cosas.",
+    "Precursores": "Iniciadores o pioneros de un movimiento cultural.",
+    "→": "Produce / genera / conduce a",
+    "=": "Definición / es",
+    "+": "Combinación / junto con",
+    "⊃": "Contiene / incluye",
+    "✓": "Requiere / necesita / posee"
+  },
+  "theory": [
+    {
+      "titulo": "Factores del Humanismo",
+      "puntos": [
+        {
+          "texto": "Renacimiento urbano + comercio → crecimiento de ciudades.",
+          "pregunta": {
+            "q": "¿Qué consecuencia directa tuvo la reactivación comercial y urbana para los núcleos poblacionales?",
+            "opts": [
+              "El aislamiento de los feudos",
+              "El despoblamiento rural masivo",
+              "El crecimiento de las ciudades"
+            ],
+            "correct": 2,
+            "explicacion": "El impulso del comercio y el llamado renacimiento urbano fomentaron directamente la expansión física y demográfica de las ciudades."
+          }
+        },
+        {
+          "texto": "Toma de Constantinopla → migración de sabios bizantinos.",
+          "pregunta": {
+            "q": "¿Qué evento desencadenó el desplazamiento de eruditos hacia Europa occidental?",
+            "opts": [
+              "La toma de Constantinopla",
+              "La invención de la imprenta",
+              "La caída del Imperio Romano"
+            ],
+            "correct": 0,
+            "explicacion": "La captura de la ciudad provocó que muchos pensadores bizantinos huyeran hacia occidente, llevando consigo antiguos textos y conocimientos."
+          }
+        },
+        {
+          "texto": "Factor clave = invención de la imprenta.",
+          "pregunta": {
+            "q": "¿Qué innovación tecnológica se considera un factor determinante en este contexto?",
+            "opts": [
+              "El telescopio",
+              "La invención de la imprenta",
+              "La brújula magnética"
+            ],
+            "correct": 1,
+            "explicacion": "La imprenta fue una herramienta revolucionaria que permitió la rápida y masiva difusión de los textos literarios y filosóficos."
+          }
+        },
+        {
+          "texto": "Mecenas = protectores de intelectuales y artistas.",
+          "pregunta": {
+            "q": "¿Cuál era la función principal de los mecenas?",
+            "opts": [
+              "Censurar publicaciones heréticas",
+              "Liderar expediciones militares",
+              "Ser protectores de intelectuales y artistas"
+            ],
+            "correct": 2,
+            "explicacion": "Los mecenas eran figuras influyentes que brindaban apoyo financiero y protección a los creadores del nuevo movimiento."
+          }
+        },
+        {
+          "texto": "Mecenazgo ⊃ burguesía de Florencia.",
+          "pregunta": {
+            "q": "¿Qué grupo social y ciudad destacaron en el apoyo económico a los intelectuales?",
+            "opts": [
+              "La nobleza de París",
+              "La burguesía de Florencia",
+              "El clero de Roma"
+            ],
+            "correct": 1,
+            "explicacion": "En la ciudad de Florencia, la próspera clase burguesa asumió un rol protagónico como impulsora y mecenas del movimiento."
+          }
+        }
+      ]
+    },
+    {
+      "titulo": "Características Principales",
+      "puntos": [
+        {
+          "texto": "Humanismo ✓ inspiración grecolatina.",
+          "pregunta": {
+            "q": "¿Cuál fue la fuente cultural principal de la que se nutrió el Humanismo?",
+            "opts": [
+              "La inspiración grecolatina",
+              "La filosofía escolástica medieval",
+              "El misticismo del oriente medio"
+            ],
+            "correct": 0,
+            "explicacion": "Los pensadores buscaron recuperar, estudiar y emular los textos, artes y valores de la antigüedad clásica griega y romana."
+          }
+        },
+        {
+          "texto": "Base ideológica = antropocentrismo.",
+          "pregunta": {
+            "q": "¿Qué doctrina ubica al ser humano en el centro del interés y estudio?",
+            "opts": [
+              "El teocentrismo",
+              "El antropocentrismo",
+              "El geocentrismo"
+            ],
+            "correct": 1,
+            "explicacion": "El antropocentrismo desplazó la visión exclusivamente teocéntrica, revalorizando la figura, las capacidades y la dignidad del hombre."
+          }
+        },
+        {
+          "texto": "Uso de razón → libre pensamiento.",
+          "pregunta": {
+            "q": "¿Qué promovió la valoración de la razón humana en esta época?",
+            "opts": [
+              "El dogmatismo religioso",
+              "La censura literaria",
+              "El libre pensamiento"
+            ],
+            "correct": 2,
+            "explicacion": "Confiar en la capacidad racional del individuo impulsó el desarrollo del libre pensamiento, cuestionando verdades absolutas impuestas."
+          }
+        },
+        {
+          "texto": "Lema = el hombre es la medida de todas las cosas.",
+          "pregunta": {
+            "q": "¿Qué célebre frase resume perfectamente la visión antropocéntrica del movimiento?",
+            "opts": [
+              "El fin justifica los medios políticos",
+              "El hombre es la medida de todas las cosas",
+              "Pienso, luego existo"
+            ],
+            "correct": 1,
+            "explicacion": "Esta máxima clásica ilustra la nueva perspectiva de valorar y juzgar el mundo a través de la escala y experiencia humana."
+          }
+        }
+      ]
+    },
+    {
+      "titulo": "Precursores y Representantes",
+      "puntos": [
+        {
+          "texto": "Precursores ⊃ Alighieri, Petrarca, Boccaccio.",
+          "pregunta": {
+            "q": "¿Quiénes conforman el grupo de precursores fundamentales del movimiento?",
+            "opts": [
+              "Dante Alighieri, Francesco Petrarca y Giovanni Boccaccio",
+              "Erasmo de Rotterdam y Tomás Moro",
+              "Nicolás Maquiavelo y Francesco Guicciardini"
+            ],
+            "correct": 0,
+            "explicacion": "Estos tres literatos italianos sentaron las bases estéticas y filosóficas que más tarde desarrollaría plenamente el Humanismo."
+          }
+        },
+        {
+          "texto": "E. Rotterdam = príncipe del humanismo.",
+          "pregunta": {
+            "q": "¿A qué destacado pensador se le otorgó el título de príncipe del humanismo?",
+            "opts": [
+              "Tomás Moro",
+              "Francesco Petrarca",
+              "Erasmo de Rotterdam"
+            ],
+            "correct": 2,
+            "explicacion": "Erasmo de Rotterdam es ampliamente reconocido como la figura más erudita, destacada e influyente de este movimiento intelectual."
+          }
+        },
+        {
+          "texto": "E. Rotterdam → obra Elogio a la locura.",
+          "pregunta": {
+            "q": "¿Cuál es la obra literaria más emblemática escrita por Erasmo de Rotterdam?",
+            "opts": [
+              "Elogio a la locura",
+              "La Divina Comedia",
+              "El Decamerón"
+            ],
+            "correct": 0,
+            "explicacion": "En el libro Elogio a la locura, Erasmo realiza una aguda y satírica crítica a las costumbres e instituciones de su época."
+          }
+        },
+        {
+          "texto": "T. Moro → obra Utopía.",
+          "pregunta": {
+            "q": "¿Qué célebre obra fue escrita por el representante Tomás Moro?",
+            "opts": [
+              "El Príncipe",
+              "Utopía",
+              "El cortesano"
+            ],
+            "correct": 1,
+            "explicacion": "En el libro Utopía, Tomás Moro imagina una sociedad pacífica e ideal como método para criticar la realidad política de su tiempo."
+          }
+        }
+      ]
+    }
+  ]
+}

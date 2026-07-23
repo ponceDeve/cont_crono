@@ -1,218 +1,681 @@
 {
-  "curso": "Historia",
-  "tema": "Contrarreforma",
+  "curso": "Historia del Perú",
+  "tema": "Poblamiento Americano",
   "glosario": {
-    "Contrarreforma": "Movimiento católico contra la Reforma protestante.",
-    "Jesuitas": "Orden religiosa católica fundada en 1540.",
-    "Celibato": "Compromiso religioso de vivir sin matrimonio.",
-    "Transubstanciación": "Cambio del pan y vino en cuerpo y sangre.",
-    "Seminario": "Centro donde se forman sacerdotes.",
-    "Índice": "Lista oficial de libros prohibidos.",
-    "Inquisición": "Tribunal religioso contra la herejía."
+    "Monogenista": "Teoría que defiende un único origen geográfico para toda la humanidad.",
+    "Monoracial": "Postulado que sostiene la migración de un único grupo racial.",
+    "Aglutinante": "Lengua que forma palabras uniendo varios morfemas o raíces independientes.",
+    "Lisotrico": "Tipo de cabello muy lacio y rígido.",
+    "Dolicocéfalo": "Cráneo con forma ovalada, más largo que ancho.",
+    "Prognatismo": "Proyección o adelantamiento del maxilar inferior o mandíbula.",
+    "Churinga": "Instrumento musical o zumbador de madera usado en rituales.",
+    "=": "Se define como / es / equivale a",
+    "→": "Escribió / migra hacia / genera",
+    "⊃": "Incluye a / conformado por / abarca",
+    "∈": "Pertenece a / ubicado en",
+    "✗": "No coincide / error / ausencia de",
+    "+": "Combinación / junto con",
+    "≈": "Distancia aproximada / similitud con"
   },
   "theory": [
     {
-      "titulo": "Compañía de Jesús (Jesuitas, 1540)",
+      "titulo": "Teoría Autoctonista",
       "puntos": [
         {
-          "texto": "Los jesuitas fueron fundados en 1540.",
+          "texto": "Teoría Autoctonista ⊃ León Pinelo",
           "pregunta": {
-            "q": "¿En qué año se fundó la Compañía de Jesús?",
-            "opts": ["1520", "1540", "1563", "1600"],
+            "q": "¿Qué autor del siglo XVII es catalogado dentro de la Teoría Autoctonista?",
+            "opts": [
+              "José de Acosta",
+              "León Pinelo",
+              "Paul Rivet"
+            ],
             "correct": 1,
-            "explicacion": "La Compañía de Jesús fue creada en 1540 durante la Contrarreforma. Esta orden religiosa tuvo como objetivo defender y expandir la doctrina católica frente al avance protestante."
+            "explicacion": "León Pinelo es un autor colonial temprano cuyas ideas forman parte de los antecedentes teóricos del autoctonismo."
           }
         },
         {
-          "texto": "Fundador: Íñigo López de Recalde.",
+          "texto": "León Pinelo → 'El paraíso en el nuevo mundo'",
           "pregunta": {
-            "q": "¿Quién fue el fundador mencionado de la Compañía de Jesús?",
+            "q": "¿Qué obra escrita es atribuida al autor León Pinelo?",
             "opts": [
-              "Martín Lutero",
-              "Pablo III",
-              "Íñigo López de Recalde",
-              "Juan Calvino"
+              "Historia natural y moral de las Indias",
+              "El paraíso en el antiguo continente",
+              "'El paraíso en el nuevo mundo'"
             ],
             "correct": 2,
-            "explicacion": "Íñigo López de Recalde, conocido como San Ignacio de Loyola, organizó la Compañía de Jesús. Su liderazgo convirtió a los jesuitas en una de las órdenes más importantes del catolicismo."
+            "explicacion": "En su obra literaria, León Pinelo propuso que el Edén bíblico se localizaba en el continente americano."
           }
         },
         {
-          "texto": "San Ignacio de Loyola dirigió a los jesuitas.",
+          "texto": "Teoría Autoctonista ⊃ Florentino Ameghino",
           "pregunta": {
-            "q": "¿Con qué nombre religioso fue conocido Íñigo López de Recalde?",
+            "q": "¿Qué estudioso fue el principal exponente y defensor de la Teoría Autoctonista?",
             "opts": [
-              "San Ignacio de Loyola",
-              "San Pedro Claver",
-              "Santo Tomás de Aquino",
-              "San Francisco de Asís"
+              "Florentino Ameghino",
+              "Thor Heyerdahl",
+              "Mendes Correia"
             ],
             "correct": 0,
-            "explicacion": "Íñigo López de Recalde adoptó el nombre de San Ignacio de Loyola. Fue el fundador y primer superior general de la Compañía de Jesús."
+            "explicacion": "El paleontólogo argentino Florentino Ameghino planteó científicamente la idea de que el hombre es originario de América."
           }
         },
         {
-          "texto": "Objetivo: difundir la fe católica.",
+          "texto": "Florentino Ameghino = Monogenista",
           "pregunta": {
-            "q": "¿Cuál era el principal objetivo de los jesuitas?",
+            "q": "¿Qué concepción evolutiva global poseía Florentino Ameghino sobre la humanidad?",
             "opts": [
-              "Eliminar todos los sacramentos",
-              "Difundir la fe católica",
-              "Apoyar la Reforma protestante",
-              "Prohibir la educación religiosa"
+              "Poligenista",
+              "Monoracial",
+              "Monogenista"
+            ],
+            "correct": 2,
+            "explicacion": "Al ser monogenista, Ameghino creía que toda la especie humana evolucionó a partir de un único punto de origen en la Tierra."
+          }
+        },
+        {
+          "texto": "Origen geográfico = Pampas de Argentina",
+          "pregunta": {
+            "q": "¿En qué región geográfica exacta fijó Ameghino el origen del ser humano?",
+            "opts": [
+              "Sabana africana",
+              "Estrecho de Bering",
+              "Pampas de Argentina"
+            ],
+            "correct": 2,
+            "explicacion": "Basado en restos fósiles hallados en su país, Ameghino aseguró que las pampas argentinas fueron la cuna de la humanidad."
+          }
+        },
+        {
+          "texto": "Aparición del hombre ∈ Era Terciaria",
+          "pregunta": {
+            "q": "¿En qué tiempo geológico afirmó Ameghino que había aparecido el hombre?",
+            "opts": [
+              "Era Terciaria",
+              "Era Cuaternaria",
+              "Pleistoceno"
+            ],
+            "correct": 0,
+            "explicacion": "Un postulado muy controvertido de su teoría fue fechar la evolución de los primeros homínidos en la muy antigua Era Terciaria."
+          }
+        },
+        {
+          "texto": "Ancestro propuesto = Homo pampeanus",
+          "pregunta": {
+            "q": "¿Cómo denominó Ameghino al eslabón evolutivo nacido en Sudamérica?",
+            "opts": [
+              "Homo habilis",
+              "Homo pampeanus",
+              "Homo antecessor"
             ],
             "correct": 1,
-            "explicacion": "Los jesuitas buscaron fortalecer el catolicismo mediante la enseñanza, las misiones y la defensa de la Iglesia. Fueron una respuesta organizada frente a la expansión protestante."
+            "explicacion": "A partir de un plano angulado en su cuadro filogenético, bautizó al homínido originario como Homo pampeanus."
+          }
+        },
+        {
+          "texto": "Error de teoría ✗ Años de antigüedad",
+          "pregunta": {
+            "q": "¿Qué factor temporal debilitó y demostró como errónea la teoría de Ameghino?",
+            "opts": [
+              "La falta de fósiles",
+              "Las fechas de las glaciaciones",
+              "Los años de antigüedad"
+            ],
+            "correct": 2,
+            "explicacion": "Las dataciones modernas comprobaron que los restos óseos usados por Ameghino no tenían la antigüedad de la Era Terciaria."
+          }
+        },
+        {
+          "texto": "Error biológico ✗ Grupos sanguíneos no coinciden",
+          "pregunta": {
+            "q": "¿Qué prueba de carácter biológico refutó los vínculos planteados por el autoctonismo?",
+            "opts": [
+              "Los grupos sanguíneos no coinciden",
+              "La diferencia de estatura",
+              "El color de los ojos"
+            ],
+            "correct": 0,
+            "explicacion": "Los estudios de genética hematológica demostraron que los grupos sanguíneos de las poblaciones americanas no respaldaban su hipótesis."
           }
         }
       ]
     },
     {
-      "titulo": "Concilio de Trento (1545-1563)",
+      "titulo": "Teoría Asiática (Inmigracionista)",
       "puntos": [
         {
-          "texto": "El Concilio de Trento ocurrió entre 1545-1563.",
+          "texto": "Precursor teoría asiática = J. Acosta",
           "pregunta": {
-            "q": "¿Entre qué años se desarrolló el Concilio de Trento?",
-            "opts": ["1517-1520", "1545-1563", "1600-1620", "1492-1500"],
+            "q": "¿Qué personaje del siglo XVI intuyó primero el origen asiático del hombre americano?",
+            "opts": [
+              "Alex Hrdlicka",
+              "J. Acosta",
+              "León Pinelo"
+            ],
             "correct": 1,
-            "explicacion": "El Concilio de Trento fue una reunión de autoridades católicas realizada entre 1545 y 1563. Buscó responder a las críticas protestantes y reformar aspectos internos de la Iglesia."
+            "explicacion": "El cronista español José de Acosta fue el primero en notar similitudes y proponer una cercanía terrestre por el norte."
           }
         },
         {
-          "texto": "Fue convocado por el papa Pablo III.",
+          "texto": "Teoría Asiática ⊃ Alex Hrdlicka",
           "pregunta": {
-            "q": "¿Qué papa convocó el Concilio de Trento?",
+            "q": "¿Qué autor moderno formuló y defendió científicamente la Teoría Asiática?",
             "opts": [
-              "Papa León X",
-              "Papa Pablo III",
-              "Papa Urbano II",
-              "Papa Gregorio I"
+              "Alex Hrdlicka",
+              "Paul Rivet",
+              "Mendes Correia"
+            ],
+            "correct": 0,
+            "explicacion": "Alex Hrdlicka recopiló sistemáticamente evidencias antropológicas para sustentar la migración desde Asia continental."
+          }
+        },
+        {
+          "texto": "Alex Hrdlicka = Monoracial",
+          "pregunta": {
+            "q": "¿Qué característica define la propuesta poblacional de Alex Hrdlicka?",
+            "opts": [
+              "Poliracial",
+              "Monogenista",
+              "Monoracial"
+            ],
+            "correct": 2,
+            "explicacion": "A diferencia de otras teorías, Hrdlicka postulaba que América fue poblada por una única raza de origen paleomongoloide."
+          }
+        },
+        {
+          "texto": "Ruta migratoria = Istmo de Bering",
+          "pregunta": {
+            "q": "¿Cuál es la conexión terrestre central planteada en la migración asiática?",
+            "opts": [
+              "Islas Aleutianas",
+              "Estrecho de Magallanes",
+              "Istmo de Bering"
+            ],
+            "correct": 2,
+            "explicacion": "El descenso del mar durante la glaciación expuso un puente de tierra llamado Istmo de Bering, permitiendo el cruce peatonal."
+          }
+        },
+        {
+          "texto": "Istmo de Bering ⊃ Siberia + Alaska",
+          "pregunta": {
+            "q": "¿Qué regiones continentales quedaban conectadas por el Istmo de Bering?",
+            "opts": [
+              "Kamchatka y Canadá",
+              "Siberia y Alaska",
+              "China y California"
             ],
             "correct": 1,
-            "explicacion": "El papa Pablo III convocó el Concilio de Trento como parte de la respuesta católica a la Reforma protestante. La reunión estableció medidas doctrinales y disciplinarias."
+            "explicacion": "El puente terrestre unía la región extrema asiática de Siberia directamente con el territorio de Alaska en América."
+          }
+        },
+        {
+          "texto": "Istmo de Bering ≈ 84km",
+          "pregunta": {
+            "q": "¿Qué extensión aproximada separaba a ambos continentes en el estrecho?",
+            "opts": [
+              "84km",
+              "150km",
+              "300km"
+            ],
+            "correct": 0,
+            "explicacion": "La distancia más corta en esta zona geográfica, que debió cruzarse, es de aproximadamente 84 kilómetros."
+          }
+        },
+        {
+          "texto": "Rutas alternas ⊃ Islas Aleutianas + Corriente de Kuro Shivo",
+          "pregunta": {
+            "q": "¿Qué otras vías complementarias habrían facilitado la llegada desde Asia?",
+            "opts": [
+              "Corriente del Golfo y Groenlandia",
+              "Islas Aleutianas y Corriente de Kuro Shivo",
+              "Isla de Pascua y Corriente Ecuatorial"
+            ],
+            "correct": 1,
+            "explicacion": "Además del istmo caminable, se sugiere el uso de navegación costera aprovechando la Corriente marina de Kuro Shivo y las Islas Aleutianas."
+          }
+        },
+        {
+          "texto": "Prueba antroposomática ⊃ Cabello lisotrico + ojo rasgado",
+          "pregunta": {
+            "q": "¿Qué rasgos de la cabeza refuerzan el parentesco fenotípico asiático-americano?",
+            "opts": [
+              "Cabello rizado y ojos redondos",
+              "Cabello rubio y cejas gruesas",
+              "Cabello lisotrico y ojo rasgado"
+            ],
+            "correct": 2,
+            "explicacion": "El cabello sumamente lacio (lisotrico) y la presencia del pliegue mongólico en los ojos son claras similitudes raciales."
+          }
+        },
+        {
+          "texto": "Prueba antroposomática ⊃ Pómulos salientes + dientes de pala",
+          "pregunta": {
+            "q": "¿Qué similitudes en la estructura facial ósea respaldan la teoría de Hrdlicka?",
+            "opts": [
+              "Pómulos salientes y dientes de pala",
+              "Mandíbula hundida y caninos largos",
+              "Nariz aguileña y frente amplia"
+            ],
+            "correct": 0,
+            "explicacion": "La forma característica de los incisivos en forma de pala y el ensanchamiento de los pómulos son rasgos anatómicos comparados."
+          }
+        },
+        {
+          "texto": "Prueba antroposomática = Mancha lumbar",
+          "pregunta": {
+            "q": "¿Qué evidencia pigmentaria de nacimiento fue señalada por Hrdlicka?",
+            "opts": [
+              "Vitíligo temprano",
+              "Mancha mongólica o lumbar",
+              "Pecas faciales"
+            ],
+            "correct": 1,
+            "explicacion": "La aparición de una pigmentación oscura transitoria en la base de la espalda de los recién nacidos une a ambas poblaciones."
+          }
+        },
+        {
+          "texto": "Fenotipo asiático = Escasa pilosidad",
+          "pregunta": {
+            "q": "¿Qué rasgo relacionado con el vello corporal apoya la ascendencia asiática?",
+            "opts": [
+              "Abundante pilosidad facial",
+              "Ausencia total de cabello",
+              "Escasa pilosidad"
+            ],
+            "correct": 2,
+            "explicacion": "Tanto las poblaciones nativas de América como las de Asia oriental se caracterizan por una notable escasez de vello corporal y facial."
           }
         }
       ]
     },
     {
-      "titulo": "Reafirmaciones de la Iglesia Católica",
+      "titulo": "Teoría Oceánica",
       "puntos": [
         {
-          "texto": "Se reafirmaron los 7 sacramentos.",
+          "texto": "Teoría Oceánica ⊃ Paul Rivet",
           "pregunta": {
-            "q": "¿Qué elementos religiosos fueron reafirmados en el Concilio de Trento?",
+            "q": "¿Quién es el creador e investigador central de la Teoría Oceánica?",
             "opts": [
-              "Los 7 sacramentos",
-              "Los 5 mandamientos",
-              "Los 3 votos monásticos",
-              "Las nuevas iglesias protestantes"
+              "Thor Heyerdahl",
+              "Mendes Correia",
+              "Paul Rivet"
+            ],
+            "correct": 2,
+            "explicacion": "El antropólogo francés Paul Rivet postuló que América recibió corrientes migratorias de islas del Océano Pacífico."
+          }
+        },
+        {
+          "texto": "Migración Oceánica ⊃ Melanesia + Polinesia",
+          "pregunta": {
+            "q": "¿De qué dos importantes archipiélagos oceánicos partieron las migraciones propuestas por Rivet?",
+            "opts": [
+              "Micronesia e Indonesia",
+              "Melanesia y Polinesia",
+              "Filipinas y Hawái"
+            ],
+            "correct": 1,
+            "explicacion": "Rivet dividió su teoría en dos grandes oleadas marítimas: una proveniente de la Melanesia y otra de la Polinesia."
+          }
+        },
+        {
+          "texto": "Ruta melanesia = Corriente ecuatorial del norte",
+          "pregunta": {
+            "q": "¿Qué vía marina facilitó el viaje de los grupos de origen melanesio?",
+            "opts": [
+              "Corriente de Humboldt",
+              "Corriente de Kuro Shivo",
+              "Corriente ecuatorial del norte"
+            ],
+            "correct": 2,
+            "explicacion": "Los melanesios, excelentes navegantes, habrían sido arrastrados por las aguas cálidas de la corriente ecuatorial del norte hacia Centroamérica."
+          }
+        },
+        {
+          "texto": "Destino melanesio = Colima + Isla de Cocos",
+          "pregunta": {
+            "q": "¿A qué puntos del territorio americano arribó la supuesta migración melanesia?",
+            "opts": [
+              "Patagonia y Tierra del Fuego",
+              "Colima e Isla de Cocos",
+              "Alaska y Columbia Británica"
+            ],
+            "correct": 1,
+            "explicacion": "Rivet ubicó geográficamente el desembarco y la influencia melanesia en la región de Colima (México) y la Isla de Cocos."
+          }
+        },
+        {
+          "texto": "Ruta polinesia = Corriente ecuatorial del sur",
+          "pregunta": {
+            "q": "¿A través de qué flujo oceánico migraron los pobladores de la Polinesia?",
+            "opts": [
+              "Corriente de las Aleutianas",
+              "Corriente ecuatorial del sur",
+              "Corriente del Golfo"
+            ],
+            "correct": 1,
+            "explicacion": "De manera análoga a los melanesios, los polinesios aprovecharon la dirección de la corriente ecuatorial del sur para cruzar el océano."
+          }
+        },
+        {
+          "texto": "Destino polinesio = Isla de Pascua",
+          "pregunta": {
+            "q": "¿Qué territorio insular fue un punto de recalada fundamental para los polinesios?",
+            "opts": [
+              "Isla de Pascua",
+              "Islas Galápagos",
+              "Islas Malvinas"
             ],
             "correct": 0,
-            "explicacion": "El Concilio de Trento confirmó la importancia de los siete sacramentos tradicionales del catolicismo. Esta decisión marcó una diferencia frente a varias iglesias protestantes."
+            "explicacion": "La remota Isla de Pascua, ubicada frente a Sudamérica, representa un claro eslabón de la presencia polinesia."
           }
         },
         {
-          "texto": "Se reafirmó la existencia del purgatorio.",
+          "texto": "Prueba material ⊃ Cerbatana + hamaca",
           "pregunta": {
-            "q": "¿Qué doctrina sobre la vida después de la muerte fue reafirmada?",
+            "q": "¿Qué artefactos de uso cotidiano son compartidos entre Oceánicos y americanos selváticos?",
             "opts": [
-              "La reencarnación",
-              "El purgatorio",
-              "La inexistencia del alma",
-              "El fin del juicio religioso"
+              "Arco compuesto y flechas de hierro",
+              "Rueda y carros de tracción",
+              "Cerbatana y hamaca"
             ],
-            "correct": 1,
-            "explicacion": "La Iglesia Católica mantuvo la enseñanza del purgatorio como un estado de purificación espiritual. Esta doctrina fue defendida durante la Contrarreforma."
+            "correct": 2,
+            "explicacion": "El uso de la cerbatana para caza y las hamacas colgantes para dormir son pruebas etnoculturales esgrimidas por Rivet."
           }
         },
         {
-          "texto": "Se confirmó el celibato sacerdotal.",
+          "texto": "Navegación ⊃ Piragua con balancín",
           "pregunta": {
-            "q": "¿Qué práctica religiosa fue reafirmada para los sacerdotes?",
+            "q": "¿Qué rasgo tecnológico náutico demostró el contacto transoceánico?",
             "opts": [
-              "El matrimonio obligatorio",
-              "El celibato",
-              "La eliminación del sacerdocio",
-              "La elección política"
+              "Uso de brújula magnética",
+              "Piragua con balancín",
+              "Astrolabio de bronce"
             ],
             "correct": 1,
-            "explicacion": "El celibato sacerdotal fue mantenido como una norma dentro de la Iglesia Católica. Consiste en que los sacerdotes no contraigan matrimonio para dedicarse completamente a su función religiosa."
+            "explicacion": "Las embarcaciones diseñadas con un flotador o balancín lateral para dar estabilidad son típicas de ambas regiones separadas por el mar."
           }
         },
         {
-          "texto": "Se mantuvo el culto a las imágenes.",
+          "texto": "Prueba cultural = Horno bajo tierra",
           "pregunta": {
-            "q": "¿Qué práctica relacionada con imágenes fue defendida por la Iglesia?",
+            "q": "¿Qué técnica de preparación de alimentos es un patrón común estudiado en esta teoría?",
             "opts": [
-              "La destrucción de imágenes",
-              "El culto a las imágenes",
-              "La prohibición de templos",
-              "La eliminación de santos"
+              "Horno bajo tierra",
+              "Salazón de carnes al sol",
+              "Fritura en aceite vegetal"
             ],
-            "correct": 1,
-            "explicacion": "La Iglesia Católica defendió el uso de imágenes religiosas como una forma de enseñanza y veneración. Esto contrastaba con algunas posturas protestantes que rechazaban su uso."
+            "correct": 0,
+            "explicacion": "La costumbre de cocinar alimentos enterrándolos sobre piedras calientes (como la pachamanca andina) apoya el lazo oceánico."
           }
         },
         {
-          "texto": "Se reafirmó la transubstanciación.",
+          "texto": "Prueba lingüística ≈ Similitud con quechua",
           "pregunta": {
-            "q": "¿Qué doctrina explica el cambio del pan y vino durante la misa?",
+            "q": "¿Con qué idioma de la región sudamericana encontró Rivet analogías lingüísticas?",
             "opts": [
-              "La predestinación",
-              "La transubstanciación",
-              "La iconoclasia",
-              "La reforma"
+              "Idioma Aymara",
+              "Idioma Guaraní",
+              "Idioma Quechua"
+            ],
+            "correct": 2,
+            "explicacion": "Rivet listó palabras de dialectos oceánicos que compartían raíz, forma y significado con el quechua andino."
+          }
+        },
+        {
+          "texto": "Palabra similar = Poncho",
+          "pregunta": {
+            "q": "¿Qué término que designa una vestimenta es una prueba lingüística de contacto?",
+            "opts": [
+              "Chullo",
+              "Poncho",
+              "Unku"
             ],
             "correct": 1,
-            "explicacion": "La transubstanciación sostiene que durante la Eucaristía el pan y el vino se convierten en el cuerpo y sangre de Cristo. Fue una doctrina defendida por la Iglesia Católica."
+            "explicacion": "El uso generalizado de la palabra 'poncho' en ambas costas del Pacífico representa un fuerte argumento filológico."
+          }
+        },
+        {
+          "texto": "Expedición marítima = Kon-Tiki",
+          "pregunta": {
+            "q": "¿Cómo se llamó el viaje experimental diseñado para validar rutas marítimas precolombinas?",
+            "opts": [
+              "Expedición Beagle",
+              "Expedición Kon-Tiki",
+              "Expedición Atlantis"
+            ],
+            "correct": 1,
+            "explicacion": "La balsa Kon-Tiki fue construida con técnicas nativas para probar empíricamente las capacidades de navegación oceánica antigua."
+          }
+        },
+        {
+          "texto": "Líder Kon-Tiki = Thor Heyerdahl",
+          "pregunta": {
+            "q": "¿Qué investigador lideró y organizó el viaje de la balsa Kon-Tiki?",
+            "opts": [
+              "Paul Rivet",
+              "Thor Heyerdahl",
+              "Dennis Stanford"
+            ],
+            "correct": 1,
+            "explicacion": "El etnógrafo noruego Thor Heyerdahl ejecutó esta famosa travesía por el Océano Pacífico."
+          }
+        },
+        {
+          "texto": "Logro Kon-Tiki → Migración América a Polinesia",
+          "pregunta": {
+            "q": "¿Qué dirección migratoria comprobó como factible la expedición Kon-Tiki?",
+            "opts": [
+              "De Polinesia hacia América",
+              "De América a la Polinesia",
+              "De Melanesia hacia Hawái"
+            ],
+            "correct": 1,
+            "explicacion": "Curiosamente, el viaje de Heyerdahl demostró la viabilidad de viajar por mar en sentido contrario, desde Perú hasta las islas polinésicas."
           }
         }
       ]
     },
     {
-      "titulo": "Nuevas instituciones y medidas",
+      "titulo": "Teoría Australiana",
       "puntos": [
         {
-          "texto": "Surgieron los seminarios religiosos.",
+          "texto": "Teoría Australiana ⊃ Mendes Correia",
           "pregunta": {
-            "q": "¿Qué instituciones surgieron para formar sacerdotes?",
+            "q": "¿Qué científico propuso la migración desde el continente australiano?",
             "opts": [
-              "Universidades militares",
-              "Seminarios",
-              "Gremios comerciales",
-              "Academias protestantes"
+              "Bruce Bradley",
+              "Mendes Correia",
+              "Florentino Ameghino"
             ],
             "correct": 1,
-            "explicacion": "Los seminarios fueron creados para mejorar la preparación intelectual y religiosa del clero. Esta medida buscaba elevar la formación de los sacerdotes."
+            "explicacion": "El antropólogo portugués Mendes Correia es el autor principal de la teoría de migración australo-tasmaniana."
           }
         },
         {
-          "texto": "El Index era una lista de libros prohibidos.",
+          "texto": "Escalas insulares ⊃ Tasmania + Auckland + Campbell",
           "pregunta": {
-            "q": "¿Qué era el Index durante la Contrarreforma?",
+            "q": "¿Qué islas australes sirvieron de puentes o paradas en la ruta hacia el polo?",
             "opts": [
-              "Una lista de libros prohibidos",
-              "Un libro de oraciones",
-              "Una escuela religiosa",
-              "Un tratado político"
+              "Samoa, Fiyi, Tahití",
+              "Tasmania, Auckland, Campbell",
+              "Galápagos, Juan Fernández"
             ],
-            "correct": 0,
-            "explicacion": "El Index o Índice de libros prohibidos reunía obras consideradas peligrosas para la doctrina católica. Fue utilizado por la Iglesia para controlar la difusión de ciertas ideas."
+            "correct": 1,
+            "explicacion": "Los nómadas australianos saltaron de isla en isla hacia el sur, utilizando Tasmania y los archipiélagos de Auckland y Campbell."
           }
         },
         {
-          "texto": "Se reorganizó la Santa Inquisición.",
+          "texto": "Puente principal = Antártida",
           "pregunta": {
-            "q": "¿Qué institución religiosa fue reorganizada durante la Contrarreforma?",
+            "q": "¿Qué inmensa masa territorial fue cruzada a pie en la Teoría Australiana?",
             "opts": [
-              "La Santa Inquisición",
-              "La Compañía de Jesús",
-              "El Parlamento europeo",
-              "El Imperio romano"
+              "Groenlandia",
+              "El lecho marino del Pacífico",
+              "La Antártida"
+            ],
+            "correct": 2,
+            "explicacion": "Correia planteó que la migración aprovechó un periodo climático favorable para caminar bordeando las costas de la Antártida."
+          }
+        },
+        {
+          "texto": "Llegada sudamericana = Patagonia + Tierra del Fuego + Cabo de Hornos",
+          "pregunta": {
+            "q": "¿Por qué zonas del cono sur ingresaron los pobladores originarios de Australia?",
+            "opts": [
+              "Desierto de Atacama",
+              "Costas de Brasil y Uruguay",
+              "Patagonia, Tierra del Fuego y Cabo de Hornos"
+            ],
+            "correct": 2,
+            "explicacion": "Al abandonar la Antártida, los migrantes ascendieron ingresando por el punto más meridional de América del Sur."
+          }
+        },
+        {
+          "texto": "Similitud capilar = Cabello rizado",
+          "pregunta": {
+            "q": "¿Qué fenotipo en el cabello une a australianos e indígenas de Tierra del Fuego?",
+            "opts": [
+              "Cabello totalmente lacio",
+              "Cabello rizado",
+              "Cabello rubio natural"
+            ],
+            "correct": 1,
+            "explicacion": "A diferencia del lisotrico asiático, las tribus fueguinas presentan cabellos ondulados o rizados semejantes a los aborígenes de Australia."
+          }
+        },
+        {
+          "texto": "Forma craneal = Dolicocéfalo",
+          "pregunta": {
+            "q": "¿Qué medida o forma del cráneo es una evidencia antropométrica en la teoría australiana?",
+            "opts": [
+              "Braquicéfalo",
+              "Microcéfalo",
+              "Dolicocéfalo"
+            ],
+            "correct": 2,
+            "explicacion": "Las mediciones óseas indicaron que ambos grupos humanos tienen cráneos marcadamente alargados (dolicocéfalos)."
+          }
+        },
+        {
+          "texto": "Similitudes faciales ⊃ Prognatismo + Nariz pequeña",
+          "pregunta": {
+            "q": "¿Qué características del rostro conforman las pruebas antroposomáticas de Correia?",
+            "opts": [
+              "Ojos rasgados y pómulos grandes",
+              "Prognatismo y nariz pequeña",
+              "Labios finos y mentón partido"
+            ],
+            "correct": 1,
+            "explicacion": "El adelantamiento del hueso maxilar (prognatismo) y una morfología nasal pequeña son rasgos comunes entre ambas regiones."
+          }
+        },
+        {
+          "texto": "Rasgo físico ⊃ Abundante pilosidad + resistencia al frío",
+          "pregunta": {
+            "q": "¿Qué características adaptativas de la piel y el cuerpo avalan la ruta antártica?",
+            "opts": [
+              "Ausencia de sudoración",
+              "Piel oscura y ceguera nocturna",
+              "Abundante pilosidad y resistencia al frío"
+            ],
+            "correct": 2,
+            "explicacion": "El denso vello corporal y una notable tolerancia genética a temperaturas gélidas respaldan la permanencia en climas antárticos y patagónicos."
+          }
+        },
+        {
+          "texto": "Prueba cultural ⊃ Bumeran + Churingas",
+          "pregunta": {
+            "q": "¿Qué objetos fabricados en madera son típicos de ambas culturas extremas?",
+            "opts": [
+              "Canoas de totora",
+              "Bumeran y Churingas",
+              "Arcos compuestos"
+            ],
+            "correct": 1,
+            "explicacion": "El arma curva que regresa al lanzador (bumeran) y el zumbador de uso ritual (churinga) atestiguan el intercambio cultural."
+          }
+        },
+        {
+          "texto": "Arquitectura = Chozas forma de colmena",
+          "pregunta": {
+            "q": "¿Qué diseño de refugio o vivienda comparten nativos patagónicos y australianos?",
+            "opts": [
+              "Tiendas cónicas de piel",
+              "Casas elevadas sobre pilotes",
+              "Chozas en forma de colmena"
+            ],
+            "correct": 2,
+            "explicacion": "Las estructuras habitacionales de base circular abovedada, parecidas a un panal de abejas, son una prueba etnocultural."
+          }
+        },
+        {
+          "texto": "Prueba lingüística = 93 palabras similares",
+          "pregunta": {
+            "q": "¿Qué evidencia relacionada al lenguaje cuantificó Mendes Correia?",
+            "opts": [
+              "Tres dialectos idénticos",
+              "93 palabras similares",
+              "Uso del mismo alfabeto escrito"
+            ],
+            "correct": 1,
+            "explicacion": "El antropólogo sustentó su hipótesis al encontrar y registrar 93 términos con similitud radical y semántica entre los idiomas australianos y sudamericanos."
+          }
+        }
+      ]
+    },
+    {
+      "titulo": "Teoría Noratlántica",
+      "puntos": [
+        {
+          "texto": "Teoría Noratlántica ⊃ D. Stanford + B. Bradley",
+          "pregunta": {
+            "q": "¿Qué investigadores formularon de manera contemporánea la Teoría Noratlántica?",
+            "opts": [
+              "D. Stanford y B. Bradley",
+              "T. Heyerdahl y P. Rivet",
+              "J. Acosta y F. Ameghino"
             ],
             "correct": 0,
-            "explicacion": "La Santa Inquisición fue fortalecida para combatir la herejía y defender la doctrina católica. Su reorganización fue una de las medidas de control religioso del periodo."
+            "explicacion": "Dennis Stanford y Bruce Bradley son los académicos que propusieron una migración prehistórica desde el occidente europeo hacia América."
+          }
+        },
+        {
+          "texto": "Ruta de migración = Europa → Norte de América",
+          "pregunta": {
+            "q": "¿Qué trayecto geográfico postula la Teoría Noratlántica?",
+            "opts": [
+              "De África central hacia Brasil",
+              "De Europa hacia el Norte de América",
+              "De la Antártida hacia California"
+            ],
+            "correct": 1,
+            "explicacion": "La hipótesis plantea que grupos humanos bordearon los hielos glaciares del Océano Atlántico Norte desde Europa hasta alcanzar Norteamérica."
+          }
+        },
+        {
+          "texto": "Prueba material ≈ Similitud de puntas de proyectil",
+          "pregunta": {
+            "q": "¿Qué tipo de artefactos líticos brindan el mayor sustento arqueológico a esta teoría?",
+            "opts": [
+              "Hachas de cobre",
+              "Vasijas de arcilla cocida",
+              "Similitud de puntas de proyectil"
+            ],
+            "correct": 2,
+            "explicacion": "El parecido técnico extraordinario en la talla de la piedra para hacer lanzas es el corazón del argumento de Stanford y Bradley."
+          }
+        },
+        {
+          "texto": "Cultura Clovis ≈ Industria Solutrense",
+          "pregunta": {
+            "q": "¿Qué dos grandes culturas u horizontes líticos emparenta esta teoría?",
+            "opts": [
+              "Magdaleniense y Folsom",
+              "Achelense y Paiján",
+              "Clovis y Solutrense"
+            ],
+            "correct": 2,
+            "explicacion": "Se argumenta que la técnica de las puntas Clovis encontradas en EE.UU. derivan directamente de la sofisticada tecnología Solutrense de Europa."
           }
         }
       ]

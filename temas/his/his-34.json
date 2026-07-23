@@ -1,0 +1,426 @@
+{
+  "curso": "Historia del Perú",
+  "tema": "Guerras civiles entre los conquistadores",
+  "glosario": {
+    "Feudal": "Sistema basado en la posesión de tierras y vasallaje.",
+    "Capitulación de Toledo": "Acuerdo real de 1529 que otorgó privilegios a Pizarro sobre Almagro.",
+    "Nueva Toledo": "Gobernación asignada a Diego de Almagro.",
+    "Encomenderos": "Conquistadores que recibían indígenas para su servicio a cambio de evangelizarlos.",
+    "Leyes Nuevas": "Legislación de 1542 para limitar abusos y quitar poder a los encomenderos.",
+    "Virrey": "Representante directo del rey de España en las colonias.",
+    "Real Audiencia": "Máximo tribunal de justicia de la Corona española en América.",
+    "=": "Definición / es",
+    "→": "Produce, genera, conduce a, resultado",
+    "⇒": "Causa",
+    "+": "Combinación / junto con"
+  },
+  "theory": [
+    {
+      "titulo": "Introducción y Guerra de las Fronteras",
+      "puntos": [
+        {
+          "texto": "Guerras civiles = conflictos de tipo feudal.",
+          "pregunta": {
+            "q": "¿Qué carácter o tipo tuvieron las guerras civiles entre los conquistadores?",
+            "opts": [
+              "Conflictos de tipo capitalista",
+              "Conflictos de tipo feudal",
+              "Conflictos independentistas"
+            ],
+            "correct": 1,
+            "explicacion": "Se consideran conflictos feudales porque la disputa principal giraba en torno a la tenencia de tierras y el control sobre la población nativa, de forma similar al feudalismo europeo."
+          }
+        },
+        {
+          "texto": "Guerra de las fronteras = F. Pizarro vs D. Almagro.",
+          "pregunta": {
+            "q": "¿Qué personajes principales se enfrentaron en la Guerra de las fronteras?",
+            "opts": [
+              "F. Pizarro y D. Almagro",
+              "Gonzalo Pizarro y Vaca de Castro",
+              "Hernández Girón y la Real Audiencia"
+            ],
+            "correct": 0,
+            "explicacion": "La Guerra de las fronteras fue el primer gran conflicto civil y enfrentó directamente a Francisco Pizarro contra Diego de Almagro."
+          }
+        },
+        {
+          "texto": "Guerra de las fronteras ⇒ causa lejana = Capitulación de Toledo.",
+          "pregunta": {
+            "q": "¿Cuál es considerada la causa lejana de la Guerra de las fronteras?",
+            "opts": [
+              "Posesión territorial del Cusco",
+              "Promulgación de las Leyes Nuevas",
+              "Capitulación de Toledo"
+            ],
+            "correct": 2,
+            "explicacion": "La Capitulación de Toledo generó resentimiento al otorgar mayores títulos, tierras y riquezas a Pizarro en desmedro de Almagro, sentando las bases del conflicto."
+          }
+        },
+        {
+          "texto": "Guerra de las fronteras ⇒ causa cercana = posesión del Cusco.",
+          "pregunta": {
+            "q": "¿Qué disputa territorial fue la causa cercana para el estallido de la guerra?",
+            "opts": [
+              "La posesión del Cusco",
+              "El control de Lima",
+              "El límite de Nueva Toledo"
+            ],
+            "correct": 0,
+            "explicacion": "El Cusco estaba en el límite impreciso entre la gobernación de Pizarro y la de Almagro, desencadenando el enfrentamiento directo."
+          }
+        },
+        {
+          "texto": "D. Almagro → fracasa en Nueva Toledo.",
+          "pregunta": {
+            "q": "¿En qué expedición o territorio experimentó un fracaso D. Almagro?",
+            "opts": [
+              "Nueva Castilla",
+              "Nueva Toledo",
+              "Nueva Andalucía"
+            ],
+            "correct": 1,
+            "explicacion": "El fracaso de la expedición al sur (Nueva Toledo, actual Chile) motivó a Almagro a regresar y reclamar el Cusco por la fuerza."
+          }
+        },
+        {
+          "texto": "Conferencia de Mala = reunión F. Pizarro + D. Almagro.",
+          "pregunta": {
+            "q": "¿Quiénes sostuvieron una reunión en la llamada Conferencia de Mala?",
+            "opts": [
+              "Almagro el Mozo y Vaca de Castro",
+              "Gonzalo Pizarro y Blasco Núñez de Vela",
+              "F. Pizarro y D. Almagro"
+            ],
+            "correct": 2,
+            "explicacion": "La Conferencia de Mala fue un intento de arreglo diplomático entre ambos líderes antes del enfrentamiento bélico definitivo."
+          }
+        },
+        {
+          "texto": "Batalla de Las Salinas → derrota almagrista + ejecución D. Almagro.",
+          "pregunta": {
+            "q": "¿Cuál fue la consecuencia directa de la Batalla de Las Salinas?",
+            "opts": [
+              "Derrota almagrista y ejecución de D. Almagro",
+              "Muerte de Francisco Pizarro",
+              "Victoria de Diego de Almagro y toma de Lima"
+            ],
+            "correct": 0,
+            "explicacion": "Las Salinas selló el triunfo pizarrista, culminando con la captura y posterior ejecución de Diego de Almagro."
+          }
+        }
+      ]
+    },
+    {
+      "titulo": "Asesinato de Pizarro",
+      "puntos": [
+        {
+          "texto": "Asesinato F. Pizarro → Lima 1541.",
+          "pregunta": {
+            "q": "¿Cuándo y dónde ocurrió el asesinato de Francisco Pizarro?",
+            "opts": [
+              "Cusco en 1538",
+              "Lima en 1541",
+              "Arequipa en 1544"
+            ],
+            "correct": 1,
+            "explicacion": "Francisco Pizarro fue asesinado en su propia casa en Lima en el año 1541 por un bando de almagristas."
+          }
+        },
+        {
+          "texto": "Asesinato F. Pizarro ⇒ pobreza + venganza almagrista.",
+          "pregunta": {
+            "q": "¿Cuáles fueron los motivos principales detrás del asesinato de Pizarro?",
+            "opts": [
+              "Pobreza y venganza de la facción almagrista",
+              "Disputas por la aplicación de las Leyes Nuevas",
+              "El fracaso de la expedición a Chile"
+            ],
+            "correct": 0,
+            "explicacion": "Los partidarios de Almagro, marginados, empobrecidos tras la guerra y buscando vengar la muerte de su líder, planearon el ataque."
+          }
+        },
+        {
+          "texto": "Implicados en asesinato F. Pizarro = Rada, Bilbao, Barragán.",
+          "pregunta": {
+            "q": "¿Qué personajes figuran entre los implicados en la muerte de Pizarro?",
+            "opts": [
+              "Pedro de la Gasca y Blasco Núñez de Vela",
+              "Rada, Bilbao, Barragán",
+              "Hernández Girón y Vaca de Castro"
+            ],
+            "correct": 1,
+            "explicacion": "Juan de Rada, junto a otros conjurados como Bilbao y Barragán, encabezaron la irrupción en la residencia de Pizarro."
+          }
+        }
+      ]
+    },
+    {
+      "titulo": "Guerra de Almagro el Mozo",
+      "puntos": [
+        {
+          "texto": "Guerra de Almagro el Mozo = Almagro el Mozo vs Vaca de Castro.",
+          "pregunta": {
+            "q": "¿Qué líderes protagonizaron este nuevo enfrentamiento armado?",
+            "opts": [
+              "Gonzalo Pizarro y Vaca de Castro",
+              "Almagro el Mozo y Pedro de la Gasca",
+              "Almagro el Mozo y Vaca de Castro"
+            ],
+            "correct": 2,
+            "explicacion": "El bando rebelde estuvo al mando del hijo de Almagro, enfrentándose al representante real Cristóbal Vaca de Castro."
+          }
+        },
+        {
+          "texto": "Guerra de Almagro el Mozo ⇒ insubordinación almagristas.",
+          "pregunta": {
+            "q": "¿Qué actitud desencadenó la Guerra de Almagro el Mozo?",
+            "opts": [
+              "Insubordinación de los almagristas",
+              "El rechazo al primer virrey",
+              "La defensa de las encomiendas"
+            ],
+            "correct": 0,
+            "explicacion": "Los almagristas se insubordinaron contra la autoridad de la corona tras el asesinato de Pizarro y nombraron gobernador a Almagro el Mozo."
+          }
+        },
+        {
+          "texto": "Batalla de Chupas → derrota almagristas.",
+          "pregunta": {
+            "q": "¿En qué batalla fue vencida la facción de Almagro el Mozo?",
+            "opts": [
+              "Batalla de Iñaquito",
+              "Batalla de Las Salinas",
+              "Batalla de Chupas"
+            ],
+            "correct": 2,
+            "explicacion": "En la llanura de Chupas, las fuerzas reales de Vaca de Castro aplastaron a la resistencia almagrista, poniendo fin a este bando."
+          }
+        }
+      ]
+    },
+    {
+      "titulo": "Leyes Nuevas del 1542",
+      "puntos": [
+        {
+          "texto": "Leyes Nuevas 1542 ⇒ influencia Bartolomé de las Casas + Carlos I.",
+          "pregunta": {
+            "q": "¿Quiénes influyeron en la creación de las Leyes Nuevas de 1542?",
+            "opts": [
+              "Vaca de Castro y la Real Audiencia",
+              "Bartolomé de las Casas y el rey Carlos I",
+              "Blasco Núñez de Vela y Pedro de la Gasca"
+            ],
+            "correct": 1,
+            "explicacion": "Las denuncias del fraile Bartolomé de las Casas sobre el maltrato a los nativos convencieron al rey Carlos I de emitir este cuerpo legal."
+          }
+        },
+        {
+          "texto": "Leyes Nuevas 1542 → plantea protección de Indios.",
+          "pregunta": {
+            "q": "¿Cuál era uno de los objetivos sociales que planteaban las Leyes Nuevas?",
+            "opts": [
+              "La protección de los Indios",
+              "La creación de una nobleza local",
+              "El exterminio de los pueblos nativos"
+            ],
+            "correct": 0,
+            "explicacion": "La corona buscaba detener los abusos y reconocer a los indígenas como súbditos libres de la monarquía española."
+          }
+        },
+        {
+          "texto": "Leyes Nuevas 1542 → limita poder de encomenderos.",
+          "pregunta": {
+            "q": "¿Qué efecto institucional buscaban las Leyes Nuevas sobre la clase conquistadora?",
+            "opts": [
+              "Aumentar sus beneficios tributarios",
+              "Limitar el poder de los encomenderos",
+              "Otorgarles independencia política"
+            ],
+            "correct": 1,
+            "explicacion": "Al limitar a los encomenderos, la corona recuperaba el control político efectivo sobre los territorios recién conquistados."
+          }
+        },
+        {
+          "texto": "Leyes Nuevas 1542 → elimina perpetuidad de encomiendas.",
+          "pregunta": {
+            "q": "¿Qué característica clave de las encomiendas fue suprimida por esta legislación?",
+            "opts": [
+              "La exención de impuestos",
+              "La perpetuidad de las encomiendas",
+              "La evangelización obligatoria"
+            ],
+            "correct": 1,
+            "explicacion": "La eliminación de la herencia (perpetuidad) significaba que las encomiendas volverían a la corona tras la muerte del encomendero, lo que enfureció a los conquistadores."
+          }
+        }
+      ]
+    },
+    {
+      "titulo": "Guerra de los Encomenderos",
+      "puntos": [
+        {
+          "texto": "Guerra encomenderos 1544-1548 = Gonzalo Pizarro vs Blasco Núñez de Vela.",
+          "pregunta": {
+            "q": "¿Quiénes fueron los líderes contrarios al inicio de la Guerra de los encomenderos?",
+            "opts": [
+              "Hernández Girón y Vaca de Castro",
+              "Gonzalo Pizarro y Blasco Núñez de Vela",
+              "Francisco Pizarro y Diego de Almagro"
+            ],
+            "correct": 1,
+            "explicacion": "Gonzalo Pizarro lideró la resistencia de los encomenderos frente a Blasco Núñez de Vela, el emisario de la corona."
+          }
+        },
+        {
+          "texto": "Blasco Núñez de Vela = 1° virrey.",
+          "pregunta": {
+            "q": "¿Qué cargo político ostentaba Blasco Núñez de Vela en este conflicto?",
+            "opts": [
+              "Gobernador interino",
+              "Presidente de la Real Audiencia",
+              "Primer virrey"
+            ],
+            "correct": 2,
+            "explicacion": "Fue enviado por España como el primer virrey del Perú, con el objetivo primordial de aplicar rigurosamente las Leyes Nuevas."
+          }
+        },
+        {
+          "texto": "Guerra encomenderos ⇒ aplicación de Leyes Nuevas.",
+          "pregunta": {
+            "q": "¿Qué suceso causó directamente el levantamiento de los encomenderos?",
+            "opts": [
+              "La aplicación de las Leyes Nuevas",
+              "El asesinato de Francisco Pizarro",
+              "La disputa por el Cusco"
+            ],
+            "correct": 0,
+            "explicacion": "La amenaza a sus privilegios económicos y herencias al aplicarse las Leyes Nuevas fue el detonante de la revuelta."
+          }
+        },
+        {
+          "texto": "Batalla de Iñaquito → derrota Blasco Núñez de Vela.",
+          "pregunta": {
+            "q": "¿Qué personaje real resultó derrotado en la Batalla de Iñaquito?",
+            "opts": [
+              "Pedro de la Gasca",
+              "Blasco Núñez de Vela",
+              "Vaca de Castro"
+            ],
+            "correct": 1,
+            "explicacion": "Las fuerzas de Gonzalo Pizarro triunfaron en Iñaquito, decapitando al primer virrey e instaurando un gobierno rebelde."
+          }
+        },
+        {
+          "texto": "Segunda fase guerra encomenderos = Gonzalo Pizarro vs P. Gasca.",
+          "pregunta": {
+            "q": "¿Contra quién combatió Gonzalo Pizarro en la continuación del conflicto?",
+            "opts": [
+              "Almagro el Mozo",
+              "Hernández Girón",
+              "Pedro de la Gasca"
+            ],
+            "correct": 2,
+            "explicacion": "Tras la muerte del virrey, la corona envió a un hábil diplomático y clérigo, Pedro de la Gasca, para enfrentar a Pizarro."
+          }
+        },
+        {
+          "texto": "Pedro de la Gasca = Pacificador.",
+          "pregunta": {
+            "q": "¿Con qué denominación histórica se conoce a Pedro de la Gasca?",
+            "opts": [
+              "El Pacificador",
+              "El Adelantado",
+              "El Segundo Virrey"
+            ],
+            "correct": 0,
+            "explicacion": "Se le otorgó el título de Presidente de la Real Audiencia con poderes extraordinarios para actuar como Pacificador del territorio."
+          }
+        },
+        {
+          "texto": "Enfrentamiento G. Pizarro vs P. Gasca ⇒ autonomía pizarrista.",
+          "pregunta": {
+            "q": "¿Qué causa o motivación sostenía Gonzalo Pizarro en su enfrentamiento contra Pedro de la Gasca?",
+            "opts": [
+              "El apoyo irrestricto a la corona",
+              "La autonomía pizarrista",
+              "El sometimiento de la Real Audiencia"
+            ],
+            "correct": 1,
+            "explicacion": "El bando pizarrista buscaba mantener el poder y la autonomía lograda frente a las órdenes absolutistas de España."
+          }
+        },
+        {
+          "texto": "Batalla de Jaquijahuana → derrota + ejecución Gonzalo Pizarro.",
+          "pregunta": {
+            "q": "¿Qué desenlace tuvo la Batalla de Jaquijahuana para la rebelión?",
+            "opts": [
+              "Derrota y ejecución de Gonzalo Pizarro",
+              "Triunfo definitivo de los encomenderos",
+              "Captura de Pedro de la Gasca"
+            ],
+            "correct": 0,
+            "explicacion": "En Jaquijahuana, el ejército de Pizarro se desbandó y se pasó al lado real, culminando con la captura y ejecución del líder rebelde."
+          }
+        },
+        {
+          "texto": "Victoria de P. Gasca → Reparto de Huaynarima.",
+          "pregunta": {
+            "q": "¿Qué medida se tomó posteriormente como resultado de la victoria de Pedro de la Gasca?",
+            "opts": [
+              "Capitulación de Toledo",
+              "El Reparto de Huaynarima",
+              "Abolición total de las encomiendas"
+            ],
+            "correct": 1,
+            "explicacion": "La Gasca reasignó las encomiendas entre quienes le fueron leales durante la guerra mediante el Reparto de Huaynarima."
+          }
+        }
+      ]
+    },
+    {
+      "titulo": "Rebelión de los Insatisfechos",
+      "puntos": [
+        {
+          "texto": "Rebelión insatisfechos = Hernández Girón vs Real Audiencia.",
+          "pregunta": {
+            "q": "¿Quién lideró a los rebeldes y contra qué institución se alzaron en este conflicto?",
+            "opts": [
+              "Gonzalo Pizarro contra el primer virrey",
+              "Hernández Girón contra la Real Audiencia",
+              "Diego de Almagro contra la Corona"
+            ],
+            "correct": 1,
+            "explicacion": "Francisco Hernández Girón encabezó la rebelión en el Cusco enfrentándose a los oidores de la Real Audiencia de Lima."
+          }
+        },
+        {
+          "texto": "Rebelión insatisfechos ⇒ mal reparto de encomiendas.",
+          "pregunta": {
+            "q": "¿Qué generó el inicio de la Rebelión de los insatisfechos?",
+            "opts": [
+              "El mal reparto de encomiendas",
+              "La derogación de las Leyes Nuevas",
+              "El asesinato del virrey"
+            ],
+            "correct": 0,
+            "explicacion": "Muchos conquistadores quedaron disconformes tras el Reparto de Huaynarima, sintiendo que no fueron justamente recompensados, originando una nueva revuelta."
+          }
+        },
+        {
+          "texto": "Batalla de Pucará → derrota de rebeldes insatisfechos.",
+          "pregunta": {
+            "q": "¿En qué enfrentamiento fueron vencidos los alzados de Hernández Girón?",
+            "opts": [
+              "Batalla de Pucará",
+              "Batalla de Chupas",
+              "Batalla de Iñaquito"
+            ],
+            "correct": 0,
+            "explicacion": "La derrota de Hernández Girón en Pucará marcó el fin definitivo de las guerras civiles y de las rebeliones de los encomenderos."
+          }
+        }
+      ]
+    }
+  ]
+}

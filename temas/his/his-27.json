@@ -1,0 +1,345 @@
+{
+  "curso": "Historia Universal",
+  "tema": "Renacimiento",
+  "glosario": {
+    "Quattrocento": "Primera fase del Renacimiento desarrollada durante el siglo XV.",
+    "Cinquecento": "Fase de apogeo del Renacimiento desarrollada durante el siglo XVI.",
+    "Perspectiva": "Técnica artística que crea la ilusión de profundidad y volumen.",
+    "Estética clásica": "Conjunto de cánones artísticos de Grecia y Roma.",
+    "Proporción": "Relación armoniosa y equilibrada entre las partes de una obra.",
+    "✓": "Requiere / adopta / posee",
+    "=": "Definición / es / significa",
+    "+": "Combinación / junto con",
+    "→": "Produce / genera / conduce a / autor de",
+    "⊃": "Contiene / incluye / destaca a"
+  },
+  "theory": [
+    {
+      "titulo": "Características del Renacimiento",
+      "puntos": [
+        {
+          "texto": "Renacimiento ✓ estética de los clásicos.",
+          "pregunta": {
+            "q": "¿Qué modelo estético fue adoptado y valorado durante el Renacimiento?",
+            "opts": [
+              "La estética del arte gótico",
+              "La estética de los clásicos",
+              "La estética del arte bizantino"
+            ],
+            "correct": 1,
+            "explicacion": "El movimiento renacentista buscó recuperar y emular la belleza y los cánones estéticos de la antigüedad clásica grecorromana."
+          }
+        },
+        {
+          "texto": "Estética clásica = proporción + simetría.",
+          "pregunta": {
+            "q": "¿Qué valores fundamentales definían a la estética clásica?",
+            "opts": [
+              "Proporción y simetría",
+              "Desorden y asimetría",
+              "Abstracción y caos"
+            ],
+            "correct": 0,
+            "explicacion": "La inspiración clásica se caracterizó por buscar el equilibrio armónico mediante el uso de la proporción matemática y la simetría."
+          }
+        },
+        {
+          "texto": "Renacimiento ✓ exaltación del cuerpo humano.",
+          "pregunta": {
+            "q": "¿Qué actitud tomó el Renacimiento frente a la figura humana?",
+            "opts": [
+              "Consideró el cuerpo como algo pecaminoso",
+              "Ocultó la figura bajo ropajes oscuros",
+              "Promovió la exaltación del cuerpo humano"
+            ],
+            "correct": 2,
+            "explicacion": "Influenciado por el antropocentrismo, el arte renacentista celebró y exaltó la anatomía y la belleza del cuerpo humano."
+          }
+        },
+        {
+          "texto": "Renacimiento ✓ estudio de la naturaleza.",
+          "pregunta": {
+            "q": "¿Qué elemento del entorno físico fue objeto de estudio detallado en esta época?",
+            "opts": [
+              "El estudio de la naturaleza",
+              "El análisis de los infiernos mitológicos",
+              "La observación exclusiva de los astros"
+            ],
+            "correct": 0,
+            "explicacion": "Los artistas y pensadores comenzaron a observar meticulosamente la naturaleza para representarla con realismo en sus obras."
+          }
+        },
+        {
+          "texto": "Renacimiento → invención de la perspectiva.",
+          "pregunta": {
+            "q": "¿Qué importante innovación técnica visual fue creada como resultado de este movimiento?",
+            "opts": [
+              "El uso del claroscuro gótico",
+              "La invención de la perspectiva",
+              "La técnica del mosaico en vidrio"
+            ],
+            "correct": 1,
+            "explicacion": "El afán por el realismo llevó a los artistas renacentistas a inventar la perspectiva geométrica para plasmar profundidad en dos dimensiones."
+          }
+        },
+        {
+          "texto": "Renacimiento → renovación científica.",
+          "pregunta": {
+            "q": "¿Qué impacto tuvo este periodo más allá de las artes plásticas?",
+            "opts": [
+              "El estancamiento de la medicina",
+              "La prohibición de la observación empírica",
+              "Una renovación científica"
+            ],
+            "correct": 2,
+            "explicacion": "El cuestionamiento de saberes antiguos y la observación directa de la realidad condujeron a una importante renovación en el ámbito científico."
+          }
+        }
+      ]
+    },
+    {
+      "titulo": "El Quattrocento",
+      "puntos": [
+        {
+          "texto": "Quattrocento = siglo XV.",
+          "pregunta": {
+            "q": "¿En qué siglo se desarrolló la etapa denominada Quattrocento?",
+            "opts": [
+              "Siglo XIV",
+              "Siglo XV",
+              "Siglo XVI"
+            ],
+            "correct": 1,
+            "explicacion": "El Quattrocento, que marca la primera gran fase del Renacimiento, abarca temporalmente los años del 1400 (siglo XV)."
+          }
+        },
+        {
+          "texto": "Capital del Quattrocento = Florencia.",
+          "pregunta": {
+            "q": "¿Qué urbe italiana se consolidó como el epicentro cultural del Quattrocento?",
+            "opts": [
+              "Venecia",
+              "Roma",
+              "Florencia"
+            ],
+            "correct": 2,
+            "explicacion": "Gracias al mecenazgo de familias ricas, Florencia se convirtió en la capital indiscutible de las artes durante el siglo XV."
+          }
+        },
+        {
+          "texto": "Arquitectura del Quattrocento ⊃ F. Brunelleschi.",
+          "pregunta": {
+            "q": "¿Qué figura destacó notablemente en la arquitectura de esta primera etapa?",
+            "opts": [
+              "F. Brunelleschi",
+              "Miguel Ángel",
+              "Rafael Sanzio"
+            ],
+            "correct": 0,
+            "explicacion": "Filippo Brunelleschi fue uno de los pioneros que definió las bases de la arquitectura renacentista en Florencia."
+          }
+        },
+        {
+          "texto": "Escultura del Quattrocento ⊃ Donatello.",
+          "pregunta": {
+            "q": "¿Qué artista fue un exponente clave de la escultura en el siglo XV?",
+            "opts": [
+              "Leonardo Da Vinci",
+              "Donatello",
+              "D. Bramante"
+            ],
+            "correct": 1,
+            "explicacion": "Donatello revolucionó la escultura al reintroducir la tridimensionalidad y la expresividad clásica en sus obras."
+          }
+        },
+        {
+          "texto": "Pintura del Quattrocento ⊃ S. Botticelli.",
+          "pregunta": {
+            "q": "¿Qué maestro pictórico es ampliamente representativo del periodo Quattrocento?",
+            "opts": [
+              "Miguel Ángel",
+              "D. Bramante",
+              "S. Botticelli"
+            ],
+            "correct": 2,
+            "explicacion": "Sandro Botticelli fue uno de los pintores florentinos más refinados de su tiempo, caracterizado por sus temáticas mitológicas."
+          }
+        },
+        {
+          "texto": "S. Botticelli → obra Nacimiento de Venus.",
+          "pregunta": {
+            "q": "¿Cuál es una de las creaciones más célebres de Sandro Botticelli?",
+            "opts": [
+              "La Gioconda",
+              "Nacimiento de Venus",
+              "La escuela de Atenas"
+            ],
+            "correct": 1,
+            "explicacion": "El Nacimiento de Venus es una pintura icónica de Botticelli que ejemplifica la estética y los motivos mitológicos del Quattrocento."
+          }
+        }
+      ]
+    },
+    {
+      "titulo": "El Cinquecento",
+      "puntos": [
+        {
+          "texto": "Cinquecento = siglo XVI.",
+          "pregunta": {
+            "q": "¿A qué periodo temporal corresponde la fase del Cinquecento?",
+            "opts": [
+              "Siglo XV",
+              "Siglo XVI",
+              "Siglo XVII"
+            ],
+            "correct": 1,
+            "explicacion": "El Cinquecento define la época de mayor madurez y esplendor del Renacimiento durante el siglo XVI (años 1500)."
+          }
+        },
+        {
+          "texto": "Capital del Cinquecento = Roma.",
+          "pregunta": {
+            "q": "¿A qué ciudad se trasladó el núcleo principal del arte durante el Cinquecento?",
+            "opts": [
+              "Roma",
+              "Florencia",
+              "Milán"
+            ],
+            "correct": 0,
+            "explicacion": "Impulsada por el fuerte mecenazgo del papado, Roma reemplazó a Florencia como la capital cultural en esta segunda etapa."
+          }
+        },
+        {
+          "texto": "Arquitectura del Cinquecento ⊃ D. Bramante.",
+          "pregunta": {
+            "q": "¿Quién fue el principal representante de la arquitectura renacentista romana en el siglo XVI?",
+            "opts": [
+              "Donatello",
+              "D. Bramante",
+              "F. Brunelleschi"
+            ],
+            "correct": 1,
+            "explicacion": "Donato Bramante instauró el estilo arquitectónico monumental característico del Alto Renacimiento en Roma."
+          }
+        },
+        {
+          "texto": "Escultura del Cinquecento ⊃ Miguel Ángel.",
+          "pregunta": {
+            "q": "¿Qué artista dominó magistralmente la disciplina escultórica en el Cinquecento?",
+            "opts": [
+              "Rafael Sanzio",
+              "Miguel Ángel",
+              "Leonardo Da Vinci"
+            ],
+            "correct": 1,
+            "explicacion": "Miguel Ángel Buonarroti elevó la escultura renacentista a su máxima expresión anatómica y emocional."
+          }
+        },
+        {
+          "texto": "Miguel Ángel → esculturas La Piedad + David.",
+          "pregunta": {
+            "q": "¿Cuáles son dos de las obras maestras talladas en mármol por Miguel Ángel?",
+            "opts": [
+              "La Piedad y el David",
+              "El Pensador y el Moisés",
+              "Apolo y Dafne"
+            ],
+            "correct": 0,
+            "explicacion": "La Piedad y el David son obras cumbres de la escultura donde Miguel Ángel plasmó la belleza ideal y la fuerza humana."
+          }
+        },
+        {
+          "texto": "Pintura del Cinquecento ⊃ Rafael Sanzio.",
+          "pregunta": {
+            "q": "¿Qué pintor es emblemático del equilibrio y la armonía clásica en el Cinquecento?",
+            "opts": [
+              "Donatello",
+              "S. Botticelli",
+              "Rafael Sanzio"
+            ],
+            "correct": 2,
+            "explicacion": "Rafael Sanzio perfeccionó la técnica pictórica logrando composiciones de gran equilibrio, luz y claridad espacial."
+          }
+        },
+        {
+          "texto": "Rafael Sanzio → obra La escuela de Atenas.",
+          "pregunta": {
+            "q": "¿Qué famoso fresco fue elaborado por Rafael Sanzio?",
+            "opts": [
+              "La escuela de Atenas",
+              "El Juicio Final",
+              "La Última Cena"
+            ],
+            "correct": 0,
+            "explicacion": "En La escuela de Atenas, Rafael ilustra a los grandes pensadores clásicos, resumiendo el espíritu intelectual del Renacimiento."
+          }
+        },
+        {
+          "texto": "Pintura del Cinquecento ⊃ Miguel Ángel.",
+          "pregunta": {
+            "q": "Además de la escultura, ¿en qué otra rama artística destacó fundamentalmente Miguel Ángel en esta etapa?",
+            "opts": [
+              "Música",
+              "Pintura",
+              "Literatura"
+            ],
+            "correct": 1,
+            "explicacion": "Miguel Ángel no solo fue un brillante escultor, sino también un pintor monumental del periodo del Cinquecento."
+          }
+        },
+        {
+          "texto": "Miguel Ángel → pinturas Juicio Final + La Creación.",
+          "pregunta": {
+            "q": "¿Qué colosales conjuntos pictóricos fueron ejecutados por Miguel Ángel?",
+            "opts": [
+              "La Primavera y el Nacimiento de Venus",
+              "El Juicio Final y La Creación",
+              "La Gioconda y la Virgen de las Rocas"
+            ],
+            "correct": 1,
+            "explicacion": "Miguel Ángel pintó estas imponentes obras maestras en la bóveda y el altar de la Capilla Sixtina."
+          }
+        },
+        {
+          "texto": "Pintura del Cinquecento ⊃ Leonardo Da Vinci.",
+          "pregunta": {
+            "q": "¿Qué otro genio polímata sobresalió en la pintura durante el Cinquecento?",
+            "opts": [
+              "F. Brunelleschi",
+              "D. Bramante",
+              "Leonardo Da Vinci"
+            ],
+            "correct": 2,
+            "explicacion": "Leonardo Da Vinci es la máxima representación del hombre renacentista, destacando profundamente en la pintura de esta época."
+          }
+        },
+        {
+          "texto": "Leonardo Da Vinci → Hombre de Vitruvio.",
+          "pregunta": {
+            "q": "¿Qué dibujo anatómico representativo de las proporciones clásicas elaboró Leonardo Da Vinci?",
+            "opts": [
+              "El Moisés",
+              "Hombre de Vitruvio",
+              "La Creación"
+            ],
+            "correct": 1,
+            "explicacion": "El Hombre de Vitruvio es un estudio icónico donde Leonardo combina arte y ciencia para definir las proporciones ideales del cuerpo."
+          }
+        },
+        {
+          "texto": "Leonardo Da Vinci → La Gioconda.",
+          "pregunta": {
+            "q": "¿Cuál es uno de los retratos pictóricos más universales creados por Leonardo Da Vinci?",
+            "opts": [
+              "La Gioconda",
+              "El Infierno",
+              "El David"
+            ],
+            "correct": 0,
+            "explicacion": "La Gioconda, o Mona Lisa, es la obra pictórica cumbre de Leonardo, célebre por su técnica del esfumado y enigmática expresión."
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,328 +1,663 @@
 {
-  "curso": "Historia del Perú",
-  "tema": "Guerras Civiles entre los Conquistadores",
+  "curso": "Historia Universal",
+  "tema": "Mesopotamia",
   "glosario": {
-    "Capitulación de Toledo": "Acuerdo de 1529 que otorgó mayores beneficios a Pizarro frente a Almagro, sembrando rivalidad.",
-    "Encomienda": "Sistema de trabajo donde se asignaba un grupo de indígenas a un español para su evangelización a cambio de tributo o trabajo.",
-    "Nueva Toledo": "Gobernación asignada a Diego de Almagro, correspondiente a los territorios del sur (actual Chile).",
-    "Real Audiencia": "Máximo tribunal de justicia de la corona española en América, con funciones de gobierno en ausencia del Virrey."
+    "Mesopotamia": "Región de Oriente Medio ubicada en el actual Irak.",
+    "Cuneiforme": "Sistema de escritura más antiguo, hecho con marcas en forma de cuña.",
+    "Zigurat": "Construcción escalonada de la antigua Mesopotamia que funcionaba como templo.",
+    "Lamassus": "Esculturas monumentales protectoras, generalmente con forma de toros alados.",
+    "Politeísta": "Creencia y adoración de múltiples dioses.",
+    "Antropozoomorfa": "Que tiene forma combinada de ser humano y animal.",
+    "=": "Definición / es",
+    "→": "Produce / genera / conduce a",
+    "⊃": "Contiene / incluye",
+    "⇒": "Causa / motivación",
+    "✓": "Lograda por / requiere",
+    "+": "Combinación / junto con"
   },
   "theory": [
     {
-      "titulo": "Guerra de las Fronteras (1536-1538)",
+      "titulo": "Ubicación y Generalidades",
       "puntos": [
         {
-          "texto": "Naturaleza de las guerras: Conflictos de tipo feudal.",
+          "texto": "Mesopotamia = entre ríos.",
           "pregunta": {
-            "q": "¿Qué carácter o naturaleza tuvieron las primeras guerras civiles entre los conquistadores?",
+            "q": "¿Qué significa literalmente el término Mesopotamia?",
             "opts": [
-              "Guerras de independencia",
-              "Conflictos de tipo feudal",
-              "Guerras religiosas",
-              "Revoluciones industriales"
-            ],
-            "correct": 1,
-            "explicacion": "Se consideran de tipo feudal porque los conquistadores actuaban como señores que disputaban tierras (encomiendas), siervos (indígenas) y poder político, resistiéndose al control central de la Corona española."
-          }
-        },
-        {
-          "texto": "Bandos enfrentados: Francisco Pizarro vs. Diego de Almagro.",
-          "pregunta": {
-            "q": "¿Quiénes fueron los líderes de los bandos enfrentados en la Guerra de las Fronteras?",
-            "opts": [
-              "Gonzalo Pizarro y Blasco Núñez de Vela",
-              "Hernández Girón y La Gasca",
-              "Francisco Pizarro y Diego de Almagro",
-              "Vaca de Castro y Almagro el Mozo"
-            ],
-            "correct": 2,
-            "explicacion": "Los dos antiguos socios de la conquista se enfrentaron tras acumular resentimientos y ambiciones territoriales incompatibles tras la caída del Imperio Inca."
-          }
-        },
-        {
-          "texto": "Causa lejana: Capitulación de Toledo.",
-          "pregunta": {
-            "q": "¿Qué documento es considerado la causa lejana de la Guerra de las Fronteras?",
-            "opts": [
-              "Capitulación de Ayacucho",
-              "Las Leyes Nuevas",
-              "Tratado de Tordesillas",
-              "Capitulación de Toledo"
-            ],
-            "correct": 3,
-            "explicacion": "Firmada en 1529, esta capitulación otorgó a Pizarro títulos de Gobernador y Capitán General, además de un sueldo mucho mayor, marginando política y económicamente a Almagro."
-          }
-        },
-        {
-          "texto": "Causa cercana: Posesión del Cusco.",
-          "pregunta": {
-            "q": "¿Cuál fue el detonante o causa cercana que inició la guerra entre Pizarro y Almagro?",
-            "opts": [
-              "La posesión del Cusco",
-              "El reparto del rescate de Atahualpa",
-              "La fundación de Lima",
-              "La muerte de Huáscar"
+              "Entre ríos",
+              "Tierra fértil",
+              "Ciudad sagrada"
             ],
             "correct": 0,
-            "explicacion": "Ambos reclamaban que la rica ciudad imperial del Cusco caía dentro de los límites de sus respectivas gobernaciones (Nueva Castilla para Pizarro y Nueva Toledo para Almagro)."
+            "explicacion": "Etimológicamente, proviene del griego y hace referencia a la región ubicada geográficamente entre los ríos Tigris y Éufrates."
           }
         },
         {
-          "texto": "Antecedente: Fracaso de Almagro en Nueva Toledo.",
+          "texto": "Mesopotamia = actual Irak.",
           "pregunta": {
-            "q": "¿Qué suceso motivó a Almagro a retornar y reclamar el Cusco por la fuerza?",
+            "q": "¿Con qué país actual coincide principalmente el territorio de la antigua Mesopotamia?",
             "opts": [
-              "Su fracaso expedicionario en Nueva Toledo",
-              "Una orden directa del rey",
-              "La muerte de Pizarro",
-              "El descubrimiento de Potosí"
-            ],
-            "correct": 0,
-            "explicacion": "Almagro marchó al sur (Chile) esperando encontrar riquezas, pero solo halló resistencia indígena (mapuches) y tierras áridas, lo que lo forzó a volver y tomar el Cusco para compensar sus pérdidas."
-          }
-        },
-        {
-          "texto": "Batalla final: Las Salinas → Derrota y ejecución de Almagro.",
-          "pregunta": {
-            "q": "¿En qué batalla fue derrotado definitivamente Diego de Almagro?",
-            "opts": [
-              "Batalla de Chupas",
-              "Batalla de las Salinas",
-              "Batalla de Jaquijahuana",
-              "Batalla de Iñaquito"
+              "Egipto",
+              "Irak",
+              "Irán"
             ],
             "correct": 1,
-            "explicacion": "En 1538, las tropas pizarristas (lideradas por Hernando Pizarro) vencieron a los almagristas en Las Salinas (Cusco). Almagro fue capturado y ejecutado por estrangulamiento."
+            "explicacion": "La mayor parte del desarrollo cultural y geográfico de esta civilización ocurrió en el territorio que hoy conforma el Estado de Irak."
           }
         }
       ]
     },
     {
-      "titulo": "Asesinato de Pizarro y Guerra de Almagro El Mozo",
+      "titulo": "Periodo Sumerio",
       "puntos": [
         {
-          "texto": "Asesinato de Pizarro (Lima, 1541) → Causa: Pobreza y venganza almagrista.",
+          "texto": "Periodo Sumerio ⊃ ciudades-estado.",
           "pregunta": {
-            "q": "¿Qué motivó el asesinato de Francisco Pizarro en 1541?",
+            "q": "¿Qué forma de organización política caracterizó al Periodo Sumerio?",
             "opts": [
-              "Orden de la Inquisición",
-              "Rebelión indígena en Lima",
-              "Pobreza y venganza de los almagristas",
-              "Disputa por las minas de plata"
-            ],
-            "correct": 2,
-            "explicacion": "Tras la muerte de Almagro, sus seguidores (conocidos como 'los de Chile') fueron despojados de sus bienes y encomiendas, viviendo en la miseria en Lima, lo que alimentó su sed de venganza."
-          }
-        },
-        {
-          "texto": "Líderes del asesinato: Rada, Bilbao, Barragán.",
-          "pregunta": {
-            "q": "¿Quiénes fueron los principales implicados en el asesinato de Francisco Pizarro?",
-            "opts": [
-              "Gonzalo y Hernando Pizarro",
-              "Rada, Bilbao y Barragán",
-              "La Gasca y Núñez de Vela",
-              "Hernández Girón y Vaca de Castro"
+              "Imperio centralizado",
+              "Ciudades-estado",
+              "Provincias militares"
             ],
             "correct": 1,
-            "explicacion": "Juan de Rada lideró al grupo de almagristas que irrumpió en la casa de Pizarro en Lima, dándole muerte a estocadas al grito de '¡Muera el tirano!'."
+            "explicacion": "Los sumerios no formaron un imperio unificado inicialmente, sino que se organizaron en ciudades políticamente independientes como Ur y Uruk."
           }
         },
         {
-          "texto": "Bandos: Almagro 'El Mozo' vs. Vaca de Castro.",
+          "texto": "Periodo Sumerio → arado + rueda.",
           "pregunta": {
-            "q": "¿Quién enfrentó a Almagro 'El Mozo' en nombre de la Corona?",
+            "q": "¿Qué inventos tecnológicos fundamentales surgieron en el Periodo Sumerio?",
             "opts": [
-              "Pedro de la Gasca",
-              "Blasco Núñez de Vela",
-              "Gonzalo Pizarro",
-              "Cristóbal Vaca de Castro"
-            ],
-            "correct": 3,
-            "explicacion": "Vaca de Castro fue enviado por el rey Carlos I como juez comisionado para pacificar la región, pero al encontrar a Pizarro muerto, asumió el gobierno y combatió la rebelión almagrista."
-          }
-        },
-        {
-          "texto": "Desenlace: Batalla de Chupas → Derrota almagrista.",
-          "pregunta": {
-            "q": "¿En qué batalla fue derrotado Almagro 'El Mozo'?",
-            "opts": [
-              "Batalla de Chupas",
-              "Batalla de Pucará",
-              "Batalla de Iñaquito",
-              "Batalla de las Salinas"
+              "Arado y rueda",
+              "Moneda y brújula",
+              "Hierro y pólvora"
             ],
             "correct": 0,
-            "explicacion": "Librada en 1542 cerca de Huamanga (Ayacucho), las fuerzas leales a Vaca de Castro vencieron a las de Almagro 'El Mozo', quien huyó al Cusco pero fue capturado y decapitado."
+            "explicacion": "Los sumerios desarrollaron la rueda para el transporte y el arado para mejorar la eficiencia agrícola."
+          }
+        },
+        {
+          "texto": "Periodo Sumerio ⊃ uso del ladrillo.",
+          "pregunta": {
+            "q": "¿Qué material constructivo fue característico de las edificaciones sumerias?",
+            "opts": [
+              "Ladrillo",
+              "Piedra tallada",
+              "Madera de cedro"
+            ],
+            "correct": 0,
+            "explicacion": "Ante la escasez de piedra, utilizaron arcilla secada al sol o cocida para crear ladrillos como base de su arquitectura."
+          }
+        },
+        {
+          "texto": "Periodo Sumerio → 1ra escritura cuneiforme.",
+          "pregunta": {
+            "q": "¿Qué hito de la comunicación humana ocurrió durante el Periodo Sumerio?",
+            "opts": [
+              "1ra escritura cuneiforme",
+              "Invención del alfabeto fonético",
+              "Creación de jeroglíficos"
+            ],
+            "correct": 0,
+            "explicacion": "En Sumeria se gestó el sistema de escritura cuneiforme, marcando el fin de la prehistoria."
+          }
+        },
+        {
+          "texto": "Escritura cuneiforme ⇒ cuestiones económicas + comercio.",
+          "pregunta": {
+            "q": "¿Cuál fue la motivación o causa principal para desarrollar la escritura cuneiforme?",
+            "opts": [
+              "Relatar mitos religiosos",
+              "Cuestiones económicas y comercio",
+              "Redactar tratados de paz"
+            ],
+            "correct": 1,
+            "explicacion": "La necesidad de llevar contabilidad de los excedentes agrícolas y las transacciones comerciales impulsó la creación de registros escritos."
+          }
+        },
+        {
+          "texto": "Escritura cuneiforme ✓ descifrada por H. Rawlinson.",
+          "pregunta": {
+            "q": "¿Quién fue el investigador responsable de descifrar la escritura cuneiforme?",
+            "opts": [
+              "H. Rawlinson",
+              "J. F. Champollion",
+              "A. Evans"
+            ],
+            "correct": 0,
+            "explicacion": "Henry Rawlinson logró traducir este complejo sistema de escritura gracias a sus estudios epigráficos."
+          }
+        },
+        {
+          "texto": "H. Rawlinson ✓ usó Piedra Behistún.",
+          "pregunta": {
+            "q": "¿Qué elemento clave utilizó H. Rawlinson para sus traducciones?",
+            "opts": [
+              "Piedra Rosetta",
+              "Piedra Behistún",
+              "Estela de Hammurabi"
+            ],
+            "correct": 1,
+            "explicacion": "La inscripción monumental de Behistún fue la clave para comprender los caracteres cuneiformes."
           }
         }
       ]
     },
     {
-      "titulo": "Las Leyes Nuevas de 1542",
+      "titulo": "Imperio Sumerio-Acadio",
       "puntos": [
         {
-          "texto": "Promulgación: Carlos I bajo influencia de Bartolomé de las Casas.",
+          "texto": "Sargón I = unificador.",
           "pregunta": {
-            "q": "¿Qué fraile dominico influyó decisivamente en la creación de las Leyes Nuevas?",
+            "q": "¿Qué rol histórico se le atribuye a Sargón I?",
             "opts": [
-              "Vicente de Valverde",
-              "Hernando de Luque",
-              "Bartolomé de las Casas",
-              "Tomás de San Martín"
+              "Unificador",
+              "Primer legislador",
+              "Descifrador de lenguas"
             ],
-            "correct": 2,
-            "explicacion": "Fray Bartolomé de las Casas denunció los abusos de los conquistadores en su 'Brevísima relación de la destrucción de las Indias', convenciendo a Carlos I de intervenir para proteger a los nativos."
+            "correct": 0,
+            "explicacion": "Sargón de Acad logró someter a las ciudades-estado sumerias, unificando la región bajo un solo dominio imperial."
           }
         },
         {
-          "texto": "Objetivo y medida principal: Proteger a los indios y eliminar encomiendas perpetuas.",
+          "texto": "Ur Nammu → 1er código legal.",
           "pregunta": {
-            "q": "¿Qué limitación económica y política impusieron las Leyes Nuevas a los conquistadores?",
+            "q": "¿Qué gran aporte dejó Ur Nammu?",
             "opts": [
-              "Prohibición de extracción de plata",
-              "Eliminación de la perpetuidad de las encomiendas",
-              "Expulsión de los criollos del virreinato",
-              "Cobro de diezmos directos a los soldados"
+              "1er código legal",
+              "La biblioteca de Nínive",
+              "Los jardines colgantes"
             ],
-            "correct": 1,
-            "explicacion": "La corona decretó que las encomiendas no serían hereditarias (perpetuas); al morir el encomendero, los indígenas pasarían a tributar directamente a la Corona, quitando poder a los conquistadores."
+            "correct": 0,
+            "explicacion": "Se le atribuye la redacción del primer conjunto de leyes escritas conocido, anterior al de Hammurabi."
+          }
+        },
+        {
+          "texto": "Fin del imperio ⇒ invasión elamita + amorrita.",
+          "pregunta": {
+            "q": "¿Qué factor causó la caída de este imperio?",
+            "opts": [
+              "Invasión casita e hitita",
+              "Invasión persa",
+              "Invasión elamita y amorrita"
+            ],
+            "correct": 2,
+            "explicacion": "La constante presión y ataques de estos pueblos vecinos provocaron la desintegración del poder central."
           }
         }
       ]
     },
     {
-      "titulo": "Guerra de los Encomenderos (1544-1548)",
+      "titulo": "Imperio Babilónico",
       "puntos": [
         {
-          "texto": "Fase 1 (Bandos): Gonzalo Pizarro vs. Blasco Núñez de Vela (1er Virrey).",
+          "texto": "Imperio Babilónico ⊃ dios Marduk.",
           "pregunta": {
-            "q": "¿Contra quién se rebeló Gonzalo Pizarro en la primera fase de la guerra de encomenderos?",
+            "q": "¿Qué deidad destacó en el Imperio Babilónico?",
             "opts": [
-              "Vaca de Castro",
-              "Pedro de la Gasca",
-              "Diego de Almagro",
-              "Blasco Núñez de Vela"
+              "Dios Assur",
+              "Dios Marduk",
+              "Dios Anu"
             ],
-            "correct": 3,
-            "explicacion": "Blasco Núñez de Vela llegó al Perú como el primer Virrey, con la misión inflexible de aplicar las Leyes Nuevas, lo que provocó el levantamiento armado de los encomenderos liderados por Gonzalo Pizarro."
+            "correct": 1,
+            "explicacion": "Con el ascenso de Babilonia, su dios tutelar, Marduk, fue elevado al estatus de deidad suprema en el panteón mesopotámico."
           }
         },
         {
-          "texto": "Fase 1 (Desenlace): Batalla de Iñaquito → Derrota de Núñez de Vela.",
+          "texto": "Hammurabi → código más importante.",
           "pregunta": {
-            "q": "¿Qué batalla resultó en la derrota y muerte del primer virrey del Perú?",
+            "q": "¿Qué obra trascendental se le atribuye al rey Hammurabi?",
             "opts": [
-              "Batalla de Iñaquito",
-              "Batalla de Chupas",
-              "Batalla de Jaquijahuana",
-              "Batalla de Pucará"
+              "Código más importante",
+              "Primer código de la historia",
+              "Tratado matemático de 2° grado"
             ],
             "correct": 0,
-            "explicacion": "En 1546, cerca de Quito, el ejército de Gonzalo Pizarro derrotó a las fuerzas virreinales. Núñez de Vela fue decapitado en el campo de batalla."
+            "explicacion": "El Código de Hammurabi es la recopilación legal más famosa e influyente de la antigüedad mesopotámica."
           }
         },
         {
-          "texto": "Fase 2 (Bandos): Gonzalo Pizarro vs. Pedro de la Gasca (Pacificador).",
+          "texto": "Código Hammurabi = unificación de leyes.",
           "pregunta": {
-            "q": "¿A quién envió la Corona española como 'Pacificador' para someter a Gonzalo Pizarro?",
+            "q": "¿Cuál fue el objetivo o esencia del código creado por Hammurabi?",
             "opts": [
-              "Francisco de Toledo",
-              "Pedro de la Gasca",
-              "Vaca de Castro",
-              "Hernando Pizarro"
+              "Unificación de leyes",
+              "Creación de impuestos",
+              "Abolición de la esclavitud"
+            ],
+            "correct": 0,
+            "explicacion": "El código buscó estandarizar la jurisprudencia para todo el territorio imperial, evitando leyes contradictorias entre ciudades."
+          }
+        },
+        {
+          "texto": "Código Hammurabi ⊃ Ley del talión.",
+          "pregunta": {
+            "q": "¿Qué principio de justicia contenía este código?",
+            "opts": [
+              "Ley de la gracia",
+              "Ley del talión",
+              "Juicio por jurado"
             ],
             "correct": 1,
-            "explicacion": "El clérigo Pedro de la Gasca fue enviado con amplios poderes. Utilizó la diplomacia, ofreciendo perdones y nuevas encomiendas, para desarmar las alianzas de Gonzalo Pizarro antes de la batalla final."
+            "explicacion": "Incluía castigos basados en la reciprocidad exacta del daño causado, conocido popularmente como 'ojo por ojo'."
           }
         },
         {
-          "texto": "Fase 2 (Causa): Búsqueda de autonomía pizarrista.",
+          "texto": "Fin imperio ⇒ invasión casita + hitita.",
           "pregunta": {
-            "q": "¿Cuál era la pretensión política de fondo de Gonzalo Pizarro en la segunda fase del conflicto?",
+            "q": "¿Qué provocó la caída del Imperio Babilónico antiguo?",
             "opts": [
-              "Restaurar el imperio Inca",
-              "Autonomía pizarrista frente a España",
-              "Conquistar territorios en Chile",
-              "Abolir la esclavitud africana"
+              "Invasión casita e hitita",
+              "Invasión de medos",
+              "Conquista macedónica"
             ],
-            "correct": 1,
-            "explicacion": "Envalentonado por sus victorias, Francisco de Carvajal (asesor militar de Gonzalo Pizarro) le propuso casarse con una princesa inca y proclamarse rey del Perú, separándose totalmente del Imperio español."
+            "correct": 0,
+            "explicacion": "Las incursiones de pueblos foráneos como los hititas y la posterior ocupación casita terminaron con esta etapa."
           }
         },
         {
-          "texto": "Fase 2 (Desenlace): Batalla de Jaquijahuana → Derrota y ejecución de G. Pizarro.",
+          "texto": "Hititas → uso del hierro.",
           "pregunta": {
-            "q": "¿En qué enfrentamiento fue derrotado y capturado Gonzalo Pizarro?",
+            "q": "¿Qué innovación bélica y tecnológica introdujeron los invasores hititas?",
             "opts": [
-              "Batalla de Salinas",
-              "Batalla de Pucará",
-              "Batalla de Jaquijahuana",
-              "Batalla de Iñaquito"
+              "Uso de la rueda",
+              "Uso de la pólvora",
+              "Uso del hierro"
             ],
             "correct": 2,
-            "explicacion": "En 1548, el ejército de Pizarro se desbandó casi sin luchar, ya que la mayoría de sus capitanes desertaron hacia el bando de La Gasca. Pizarro y Carvajal fueron ejecutados."
-          }
-        },
-        {
-          "texto": "Medida post-guerra: Reparto de Huaynarima por La Gasca.",
-          "pregunta": {
-            "q": "¿Cómo se llamó a la redistribución de tierras e indios realizada por La Gasca tras vencer a Gonzalo Pizarro?",
-            "opts": [
-              "Reparto de Huaynarima",
-              "Capitulación de Toledo",
-              "Tratado de Acobamba",
-              "Ordenanzas de Alfaro"
-            ],
-            "correct": 0,
-            "explicacion": "La Gasca tuvo que cumplir sus promesas a quienes desertaron del bando pizarrista. Repartió encomiendas en Huaynarima, pero no hubo suficientes para todos, dejando a muchos 'insatisfechos'."
+            "explicacion": "Los hititas tenían superioridad militar gracias al dominio de la metalurgia del hierro para sus armas."
           }
         }
       ]
     },
     {
-      "titulo": "Rebelión de los Insatisfechos",
+      "titulo": "Imperio Asirio",
       "puntos": [
         {
-          "texto": "Bandos: Hernández Girón vs. Real Audiencia.",
+          "texto": "Imperio Asirio ⊃ dios Assur.",
           "pregunta": {
-            "q": "¿Quién lideró la llamada Rebelión de los Insatisfechos contra la Real Audiencia?",
+            "q": "¿Qué deidad fue la principal en el Imperio Asirio?",
             "opts": [
-              "Diego de Almagro el Mozo",
-              "Francisco Hernández Girón",
-              "Gonzalo Pizarro",
-              "Francisco de Carvajal"
+              "Dios Assur",
+              "Dios Marduk",
+              "Diosa Ishtar"
+            ],
+            "correct": 0,
+            "explicacion": "Assur era el dios nacional asirio, una deidad guerrera que legitimaba las conquistas del imperio."
+          }
+        },
+        {
+          "texto": "Imperio Asirio = sociedad militarizada.",
+          "pregunta": {
+            "q": "¿Cómo se define el carácter de la sociedad asiria?",
+            "opts": [
+              "Sociedad democrática",
+              "Sociedad militarizada",
+              "Sociedad pacifista"
             ],
             "correct": 1,
-            "explicacion": "Francisco Hernández Girón lideró este último levantamiento encomendero, asumiendo el mando de aquellos españoles que se sintieron marginados de las riquezas en los repartos recientes."
+            "explicacion": "Basaron su poderío en un ejército permanente, altamente disciplinado y tácticas de guerra agresivas."
           }
         },
         {
-          "texto": "Causa central: Mal reparto de encomiendas.",
+          "texto": "Sargón II → conquista Samaria.",
           "pregunta": {
-            "q": "¿Cuál fue el motivo principal de la rebelión de Hernández Girón?",
+            "q": "¿Qué victoria militar es atribuida a Sargón II?",
             "opts": [
-              "La ejecución de Atahualpa",
-              "El deseo de fundar un reino independiente",
-              "El mal reparto de encomiendas",
-              "La invasión de piratas ingleses"
+              "Conquista Samaria",
+              "Conquista Egipto",
+              "Conquista Jerusalén"
+            ],
+            "correct": 0,
+            "explicacion": "Lideró la campaña que resultó en la caída de la capital del reino de Israel (Samaria)."
+          }
+        },
+        {
+          "texto": "Asurbanipal → completa conquista de Egipto.",
+          "pregunta": {
+            "q": "¿Qué logro militar culminó Asurbanipal?",
+            "opts": [
+              "Completa conquista de Egipto",
+              "Invasión de Grecia",
+              "Destrucción de Nínive"
+            ],
+            "correct": 0,
+            "explicacion": "Bajo su reinado, los ejércitos asirios lograron dominar territorios hasta el valle del Nilo."
+          }
+        },
+        {
+          "texto": "Asurbanipal → máxima expansión.",
+          "pregunta": {
+            "q": "¿Qué impacto territorial tuvo el gobierno de Asurbanipal?",
+            "opts": [
+              "Máxima expansión",
+              "División del imperio",
+              "Pérdida de provincias"
+            ],
+            "correct": 0,
+            "explicacion": "Llevó las fronteras del imperio asirio a su mayor extensión geográfica histórica."
+          }
+        },
+        {
+          "texto": "Asurbanipal → biblioteca Nínive.",
+          "pregunta": {
+            "q": "¿Qué importante centro cultural estableció Asurbanipal?",
+            "opts": [
+              "Jardines de Babilonia",
+              "Biblioteca Nínive",
+              "Templo de Marduk"
+            ],
+            "correct": 1,
+            "explicacion": "Reunió miles de tablillas de arcilla con textos literarios, científicos y administrativos en su capital."
+          }
+        },
+        {
+          "texto": "Fin del imperio = 612 a.c.",
+          "pregunta": {
+            "q": "¿En qué año se marca el fin del Imperio Asirio según los apuntes?",
+            "opts": [
+              "539 a.c.",
+              "612 a.c.",
+              "476 d.c."
+            ],
+            "correct": 1,
+            "explicacion": "El año 612 a.C. señala la caída de la capital asiria, marcando el colapso de su hegemonía."
+          }
+        },
+        {
+          "texto": "Medos + babilonios ⇒ destruyen Nínive.",
+          "pregunta": {
+            "q": "¿Quiénes se aliaron para destruir la capital asiria, Nínive?",
+            "opts": [
+              "Medos y babilonios",
+              "Persas y egipcios",
+              "Hititas y casitas"
+            ],
+            "correct": 0,
+            "explicacion": "Una coalición de pueblos sometidos logró asediar y arrasar el centro de poder asirio."
+          }
+        }
+      ]
+    },
+    {
+      "titulo": "Imperio Neobabilónico",
+      "puntos": [
+        {
+          "texto": "Nabucodonosor II → conquista Tiro + Jerusalén.",
+          "pregunta": {
+            "q": "¿Qué ciudades fueron sometidas por el rey Nabucodonosor II?",
+            "opts": [
+              "Ur y Uruk",
+              "Tiro y Jerusalén",
+              "Nínive y Assur"
+            ],
+            "correct": 1,
+            "explicacion": "Lideró exitosas campañas militares en la costa del Mediterráneo, tomando estas importantes ciudades."
+          }
+        },
+        {
+          "texto": "Nabucodonosor II → jardines colgantes.",
+          "pregunta": {
+            "q": "¿Qué famosa obra arquitectónica mandó construir Nabucodonosor II?",
+            "opts": [
+              "Zigurats primitivos",
+              "Jardines colgantes",
+              "Muralla de Nínive"
+            ],
+            "correct": 1,
+            "explicacion": "Ordenó edificar esta maravilla de la antigüedad para embellecer Babilonia."
+          }
+        },
+        {
+          "texto": "Fin del imperio = 539 a.c.",
+          "pregunta": {
+            "q": "¿En qué fecha cae el Imperio Neobabilónico?",
+            "opts": [
+              "612 a.c.",
+              "539 a.c.",
+              "332 a.c."
+            ],
+            "correct": 1,
+            "explicacion": "Ese año marca el momento en que Babilonia pierde su independencia de manera definitiva."
+          }
+        },
+        {
+          "texto": "Fin imperio ⇒ invasión persa (Ciro II).",
+          "pregunta": {
+            "q": "¿Qué líder y pueblo acabaron con el Imperio Neobabilónico?",
+            "opts": [
+              "Alejandro Magno (Macedonios)",
+              "Ciro II (Persas)",
+              "Sargón II (Asirios)"
+            ],
+            "correct": 1,
+            "explicacion": "El rey Ciro el Grande anexó Babilonia al creciente Imperio Aqueménida."
+          }
+        }
+      ]
+    },
+    {
+      "titulo": "Aportes y Cultura",
+      "puntos": [
+        {
+          "texto": "Matemática ⊃ ecuaciones de 1° + 2° grado.",
+          "pregunta": {
+            "q": "¿Qué avance en álgebra lograron los matemáticos mesopotámicos?",
+            "opts": [
+              "Teorema de Pitágoras",
+              "Ecuaciones de 1° y 2° grado",
+              "Cálculo integral"
+            ],
+            "correct": 1,
+            "explicacion": "Tenían conocimientos avanzados que les permitían resolver problemas algebraicos complejos en sus tablillas."
+          }
+        },
+        {
+          "texto": "Matemática ⊃ numeración decimal + sexagesimal.",
+          "pregunta": {
+            "q": "¿Qué bases de numeración emplearon?",
+            "opts": [
+              "Decimal y sexagesimal",
+              "Únicamente binaria",
+              "Vigesimal"
+            ],
+            "correct": 0,
+            "explicacion": "Utilizaban el sistema en base 10 y, principalmente, el sistema en base 60 para cálculos astronómicos y matemáticos."
+          }
+        },
+        {
+          "texto": "Cultura → calendario lunar.",
+          "pregunta": {
+            "q": "¿Qué tipo de calendario estructuraron los mesopotámicos?",
+            "opts": [
+              "Calendario solar",
+              "Calendario lunar",
+              "Calendario estelar"
+            ],
+            "correct": 1,
+            "explicacion": "Basaron su medición del tiempo en las fases de la luna para regir ciclos agrícolas."
+          }
+        },
+        {
+          "texto": "Calendario lunar ⊃ 12 meses.",
+          "pregunta": {
+            "q": "¿En cuántos ciclos o meses se dividía su calendario lunar?",
+            "opts": [
+              "10 meses",
+              "12 meses",
+              "360 días continuos"
+            ],
+            "correct": 1,
+            "explicacion": "Dividieron el año lunar en 12 meses, un aporte que influyó en las mediciones temporales posteriores."
+          }
+        },
+        {
+          "texto": "Arquitectura ⊃ Zigurat.",
+          "pregunta": {
+            "q": "¿Cuál es la edificación más representativa de su arquitectura?",
+            "opts": [
+              "Pirámide lisa",
+              "Zigurat",
+              "Mastaba"
+            ],
+            "correct": 1,
+            "explicacion": "Las ciudades destacaban por la presencia de estas monumentales torres escalonadas."
+          }
+        },
+        {
+          "texto": "Zigurat = templo.",
+          "pregunta": {
+            "q": "¿Qué función principal cumplía un Zigurat?",
+            "opts": [
+              "Templo",
+              "Tumba real",
+              "Mercado central"
+            ],
+            "correct": 0,
+            "explicacion": "Eran centros ceremoniales donde residía la divinidad y se realizaban observaciones astronómicas."
+          }
+        },
+        {
+          "texto": "Escultura ⊃ Lamassus.",
+          "pregunta": {
+            "q": "¿Qué elemento destaca en la estatuaria monumental mesopotámica?",
+            "opts": [
+              "Esfinges",
+              "Lamassus",
+              "Cariátides"
+            ],
+            "correct": 1,
+            "explicacion": "Tallaron grandes figuras protectoras para custodiar las entradas de los palacios reales."
+          }
+        },
+        {
+          "texto": "Lamassus = toros alados.",
+          "pregunta": {
+            "q": "¿Qué forma tenían los Lamassus?",
+            "opts": [
+              "Leones sin alas",
+              "Toros alados",
+              "Humanos con cabeza de halcón"
+            ],
+            "correct": 1,
+            "explicacion": "Normalmente representaban bestias mitológicas con cuerpo de toro o león, alas de águila y cabeza humana."
+          }
+        },
+        {
+          "texto": "Literatura ⊃ Poema de Gilgamesh.",
+          "pregunta": {
+            "q": "¿Cuál es la obra cumbre de la literatura mesopotámica mencionada en la teoría?",
+            "opts": [
+              "Poema de Gilgamesh",
+              "Libro de los Muertos",
+              "La Ilíada"
+            ],
+            "correct": 0,
+            "explicacion": "Es la obra épica más antigua conocida, que relata las aventuras del rey de Uruk."
+          }
+        },
+        {
+          "texto": "Religión = politeísta.",
+          "pregunta": {
+            "q": "¿Qué característica define las creencias religiosas de esta civilización?",
+            "opts": [
+              "Monoteísta",
+              "Politeísta",
+              "Atea"
+            ],
+            "correct": 1,
+            "explicacion": "Rendían culto a una amplia variedad de dioses asociados a fuerzas de la naturaleza."
+          }
+        },
+        {
+          "texto": "Religión = antropozoomorfa.",
+          "pregunta": {
+            "q": "¿Qué forma tenían los dioses en la creencia mesopotámica?",
+            "opts": [
+              "Antropozoomorfa",
+              "Únicamente humana",
+              "Geométrica"
+            ],
+            "correct": 0,
+            "explicacion": "Las divinidades y figuras mitológicas combinaban frecuentemente rasgos humanos y animales."
+          }
+        },
+        {
+          "texto": "Tríada principal ⊃ Anu + Enlil.",
+          "pregunta": {
+            "q": "¿Qué dioses componían parte de la tríada suprema mesopotámica?",
+            "opts": [
+              "Anu y Enlil",
+              "Osiris e Isis",
+              "Júpiter y Marte"
+            ],
+            "correct": 0,
+            "explicacion": "Anu (cielo) y Enlil (viento) eran fundamentales en el panteón, junto a Enki (agua)."
+          }
+        },
+        {
+          "texto": "Anu = cielo.",
+          "pregunta": {
+            "q": "¿A qué elemento de la naturaleza estaba asociado el dios Anu?",
+            "opts": [
+              "Agua",
+              "Cielo",
+              "Tierra"
+            ],
+            "correct": 1,
+            "explicacion": "Era considerado el dios celestial supremo en las primeras etapas de esta religión."
+          }
+        },
+        {
+          "texto": "Enlil = viento.",
+          "pregunta": {
+            "q": "¿Qué fenómeno natural representaba Enlil?",
+            "opts": [
+              "Fuego",
+              "Viento",
+              "Lluvia"
+            ],
+            "correct": 1,
+            "explicacion": "Enlil era el señor de las tormentas, el aire y el viento."
+          }
+        },
+        {
+          "texto": "Enki = agua.",
+          "pregunta": {
+            "q": "¿A qué dominio correspondía el dios Enki (o Ea)?",
+            "opts": [
+              "Fuego",
+              "Sol",
+              "Agua"
             ],
             "correct": 2,
-            "explicacion": "La rebelión estalló en 1553 porque muchos conquistadores sintieron que no fueron adecuadamente recompensados en el Reparto de Huaynarima, quedándose sin sirvientes indígenas ni rentas."
+            "explicacion": "Enki regía las aguas dulces subterráneas, vitales para la civilización entre ríos."
           }
         },
         {
-          "texto": "Desenlace final: Batalla de Pucará → Derrota de los rebeldes.",
+          "texto": "Shamash = justicia.",
           "pregunta": {
-            "q": "¿Qué batalla puso fin a las guerras civiles y a la Rebelión de los Insatisfechos?",
+            "q": "¿Qué virtud o concepto regía el dios Shamash?",
             "opts": [
-              "Batalla de las Salinas",
-              "Batalla de Iñaquito",
-              "Batalla de Chupas",
-              "Batalla de Pucará"
+              "Guerra",
+              "Justicia",
+              "Agricultura"
             ],
-            "correct": 3,
-            "explicacion": "En 1554, el ejército de la Real Audiencia derrotó a Hernández Girón en Pucará (Puno). Con su posterior ejecución en Lima, se consolidó definitivamente el poder de la Corona sobre el Virreinato."
+            "correct": 1,
+            "explicacion": "Era el dios sol que iluminaba todo y, por tanto, el juez que garantizaba la justicia (y quien dictó las leyes a Hammurabi)."
+          }
+        },
+        {
+          "texto": "Ishtar = belleza.",
+          "pregunta": {
+            "q": "¿Qué atributo principal se asocia a la diosa Ishtar?",
+            "opts": [
+              "Sabiduría",
+              "Belleza",
+              "Venganza"
+            ],
+            "correct": 1,
+            "explicacion": "Ishtar era la poderosa deidad femenina asociada al amor, la belleza y la fertilidad."
           }
         }
       ]

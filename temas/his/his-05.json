@@ -1,338 +1,652 @@
 {
-  "curso": "Historia",
-  "tema": "Resistencia Andina e Incas de Vilcabamba",
+  "curso": "Historia del Perú",
+  "tema": "Precerámico Andino",
   "glosario": {
-    "Toparpa": "Inca títere nombrado por los españoles, cuyo nombre real era Túpac Huallpa.",
-    "Huancas": "Pueblo indígena que se alió con los españoles en contra del dominio incaico.",
-    "Vilcabamba": "Región montañosa y selvática que sirvió de último refugio a la nobleza inca rebelde.",
-    "Huaca": "Deidad, lugar sagrado o ídolo en la religión andina tradicional.",
-    "Taulichusco": "Curaca del valle del río Rímac al momento de la fundación de Lima."
+    "Periodo Lítico": "Primera etapa del poblamiento andino caracterizada por bandas nómadas y economía de subsistencia.",
+    "Arcaico Inferior": "Etapa de transición hacia la producción de alimentos con horticultores seminómadas.",
+    "Arcaico Superior": "Etapa caracterizada por la agricultura, excedente productivo y sedentarismo.",
+    "John Rowe": "Arqueólogo que propuso la clasificación cultural en Horizontes e Intermedios basada en la influencia cerámica.",
+    "=": "Definición / es",
+    "→": "Produce, genera, conduce a, resultado",
+    "⊃": "Contiene",
+    "∈": "Pertenece a",
+    "⇒": "Causa",
+    "✓": "Requiere / necesita",
+    "✗": "Ausencia / no posee",
+    "+": "Combinación / junto con",
+    "↑": "Aumenta",
+    "↓": "Disminuye",
+    "≠": "Diferencia",
+    "≈": "Similitud"
   },
   "theory": [
     {
-      "titulo": "La Marcha al Cusco",
+      "titulo": "Periodo Lítico",
       "puntos": [
         {
-          "texto": "Líderes de la resistencia quiteña: Rumi Ñahui, Quis Quis y Calcuchimac.",
+          "texto": "Periodo Lítico = 12000 a.c. a 7000 a.c.",
           "pregunta": {
-            "q": "¿Qué generales atahualpistas conformaron la resistencia quiteña?",
+            "q": "¿Cuál es el rango temporal del Periodo Lítico según los apuntes?",
             "opts": [
-              "Manco Inca y Sayri Túpac",
-              "Rumi Ñahui, Quis Quis y Calcuchimac",
-              "Juan Chocne y Taulichusco",
-              "Titu Cusi Yupanqui y Túpac Amaru"
-            ],
-            "correct": 1,
-            "explicacion": "Tras la captura de Atahualpa, sus principales generales organizaron la resistencia militar en diferentes frentes: Rumi Ñahui en Quito, Quis Quis en Cusco y Calcuchimac en el centro, aunque carecieron de unidad estratégica."
-          }
-        },
-        {
-          "texto": "Inca nombrado por españoles: Túpac Huallpa (Toparpa).",
-          "pregunta": {
-            "q": "¿A quién nombraron los españoles como nuevo Inca para marchar al Cusco?",
-            "opts": [
-              "Túpac Huallpa (Toparpa)",
-              "Calcuchimac",
-              "Sayri Túpac",
-              "Manco Inca"
+              "12000 a.c. a 7000 a.c.",
+              "7000 a.c. a 4000 a.c.",
+              "4000 a.c. a 2000 a.c."
             ],
             "correct": 0,
-            "explicacion": "Francisco Pizarro coronó a Túpac Huallpa como 'Inca títere' para dar una apariencia de legitimidad a su avance hacia la capital imperial, buscando el apoyo de los partidarios de Huáscar."
+            "explicacion": "Este periodo representa la fase inicial del desarrollo histórico andino antes del descubrimiento de la agricultura intensiva."
           }
         },
         {
-          "texto": "Alianza estratégica: Los Huancas apoyan a los españoles.",
+          "texto": "Bandas nómadas ✓ economía de subsistencia.",
           "pregunta": {
-            "q": "¿Qué importante etnia se alió con las huestes de Pizarro?",
+            "q": "¿Qué tipo de economía caracterizaba a las bandas nómadas del Lítico?",
             "opts": [
-              "Los Chancas",
-              "Los Chachapoyas",
-              "Los Huancas",
-              "Los Cañaris"
-            ],
-            "correct": 2,
-            "explicacion": "Los huancas, históricamente sometidos y enemistados con el Imperio Inca, vieron en los europeos a libertadores. Proveerían tropas, alimento y logística vital para la caída del Tahuantinsuyo."
-          }
-        },
-        {
-          "texto": "Acción de Quis Quis: Ataca a los españoles en Jauja.",
-          "pregunta": {
-            "q": "¿Qué general atahualpista atacó a la expedición española en la zona de Jauja?",
-            "opts": [
-              "Rumi Ñahui",
-              "Quis Quis",
-              "Taulichusco",
-              "Titu Cusi Yupanqui"
+              "Economía de excedente",
+              "Economía de subsistencia",
+              "Economía mercantil"
             ],
             "correct": 1,
-            "explicacion": "Quis Quis, que dominaba el Cusco tras vencer a Huáscar, intentó frenar el avance español en los Andes centrales (Jauja), pero fue derrotado debido a la alianza de los europeos con etnias locales."
+            "explicacion": "Las bandas de esta época dependían directamente de la recolección, caza y pesca para su supervivencia diaria sin generar excedentes."
           }
         },
         {
-          "texto": "Consecuencia de la muerte de Toparpa: Calcuchimac es culpado y ejecutado.",
+          "texto": "Piquimachay I (Ayacucho) → primer poblador.",
           "pregunta": {
-            "q": "¿Qué sucedió con Calcuchimac tras el asesinato de Toparpa?",
+            "q": "¿Qué vestigio importante se asocia al sitio de Piquimachay I en Ayacucho?",
             "opts": [
-              "Huyó a Vilcabamba",
-              "Fue coronado como nuevo Inca",
-              "Fue culpado de envenenarlo y ejecutado",
-              "Firmó una tregua con Pizarro"
+              "Primer poblador",
+              "Primer arquitecto",
+              "Primer horticultor"
             ],
-            "correct": 2,
-            "explicacion": "Toparpa murió envenenado en Jauja. Pizarro, aprovechando la situación para eliminar amenazas, acusó al general cautivo Calcuchimac de haber orquestado el asesinato y lo mandó quemar vivo."
+            "correct": 0,
+            "explicacion": "Piquimachay I destaca en el registro arqueológico por albergar evidencias del primer poblador en esa zona."
           }
         },
         {
-          "texto": "Ingreso a la capital: Manco Inca (Manco II) recibe a los españoles en el Cusco.",
+          "texto": "Piquimachay I (Ayacucho) ⊃ artefactos líticos.",
           "pregunta": {
-            "q": "¿Qué miembro de la nobleza inca recibió pacíficamente a los españoles en el Cusco?",
+            "q": "¿Qué elementos materiales se encontraron en Piquimachay I?",
             "opts": [
-              "Túpac Amaru I",
-              "Quis Quis",
-              "Atahualpa",
-              "Manco Inca (Manco II)"
+              "Artefactos líticos",
+              "Textiles calados",
+              "Mate pirograbado"
             ],
-            "correct": 3,
-            "explicacion": "Manco Inca, hermano de Huáscar, vio a los españoles como aliados divinos o protectores que venían a librar al Cusco de las tropas quiteñas de Atahualpa. Pizarro lo coronó rápidamente para mantener el control."
+            "correct": 0,
+            "explicacion": "Los instrumentos de piedra trabajada son característicos de los yacimientos líticos tempranos."
+          }
+        },
+        {
+          "texto": "Guitarrero I (Áncash) ⊃ herramientas líticas.",
+          "pregunta": {
+            "q": "¿Qué hallazgo caracteriza al sitio Guitarrero I en Áncash?",
+            "opts": [
+              "Herramientas líticas",
+              "Primeras aldeas",
+              "Pinturas rupestres"
+            ],
+            "correct": 0,
+            "explicacion": "Guitarrero I destaca por la presencia de instrumentos de piedra fabricados por los cazadores-recolectores tempranos."
+          }
+        },
+        {
+          "texto": "Paiján (La Libertad) → primeros restos humanos (2) enterrados.",
+          "pregunta": {
+            "q": "¿Qué característica presentan los restos humanos hallados en Paiján?",
+            "opts": [
+              "Estaban incinerados",
+              "Estaban enterrados",
+              "Eran flotantes"
+            ],
+            "correct": 1,
+            "explicacion": "El sitio de Paiján es célebre por mostrar evidencias tempranas de prácticas funerarias con cuerpos enterrados."
+          }
+        },
+        {
+          "texto": "Paiján (La Libertad) ⊃ puntas con pedúnculo.",
+          "pregunta": {
+            "q": "¿Qué tipo de puntas líticas se encuentran en Paiján?",
+            "opts": [
+              "Puntas con pedúnculo",
+              "Puntas triangulares sin mango",
+              "Puntas poligonales"
+            ],
+            "correct": 0,
+            "explicacion": "Las puntas pedunculadas son el fósil guía característico de la tradición lítica paijanense."
+          }
+        },
+        {
+          "texto": "Chivateros (Lima) ⊃ cantera lítica.",
+          "pregunta": {
+            "q": "¿Qué función principal cumplía el sitio de Chivateros en Lima?",
+            "opts": [
+              "Centro ceremonial",
+              "Cantera lítica",
+              "Aldea horticultora"
+            ],
+            "correct": 1,
+            "explicacion": "Chivateros funcionó fundamentalmente como un taller y cantera lítica para la elaboración de herramientas de piedra."
+          }
+        },
+        {
+          "texto": "Chivateros (Lima) → tradición Payanense.",
+          "pregunta": {
+            "q": "¿Con qué tradición se relaciona el yacimiento de Chivateros?",
+            "opts": [
+              "Tradición Payanense",
+              "Tradición Lauricocha",
+              "Tradición Toquepala"
+            ],
+            "correct": 0,
+            "explicacion": "Las industrias líticas costeñas de esta zona se vinculan al desarrollo de la tradición paijanense o payanense."
+          }
+        },
+        {
+          "texto": "Toquepala (Tacna) ⊃ primeras pinturas rupestres.",
+          "pregunta": {
+            "q": "¿Qué importante manifestación cultural se registra en Toquepala?",
+            "opts": [
+              "Primeras pinturas rupestres",
+              "Primeros textiles",
+              "Primeros canales"
+            ],
+            "correct": 0,
+            "explicacion": "Toquepala destaca por albergar representaciones de arte rupestre parietal con escenas de caza."
+          }
+        },
+        {
+          "texto": "Toquepala (Tacna) → mágico-religiosas.",
+          "pregunta": {
+            "q": "¿Qué sentido o función tenían las pinturas rupestres de Toquepala?",
+            "opts": [
+              "Mágico-religiosas",
+              "Comerciales y de ruta",
+              "Decorativas domésticas"
+            ],
+            "correct": 0,
+            "explicacion": "El arte rupestre temprano cumplía un rol ritual vinculado a asegurar el éxito en la caza."
+          }
+        },
+        {
+          "texto": "Chaku → caza ⊃ planificada + diferenciada.",
+          "pregunta": {
+            "q": "¿Cómo se caracteriza la modalidad de caza denominada Chaku?",
+            "opts": [
+              "Planificada y diferenciada",
+              "Espontánea y solitaria",
+              "Nocturna y aleatoria"
+            ],
+            "correct": 0,
+            "explicacion": "El chaku implicaba una estrategia organizada de rodeo y selección de presas por parte de las bandas de cazadores."
+          }
+        },
+        {
+          "texto": "Lauricocha (Huánuco) ⊃ restos humanos (11).",
+          "pregunta": {
+            "q": "¿Qué tipo de restos destacan en la cueva de Lauricocha?",
+            "opts": [
+              "Restos humanos",
+              "Restos de camélidos domesticados",
+              "Restos cerámicos"
+            ],
+            "correct": 0,
+            "explicacion": "En Lauricocha se hallaron osamentas humanas que permitieron estudiar las características físicas de los antiguos pobladores serranos."
+          }
+        },
+        {
+          "texto": "Lauricocha (Huánuco) ⊃ pinturas rupestres.",
+          "pregunta": {
+            "q": "¿Qué otra evidencia cultural se encuentra en Lauricocha además de osamentas?",
+            "opts": [
+              "Pinturas rupestres",
+              "Arquitectura monumental",
+              "Mate pirograbado"
+            ],
+            "correct": 0,
+            "explicacion": "El sitio también cuenta con expresiones de arte rupestre dejadas por los cazadores altoandinos."
           }
         }
       ]
     },
     {
-      "titulo": "Fundación de Ciudades",
+      "titulo": "Arcaico Inferior",
       "puntos": [
         {
-          "texto": "Primera capital española en Perú: Jauja.",
+          "texto": "Arcaico Inferior = 7000 a.c. a 4000 a.c.",
           "pregunta": {
-            "q": "¿Cuál fue la primera ciudad designada como capital por los españoles?",
+            "q": "¿Cuál es el marco cronológico del Arcaico Inferior?",
             "opts": [
-              "Lima",
-              "Cusco",
-              "Piura",
-              "Jauja"
+              "7000 a.c. a 4000 a.c.",
+              "12000 a.c. a 7000 a.c.",
+              "4000 a.c. a 2000 a.c."
             ],
-            "correct": 3,
-            "explicacion": "Fundada en 1534, Jauja fue elegida inicialmente como capital por su ubicación céntrica en los Andes y amplia disponibilidad de recursos, aunque luego fue descartada por su lejanía al mar."
+            "correct": 0,
+            "explicacion": "Este periodo abarca el tránsito hacia formas de subsistencia basadas en la horticultura y el nomadismo estacional."
           }
         },
         {
-          "texto": "Capital definitiva: Lima (terreno entregado por el curaca Taulichusco).",
+          "texto": "Horticultores seminómadas = Arcaico Inferior.",
           "pregunta": {
-            "q": "¿Por qué se estableció Lima como la capital definitiva?",
+            "q": "¿Cómo se denominan social y económicamente los pobladores del Arcaico Inferior?",
             "opts": [
-              "Por ser el centro religioso de los incas",
-              "Por la donación del curaca Taulichusco y su cercanía al mar",
-              "Por tener la mayor mina de plata",
-              "Por orden directa del Rey de España"
+              "Horticultores seminómadas",
+              "Agricultores sedentarios",
+              "Bandas cazadoras plenas"
             ],
-            "correct": 1,
-            "explicacion": "Pizarro trasladó la capital a la costa para facilitar la comunicación marítima con Panamá y España. El curaca local, Taulichusco, tuvo que ceder los terrenos del fértil valle del Rímac."
+            "correct": 0,
+            "explicacion": "Combinaban la recolección y caza tradicional con el cultivo incipiente de plantas, manteniendo desplazamientos estacionales."
+          }
+        },
+        {
+          "texto": "Nanchoc (Cajamarca) → primer horticultor.",
+          "pregunta": {
+            "q": "¿Qué importancia histórica tiene el sitio de Nanchoc?",
+            "opts": [
+              "Primer horticultor",
+              "Primer aldeano",
+              "Primer textor"
+            ],
+            "correct": 0,
+            "explicacion": "Nanchoc destaca por registrar las evidencias más tempranas de horticultura en el territorio peruano."
+          }
+        },
+        {
+          "texto": "Nanchoc (Cajamarca) ⊃ calabaza + maní + oca + quinua.",
+          "pregunta": {
+            "q": "¿Qué cultivos iniciales se asocian a Nanchoc?",
+            "opts": [
+              "Calabaza, maní, oca y quinua",
+              "Maíz, papa y camote",
+              "Frijol, pallar y ají"
+            ],
+            "correct": 0,
+            "explicacion": "Los restos botánicos de Nanchoc incluyen especies tempranas cultivadas como la calabaza, el maní, la oca y la quinua."
+          }
+        },
+        {
+          "texto": "Guitarrero II (Áncash) → horticultor.",
+          "pregunta": {
+            "q": "¿Qué rol cumple Guitarrero II en el desarrollo económico andino?",
+            "opts": [
+              "Horticultor",
+              "Arquitecto",
+              "Cazador especializado"
+            ],
+            "correct": 0,
+            "explicacion": "En esta fase del yacimiento de Guitarrero se evidencia el manejo y cultivo inicial de plantas alimenticias."
+          }
+        },
+        {
+          "texto": "Guitarrero II (Áncash) ⊃ ají + pallar + frijol.",
+          "pregunta": {
+            "q": "¿Qué vegetales se cultivaban en Guitarrero II?",
+            "opts": [
+              "Ají, pallar y frijol",
+              "Maíz y yuca",
+              "Papa y quinua"
+            ],
+            "correct": 0,
+            "explicacion": "El sitio destaca por la presencia temprana de legumbres y frutos como el pallar, el frijol y el ají."
+          }
+        },
+        {
+          "texto": "Santo Domingo de Paracas (Ica) ⊃ primeras aldeas.",
+          "pregunta": {
+            "q": "¿Qué tipo de asentamiento caracteriza a Santo Domingo de Paracas?",
+            "opts": [
+              "Primeras aldeas",
+              "Ciudades sagradas",
+              "Canteras líticas"
+            ],
+            "correct": 0,
+            "explicacion": "Este sitio costeño muestra las primeras concentraciones habitacionales estables o semiestables de pescadores y recolectores."
+          }
+        },
+        {
+          "texto": "Santo Domingo de Paracas (Ica) ⊃ redes de pescar.",
+          "pregunta": {
+            "q": "¿Qué tecnología marina destaca en Santo Domingo de Paracas?",
+            "opts": [
+              "Redes de pescar",
+              "Mate pirograbado",
+              "Tejidos de algodón complejos"
+            ],
+            "correct": 0,
+            "explicacion": "La economía de los habitantes de esta aldea costera se apoyaba fuertemente en la explotación marina mediante redes."
+          }
+        },
+        {
+          "texto": "Santo Domingo de Paracas (Ica) ⊃ primer músico.",
+          "pregunta": {
+            "q": "¿Qué hallazgo cultural singular se asocia a Santo Domingo de Paracas?",
+            "opts": [
+              "Primer músico",
+              "Primer escultor",
+              "Primer astrónomo"
+            ],
+            "correct": 0,
+            "explicacion": "Se encontraron instrumentos musicales rudimentarios que evidencian expresiones artísticas tempranas en la costa."
+          }
+        },
+        {
+          "texto": "Telarmachay (Junín) → primer domesticador de auquénidos.",
+          "pregunta": {
+            "q": "¿Qué hito económico representa Telarmachay en la sierra?",
+            "opts": [
+              "Primer domesticador de auquénidos",
+              "Primer horticultor de maíz",
+              "Primer arquitecto de piedra"
+            ],
+            "correct": 0,
+            "explicacion": "Telarmachay es fundamental por documentar el control y manejo inicial de camélidos sudamericanos en los Andes."
+          }
+        },
+        {
+          "texto": "Telarmachay (Junín) ⊃ primer horno bajo tierra.",
+          "pregunta": {
+            "q": "¿Qué tecnología culinaria o de cocción se registra en Telarmachay?",
+            "opts": [
+              "Primer horno bajo tierra",
+              "Horno de barro elevado",
+              "Cerámica vidriada"
+            ],
+            "correct": 0,
+            "explicacion": "El uso de estructuras de cocción subterráneas forma parte de las innovaciones técnicas de este grupo altoandino."
+          }
+        },
+        {
+          "texto": "Chilca (S. de Lima) → primer domesticador de perro.",
+          "pregunta": {
+            "q": "¿Qué aporte a la domesticación animal se atribuye a Chilca?",
+            "opts": [
+              "Primer domesticador de perro",
+              "Primer domesticador de cuy",
+              "Primer domesticador de llama"
+            ],
+            "correct": 0,
+            "explicacion": "En Chilca se hallaron restos que evidencian la convivencia y domesticación temprana de canes en la costa."
+          }
+        },
+        {
+          "texto": "Piquimachay II (Ayacucho) → primer domesticador de cuy.",
+          "pregunta": {
+            "q": "¿Qué animal fue domesticado según los registros de Piquimachay II?",
+            "opts": [
+              "Primer domesticador de cuy",
+              "Primer domesticador de perro",
+              "Primer domesticador de vicuña"
+            ],
+            "correct": 0,
+            "explicacion": "Esta fase de Piquimachay muestra el aprovechamiento y control sistemático de roedores menores para la alimentación."
           }
         }
       ]
     },
     {
-      "titulo": "Incas de Vilcabamba",
+      "titulo": "Arcaico Superior",
       "puntos": [
         {
-          "texto": "Rebelión de Manco Inca (1536-1537) → Cerco del Cusco.",
+          "texto": "Arcaico Superior = 4000 a.c. a 2000 a.c.",
           "pregunta": {
-            "q": "¿Qué ciudad fue sitiada por Manco Inca en 1536?",
+            "q": "¿Cuál es el marco temporal del Arcaico Superior?",
             "opts": [
-              "Arequipa",
-              "Jauja",
-              "Cusco",
-              "Trujillo"
-            ],
-            "correct": 2,
-            "explicacion": "Tras darse cuenta de las verdaderas intenciones conquistadoras, Manco Inca escapó y armó un masivo ejército que sitió a los hermanos Pizarro en el Cusco durante meses."
-          }
-        },
-        {
-          "texto": "Rebelión de Manco Inca (1536-1537) → Cerco de Lima liderado por Quizu Yupanqui.",
-          "pregunta": {
-            "q": "¿Qué general de Manco Inca dirigió el ataque contra la ciudad de Lima?",
-            "opts": [
-              "Cusi Huallpa",
-              "Quizu Yupanqui",
-              "Rumi Ñahui",
-              "Sayri Túpac"
-            ],
-            "correct": 1,
-            "explicacion": "Mientras Manco Inca asediaba Cusco, envió a su valiente general Quizu Yupanqui a destruir Lima. Yupanqui logró cercar la ciudad, pero murió en combate en las faldas del cerro San Cristóbal."
-          }
-        },
-        {
-          "texto": "Campañas de Manco Inca (1537-1538) → Ataques a Quito, Jauja y el Altiplano.",
-          "pregunta": {
-            "q": "¿Hacia qué zonas expandió sus ataques Manco Inca entre 1537 y 1538?",
-            "opts": [
-              "Quito, Jauja y el Altiplano",
-              "Lima, Trujillo y Piura",
-              "Arequipa, Tacna y Chile",
-              "Chachapoyas y León de Huánuco"
+              "4000 a.c. a 2000 a.c.",
+              "7000 a.c. a 4000 a.c.",
+              "12000 a.c. a 7000 a.c."
             ],
             "correct": 0,
-            "explicacion": "Para evitar la reagrupación española y cortar sus líneas de suministro, las fuerzas de Manco Inca extendieron el conflicto bélico por casi todo el territorio andino."
+            "explicacion": "Este periodo consolida la revolución agropecuaria, el surgimiento de la arquitectura monumental y el sedentarismo."
           }
         },
         {
-          "texto": "Acción de Sayri Túpac → Negocia con el virrey Andrés Hurtado de Mendoza.",
+          "texto": "Agricultura ⊃ excedente de prod.",
           "pregunta": {
-            "q": "¿Con qué virrey negoció su rendición el inca Sayri Túpac?",
+            "q": "¿Qué consecuencia económica directa genera la agricultura en el Arcaico Superior?",
             "opts": [
-              "Francisco de Toledo",
-              "Blasco Núñez Vela",
-              "Andrés Hurtado de Mendoza",
-              "Agustín de Jáuregui"
-            ],
-            "correct": 2,
-            "explicacion": "Andrés Hurtado de Mendoza, el Marqués de Cañete, logró convencer a Sayri Túpac de abandonar la resistencia armada en Vilcabamba a cambio de privilegios nobiliarios e impunidad."
-          }
-        },
-        {
-          "texto": "Beneficio de Sayri Túpac → Recibe la encomienda de Yucay.",
-          "pregunta": {
-            "q": "¿Qué recompensa material recibió Sayri Túpac al someterse a la corona?",
-            "opts": [
-              "El título de Rey del Perú",
-              "La encomienda de Yucay",
-              "El control de Potosí",
-              "Una flota comercial"
-            ],
-            "correct": 1,
-            "explicacion": "Como parte del pacto de rendición, se le entregó la rica encomienda del valle de Yucay (Urubamba), proporcionándole grandes ingresos y estatus dentro de la sociedad virreinal."
-          }
-        },
-        {
-          "texto": "Diplomacia de Titu Cusi Yupanqui → Firma la Paz de Acobamba (permite evangelización).",
-          "pregunta": {
-            "q": "¿Qué permitió el tratado conocido como la Paz de Acobamba?",
-            "opts": [
-              "La expulsión total de los españoles",
-              "La rendición incondicional de los incas",
-              "El ingreso de misioneros para evangelizar Vilcabamba",
-              "El matrimonio entre el virrey y una princesa inca"
-            ],
-            "correct": 2,
-            "explicacion": "Mediante la capitulación de Acobamba en 1566, Titu Cusi Yupanqui autorizó el ingreso de frailes agustinos a su territorio para predicar, en un intento diplomático de ganar tiempo y apaciguar a la corona."
-          }
-        },
-        {
-          "texto": "Aporte histórico de Titu Cusi Yupanqui → Escribe una crónica sobre su padre Manco Inca.",
-          "pregunta": {
-            "q": "¿Qué documento redactó o dictó el inca Titu Cusi Yupanqui?",
-            "opts": [
-              "Los Comentarios Reales de los Incas",
-              "Una crónica detallando la vida y lucha de su padre Manco Inca",
-              "El manuscrito de Huarochirí",
-              "Las Leyes de Indias"
-            ],
-            "correct": 1,
-            "explicacion": "Es el único Inca que dictó una 'Instrucción' (crónica) relatando los agravios cometidos por los conquistadores contra su padre Manco Inca, siendo una fuente histórica primaria de gran valor."
-          }
-        },
-        {
-          "texto": "Fin militar: Túpac Amaru I es derrotado y decapitado (1572) por orden del virrey Toledo.",
-          "pregunta": {
-            "q": "¿Qué virrey ordenó la ejecución del último inca de Vilcabamba, Túpac Amaru I?",
-            "opts": [
-              "Virrey Toledo",
-              "Virrey Amat y Junyent",
-              "Virrey Abascal",
-              "Virrey Hurtado de Mendoza"
+              "Excedente de producción",
+              "Nomadismo estacional",
+              "Economía de subsistencia pura"
             ],
             "correct": 0,
-            "explicacion": "El virrey Francisco de Toledo decidió acabar definitivamente con el reducto de Vilcabamba. Capturó a Túpac Amaru I y lo ejecutó públicamente en el Cusco, extinguiendo la dinastía real incaica."
+            "explicacion": "La producción agrícola intensiva permitió generar mayores volúmenes de alimentos de los necesarios para el consumo inmediato."
           }
         },
         {
-          "texto": "Impacto cultural: La muerte de Túpac Amaru I origina el Mito de Inkarri.",
+          "texto": "Agricultura → intercambio comercial.",
           "pregunta": {
-            "q": "¿Qué mito andino nace simbólicamente tras la decapitación de Túpac Amaru I?",
+            "q": "¿Qué actividad social y económica propicia la existencia de excedentes agrícolas?",
             "opts": [
-              "Mito de Naylamp",
-              "Mito de los Hermanos Ayar",
-              "Mito de Inkarri",
-              "Mito de Cuniraya Huiracocha"
+              "Intercambio comercial",
+              "Aislamiento aldeano",
+              "Guerra permanente"
             ],
-            "correct": 2,
-            "explicacion": "El Mito de Inkarri (Inca Rey) es una esperanza mesiánica andina que sostiene que la cabeza decapitada del Inca, enterrada en secreto, se está uniendo a su cuerpo y, cuando esté completa, el mundo andino resurgirá."
+            "correct": 0,
+            "explicacion": "El excedente facilitó el trueque y el flujo de productos entre distintas regiones ecológicas como la costa, sierra y selva."
+          }
+        },
+        {
+          "texto": "Centros ceremoniales ⊃ teocracias.",
+          "pregunta": {
+            "q": "¿Qué forma de organización política y religiosa surge ligada a los centros ceremoniales?",
+            "opts": [
+              "Teocracias",
+              "Democracias aldeanas",
+              "Confederaciones militares"
+            ],
+            "correct": 0,
+            "explicacion": "El poder político fue asumido por élites religiosas capaces de dirigir la construcción comunal y el culto."
+          }
+        },
+        {
+          "texto": "Calendarios agrícolas + culto ligado al fuego.",
+          "pregunta": {
+            "q": "¿Qué elementos religiosos y de planificación acompañan a las sociedades del Arcaico Superior?",
+            "opts": [
+              "Calendarios agrícolas y culto ligado al fuego",
+              "Navegación oceánica y comercio metálico",
+              "Cerámica polícroma y ejércitos"
+            ],
+            "correct": 0,
+            "explicacion": "La observación de los ciclos naturales estructuró calendarios para la siembra, acompañados de rituales pirolátricos."
+          }
+        },
+        {
+          "texto": "Surgen los ayllus + sedentarismo.",
+          "pregunta": {
+            "q": "¿Qué organización social y modo de vida se consolidan en esta etapa?",
+            "opts": [
+              "Los ayllus y el sedentarismo",
+              "Las bandas y el nomadismo",
+              "Los estados expansivos"
+            ],
+            "correct": 0,
+            "explicacion": "La vida sedentaria impulsó la formación de comunidades parentales o ayllus como base de la sociedad andina."
+          }
+        },
+        {
+          "texto": "Tablada Lurín (S. Lima) → primer arquitecto.",
+          "pregunta": {
+            "q": "¿Qué denominación recibe el sitio de Tablada Lurín en relación con su desarrollo?",
+            "opts": [
+              "Primer arquitecto",
+              "Primera ciudad sagrada",
+              "Primer centro metalúrgico"
+            ],
+            "correct": 0,
+            "explicacion": "Se le asocia con las primeras expresiones de arquitectura y planificación de asentamientos estables en la costa central."
+          }
+        },
+        {
+          "texto": "Caral (Lima) → primera ciudad sagrada de américa.",
+          "pregunta": {
+            "q": "¿Qué importancia continental posee el sitio arqueológico de Caral?",
+            "opts": [
+              "Primera ciudad sagrada de América",
+              "Primer taller lítico del Paleolítico",
+              "Primer imperio militar andino"
+            ],
+            "correct": 0,
+            "explicacion": "Caral representa la civilización más antigua de América, destacando por su complejidad urbana y sociopolítica."
+          }
+        },
+        {
+          "texto": "Caral (Lima) ⊃ comercio transversal.",
+          "pregunta": {
+            "q": "¿Qué tipo de intercambio económico practicaba Caral con otras regiones?",
+            "opts": [
+              "Comercio transversal",
+              "Comercio marítimo internacional",
+              "Trueque exclusivamente local"
+            ],
+            "correct": 0,
+            "explicacion": "Articuló redes de intercambio que conectaban la costa, la sierra y la selva alta."
+          }
+        },
+        {
+          "texto": "Caral (Lima) ⊃ uso de quipus.",
+          "pregunta": {
+            "q": "¿Qué elemento de registro administrativo se ha encontrado asociado a Caral?",
+            "opts": [
+              "Uso de quipus",
+              "Tablillas escritas con glifos",
+              "Códices pintados en pieles"
+            ],
+            "correct": 0,
+            "explicacion": "En Caral se utilizaron sistemas mnemotécnicos primigenios como los quipus para la contabilidad y administración."
+          }
+        },
+        {
+          "texto": "Caral (Lima) ⊃ Shicras: para construcciones antisísmicas (R. Shady).",
+          "pregunta": {
+            "q": "¿Qué función cumplían las shicras en la arquitectura de Caral según los estudios de Ruth Shady?",
+            "opts": [
+              "Construcciones antisísmicas",
+              "Sistemas de riego subterráneo",
+              "Depósitos de granos"
+            ],
+            "correct": 0,
+            "explicacion": "Las bolsas de fibra vegetal rellenas de piedras (shicras) disipaban la energía de los movimientos telúricos."
+          }
+        },
+        {
+          "texto": "Huaca Prieta (La lib.) ⊃ primeros textiles.",
+          "pregunta": {
+            "q": "¿Qué evidencia artesanal sobresaliente se descubrió en Huaca Prieta?",
+            "opts": [
+              "Primeros textiles",
+              "Primeras cerámicas vidriadas",
+              "Esculturas en piedra pulida"
+            ],
+            "correct": 0,
+            "explicacion": "Huaca Prieta es célebre por sus tempranas labores textiles elaboradas mediante técnicas pre-telar complejas."
+          }
+        },
+        {
+          "texto": "Huaca Prieta (La lib.) ⊃ mate pirograbado (Bird / C14).",
+          "pregunta": {
+            "q": "¿Qué técnica artística se halló en los mates de Huaca Prieta, estudiados por Bird mediante carbono 14?",
+            "opts": [
+              "Mate pirograbado",
+              "Mate esmaltado",
+              "Mate tallado en alto relieve"
+            ],
+            "correct": 0,
+            "explicacion": "Los mates presentan diseños decorativos grabados mediante fuego, analizados cronológicamente por Junius Bird."
+          }
+        },
+        {
+          "texto": "Kotosh Mito (Huánuco) ⊃ Templo de las manos cruzadas + primera escultura.",
+          "pregunta": {
+            "q": "¿Qué elementos emblemáticos caracterizan al templo de Kotosh Mito en Huánuco?",
+            "opts": [
+              "Templo de las manos cruzadas y primera escultura",
+              "Plazas circulares y canales de regadío",
+              "Pinturas rupestres de cazadores"
+            ],
+            "correct": 0,
+            "explicacion": "Kotosh es mundialmente conocido por su arquitectura religiosa y los relieves modelados de las manos cruzadas."
+          }
+        },
+        {
+          "texto": "Construcciones Costa ⊃ terrazas escalonadas + piramidales.",
+          "pregunta": {
+            "q": "¿Qué tipología arquitectónica predomina en las construcciones costeñas del Arcaico Superior?",
+            "opts": [
+              "Terrazas escalonadas y piramidales",
+              "Viviendas subterráneas circulares",
+              "Templos bajo niveles de roca"
+            ],
+            "correct": 0,
+            "explicacion": "La arquitectura pública de la costa empleó plataformas escalonadas formando estructuras piramidales monumentales."
+          }
+        },
+        {
+          "texto": "Plazas hundidas (circulares + rectangulares) + fogones.",
+          "pregunta": {
+            "q": "¿Qué espacios públicos y elementos rituales acompañan a los templos andinos antiguos?",
+            "opts": [
+              "Plazas hundidas y fogones",
+              "Mercados abiertos y murallas",
+              "Talleres metalúrgicos y silos"
+            ],
+            "correct": 0,
+            "explicacion": "Las plazas hundidas servían para congregaciones rituales donde el fuego sagrado en fogones centrales jugaba un rol central."
+          }
+        },
+        {
+          "texto": "Sierra ⊃ dos niveles + rectangulares + ductos de ventilación.",
+          "pregunta": {
+            "q": "¿Qué características estructurales presenta la arquitectura religiosa en la sierra?",
+            "opts": [
+              "Dos niveles, formas rectangulares y ductos de ventilación",
+              "Plataformas circulares abiertas sin muros",
+              "Pirámides truncas de gran altura"
+            ],
+            "correct": 0,
+            "explicacion": "Los templos serranos solían estructurarse en niveles con plantas rectangulares y conductos para la circulación del aire hacia los fogones."
           }
         }
       ]
     },
     {
-      "titulo": "El Movimiento Taki Onqoy",
+      "titulo": "Clasificación de John Rowe",
       "puntos": [
         {
-          "texto": "Significado del término → 'Canto de la enfermedad'.",
+          "texto": "John Rowe ⊃ influencia cerámica.",
           "pregunta": {
-            "q": "¿Qué significa literalmente la expresión quechua 'Taki Onqoy'?",
+            "q": "¿En qué criterio basó John Rowe su clasificación arqueológica del antiguo Perú?",
             "opts": [
-              "Danza de la victoria",
-              "Canto de la enfermedad",
-              "Guerreros del sol",
-              "Enfermedad de los dioses"
-            ],
-            "correct": 1,
-            "explicacion": "El nombre aludía a los temblores, bailes y convulsiones que sufrían los indígenas que se consideraban 'poseídos' por las huacas que regresaban para reclamar su territorio."
-          }
-        },
-        {
-          "texto": "Naturaleza del movimiento → Resistencia ideológica religiosa.",
-          "pregunta": {
-            "q": "¿Qué tipo de resistencia representó principalmente el Taki Onqoy?",
-            "opts": [
-              "Una alianza militar con corsarios",
-              "Una rebelión armada de esclavos",
-              "Un levantamiento económico",
-              "Una resistencia ideológica y religiosa"
-            ],
-            "correct": 3,
-            "explicacion": "A diferencia de la rebelión armada de Vilcabamba, el Taki Onqoy fue un movimiento milenarista y pacífico que buscaba la victoria sobre el invasor mediante la purificación espiritual y el abandono de las costumbres cristianas."
-          }
-        },
-        {
-          "texto": "Origen y liderazgo → Creado por Juan Chocne en Ayacucho.",
-          "pregunta": {
-            "q": "¿Quién fue el líder y dónde se originó el movimiento Taki Onqoy?",
-            "opts": [
-              "Manco Inca en Cusco",
-              "Taulichusco en Lima",
-              "Juan Chocne en Ayacucho",
-              "Túpac Amaru en Puno"
-            ],
-            "correct": 2,
-            "explicacion": "Surgió en la década de 1560 en Huamanga (actual Ayacucho). Juan Chocne, junto con unas mujeres que se hacían llamar Santa María y Santa Magdalena, lideró la prédica de este rechazo al cristianismo."
-          }
-        },
-        {
-          "texto": "Propuesta principal → Unión de las huacas y expulsión de los españoles.",
-          "pregunta": {
-            "q": "¿Cuál era la principal profecía y propuesta del Taki Onqoy?",
-            "opts": [
-              "La unión de las huacas y la expulsión de los españoles",
-              "El perdón de los pecados por medio del bautismo",
-              "El mestizaje pacífico entre deidades andinas y europeas",
-              "El regreso del Imperio Wari"
+              "Influencia cerámica",
+              "Expansión militar exclusiva",
+              "Desarrollo de la metalurgia del bronce"
             ],
             "correct": 0,
-            "explicacion": "El movimiento predicaba que las huacas andinas (especialmente Titicaca y Pachacámac) se habían aliado para derrotar al dios cristiano, causando enfermedades a los españoles hasta expulsarlos de los Andes."
+            "explicacion": "Rowe utilizó la difusión y el estilo de la cerámica como marcador principal para periodificar las culturas andinas."
           }
         },
         {
-          "texto": "Represión oficial → Combatido por las campañas de Extirpación de Idolatrías.",
+          "texto": "Horizontes (Panandino).",
           "pregunta": {
-            "q": "¿Qué mecanismo eclesiástico se utilizó para combatir y eliminar al Taki Onqoy?",
+            "q": "¿Qué define a un Horizonte cultural según la propuesta de John Rowe?",
             "opts": [
-              "Las Misiones Jesuitas",
-              "El Tribunal del Consulado",
-              "La Santa Inquisición de Lima",
-              "Las Campañas de Extirpación de Idolatrías"
+              "Carácter panandino y unificación estilística",
+              "Aislamiento regional y diversificación",
+              "Ausencia de influencia artística"
             ],
-            "correct": 3,
-            "explicacion": "El clérigo Cristóbal de Albornoz fue el principal encargado de organizar la persecución de este movimiento (Extirpación de Idolatrías), castigando a los líderes y destruyendo sus santuarios sagrados."
+            "correct": 0,
+            "explicacion": "Los horizontes representan periodos de alta integración donde una cultura ejerce influencia abarcadora en gran parte del área andina."
+          }
+        },
+        {
+          "texto": "Intermedios (Regional).",
+          "pregunta": {
+            "q": "¿Qué caracteriza a los periodos denominados Intermedios en el esquema de Rowe?",
+            "opts": [
+              "Desarrollo regional diferenciado",
+              "Unificación política total del territorio",
+              "Homogeneidad cultural absoluta"
+            ],
+            "correct": 0,
+            "explicacion": "Los intermedios corresponden a etapas de florecimiento de culturas locales con estilos propios y autonomía regional."
           }
         }
       ]

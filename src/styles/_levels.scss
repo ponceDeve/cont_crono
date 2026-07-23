@@ -97,49 +97,45 @@
   box-shadow: var(--shadow-md);
 }
 
-// Cada celda de la cuadrícula (número o tema) + su tooltip flotante
+// Cada celda de la cuadrícula (número o tema)
 .level-cell {
   position: relative;
+}
 
-  .level-tooltip {
+// Tooltip flotante: ahora es un elemento independiente (no vive dentro de
+// una celda puntual), porque su posición la calcula JS con position:fixed
+// para que nunca se salga del viewport. Por eso va suelto, no anidado.
+.level-tooltip {
+  position: fixed;
+  background: var(--bg);
+  color: var(--accent);
+  border: 2px solid var(--accent);
+  border-radius: var(--radius-sm);
+  padding: 8px 14px;
+  font-size: 20px;
+  font-weight: 800;
+  white-space: normal;
+  max-width: min(220px, 80vw);
+  text-align: center;
+  z-index: 10;
+  box-shadow: var(--shadow-md);
+  display: none;
+  pointer-events: none; // clave: evita que el tooltip "robe" el hover del botón de abajo y cause el parpadeo
+
+  &::after {
+    content: "";
     position: absolute;
-    bottom: calc(100% + 10px);
+    top: 100%;
     left: 50%;
     transform: translateX(-50%);
-    background: var(--bg);
-    color: var(--accent);
-    border: 2px solid var(--accent);
-    border-radius: var(--radius-sm);
-    padding: 8px 14px;
-    font-size: 20px;
-    font-weight: 800;
-    white-space: normal;
-    max-width: min(220px, 80vw);
-    text-align: center;
-    z-index: 10;
-    box-shadow: var(--shadow-md);
-    display: none;
-    pointer-events: none; // clave: evita que el tooltip "robe" el hover del botón de abajo y cause el parpadeo
-
-    &::after {
-      content: "";
-      position: absolute;
-      top: 100%;
-      left: 50%;
-      transform: translateX(-50%);
-      width: 0;
-      height: 0;
-      border-left: 6px solid transparent;
-      border-right: 6px solid transparent;
-      border-top: 6px solid var(--accent);
-    }
-
-    &.is-visible {
-      display: block;
-    }
+    width: 0;
+    height: 0;
+    border-left: 6px solid transparent;
+    border-right: 6px solid transparent;
+    border-top: 6px solid var(--accent);
   }
 
-  &:hover .level-tooltip {
+  &.is-visible {
     display: block;
   }
 }

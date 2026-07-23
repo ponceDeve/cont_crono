@@ -1,4 +1,6 @@
 import { useEffect } from "react";
+import 'katex/dist/katex.min.css';
+import Latex from 'react-latex-next';
 
 function respuestaCorrectaTexto(pregunta) {
   if (pregunta.tipo === "verdadero_falso") return null; // ya se detalla proposición por proposición en la card
@@ -35,10 +37,10 @@ export default function ExplanationPanel({
       </h4>
       {respuestaCorrecta && (
         <p className="explanation-panel__answer">
-          La alternativa correcta es: <strong>{respuestaCorrecta}</strong>
+          La alternativa correcta es: <strong><Latex>{respuestaCorrecta}</Latex></strong>
         </p>
       )}
-      <div className="explanation-panel__text">{pregunta.explicacion}</div>
+      <div className="explanation-panel__text"><Latex>{pregunta.explicacion}</Latex></div>
       <div className="explanation-panel__actions">
         {isCorrect ? (
           <button onClick={onSiguiente} className="explanation-panel__btn is-next">

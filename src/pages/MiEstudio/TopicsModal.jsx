@@ -1,4 +1,5 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useRef, useState } from "react";
+import { useFloatingTooltip } from "../../hooks/useFloatingTooltip";
 
 export default function TopicsModal({
   open,
@@ -11,6 +12,10 @@ export default function TopicsModal({
   const [activeIndex, setActiveIndex] = useState(null);
   const [hoveredIndex, setHoveredIndex] = useState(null);
   const [hasHover, setHasHover] = useState(false);
+  const [busqueda, setBusqueda] = useState("");
+  const [inputEnfocado, setInputEnfocado] = useState(false);
+  const utteranceRef = useRef(null);
+  const { pos, mostrarEn, ocultar } = useFloatingTooltip(220);
 
   useEffect(() => {
     if (typeof window !== "undefined" && window.matchMedia) {
@@ -18,21 +23,34 @@ export default function TopicsModal({
     }
   }, []);
 
+  // "Calienta" el motor de voz apenas se abre el modal.
+  useEffect(() => {
+    if (open && typeof window !== "undefined" && window.speechSynthesis) {
+      window.speechSynthesis.getVoices();
+    }
+    if (!open) {
+      setBusqueda("");
+      setActiveIndex(null);
+      setHoveredIndex(null);
+      setInputEnfocado(false);
+      ocultar();
+    }
+  }, [open, ocultar]);
+
   if (!open) return null;
 
   function leerNombre(item) {
     if (typeof window !== "undefined" && window.speechSynthesis) {
-      window.speechSynthesis.cancel();
+      const synth = window.speechSynthesis;
+      if (synth.speaking) synth.cancel();
       const utterance = new SpeechSynthesisUtterance(item.tema);
       utterance.lang = "es-ES";
-      window.speechSynthesis.speak(utterance);
+      utteranceRef.current = utterance;
+      synth.speak(utterance);
     }
   }
 
-  function manejarClickTema(item, index) {
-    // Solo en dispositivos con mouse real el hover ya cuenta como "primer vistazo".
-    // En táctil/pantallas chicas (sin hover real) siempre exige el segundo tap,
-    // aunque el navegador dispare un mouseover falso al tocar.
+  function manejarClickTema(item, index, el) {
     if (hasHover && hoveredIndex === index) {
       onSelectTema(item);
       onClose();
@@ -43,47 +61,111 @@ export default function TopicsModal({
       onSelectTema(item);
       onClose();
       setActiveIndex(null);
+      ocultar();
       return;
     }
 
-    // Primer tap: solo muestra el nombre flotando y lo lee.
     setActiveIndex(index);
+    mostrarEn(el);
+  }
+
+  function manejarHover(item, index, el) {
+    setHoveredIndex(index);
+    mostrarEn(el);
     leerNombre(item);
   }
 
-  function manejarHover(item, index) {
-    setHoveredIndex(index);
-    leerNombre(item);
+  function manejarSalidaHover() {
+    setHoveredIndex(null);
+    if (activeIndex === null) ocultar();
   }
+
+  function manejarToqueInicial(item, el) {
+    if (!hasHover) {
+      leerNombre(item);
+      mostrarEn(el);
+    }
+  }
+
+  const temasConIndice = listaTemas.map((item, index) => ({ item, index }));
+  const temasFiltrados = busqueda.trim()
+    ? temasConIndice.filter(({ item }) =>
+      item.tema.toLowerCase().includes(busqueda.trim().toLowerCase())
+    )
+    : temasConIndice;
+
+  const indiceVisible = hoveredIndex !== null ? hoveredIndex : activeIndex;
+  const temaVisible = indiceVisible !== null ? listaTemas[indiceVisible] : null;
 
   return (
     <div
       className="levels-modal"
       style={{ zIndex: 1000 }}
-      onClick={() => setActiveIndex(null)}
+      onClick={() => {
+        setActiveIndex(null);
+        ocultar();
+      }}
     >
       <div className="levels-modal__inner" onClick={(e) => e.stopPropagation()}>
         <h2 className="levels-modal__title">Temas de {curso}</h2>
 
+        <div className="home-search levels-modal__search" onClick={(e) => e.stopPropagation()}>
+          <input
+            value={busqueda}
+            onChange={(e) => setBusqueda(e.target.value)}
+            onFocus={() => setInputEnfocado(true)}
+            onBlur={() => setTimeout(() => setInputEnfocado(false), 150)}
+            placeholder="Buscar tema por nombre..."
+            className="home-search-input"
+          />
+          {inputEnfocado && (
+            <div className="home-search-results">
+              {temasFiltrados.length === 0 && (
+                <p style={{ padding: "12px 16px", color: "var(--ink-soft)" }}>
+                  Ningún tema coincide con "{busqueda}".
+                </p>
+              )}
+              {temasFiltrados.map(({ item, index }) => (
+                <button
+                  key={index}
+                  onMouseDown={(e) => {
+                    e.preventDefault();
+                    onSelectTema(item);
+                    onClose();
+                  }}
+                  className={`home-search-result ${item.tema === temaActual ? "is-focused" : ""}`}
+                >
+                  <p>{item.tema}</p>
+                </button>
+              ))}
+            </div>
+          )}
+        </div>
+
+        {pos && temaVisible && (
+          <div
+            className="level-tooltip is-visible"
+            style={{ position: "fixed", top: pos.top, left: pos.left, transform: "translate(-50%, -100%)" }}
+          >
+            {temaVisible.tema}
+          </div>
+        )}
+
         <div className="levels-modal__grid">
-          {listaTemas.map((item, index) => {
+          {temasFiltrados.map(({ item, index }) => {
             const esTemaActual = item.tema === temaActual;
-            const tooltipVisible = hoveredIndex === index || activeIndex === index;
 
             return (
               <div key={index} className="level-cell">
-                {tooltipVisible && (
-                  <div className="level-tooltip">{item.tema}</div>
-                )}
-
                 <button
                   className={`level-btn ${esTemaActual ? 'is-current' : ''}`}
+                  onPointerDown={(e) => manejarToqueInicial(item, e.currentTarget)}
                   onClick={(e) => {
                     e.stopPropagation();
-                    manejarClickTema(item, index);
+                    manejarClickTema(item, index, e.currentTarget);
                   }}
-                  onMouseOver={() => manejarHover(item, index)}
-                  onMouseOut={() => setHoveredIndex(null)}
+                  onMouseOver={(e) => manejarHover(item, index, e.currentTarget)}
+                  onMouseOut={manejarSalidaHover}
                 >
                   {index + 1}
                 </button>
@@ -98,7 +180,12 @@ export default function TopicsModal({
           </p>
         )}
 
-        {/* Botón de cerrar usando tu clase ya existente */}
+        {listaTemas.length > 0 && temasFiltrados.length === 0 && (
+          <p style={{ color: "var(--ink-soft)", marginBottom: "20px" }}>
+            Ningún tema coincide con "{busqueda}".
+          </p>
+        )}
+
         <button className="levels-modal__close" onClick={onClose}>
           Cerrar mapa
         </button>

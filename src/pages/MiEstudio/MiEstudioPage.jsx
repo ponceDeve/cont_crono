@@ -93,8 +93,8 @@ export default function MiEstudioPage() {
       (item) => item.type === "curso" && item.nombre.toLowerCase().includes(q),
     );
 
-    // ...más cursos que tienen algún tema que coincide (pero solo se
-    // muestra el curso en la lista, nunca el tema suelto).
+    // ...más cursos que tienen algún tema que coincide (pero en la lista
+    // solo se muestra el curso, nunca el tema suelto).
     const nombresCursosConTemaCoincidente = new Set(
       OPCIONES_BUSQUEDA.filter(
         (item) => item.type === "tema" && item.tema.toLowerCase().includes(q),
@@ -109,6 +109,29 @@ export default function MiEstudioPage() {
 
     return [...cursosPorNombre, ...cursosPorTema].slice(0, 8);
   }, [query]);
+
+  // Si lo que se escribió coincide con el nombre de un tema puntual,
+  // Enter debe llevar directo a ese tema (sin pasar por el mapa de
+  // temas del curso). Si no hay coincidencia de tema, Enter se comporta
+  // como siempre: selecciona el curso enfocado en la lista.
+  function manejarEnterBusqueda(e) {
+    if (e.key === "Enter") {
+      const q = query.trim().toLowerCase();
+      if (q) {
+        const temaMatch = OPCIONES_BUSQUEDA.find(
+          (item) => item.type === "tema" && item.tema.toLowerCase().includes(q),
+        );
+        if (temaMatch) {
+          e.preventDefault();
+          setCursoSeleccionado(temaMatch.curso);
+          abrirTema(temaMatch);
+          setQuery("");
+          return;
+        }
+      }
+    }
+    handleKeyDownInicial(e);
+  }
 
   useEffect(() => {
     function onFullscreenChange() {
@@ -532,7 +555,7 @@ export default function MiEstudioPage() {
               <input
                 value={query}
                 onChange={(e) => setQuery(e.target.value)}
-                onKeyDown={handleKeyDownInicial}
+                onKeyDown={manejarEnterBusqueda}
                 placeholder="Buscar tema o curso..."
                 className="home-search-input"
               />
@@ -730,10 +753,10 @@ export default function MiEstudioPage() {
       {/* ================= MODALES HARDCORE ================= */}
       {alertaVidas === "tres" && (
         <div className="config-overlay animate-fade-in" style={{ zIndex: 9999 }}>
-          <div className="config-overlay__row" style={{ flexDirection: 'column', gap: '20px', background: '#222', padding: '30px', borderRadius: '15px', border: '2px solid #f39c12' }}>
-            <h2 style={{ color: '#f39c12', margin: 0 }}>¡Cuidado{nombreUsuario ? `, ${nombreUsuario}` : ""}!</h2>
-            <p style={{ color: '#fff', fontSize: '1.2rem', textAlign: 'center' }}>Te quedan 3 vidas. No te confíes.</p>
-            <button className="config-overlay__btn is-primary" onClick={() => setAlertaVidas(null)} style={{ padding: '10px 30px' }}>
+          <div className="config-overlay__row vidas-alert" style={{ flexDirection: 'column', gap: '20px', background: '#222', padding: '30px', borderRadius: '15px', border: '2px solid #f39c12' }}>
+            <h2 style={{ color: '#f39c12', margin: 0, fontSize: '2rem' }}>⚠️ 3 vidas</h2>
+            <p style={{ color: '#fff', fontSize: '1rem', textAlign: 'center' }}>No te confíes.</p>
+            <button className="vidas-alert__btn is-warning" onClick={() => setAlertaVidas(null)}>
               Continuar
             </button>
           </div>
@@ -742,10 +765,10 @@ export default function MiEstudioPage() {
 
       {alertaVidas === "una" && (
         <div className="config-overlay animate-fade-in" style={{ zIndex: 9999 }}>
-          <div className="config-overlay__row" style={{ flexDirection: 'column', gap: '20px', background: '#331111', padding: '30px', borderRadius: '15px', border: '2px solid #e74c3c' }}>
-            <h2 style={{ color: '#e74c3c', margin: 0, animation: 'pulse 1s infinite' }}>¡Peligro Inminente{nombreUsuario ? `, ${nombreUsuario}` : ""}!</h2>
-            <p style={{ color: '#fff', fontSize: '1.2rem', textAlign: 'center', maxWidth: '300px' }}>Te queda 1 sola vida. Si fallas ahora, perderás todo el progreso de este tema.</p>
-            <button className="config-overlay__btn is-danger" onClick={() => setAlertaVidas(null)} style={{ padding: '10px 30px' }}>
+          <div className="config-overlay__row vidas-alert" style={{ flexDirection: 'column', gap: '20px', background: '#331111', padding: '30px', borderRadius: '15px', border: '2px solid #e74c3c' }}>
+            <h2 style={{ color: '#e74c3c', margin: 0, fontSize: '2rem', animation: 'pulse 1s infinite' }}>🔥 1 vida</h2>
+            <p style={{ color: '#fff', fontSize: '1rem', textAlign: 'center' }}>Última oportunidad.</p>
+            <button className="vidas-alert__btn is-danger" onClick={() => setAlertaVidas(null)}>
               Entendido
             </button>
           </div>
@@ -754,12 +777,10 @@ export default function MiEstudioPage() {
 
       {alertaVidas === "cero" && (
         <div className="config-overlay animate-fade-in" style={{ zIndex: 9999 }}>
-          <div className="config-overlay__row" style={{ flexDirection: 'column', gap: '20px', background: '#000', padding: '40px', borderRadius: '15px', border: '3px solid red' }}>
+          <div className="config-overlay__row vidas-alert" style={{ flexDirection: 'column', gap: '20px', background: '#000', padding: '40px', borderRadius: '15px', border: '3px solid red' }}>
             <h1 style={{ color: 'red', margin: 0, fontSize: '3rem', textShadow: '0 0 10px red' }}>GAME OVER</h1>
-            <p style={{ color: '#aaa', fontSize: '1.1rem', textAlign: 'center', maxWidth: '350px' }}>
-              {nombreUsuario ? `${nombreUsuario}, tu memoria ha fallado.` : "Tu memoria ha fallado."} El progreso ha sido limpiado y debes empezar desde el Nivel 1.
-            </p>
-            <button className="config-overlay__btn is-primary" onClick={() => { setAlertaVidas(null); setVidas(5); }} style={{ padding: '15px 40px', marginTop: '10px' }}>
+            <p style={{ color: '#aaa', fontSize: '1rem', textAlign: 'center' }}>Progreso reiniciado.</p>
+            <button className="vidas-alert__btn is-critical" onClick={() => { setAlertaVidas(null); setVidas(5); }} style={{ marginTop: '10px' }}>
               Reiniciar desde cero
             </button>
           </div>

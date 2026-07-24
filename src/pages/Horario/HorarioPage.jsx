@@ -59,6 +59,10 @@ export default function HorarioPage() {
   const [temaModalOpen, setTemaModalOpen] = useState(false);
   const [courseCompleteOpen, setCourseCompleteOpen] = useState(false);
 
+  // Descanso manual (botones "Desc. 10" / "Desc. 30"): un cronómetro
+  // suelto, sin curso activo.
+  const [manualBreak, setManualBreak] = useState(null);
+
   const alarmRef = useRef(null);
 
   const courses = scheduleData[selectedDay];
@@ -89,7 +93,10 @@ export default function HorarioPage() {
     }
     // ------------------------------
 
-    if (!activeCourse) return;
+    if (!activeCourse) {
+      setManualBreak(null);
+      return;
+    }
     const key = progressKey(selectedDay, activeCourse.subject);
     const currentIdx = getTaskIndex(selectedDay, activeCourse.subject);
     const nextIdx = currentIdx + 1;
@@ -114,7 +121,7 @@ export default function HorarioPage() {
   const currentTaskDuration = activeCourse
     ? activeTasks[getTaskIndex(selectedDay, activeCourse.subject)]?.duration ||
     POMODORO_MIN
-    : POMODORO_MIN;
+    : manualBreak || POMODORO_MIN;
   const progressPct = Math.round(
     ((currentTaskDuration * 60 - secondsLeft) / (currentTaskDuration * 60)) *
     100,
@@ -124,10 +131,17 @@ export default function HorarioPage() {
     const course = courses[idx];
     const tasks = buildCourseTasks(course);
     const taskIdx = getTaskIndex(selectedDay, course.subject);
+    setManualBreak(null);
     setActiveCourseIdx(idx);
     if (taskIdx < tasks.length) {
       reset(tasks[taskIdx].duration);
     }
+  }
+
+  function iniciarDescansoManual(minutos) {
+    setActiveCourseIdx(null);
+    setManualBreak(minutos);
+    reset(minutos);
   }
 
   function cerrarCourseComplete() {
@@ -210,6 +224,9 @@ export default function HorarioPage() {
                     : activeTasks[activeTaskIdx]?.detail || "Completado"}
                 </p>
               )}
+              {!activeCourse && manualBreak && (
+                <p className="horario__timer-label">Descanso de {manualBreak} min</p>
+              )}
               <h2 className="timer-font horario__timer-clock">{formatted}</h2>
               <div className="horario__progress-track">
                 <div className="horario__progress-fill" style={{ width: `${progressPct}%` }} />
@@ -220,7 +237,7 @@ export default function HorarioPage() {
               <div className="horario__timer-btn-row">
                 <button
                   onClick={start}
-                  disabled={!activeCourse || isRunning}
+                  disabled={(!activeCourse && !manualBreak) || isRunning}
                   className="horario__btn is-start"
                 >
                   <i className="fas fa-play" /> Iniciar
@@ -352,8 +369,12 @@ export default function HorarioPage() {
                 })}
 
                 <div className="horario__rest-row">
-                  <button className="horario__rest-btn">Desc. 10</button>
-                  <button className="horario__rest-btn">Desc. 30</button>
+                  <button className="horario__rest-btn" onClick={() => iniciarDescansoManual(10)}>
+                    Desc. 10
+                  </button>
+                  <button className="horario__rest-btn" onClick={() => iniciarDescansoManual(30)}>
+                    Desc. 30
+                  </button>
                 </div>
               </div>
             )}

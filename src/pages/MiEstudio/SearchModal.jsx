@@ -32,6 +32,27 @@ export default function SearchModal({ open, onClose, onSelect }) {
     onClose();
   });
 
+  // Si lo escrito coincide con el nombre de un tema puntual, Enter debe
+  // llevar directo a ese tema (sin pasar por el mapa de temas del curso).
+  function manejarKeyDown(e) {
+    if (e.key === "Enter") {
+      const q = query.trim().toLowerCase();
+      if (q) {
+        for (const c of manifest.cursos) {
+          const t = c.temas.find((t) => t.tema.toLowerCase().includes(q));
+          if (t) {
+            e.preventDefault();
+            onSelect({ type: "tema", curso: c.nombre, tema: t.tema, archivo: t.archivo });
+            setQuery("");
+            onClose();
+            return;
+          }
+        }
+      }
+    }
+    handleKeyDown(e);
+  }
+
   useEffect(() => {
     if (!open) return;
     function onEsc(e) {
@@ -53,7 +74,7 @@ export default function SearchModal({ open, onClose, onSelect }) {
           autoFocus
           value={query}
           onChange={(e) => setQuery(e.target.value)}
-          onKeyDown={handleKeyDown}
+          onKeyDown={manejarKeyDown}
           placeholder="Buscar tema o curso..."
           className="search-input"
         />
@@ -62,25 +83,18 @@ export default function SearchModal({ open, onClose, onSelect }) {
           <div className="search-results">
             {results.map((r, i) => {
               const isFocused = i === focusedIdx;
-              const isCurso = r.type === "curso";
 
               return (
                 <button
-                  key={isCurso ? `curso-${r.nombre}` : `tema-${r.archivo}`}
+                  key={`curso-${r.nombre}`}
                   onClick={() => {
                     onSelect(r);
                     setQuery("");
                     onClose();
                   }}
-                  className={`search-result-item ${isCurso ? "is-curso" : "is-tema"} ${isFocused ? "is-focused" : ""}`}
+                  className={`search-result-item is-curso ${isFocused ? "is-focused" : ""}`}
                 >
-                  {isCurso ? (
-                    // Solo el nombre del curso
-                    <span className="curso-title">{r.nombre}</span>
-                  ) : (
-                    // Solo el nombre del tema (indentado visualmente vía CSS)
-                    <span className="tema-title">{r.tema}</span>
-                  )}
+                  <span className="curso-title">{r.nombre}</span>
                 </button>
               );
             })}

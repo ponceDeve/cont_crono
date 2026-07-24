@@ -1058,6 +1058,7 @@ a {
   margin-top: 14px;
   display: flex;
   justify-content: flex-end;
+  gap: 10px;
 }
 .explanation-panel__btn {
   padding: 8px 18px;
@@ -1076,11 +1077,13 @@ a {
 .explanation-panel__btn.is-next:hover {
   background: var(--primary-dark);
 }
-.explanation-panel__btn.is-retry {
-  background: var(--danger);
+.explanation-panel__btn.is-neutral {
+  background: var(--surface-alt);
+  color: var(--ink);
+  border: 1px solid var(--border-strong);
 }
-.explanation-panel__btn.is-retry:hover {
-  background: var(--danger-dark);
+.explanation-panel__btn.is-neutral:hover {
+  background: var(--border-strong);
 }
 .explanation-panel__btn span {
   opacity: 0.75;
@@ -1493,6 +1496,33 @@ a {
 .config-overlay__btn.is-success {
   background: var(--secondary);
   border-bottom-color: var(--secondary-dark);
+}
+.vidas-alert {
+  width: min(340px, 90vw);
+  box-sizing: border-box;
+}
+.vidas-alert__btn {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 13px 24px;
+  font-size: 1rem;
+  font-weight: 700;
+  border: none;
+  border-radius: var(--radius-md);
+  color: #fff;
+  cursor: pointer;
+}
+.vidas-alert__btn:active {
+  transform: translateY(1px);
+}
+.vidas-alert__btn.is-warning {
+  background: #f39c12;
+}
+.vidas-alert__btn.is-danger {
+  background: #e74c3c;
+}
+.vidas-alert__btn.is-critical {
+  background: #b91c1c;
 }
 .config-overlay__label {
   margin-top: 10px;

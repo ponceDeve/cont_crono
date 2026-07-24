@@ -177,7 +177,20 @@ export default function PomodoroWidget({ open, onClose }) {
             }}
           >
             <div><i className="fas fa-clock" /> Pomodoro</div>
-            {isRunning && <i className="fas fa-minus" title="Minimizar" style={{ cursor: "pointer", opacity: 0.8 }} />}
+            <div style={{ display: "flex", alignItems: "center", gap: "12px" }}>
+              {isRunning && <i className="fas fa-minus" title="Minimizar" style={{ cursor: "pointer", opacity: 0.8 }} />}
+              <i
+                className="fas fa-times"
+                title="Cerrar"
+                onMouseDown={(e) => e.stopPropagation()}
+                onTouchStart={(e) => e.stopPropagation()}
+                onClick={(e) => {
+                  e.stopPropagation();
+                  onClose();
+                }}
+                style={{ cursor: "pointer", opacity: 0.8, fontSize: "16px" }}
+              />
+            </div>
           </div>
           <div className="pomo-widget__body">
             {!isRunning && (

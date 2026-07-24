@@ -9,8 +9,19 @@ export default function SearchModal({ open, onClose, onSelect }) {
     if (!query.trim()) return [];
     const q = query.trim().toLowerCase();
 
-    return manifest.cursos
-      .filter((c) => c.nombre.toLowerCase().includes(q))
+    // Cursos cuyo nombre coincide directamente...
+    const porNombre = manifest.cursos.filter((c) => c.nombre.toLowerCase().includes(q));
+
+    // ...más cursos que tienen algún tema que coincide (el tema nunca se
+    // muestra suelto en la lista, solo el curso que lo contiene).
+    const nombresYaIncluidos = new Set(porNombre.map((c) => c.nombre));
+    const porTema = manifest.cursos.filter(
+      (c) =>
+        !nombresYaIncluidos.has(c.nombre) &&
+        c.temas.some((t) => t.tema.toLowerCase().includes(q)),
+    );
+
+    return [...porNombre, ...porTema]
       .map((c) => ({ type: "curso", nombre: c.nombre }))
       .slice(0, 15);
   }, [query]);

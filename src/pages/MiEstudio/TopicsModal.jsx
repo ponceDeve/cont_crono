@@ -1,5 +1,4 @@
 import React, { useEffect, useRef, useState } from "react";
-import { useFloatingTooltip } from "../../hooks/useFloatingTooltip";
 
 export default function TopicsModal({
   open,
@@ -16,7 +15,6 @@ export default function TopicsModal({
   const [inputEnfocado, setInputEnfocado] = useState(false);
   const utteranceRef = useRef(null);
   const puntoInicioToque = useRef(null);
-  const { pos, mostrarEn, ocultar } = useFloatingTooltip(220);
 
   // Si el dedo se movió más de esto entre el toque inicial y el click,
   // fue un scroll, no una selección real: se ignora el click.
@@ -38,9 +36,8 @@ export default function TopicsModal({
       setActiveIndex(null);
       setHoveredIndex(null);
       setInputEnfocado(false);
-      ocultar();
     }
-  }, [open, ocultar]);
+  }, [open]);
 
   if (!open) return null;
 
@@ -55,7 +52,13 @@ export default function TopicsModal({
     }
   }
 
-  function manejarClickTema(item, index, el) {
+  function detenerLectura() {
+    if (typeof window !== "undefined" && window.speechSynthesis && window.speechSynthesis.speaking) {
+      window.speechSynthesis.cancel();
+    }
+  }
+
+  function manejarClickTema(item, index) {
     if (hasHover && hoveredIndex === index) {
       onSelectTema(item);
       onClose();
@@ -66,40 +69,33 @@ export default function TopicsModal({
       onSelectTema(item);
       onClose();
       setActiveIndex(null);
-      ocultar();
       return;
     }
 
     setActiveIndex(index);
-    mostrarEn(el);
   }
 
-  function manejarHover(item, index, el) {
+  function manejarHover(item, index) {
     setHoveredIndex(index);
-    mostrarEn(el);
     leerNombre(item);
   }
 
   function manejarSalidaHover() {
     setHoveredIndex(null);
-    if (activeIndex === null) ocultar();
   }
 
-  // Si el usuario empieza a scrollear, el tooltip/preview que estaba
-  // anclado a un botón queda "huérfano" (el botón se mueve, el tooltip
-  // no, porque es position:fixed) y se ve roto. Se oculta apenas
-  // detecta scroll dentro del modal.
+  // Si el usuario empieza a scrollear, se corta la lectura en curso para
+  // que no siga leyendo un tema que ya quedó fuera de vista.
   function manejarScroll() {
     setActiveIndex(null);
     setHoveredIndex(null);
-    ocultar();
+    detenerLectura();
   }
 
-  function manejarToqueInicial(item, el, e) {
+  function manejarToqueInicial(item, e) {
     puntoInicioToque.current = { x: e.clientX, y: e.clientY };
     if (!hasHover) {
       leerNombre(item);
-      mostrarEn(el);
     }
   }
 
@@ -120,17 +116,11 @@ export default function TopicsModal({
     )
     : temasConIndice;
 
-  const indiceVisible = hoveredIndex !== null ? hoveredIndex : activeIndex;
-  const temaVisible = indiceVisible !== null ? listaTemas[indiceVisible] : null;
-
   return (
     <div
       className="levels-modal"
       style={{ zIndex: 1000 }}
-      onClick={() => {
-        setActiveIndex(null);
-        ocultar();
-      }}
+      onClick={() => setActiveIndex(null)}
       onScroll={manejarScroll}
     >
       <div className="levels-modal__inner" onClick={(e) => e.stopPropagation()}>
@@ -162,21 +152,15 @@ export default function TopicsModal({
                   }}
                   className={`home-search-result ${item.tema === temaActual ? "is-focused" : ""}`}
                 >
-                  <p>{item.tema}</p>
+                  <p>
+                    <span style={{ opacity: 0.6, marginRight: "8px" }}>#{index + 1}</span>
+                    {item.tema}
+                  </p>
                 </button>
               ))}
             </div>
           )}
         </div>
-
-        {pos && temaVisible && (
-          <div
-            className="level-tooltip is-visible"
-            style={{ position: "fixed", top: pos.top, left: pos.left, transform: "translate(-50%, -100%)" }}
-          >
-            {temaVisible.tema}
-          </div>
-        )}
 
         <div className="levels-modal__grid">
           {temasFiltrados.map(({ item, index }) => {
@@ -186,13 +170,13 @@ export default function TopicsModal({
               <div key={index} className="level-cell">
                 <button
                   className={`level-btn ${esTemaActual ? 'is-current' : ''}`}
-                  onPointerDown={(e) => manejarToqueInicial(item, e.currentTarget, e)}
+                  onPointerDown={(e) => manejarToqueInicial(item, e)}
                   onClick={(e) => {
                     e.stopPropagation();
                     if (fueArrastre(e)) return;
-                    manejarClickTema(item, index, e.currentTarget);
+                    manejarClickTema(item, index);
                   }}
-                  onMouseOver={(e) => manejarHover(item, index, e.currentTarget)}
+                  onMouseOver={() => manejarHover(item, index)}
                   onMouseOut={manejarSalidaHover}
                 >
                   {index + 1}

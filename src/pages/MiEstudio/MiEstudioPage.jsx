@@ -2,6 +2,7 @@ import { useState, useMemo, useEffect } from "react";
 import manifest from "../../data/manifest.json";
 import { registrarCursoCompletado } from "../../lib/repasoStorage";
 import { useArrowKeyList } from "../../hooks/useArrowKeyList";
+import { useLocalStorage } from "../../hooks/useLocalStorage";
 import QuestionCard from "./QuestionCard";
 import ExplanationPanel from "./ExplanationPanel";
 import GlossaryText from "./GlossaryText";
@@ -9,6 +10,7 @@ import TopBar from "./TopBar";
 import Hud from "./Hud";
 import LevelsModal from "./LevelsModal";
 import SearchModal from "./SearchModal";
+import WelcomeModal from "./WelcomeModal";
 import PomodoroWidget from "../../components/PomodoroWidget";
 import TopicsModal from "./TopicsModal";
 import 'katex/dist/katex.min.css';
@@ -78,13 +80,34 @@ export default function MiEstudioPage() {
   const [configOpen, setConfigOpen] = useState(false);
   const [confirmLeave, setConfirmLeave] = useState(false);
 
+  // Nombre del usuario, pedido una sola vez en WelcomeModal y reutilizado
+  // en los mensajes de felicitación/derrota de toda la app.
+  const [nombreUsuario, setNombreUsuario] = useLocalStorage("miEstudio_nombreUsuario", null);
+
   const results = useMemo(() => {
     if (!query.trim()) return [];
     const q = query.trim().toLowerCase();
 
-    return OPCIONES_BUSQUEDA.filter(
+    // Cursos cuyo nombre coincide directamente...
+    const cursosPorNombre = OPCIONES_BUSQUEDA.filter(
       (item) => item.type === "curso" && item.nombre.toLowerCase().includes(q),
-    ).slice(0, 8);
+    );
+
+    // ...más cursos que tienen algún tema que coincide (pero solo se
+    // muestra el curso en la lista, nunca el tema suelto).
+    const nombresCursosConTemaCoincidente = new Set(
+      OPCIONES_BUSQUEDA.filter(
+        (item) => item.type === "tema" && item.tema.toLowerCase().includes(q),
+      ).map((item) => item.curso),
+    );
+    const cursosPorTema = OPCIONES_BUSQUEDA.filter(
+      (item) =>
+        item.type === "curso" &&
+        nombresCursosConTemaCoincidente.has(item.nombre) &&
+        !item.nombre.toLowerCase().includes(q),
+    );
+
+    return [...cursosPorNombre, ...cursosPorTema].slice(0, 8);
   }, [query]);
 
   useEffect(() => {
@@ -433,6 +456,8 @@ export default function MiEstudioPage() {
 
   return (
     <div className="mi-estudio">
+      <WelcomeModal open={!nombreUsuario} onSubmit={(n) => setNombreUsuario(n)} />
+
       {/* El TopBar solo se muestra si hay tema y NO estamos en modo niveles */}
       {topicData && !isLevelMode && (
         <TopBar
@@ -499,7 +524,9 @@ export default function MiEstudioPage() {
           <div className="mi-estudio__intro">
             <div>
               <p className="mi-estudio__intro-eyebrow">Mi Estudio</p>
-              <h1 className="mi-estudio__intro-title">¿Qué tema quieres repasar?</h1>
+              <h1 className="mi-estudio__intro-title">
+                {nombreUsuario ? `¿Qué tema quieres repasar, ${nombreUsuario}?` : "¿Qué tema quieres repasar?"}
+              </h1>
             </div>
             <div className="home-search">
               <input
@@ -658,7 +685,9 @@ export default function MiEstudioPage() {
         {stage === "finished" && (
           <div className="mi-estudio__finished">
             <div className="mi-estudio__finished-emoji animate-bounce">🏆</div>
-            <h2 className="mi-estudio__finished-title">¡Tema completado!</h2>
+            <h2 className="mi-estudio__finished-title">
+              {nombreUsuario ? `¡Tema completado, ${nombreUsuario}!` : "¡Tema completado!"}
+            </h2>
             <p className="mi-estudio__finished-sub">Excelente trabajo leyendo toda la teoría.</p>
             <button onClick={() => setSearchOpen(true)} className="mi-estudio__finished-btn">
               Elegir otro tema
@@ -702,7 +731,7 @@ export default function MiEstudioPage() {
       {alertaVidas === "tres" && (
         <div className="config-overlay animate-fade-in" style={{ zIndex: 9999 }}>
           <div className="config-overlay__row" style={{ flexDirection: 'column', gap: '20px', background: '#222', padding: '30px', borderRadius: '15px', border: '2px solid #f39c12' }}>
-            <h2 style={{ color: '#f39c12', margin: 0 }}>¡Cuidado!</h2>
+            <h2 style={{ color: '#f39c12', margin: 0 }}>¡Cuidado{nombreUsuario ? `, ${nombreUsuario}` : ""}!</h2>
             <p style={{ color: '#fff', fontSize: '1.2rem', textAlign: 'center' }}>Te quedan 3 vidas. No te confíes.</p>
             <button className="config-overlay__btn is-primary" onClick={() => setAlertaVidas(null)} style={{ padding: '10px 30px' }}>
               Continuar
@@ -714,7 +743,7 @@ export default function MiEstudioPage() {
       {alertaVidas === "una" && (
         <div className="config-overlay animate-fade-in" style={{ zIndex: 9999 }}>
           <div className="config-overlay__row" style={{ flexDirection: 'column', gap: '20px', background: '#331111', padding: '30px', borderRadius: '15px', border: '2px solid #e74c3c' }}>
-            <h2 style={{ color: '#e74c3c', margin: 0, animation: 'pulse 1s infinite' }}>¡Peligro Inminente!</h2>
+            <h2 style={{ color: '#e74c3c', margin: 0, animation: 'pulse 1s infinite' }}>¡Peligro Inminente{nombreUsuario ? `, ${nombreUsuario}` : ""}!</h2>
             <p style={{ color: '#fff', fontSize: '1.2rem', textAlign: 'center', maxWidth: '300px' }}>Te queda 1 sola vida. Si fallas ahora, perderás todo el progreso de este tema.</p>
             <button className="config-overlay__btn is-danger" onClick={() => setAlertaVidas(null)} style={{ padding: '10px 30px' }}>
               Entendido
@@ -727,7 +756,9 @@ export default function MiEstudioPage() {
         <div className="config-overlay animate-fade-in" style={{ zIndex: 9999 }}>
           <div className="config-overlay__row" style={{ flexDirection: 'column', gap: '20px', background: '#000', padding: '40px', borderRadius: '15px', border: '3px solid red' }}>
             <h1 style={{ color: 'red', margin: 0, fontSize: '3rem', textShadow: '0 0 10px red' }}>GAME OVER</h1>
-            <p style={{ color: '#aaa', fontSize: '1.1rem', textAlign: 'center', maxWidth: '350px' }}>Tu memoria ha fallado. El progreso ha sido limpiado y debes empezar desde el Nivel 1.</p>
+            <p style={{ color: '#aaa', fontSize: '1.1rem', textAlign: 'center', maxWidth: '350px' }}>
+              {nombreUsuario ? `${nombreUsuario}, tu memoria ha fallado.` : "Tu memoria ha fallado."} El progreso ha sido limpiado y debes empezar desde el Nivel 1.
+            </p>
             <button className="config-overlay__btn is-primary" onClick={() => { setAlertaVidas(null); setVidas(5); }} style={{ padding: '15px 40px', marginTop: '10px' }}>
               Reiniciar desde cero
             </button>

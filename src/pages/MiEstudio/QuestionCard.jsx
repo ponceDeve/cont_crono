@@ -72,6 +72,7 @@ function useLecturaVoz(texto) {
 function OpcionMultiple({ pregunta, onRespondido }) {
   const [answered, setAnswered] = useState(false);
   const [chosenIdx, setChosenIdx] = useState(null);
+  const [wasCorrect, setWasCorrect] = useState(false);
   const [typed, setTyped] = useState("");
   const hurraRef = useRef(null);
 
@@ -84,6 +85,7 @@ function OpcionMultiple({ pregunta, onRespondido }) {
 
   function resolver(correct, idx) {
     setChosenIdx(idx ?? null);
+    setWasCorrect(correct);
     setAnswered(true);
     if (correct && hurraRef.current) {
       hurraRef.current.currentTime = 0;
@@ -114,7 +116,10 @@ function OpcionMultiple({ pregunta, onRespondido }) {
       <div className="question-card__options">
         {shuffled.map((opt, i) => {
           const isChosen = answered && chosenIdx === i;
-          const isTheCorrectOne = answered && opt.originalIndex === pregunta.correct;
+          // Solo se revela cuál era la correcta si el usuario acertó.
+          // Si falló, no se marca ninguna como correcta: solo se ve
+          // en rojo la que eligió, para no filtrar la respuesta.
+          const isTheCorrectOne = answered && wasCorrect && opt.originalIndex === pregunta.correct;
           let cls = "";
           if (answered) {
             if (isTheCorrectOne) cls = "is-correct";
@@ -230,9 +235,9 @@ function VerdaderoFalso({ pregunta, onRespondido }) {
                   F
                 </button>
               </div>
-              {answered && propFallada && (
+              {propFallada && (
                 <span className="question-card__vf-correcta">
-                  Correcto: {prop.correct ? "Verdadero" : "Falso"}
+                  Incorrecto — inténtalo de nuevo
                 </span>
               )}
             </div>
@@ -331,7 +336,7 @@ function Completar({ pregunta, onRespondido }) {
 
       {answered && respuestasCorrectas.some((_, i) => !respuestaSeParece(valores[i], respuestasCorrectas[i])) && (
         <p className="question-card__cloze-correctas">
-          Respuestas correctas: {respuestasCorrectas.join(" · ")}
+          Alguna respuesta no es correcta. Inténtalo de nuevo.
         </p>
       )}
 

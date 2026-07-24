@@ -14,14 +14,16 @@ export default function ExplanationPanel({
   onSiguiente,
   onReintentar,
 }) {
-  const respuestaCorrecta = respuestaCorrectaTexto(pregunta);
+  const respuestaCorrecta = isCorrect ? respuestaCorrectaTexto(pregunta) : null;
 
   useEffect(() => {
     if ("speechSynthesis" in window) {
       window.speechSynthesis.cancel();
-      const base = respuestaCorrecta
-        ? `${isCorrect ? "Correcto." : "Incorrecto."} La respuesta correcta es: ${respuestaCorrecta}. ${pregunta.explicacion}`
-        : `${isCorrect ? "Correcto." : "Incorrecto."} ${pregunta.explicacion}`;
+      const base = isCorrect
+        ? (respuestaCorrecta
+          ? `Correcto. La respuesta correcta es: ${respuestaCorrecta}. ${pregunta.explicacion}`
+          : `Correcto. ${pregunta.explicacion}`)
+        : "Incorrecto. Inténtalo de nuevo.";
       const utter = new SpeechSynthesisUtterance(base);
       utter.lang = "es-PE";
       window.speechSynthesis.speak(utter);
@@ -35,12 +37,18 @@ export default function ExplanationPanel({
         <i className={isCorrect ? "fas fa-check-circle" : "fas fa-exclamation-triangle"} />
         {isCorrect ? "¡Respuesta correcta!" : "Respuesta incorrecta"}
       </h4>
-      {respuestaCorrecta && (
-        <p className="explanation-panel__answer">
-          La alternativa correcta es: <strong><Latex>{respuestaCorrecta}</Latex></strong>
-        </p>
+      {isCorrect ? (
+        <>
+          {respuestaCorrecta && (
+            <p className="explanation-panel__answer">
+              La alternativa correcta es: <strong><Latex>{respuestaCorrecta}</Latex></strong>
+            </p>
+          )}
+          <div className="explanation-panel__text"><Latex>{pregunta.explicacion}</Latex></div>
+        </>
+      ) : (
+        <p className="explanation-panel__text">No te preocupes, inténtalo de nuevo. No se muestra la respuesta para que la razones tú.</p>
       )}
-      <div className="explanation-panel__text"><Latex>{pregunta.explicacion}</Latex></div>
       <div className="explanation-panel__actions">
         {isCorrect ? (
           <button onClick={onSiguiente} className="explanation-panel__btn is-next">
@@ -48,7 +56,7 @@ export default function ExplanationPanel({
           </button>
         ) : (
           <button onClick={onReintentar} className="explanation-panel__btn is-retry">
-            Intentar de nuevo <span>(Enter)</span> <i className="fas fa-rotate-left" />
+            Repetir<i className="fas fa-rotate-left" />
           </button>
         )}
       </div>

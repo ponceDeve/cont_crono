@@ -85,6 +85,16 @@ export default function TopicsModal({
     if (activeIndex === null) ocultar();
   }
 
+  // Si el usuario empieza a scrollear, el tooltip/preview que estaba
+  // anclado a un botón queda "huérfano" (el botón se mueve, el tooltip
+  // no, porque es position:fixed) y se ve roto. Se oculta apenas
+  // detecta scroll dentro del modal.
+  function manejarScroll() {
+    setActiveIndex(null);
+    setHoveredIndex(null);
+    ocultar();
+  }
+
   function manejarToqueInicial(item, el, e) {
     puntoInicioToque.current = { x: e.clientX, y: e.clientY };
     if (!hasHover) {
@@ -121,6 +131,7 @@ export default function TopicsModal({
         setActiveIndex(null);
         ocultar();
       }}
+      onScroll={manejarScroll}
     >
       <div className="levels-modal__inner" onClick={(e) => e.stopPropagation()}>
         <h2 className="levels-modal__title">Temas de {curso}</h2>

@@ -85,6 +85,16 @@ export default function LevelsModal({
     if (activeIdx === null) ocultar();
   }
 
+  // Si el usuario empieza a scrollear, el tooltip/preview que estaba
+  // anclado a un botón queda "huérfano" (el botón se mueve, el tooltip
+  // no, porque es position:fixed) y se ve roto. Se oculta apenas
+  // detecta scroll dentro del modal.
+  function manejarScroll() {
+    setActiveIdx(null);
+    setHoveredIdx(null);
+    ocultar();
+  }
+
   const indices = Array.from({ length: total }, (_, i) => i);
   const indicesFiltrados = busqueda.trim()
     ? indices.filter((i) => previewNivel(i).toLowerCase().includes(busqueda.trim().toLowerCase()))
@@ -99,6 +109,7 @@ export default function LevelsModal({
         setActiveIdx(null);
         ocultar();
       }}
+      onScroll={manejarScroll}
     >
       <div className="levels-modal__inner" onClick={(e) => e.stopPropagation()}>
         <h2 className="levels-modal__title">Seleccionar Nivel</h2>

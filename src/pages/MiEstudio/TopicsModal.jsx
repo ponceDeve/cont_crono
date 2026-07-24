@@ -15,7 +15,12 @@ export default function TopicsModal({
   const [busqueda, setBusqueda] = useState("");
   const [inputEnfocado, setInputEnfocado] = useState(false);
   const utteranceRef = useRef(null);
+  const puntoInicioToque = useRef(null);
   const { pos, mostrarEn, ocultar } = useFloatingTooltip(220);
+
+  // Si el dedo se movió más de esto entre el toque inicial y el click,
+  // fue un scroll, no una selección real: se ignora el click.
+  const UMBRAL_ARRASTRE = 10;
 
   useEffect(() => {
     if (typeof window !== "undefined" && window.matchMedia) {
@@ -80,11 +85,22 @@ export default function TopicsModal({
     if (activeIndex === null) ocultar();
   }
 
-  function manejarToqueInicial(item, el) {
+  function manejarToqueInicial(item, el, e) {
+    puntoInicioToque.current = { x: e.clientX, y: e.clientY };
     if (!hasHover) {
       leerNombre(item);
       mostrarEn(el);
     }
+  }
+
+  // Compara dónde empezó el toque (pointerdown) contra dónde terminó
+  // (click) para distinguir un tap real de un scroll/arrastre.
+  function fueArrastre(e) {
+    const inicio = puntoInicioToque.current;
+    if (!inicio) return false;
+    const dx = e.clientX - inicio.x;
+    const dy = e.clientY - inicio.y;
+    return Math.sqrt(dx * dx + dy * dy) > UMBRAL_ARRASTRE;
   }
 
   const temasConIndice = listaTemas.map((item, index) => ({ item, index }));
@@ -159,9 +175,10 @@ export default function TopicsModal({
               <div key={index} className="level-cell">
                 <button
                   className={`level-btn ${esTemaActual ? 'is-current' : ''}`}
-                  onPointerDown={(e) => manejarToqueInicial(item, e.currentTarget)}
+                  onPointerDown={(e) => manejarToqueInicial(item, e.currentTarget, e)}
                   onClick={(e) => {
                     e.stopPropagation();
+                    if (fueArrastre(e)) return;
                     manejarClickTema(item, index, e.currentTarget);
                   }}
                   onMouseOver={(e) => manejarHover(item, index, e.currentTarget)}

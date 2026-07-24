@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import { useFloatingTooltip } from "../../hooks/useFloatingTooltip";
 
 export default function LevelsModal({
@@ -15,6 +15,8 @@ export default function LevelsModal({
   const [hasHover, setHasHover] = useState(false);
   const [busqueda, setBusqueda] = useState("");
   const { pos, mostrarEn, ocultar } = useFloatingTooltip(220);
+  const puntoInicioToque = useRef(null);
+  const UMBRAL_ARRASTRE = 10;
 
   useEffect(() => {
     if (typeof window !== "undefined" && window.matchMedia) {
@@ -39,6 +41,16 @@ export default function LevelsModal({
     const levelData = flatPuntos[i] || {};
     const textoBase = levelData.tema || levelData.nombre || levelData.q || levelData.textoConEspacios || "";
     return textoBase.length > 42 ? `${textoBase.slice(0, 42).trim()}…` : textoBase || `Nivel ${i + 1}`;
+  }
+
+  // Compara dónde empezó el toque (pointerdown) contra dónde terminó
+  // (click) para distinguir un tap real de un scroll/arrastre.
+  function fueArrastre(e) {
+    const inicio = puntoInicioToque.current;
+    if (!inicio) return false;
+    const dx = e.clientX - inicio.x;
+    const dy = e.clientY - inicio.y;
+    return Math.sqrt(dx * dx + dy * dy) > UMBRAL_ARRASTRE;
   }
 
   function manejarClick(i, locked, el) {
@@ -123,8 +135,12 @@ export default function LevelsModal({
               <div key={i} className="level-cell">
                 <button
                   disabled={locked}
+                  onPointerDown={(e) => {
+                    puntoInicioToque.current = { x: e.clientX, y: e.clientY };
+                  }}
                   onClick={(e) => {
                     e.stopPropagation();
+                    if (fueArrastre(e)) return;
                     manejarClick(i, locked, e.currentTarget);
                   }}
                   onMouseOver={(e) => manejarHover(i, locked, e.currentTarget)}
